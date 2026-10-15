@@ -1,0 +1,370 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "observed",
+    "inferred",
+    "unknown",
+    "next_steps"
+  ],
+  "properties": {
+    "observed": {
+      "type": "array",
+      "items": {
+        "enum": [
+          {
+            "type": "observed",
+            "group_id": "G-328ad74c3ca0",
+            "field": "count",
+            "value": 1
+          },
+          {
+            "type": "observed",
+            "group_id": "G-328ad74c3ca0",
+            "field": "sid",
+            "value": 2071648
+          },
+          {
+            "type": "observed",
+            "group_id": "G-328ad74c3ca0",
+            "field": "action",
+            "value": "allowed"
+          },
+          {
+            "type": "observed",
+            "group_id": "G-328ad74c3ca0",
+            "field": "severity",
+            "value": 3
+          },
+          {
+            "type": "observed",
+            "group_id": "G-328ad74c3ca0",
+            "field": "protocol",
+            "value": "UDP"
+          },
+          {
+            "type": "observed",
+            "group_id": "G-328ad74c3ca0",
+            "field": "prior_count",
+            "value": 0
+          },
+          {
+            "type": "observed",
+            "group_id": "G-328ad74c3ca0",
+            "field": "change",
+            "value": "comparison_unknown"
+          },
+          {
+            "type": "observed",
+            "group_id": "G-65aec4e41f2d",
+            "field": "count",
+            "value": 1
+          },
+          {
+            "type": "observed",
+            "group_id": "G-65aec4e41f2d",
+            "field": "sid",
+            "value": 930099
+          },
+          {
+            "type": "observed",
+            "group_id": "G-65aec4e41f2d",
+            "field": "action",
+            "value": "allowed"
+          },
+          {
+            "type": "observed",
+            "group_id": "G-65aec4e41f2d",
+            "field": "severity",
+            "value": 3
+          },
+          {
+            "type": "observed",
+            "group_id": "G-65aec4e41f2d",
+            "field": "protocol",
+            "value": "UDP"
+          },
+          {
+            "type": "observed",
+            "group_id": "G-65aec4e41f2d",
+            "field": "prior_count",
+            "value": 0
+          },
+          {
+            "type": "observed",
+            "group_id": "G-65aec4e41f2d",
+            "field": "change",
+            "value": "comparison_unknown"
+          },
+          {
+            "type": "observed",
+            "group_id": "G-9d33b16a3003",
+            "field": "count",
+            "value": 1
+          },
+          {
+            "type": "observed",
+            "group_id": "G-9d33b16a3003",
+            "field": "sid",
+            "value": 2016149
+          },
+          {
+            "type": "observed",
+            "group_id": "G-9d33b16a3003",
+            "field": "action",
+            "value": "allowed"
+          },
+          {
+            "type": "observed",
+            "group_id": "G-9d33b16a3003",
+            "field": "severity",
+            "value": 3
+          },
+          {
+            "type": "observed",
+            "group_id": "G-9d33b16a3003",
+            "field": "protocol",
+            "value": "UDP"
+          },
+          {
+            "type": "observed",
+            "group_id": "G-9d33b16a3003",
+            "field": "prior_count",
+            "value": 0
+          },
+          {
+            "type": "observed",
+            "group_id": "G-9d33b16a3003",
+            "field": "change",
+            "value": "comparison_unknown"
+          }
+        ]
+      },
+      "maxItems": 12
+    },
+    "inferred": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "type",
+              "code",
+              "group_id",
+              "evidence_refs"
+            ],
+            "properties": {
+              "type": {
+                "const": "inferred"
+              },
+              "group_id": {
+                "const": "G-328ad74c3ca0"
+              },
+              "code": {
+                "enum": [
+                  "rule_match_not_intrusion_proof",
+                  "tailscale_control_possible"
+                ]
+              },
+              "evidence_refs": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 3,
+                "items": {
+                  "enum": [
+                    "E-1f2428ada8109510"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "type",
+              "code",
+              "group_id",
+              "evidence_refs"
+            ],
+            "properties": {
+              "type": {
+                "const": "inferred"
+              },
+              "group_id": {
+                "const": "G-65aec4e41f2d"
+              },
+              "code": {
+                "enum": [
+                  "rule_match_not_intrusion_proof"
+                ]
+              },
+              "evidence_refs": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 3,
+                "items": {
+                  "enum": [
+                    "E-45d9ec47327eeca9"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "type",
+              "code",
+              "group_id",
+              "evidence_refs"
+            ],
+            "properties": {
+              "type": {
+                "const": "inferred"
+              },
+              "group_id": {
+                "const": "G-9d33b16a3003"
+              },
+              "code": {
+                "enum": [
+                  "rule_match_not_intrusion_proof",
+                  "stun_may_be_normal"
+                ]
+              },
+              "evidence_refs": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 3,
+                "items": {
+                  "enum": [
+                    "E-b18ec2833f4d9d95"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      },
+      "maxItems": 6,
+      "minItems": 1
+    },
+    "unknown": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "type",
+          "topic"
+        ],
+        "properties": {
+          "type": {
+            "const": "unknown"
+          },
+          "topic": {
+            "enum": [
+              "intent",
+              "process_identity",
+              "payload",
+              "complete_visibility"
+            ]
+          }
+        }
+      },
+      "minItems": 2,
+      "maxItems": 4,
+      "enum": [
+        [
+          {
+            "type": "unknown",
+            "topic": "intent"
+          },
+          {
+            "type": "unknown",
+            "topic": "complete_visibility"
+          }
+        ],
+        [
+          {
+            "type": "unknown",
+            "topic": "intent"
+          },
+          {
+            "type": "unknown",
+            "topic": "complete_visibility"
+          },
+          {
+            "type": "unknown",
+            "topic": "process_identity"
+          }
+        ],
+        [
+          {
+            "type": "unknown",
+            "topic": "intent"
+          },
+          {
+            "type": "unknown",
+            "topic": "complete_visibility"
+          },
+          {
+            "type": "unknown",
+            "topic": "payload"
+          }
+        ],
+        [
+          {
+            "type": "unknown",
+            "topic": "intent"
+          },
+          {
+            "type": "unknown",
+            "topic": "complete_visibility"
+          },
+          {
+            "type": "unknown",
+            "topic": "process_identity"
+          },
+          {
+            "type": "unknown",
+            "topic": "payload"
+          }
+        ]
+      ]
+    },
+    "next_steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "group_id",
+          "action"
+        ],
+        "properties": {
+          "group_id": {
+            "enum": [
+              "G-328ad74c3ca0",
+              "G-65aec4e41f2d",
+              "G-9d33b16a3003"
+            ]
+          },
+          "action": {
+            "enum": [
+              "inspect_event",
+              "check_client_process",
+              "compare_baseline",
+              "check_rule",
+              "check_visibility"
+            ]
+          }
+        }
+      },
+      "maxItems": 6
+    }
+  }
+}

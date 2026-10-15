@@ -1,0 +1,31 @@
+{
+  "number": 23,
+  "phase": "production_contract",
+  "case": "real_small_mixed",
+  "model": "qwen3.5:4b",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T04:34:43.971246+00:00",
+  "brief_sha256": "8de763fc939821906448294e34524d0e8f9d1347ce60a06e2041d184a50c4e86",
+  "elapsed_s": 30.688000000000102,
+  "eval_count": 260,
+  "prompt_eval_count": 848,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "b28e696184389a7b63ca07dbbd28c1560032c58974b78c92482fe0b59e6e2b22",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [],
+    "required_contexts": [
+      "uid_fixture_possible",
+      "stun_may_be_normal"
+    ],
+    "complete": false,
+    "problems": [
+      "Missing required contexts"
+    ]
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T04:35:14.667511+00:00"
+}

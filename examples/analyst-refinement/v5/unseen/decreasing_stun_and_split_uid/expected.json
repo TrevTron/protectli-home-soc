@@ -1,0 +1,10 @@
+{
+  "useful_inferences": [
+    "stun_may_be_normal",
+    "uid_fixture_possible"
+  ],
+  "groups": 3,
+  "changes": {
+    "2016150": "decreased"
+  }
+}

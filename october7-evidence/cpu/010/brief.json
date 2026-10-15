@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-05T21:12:34.860899+00:00",
+  "window": {
+    "minutes": 15,
+    "start_utc": "2026-10-05T20:57:34.860899+00:00",
+    "end_utc": "2026-10-05T21:12:34.860899+00:00"
+  },
+  "coverage": {
+    "snapshot_start_byte": 13345071,
+    "snapshot_end_byte": 30122060,
+    "source_size_at_start": 30122060,
+    "snapshot_sha256": "43a99682bbf231bd15345b4ed2c0a14d5314e22a7e4ae1a4d13f4297c15b3ba8",
+    "tail_clipped": true,
+    "comparison_complete_for_retained_records": false,
+    "malformed_records": 0,
+    "invalid_alerts": 0,
+    "future_records": 26816,
+    "out_of_scope_alerts": 0,
+    "current_records": 3900,
+    "prior_records": 2778,
+    "last_receipt_utc": "2026-10-05T23:47:29.762496+00:00",
+    "receiver_age_seconds": 0,
+    "total_current_groups": 14,
+    "omitted_groups": 0,
+    "complete_delivery_proven": false
+  },
+  "application_counts": {
+    "configd.py": 2062,
+    "dnsmasq": 3,
+    "dnsmasq-dhcp": 3,
+    "filterlog": 1665,
+    "kernel": 9,
+    "suricata": 81,
+    "unbound": 77
+  },
+  "groups": [
+    {
+      "id": "G-95d892338eac",
+      "sid": 2100498,
+      "action": "blocked",
+      "severity": 2,
+      "protocol": "TCP",
+      "source_alias": "endpoint-d794639191",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-2bf06e867abab666"
+      ],
+      "first_received_utc": "2026-10-05T21:12:33.860899+00:00",
+      "last_received_utc": "2026-10-05T21:12:33.860899+00:00",
+      "priority_floor": "review_first",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-b5089c0d3d3d",
+      "sid": 2100498,
+      "action": "allowed",
+      "severity": 2,
+      "protocol": "TCP",
+      "source_alias": "endpoint-d794639191",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-517d5193a513c541"
+      ],
+      "first_received_utc": "2026-10-05T21:06:51.558997+00:00",
+      "last_received_utc": "2026-10-05T21:06:51.558997+00:00",
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-32de6c3018a3",
+      "sid": 2016149,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-7b4c4891e5",
+      "count": 8,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-3f8f189acd1e79a1",
+        "E-50e50f7cc7090f9a",
+        "E-04cbff03b3633983"
+      ],
+      "first_received_utc": "2026-10-05T21:09:52.313538+00:00",
+      "last_received_utc": "2026-10-05T21:12:29.664230+00:00",
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-52be711c5d5f",
+      "sid": 2016150,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "endpoint-7b4c4891e5",
+      "destination_alias": "owned-client",
+      "count": 8,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-61eb7469816f45e5",
+        "E-1752e0658f4807d8",
+        "E-0093a2dc9c531a09"
+      ],
+      "first_received_utc": "2026-10-05T21:09:52.313538+00:00",
+      "last_received_utc": "2026-10-05T21:12:29.669974+00:00",
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-562c1a128755",
+      "sid": 2033078,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-71d6921e6c",
+      "count": 8,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-fa9dfe794656693e",
+        "E-fee966e042511797",
+        "E-3c256771c4ed239f"
+      ],
+      "first_received_utc": "2026-10-05T21:05:27.382381+00:00",
+      "last_received_utc": "2026-10-05T21:12:27.201354+00:00",
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-5e6affd7862a",
+      "sid": 2016150,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "endpoint-62e63abc3c",
+      "destination_alias": "owned-client",
+      "count": 8,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-9400da663c5a6236",
+        "E-580d858cb702fbe4",
+        "E-382587e31a341b63"
+      ],
+      "first_received_utc": "2026-10-05T21:09:52.314898+00:00",
+      "last_received_utc": "2026-10-05T21:12:29.682633+00:00",
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-6e0d9e7f06b3",
+      "sid": 2016149,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-62e63abc3c",
+      "count": 8,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-6a6f8095b48d5b22",
+        "E-335923c25c8ac00e",
+        "E-2aeada4201464110"
+      ],
+      "first_received_utc": "2026-10-05T21:09:52.313538+00:00",
+      "last_received_utc": "2026-10-05T21:12:29.664770+00:00",
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-b216d1912e02",
+      "sid": 2016150,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "endpoint-763cf918a9",
+      "destination_alias": "owned-client",
+      "count": 8,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-92b922f745096c9e",
+        "E-cf848cc86b8dbaa9",
+        "E-3ed18093f4eb202a"
+      ],
+      "first_received_utc": "2026-10-05T21:09:52.314898+00:00",
+      "last_received_utc": "2026-10-05T21:12:29.702689+00:00",
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-e32cb6035dd4",
+      "sid": 2016149,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-763cf918a9",
+      "count": 8,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-301cc8ee807b2615",
+        "E-5e7ded8d251e9677",
+        "E-ce4bfd2213ab7621"
+      ],
+      "first_received_utc": "2026-10-05T21:09:52.312410+00:00",
+      "last_received_utc": "2026-10-05T21:12:29.663153+00:00",
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-4d18443b64b0",
+      "sid": 2031071,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "TCP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-3ecc378b9a",
+      "count": 3,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-18cfa90da8b6797b",
+        "E-bbc1b16ce9a5366d",
+        "E-c553f047cc30678d"
+      ],
+      "first_received_utc": "2026-10-05T21:09:52.329498+00:00",
+      "last_received_utc": "2026-10-05T21:10:39.277370+00:00",
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-3cbfea212c3b",
+      "sid": 2016150,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "endpoint-adc07b3cf9",
+      "destination_alias": "owned-client",
+      "count": 2,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-3cbbab61b8835dc5",
+        "E-e5268ff8ba2d8b8c"
+      ],
+      "first_received_utc": "2026-10-05T21:12:08.592066+00:00",
+      "last_received_utc": "2026-10-05T21:12:29.673251+00:00",
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-7b06c9b0d6ec",
+      "sid": 2016149,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-adc07b3cf9",
+      "count": 2,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-34dd4a5a5a50513a",
+        "E-4f1e6c6ed43e6367"
+      ],
+      "first_received_utc": "2026-10-05T21:12:08.588187+00:00",
+      "last_received_utc": "2026-10-05T21:12:29.668411+00:00",
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-634ee0208a82",
+      "sid": 2071656,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "TCP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-7b4c4891e5",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-fea0de0990cec4a4"
+      ],
+      "first_received_utc": "2026-10-05T21:09:52.311412+00:00",
+      "last_received_utc": "2026-10-05T21:09:52.311412+00:00",
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-e9e0486c998f",
+      "sid": 2071648,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "TCP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-04a06c5659",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-85849b3926c06044"
+      ],
+      "first_received_utc": "2026-10-05T21:09:52.315401+00:00",
+      "last_received_utc": "2026-10-05T21:09:52.315401+00:00",
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "model": "qwen3.5:4b",
+  "created_at": "2026-10-06T10:19:31.1769015Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"inferred\": [\n    {\n      \"code\": \"rule_match_not_intrusion_proof\",\n      \"evidence_refs\": [\"E-a1a598085cab984f\"],\"group_id\": \"G-b5089c0d3d3d\",\"type\":\"inferred\"\n    },\n    {\n      \"code\": \"stun_may_be_normal\",\n      \"evidence_refs\": [\"E-860ae5a4c3a884c0\",\"E-a708091ebc87414f\",\"E-b9a15ddf8faaedb2\"],\"group_id\": \"G-13b2ab304e5d\",\"type\":\"inferred\"\n    },\n    {\n      \"code\": \"uid_fixture_possible\",\n      \"evidence_refs\": [\"E-a1a598085cab984f\"],\"group_id\": \"G-b5089c0d3d3d\",\"type\":\"inferred\"\n    }\n  ],\n  \"next_steps\": [\n    {\n      \"action\": \"compare_baseline\",\n      \"group_id\": \"G-13b2ab304e5d\"\n    },\n    {\n      \"action\": \"check_visibility\",\n      \"group_id\": \"G-f3b8caf31050\"\n    },\n    {\n      \"action\": \"compare_baseline\",\n      \"group_id\": \"G-f3b8caf31050\"\n    }\n  ],\n  \"observed\": [\n    {\"field\":\"action\",\"group_id\":\"G-b5089c0d3d3d\",\"type\":\"observed\",\"value\":\"allowed\"},\n    {\"field\":\"change\",\"group_id\":\"G-13b2ab304e5d\",\"type\":\"observed\",\"value\":\"new_in_observed_windows\"},\n    {\"field\":\"protocol\",\"group_id\":\"G-f3b8caf31050\",\"type\":\"observed\",\"value\":\"UDP\"}\n  ],\n  \"unknown\": [{\"topic\":\"intent\",\"type\":\"unknown\"},{\"topic\":\"complete_visibility\",\"type\":\"unknown\"}]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 47799744800,
+  "load_duration": 3675462800,
+  "prompt_eval_count": 848,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 9049562000,
+  "eval_count": 500,
+  "eval_duration": 35067626000
+}

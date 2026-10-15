@@ -1,0 +1,17 @@
+{
+  "model": "qwen3.5:4b",
+  "created_at": "2026-10-06T04:52:41.3973414Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"inferred\": [\n    {\n      \"code\": \"rule_match_not_intrusion_proof\",\n      \"evidence_refs\": [\"E-1f2428ada8109510\"],\n      \"group_id\": \"G-328ad74c3ca0\",\"type\":\"inferred\"}\n    ],\n    \"next_steps\": [\n      {\n        \"action\": \"check_client_process\",\n        \"group_id\": \"G-328ad74c3ca0\"\n      }\n    ],\"observed\": [\n      {\"field\":\"action\",\"group_id\":\"G-328ad74c3ca0\",\"type\":\"observed\",\"value\":\"allowed\"},\n      {\"field\":\"protocol\",\"group_id\":\"G-328ad74c3ca0\",\"type\":\"observed\",\"value\":\"UDP\"},\n      {\"field\":\"sid\",\"group_id\":\"G-328ad74c3ca0\",\"type\":\"observed\",\"value\":2071648}\n    ],\n    \"unknown\": [{\"topic\":\"intent\",\"type\":\"unknown\"},{\"topic\":\"complete_visibility\",\"type\":\"unknown\"}]\n  }"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 30886711500,
+  "load_duration": 3405289200,
+  "prompt_eval_count": 754,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 8023547000,
+  "eval_count": 267,
+  "eval_duration": 19451128000
+}

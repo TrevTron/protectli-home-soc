@@ -1,0 +1,18 @@
+{
+  "synthetic_not_attack": true,
+  "current_groups": 16,
+  "omitted_groups": 1,
+  "required_unknowns": [
+    "intent",
+    "complete_visibility"
+  ],
+  "newness_unknown": true,
+  "useful_code": "sensor_reported_block",
+  "specialized_rule_contexts_available": [
+    "tailscale_control_possible",
+    "uid_fixture_possible",
+    "stun_may_be_normal"
+  ],
+  "require_all_specialized_codes": false,
+  "interpretation": "A maximum report with one blocked floor must not become a compromise verdict."
+}

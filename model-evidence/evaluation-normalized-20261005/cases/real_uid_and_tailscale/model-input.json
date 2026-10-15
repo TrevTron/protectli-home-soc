@@ -1,0 +1,60 @@
+{
+  "window_minutes": 15,
+  "visibility": {
+    "complete_delivery_proven": false,
+    "comparison_complete": true,
+    "omitted_groups": 0
+  },
+  "groups": [
+    {
+      "id": "G-b5089c0d3d3d",
+      "sid": 2100498,
+      "action": "allowed",
+      "severity": 2,
+      "protocol": "TCP",
+      "source_alias": "endpoint-d794639191",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-c1204abaa64ee798"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-dbb49ee0163d",
+      "sid": 2071648,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "TCP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-ddd27df208",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-df86fe9bfb92be23"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    }
+  ],
+  "eligible_inferences": {
+    "G-b5089c0d3d3d": [
+      "rule_match_not_intrusion_proof",
+      "uid_fixture_possible",
+      "change_needs_context"
+    ],
+    "G-dbb49ee0163d": [
+      "rule_match_not_intrusion_proof",
+      "tailscale_control_possible",
+      "change_needs_context"
+    ]
+  },
+  "interpretation_catalog": {
+    "change_needs_context": "This group appeared or increased in the observed comparison windows. Confirm application activity and collection coverage before interpreting the change.",
+    "rule_match_not_intrusion_proof": "A signature match is a starting point for review, not proof of an intrusion.",
+    "tailscale_control_possible": "The inspected rule matches a Tailscale control-plane TLS server name. An owned Tailscale client may explain it; a server-name match does not establish process identity or intent.",
+    "uid_fixture_possible": "This rule can match a harmless UID-response fixture. Verify the exact request against the owned test receipt before treating it as expected."
+  }
+}

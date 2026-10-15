@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-05T22:00:00+00:00",
+  "window": {
+    "minutes": 15,
+    "start_utc": "2026-10-05T21:45:00+00:00",
+    "end_utc": "2026-10-05T22:00:00+00:00"
+  },
+  "coverage": {
+    "snapshot_start_byte": 0,
+    "snapshot_end_byte": 2160,
+    "source_size_at_start": 2160,
+    "snapshot_sha256": "36b34616bd950a5221db857850cb0c1b19ec9e393fcd670af5727f321b6fc7c4",
+    "tail_clipped": false,
+    "comparison_complete_for_retained_records": false,
+    "malformed_records": 1,
+    "invalid_alerts": 0,
+    "future_records": 1,
+    "out_of_scope_alerts": 0,
+    "current_records": 2,
+    "prior_records": 1,
+    "last_receipt_utc": "2026-10-05T22:03:00+00:00",
+    "receiver_age_seconds": 0,
+    "total_current_groups": 2,
+    "omitted_groups": 0,
+    "complete_delivery_proven": false
+  },
+  "application_counts": {
+    "suricata": 2
+  },
+  "groups": [
+    {
+      "id": "G-79d7fa00706f",
+      "sid": 2016149,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "endpoint-6a22538871",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 1,
+      "evidence_refs": [
+        "E-c358d13de124b3e3"
+      ],
+      "first_received_utc": "2026-10-05T21:56:00+00:00",
+      "last_received_utc": "2026-10-05T21:56:00+00:00",
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-f54f20a8dff0",
+      "sid": 920099,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "endpoint-6a22538871",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-687e300b684df75b"
+      ],
+      "first_received_utc": "2026-10-05T21:58:00+00:00",
+      "last_received_utc": "2026-10-05T21:58:00+00:00",
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    }
+  ]
+}

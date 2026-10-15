@@ -1,0 +1,35 @@
+{
+  "number": 12,
+  "phase": "normalized_control",
+  "case": "real_controlled_block",
+  "model": "qwen3.5:4b",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T10:14:42.972167+00:00",
+  "brief_sha256": "d41602518d3dae0cd0f5e9a8f5175155c6a406a6447dcdbce9ec91528cfd12fb",
+  "elapsed_s": 68.70300000000134,
+  "eval_count": 485,
+  "prompt_eval_count": 2510,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "30ff7e735ebe2c791c2fbd8f47bdf15faeb5b79381cac54aba1aef27a5181e9a",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [
+      "sensor_reported_block",
+      "tailscale_control_possible"
+    ],
+    "required_contexts": [
+      "sensor_reported_block",
+      "uid_fixture_possible",
+      "tailscale_control_possible"
+    ],
+    "complete": false,
+    "problems": [
+      "Missing required contexts"
+    ]
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T10:15:51.690570+00:00"
+}

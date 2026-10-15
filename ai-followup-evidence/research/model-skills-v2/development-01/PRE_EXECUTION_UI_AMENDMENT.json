@@ -1,0 +1,10 @@
+{
+  "reason": "Trevor excludes old Ling mini 2.0 from selector. Frozen requests and protocol unchanged.",
+  "utc": "2026-10-07T20:59:39.1566035Z",
+  "source_hashes": {
+    "test_workbench.py": "64550eb1b4adba2072e1b162d96cbe33c644dae38ec8017078627050951362e9",
+    "server.py": "b3d663afc76b995d224862001a8c1a3df7b4fe0292eb9af038e835ca329b359e",
+    "run_development.py": "1a225e8b0226d546292137ba2fa4ed1567aeae5137dd1f2662fd2cffd9752913",
+    "workbench.py": "5ca2d49cd4742c7e217034b999ba104469c1618b5a7b36faba67e0ffe237ab43"
+  }
+}

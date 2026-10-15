@@ -1,0 +1,354 @@
+[
+  {
+    "file": "cases/policy-benign-example-invalid/brief.json",
+    "sha256": "823a3f8b3e445698ecf29c3513a3fc963277ca9838f5dd9b4586a838e35cc652"
+  },
+  {
+    "file": "cases/policy-benign-example-invalid/expected.json",
+    "sha256": "7d7840097409f7a4488354dd4629613909d28b262d2cd360727dac51a0f1122a"
+  },
+  {
+    "file": "cases/policy-benign-example-invalid/model-input.json",
+    "sha256": "b9fd442b41133c61efe4c6da6f6660ed99e3214d80d0cb6075f3dd1541cbdc82"
+  },
+  {
+    "file": "cases/policy-benign-example-invalid/schema.json",
+    "sha256": "62857cb837635f3eeb8d8fb061e4951bc7f2352e7e92f0deb82019825392e31d"
+  },
+  {
+    "file": "cases/policy-http_uid_nat_control/brief.json",
+    "sha256": "a6921b33cbceec1d5c7ee73e43ffb14004b67cf1eb8042a3f6683b5957d0d604"
+  },
+  {
+    "file": "cases/policy-http_uid_nat_control/expected.json",
+    "sha256": "db2bfecb113bcd7f58cf00b39baa14417ae7798523fd9dd4f58098873b70548b"
+  },
+  {
+    "file": "cases/policy-http_uid_nat_control/model-input.json",
+    "sha256": "ebac942f253c663b4bc50bc5d7f70631b66b6140f88234f94923aa2be3cdcc35"
+  },
+  {
+    "file": "cases/policy-http_uid_nat_control/schema.json",
+    "sha256": "8436fe70953bfdeb732a40a96c5afa7e6629d35ae5a0bcac1a0d98947f898165"
+  },
+  {
+    "file": "cases/policy-https_same_uid_body_control/brief.json",
+    "sha256": "06c89c0dafab594d577c9c505bff3d134877ec1faf913802f0ebe48bd154e2e8"
+  },
+  {
+    "file": "cases/policy-https_same_uid_body_control/expected.json",
+    "sha256": "7d7840097409f7a4488354dd4629613909d28b262d2cd360727dac51a0f1122a"
+  },
+  {
+    "file": "cases/policy-https_same_uid_body_control/model-input.json",
+    "sha256": "b9fd442b41133c61efe4c6da6f6660ed99e3214d80d0cb6075f3dd1541cbdc82"
+  },
+  {
+    "file": "cases/policy-https_same_uid_body_control/schema.json",
+    "sha256": "62857cb837635f3eeb8d8fb061e4951bc7f2352e7e92f0deb82019825392e31d"
+  },
+  {
+    "file": "cases/policy-lan_icmp_control/brief.json",
+    "sha256": "c60b58f9eeb2edb70d714ec5c059d32cf8985a1c642e0d7c25f854b50da832f7"
+  },
+  {
+    "file": "cases/policy-lan_icmp_control/expected.json",
+    "sha256": "7d7840097409f7a4488354dd4629613909d28b262d2cd360727dac51a0f1122a"
+  },
+  {
+    "file": "cases/policy-lan_icmp_control/model-input.json",
+    "sha256": "b9fd442b41133c61efe4c6da6f6660ed99e3214d80d0cb6075f3dd1541cbdc82"
+  },
+  {
+    "file": "cases/policy-lan_icmp_control/schema.json",
+    "sha256": "62857cb837635f3eeb8d8fb061e4951bc7f2352e7e92f0deb82019825392e31d"
+  },
+  {
+    "file": "cases/policy-sid-2072081-positive/brief.json",
+    "sha256": "702c4201d1cb14e30e4e37f9afd1233e8e19ba269c93a3ce5f0ad77af3d7cd13"
+  },
+  {
+    "file": "cases/policy-sid-2072081-positive/expected.json",
+    "sha256": "6206be2d5c263ba581055523f6e2f652468ec475fc751472d9d1e9ff0b61ab32"
+  },
+  {
+    "file": "cases/policy-sid-2072081-positive/model-input.json",
+    "sha256": "4d1b84adfa19ca1a80c9af103560755039d2fa2027071a7f72b7bd90f97d3713"
+  },
+  {
+    "file": "cases/policy-sid-2072081-positive/schema.json",
+    "sha256": "6ffe571c66d1b8dd4d2afb80b4b97fe65c1ce0dbeea5d365c02ece9468663670"
+  },
+  {
+    "file": "cases/policy-sid-2072081-suffix_negative/brief.json",
+    "sha256": "8adbe0b96be1845a684999113d38037a702a6735c7634078ec76e387c618fc8c"
+  },
+  {
+    "file": "cases/policy-sid-2072081-suffix_negative/expected.json",
+    "sha256": "7d7840097409f7a4488354dd4629613909d28b262d2cd360727dac51a0f1122a"
+  },
+  {
+    "file": "cases/policy-sid-2072081-suffix_negative/model-input.json",
+    "sha256": "b9fd442b41133c61efe4c6da6f6660ed99e3214d80d0cb6075f3dd1541cbdc82"
+  },
+  {
+    "file": "cases/policy-sid-2072081-suffix_negative/schema.json",
+    "sha256": "62857cb837635f3eeb8d8fb061e4951bc7f2352e7e92f0deb82019825392e31d"
+  },
+  {
+    "file": "cases/policy-sid-2072083-positive/brief.json",
+    "sha256": "d300d283ee30041cc55069db17ec0131d0429e2fd12e5f90e934482080ad6fc6"
+  },
+  {
+    "file": "cases/policy-sid-2072083-positive/expected.json",
+    "sha256": "9c6dcb74c7ab0d376fc4a0c2f830e8bc504183ee55109ccde632242a39bea7a5"
+  },
+  {
+    "file": "cases/policy-sid-2072083-positive/model-input.json",
+    "sha256": "441862ce3b8e606571606348eb324297f2d3f7c212bdef8d4b46e9efb1bfed87"
+  },
+  {
+    "file": "cases/policy-sid-2072083-positive/schema.json",
+    "sha256": "ff757d94b3a9087c095589e5570c17ff345752c41217177d3cc46a2f7cf8a5cd"
+  },
+  {
+    "file": "cases/policy-sid-2072083-suffix_negative/brief.json",
+    "sha256": "1aa048165020bd762786fda1da2c0b16e39dff454d820c69bf1639f98417e8ed"
+  },
+  {
+    "file": "cases/policy-sid-2072083-suffix_negative/expected.json",
+    "sha256": "7d7840097409f7a4488354dd4629613909d28b262d2cd360727dac51a0f1122a"
+  },
+  {
+    "file": "cases/policy-sid-2072083-suffix_negative/model-input.json",
+    "sha256": "b9fd442b41133c61efe4c6da6f6660ed99e3214d80d0cb6075f3dd1541cbdc82"
+  },
+  {
+    "file": "cases/policy-sid-2072083-suffix_negative/schema.json",
+    "sha256": "62857cb837635f3eeb8d8fb061e4951bc7f2352e7e92f0deb82019825392e31d"
+  },
+  {
+    "file": "cases/policy-sid-2072087-positive/brief.json",
+    "sha256": "22553e237df3422a545296ce3cca49cbe992b103d8f8fb6d28ecf0b601e6e18d"
+  },
+  {
+    "file": "cases/policy-sid-2072087-positive/expected.json",
+    "sha256": "089b7bd6f2485a68f9a0d4af10af141d35fa48c6e6b1ca43c51ea4d1302c3c81"
+  },
+  {
+    "file": "cases/policy-sid-2072087-positive/model-input.json",
+    "sha256": "6c6f89a48237e6efd30addd1c6c2e21742764614e959aacf0421c1b984de36c4"
+  },
+  {
+    "file": "cases/policy-sid-2072087-positive/schema.json",
+    "sha256": "a237fb6f6ff32cde33e00563472b19c76b9f032bdcbc40e94a0cce79e03f4e97"
+  },
+  {
+    "file": "cases/policy-sid-2072087-suffix_negative/brief.json",
+    "sha256": "e687b722d27fd84744d335470bf53945b51c67f8ca84b8becfacdc47ab5cff29"
+  },
+  {
+    "file": "cases/policy-sid-2072087-suffix_negative/expected.json",
+    "sha256": "7d7840097409f7a4488354dd4629613909d28b262d2cd360727dac51a0f1122a"
+  },
+  {
+    "file": "cases/policy-sid-2072087-suffix_negative/model-input.json",
+    "sha256": "b9fd442b41133c61efe4c6da6f6660ed99e3214d80d0cb6075f3dd1541cbdc82"
+  },
+  {
+    "file": "cases/policy-sid-2072087-suffix_negative/schema.json",
+    "sha256": "62857cb837635f3eeb8d8fb061e4951bc7f2352e7e92f0deb82019825392e31d"
+  },
+  {
+    "file": "cases/policy-sid-2072089-positive/brief.json",
+    "sha256": "c856688c8ad176ee9a1f370dabc2c5018d154bf72d3d031b74ca1f89225c01cb"
+  },
+  {
+    "file": "cases/policy-sid-2072089-positive/expected.json",
+    "sha256": "00b4579bc05a02777749f846631b181bd3370393989ac7a88d75e943e8231519"
+  },
+  {
+    "file": "cases/policy-sid-2072089-positive/model-input.json",
+    "sha256": "e2b745d0c9899b42fd2f8bca57184fb87ff63864a98dba0dbec4ba18d3eca913"
+  },
+  {
+    "file": "cases/policy-sid-2072089-positive/schema.json",
+    "sha256": "56260b7ff9601f985c46322c5d6fc01ca63b91733bc9b46c33cd9d149f890d03"
+  },
+  {
+    "file": "cases/policy-sid-2072089-suffix_negative/brief.json",
+    "sha256": "b688e436190cf68adc44034032a9f1836bbb0227f109690ab7e513de3d709451"
+  },
+  {
+    "file": "cases/policy-sid-2072089-suffix_negative/expected.json",
+    "sha256": "7d7840097409f7a4488354dd4629613909d28b262d2cd360727dac51a0f1122a"
+  },
+  {
+    "file": "cases/policy-sid-2072089-suffix_negative/model-input.json",
+    "sha256": "b9fd442b41133c61efe4c6da6f6660ed99e3214d80d0cb6075f3dd1541cbdc82"
+  },
+  {
+    "file": "cases/policy-sid-2072089-suffix_negative/schema.json",
+    "sha256": "62857cb837635f3eeb8d8fb061e4951bc7f2352e7e92f0deb82019825392e31d"
+  },
+  {
+    "file": "cases/policy-wan_icmp_attempts/brief.json",
+    "sha256": "62659c1d9854068e07989256985c712e56f18e6f073ed89a4d6fcca14064d06c"
+  },
+  {
+    "file": "cases/policy-wan_icmp_attempts/expected.json",
+    "sha256": "7d7840097409f7a4488354dd4629613909d28b262d2cd360727dac51a0f1122a"
+  },
+  {
+    "file": "cases/policy-wan_icmp_attempts/model-input.json",
+    "sha256": "b9fd442b41133c61efe4c6da6f6660ed99e3214d80d0cb6075f3dd1541cbdc82"
+  },
+  {
+    "file": "cases/policy-wan_icmp_attempts/schema.json",
+    "sha256": "62857cb837635f3eeb8d8fb061e4951bc7f2352e7e92f0deb82019825392e31d"
+  },
+  {
+    "file": "cases/policy-wan_lan_source_spoof/brief.json",
+    "sha256": "95a8f7f9beebfdb00e50af81a7372d64d63511397bc0a14b06e768e78c2edbdf"
+  },
+  {
+    "file": "cases/policy-wan_lan_source_spoof/expected.json",
+    "sha256": "7d7840097409f7a4488354dd4629613909d28b262d2cd360727dac51a0f1122a"
+  },
+  {
+    "file": "cases/policy-wan_lan_source_spoof/model-input.json",
+    "sha256": "b9fd442b41133c61efe4c6da6f6660ed99e3214d80d0cb6075f3dd1541cbdc82"
+  },
+  {
+    "file": "cases/policy-wan_lan_source_spoof/schema.json",
+    "sha256": "62857cb837635f3eeb8d8fb061e4951bc7f2352e7e92f0deb82019825392e31d"
+  },
+  {
+    "file": "cases/policy-wan_port_attempts/brief.json",
+    "sha256": "71fae6b6070bb7ca5257e9d90787892d51acb35b863534e191e85c5eb9983a9a"
+  },
+  {
+    "file": "cases/policy-wan_port_attempts/expected.json",
+    "sha256": "7d7840097409f7a4488354dd4629613909d28b262d2cd360727dac51a0f1122a"
+  },
+  {
+    "file": "cases/policy-wan_port_attempts/model-input.json",
+    "sha256": "b9fd442b41133c61efe4c6da6f6660ed99e3214d80d0cb6075f3dd1541cbdc82"
+  },
+  {
+    "file": "cases/policy-wan_port_attempts/schema.json",
+    "sha256": "62857cb837635f3eeb8d8fb061e4951bc7f2352e7e92f0deb82019825392e31d"
+  },
+  {
+    "file": "cases/policy-wan_syn_connection_burst/brief.json",
+    "sha256": "b269f69897b0a64cc86d1a43b91f0df1856cf1ae695a750c56eb04db19fd65ed"
+  },
+  {
+    "file": "cases/policy-wan_syn_connection_burst/expected.json",
+    "sha256": "7d7840097409f7a4488354dd4629613909d28b262d2cd360727dac51a0f1122a"
+  },
+  {
+    "file": "cases/policy-wan_syn_connection_burst/model-input.json",
+    "sha256": "b9fd442b41133c61efe4c6da6f6660ed99e3214d80d0cb6075f3dd1541cbdc82"
+  },
+  {
+    "file": "cases/policy-wan_syn_connection_burst/schema.json",
+    "sha256": "62857cb837635f3eeb8d8fb061e4951bc7f2352e7e92f0deb82019825392e31d"
+  },
+  {
+    "file": "cases/policy-wan_udp_burst/brief.json",
+    "sha256": "962679d9a4c540514cc5866611d617640fbf739e039a093d37df549828d2ea00"
+  },
+  {
+    "file": "cases/policy-wan_udp_burst/expected.json",
+    "sha256": "7d7840097409f7a4488354dd4629613909d28b262d2cd360727dac51a0f1122a"
+  },
+  {
+    "file": "cases/policy-wan_udp_burst/model-input.json",
+    "sha256": "b9fd442b41133c61efe4c6da6f6660ed99e3214d80d0cb6075f3dd1541cbdc82"
+  },
+  {
+    "file": "cases/policy-wan_udp_burst/schema.json",
+    "sha256": "62857cb837635f3eeb8d8fb061e4951bc7f2352e7e92f0deb82019825392e31d"
+  },
+  {
+    "file": "cases/upstream-detect-icmp-id-01/brief.json",
+    "sha256": "126900d57476639a822349cc8017a6f500b3e8ebe9b42a90705f020879e1fd27"
+  },
+  {
+    "file": "cases/upstream-detect-icmp-id-01/expected.json",
+    "sha256": "ce1c16b5b41ed2c839f5b5bea9e064177278f95a447bb3501b64788b6983921d"
+  },
+  {
+    "file": "cases/upstream-detect-icmp-id-01/model-input.json",
+    "sha256": "d370299f163923ef2d5161fd75f81ec671c3259d55932683fd3260b2606a3c83"
+  },
+  {
+    "file": "cases/upstream-detect-icmp-id-01/schema.json",
+    "sha256": "ea9bdfa96c848bade0765060c600e09ea4427195219781bbb30eda85245c0608"
+  },
+  {
+    "file": "cases/upstream-detect-icmp-seq/brief.json",
+    "sha256": "e9a3c110ea1f3687a9842328a70fc2dc9a488e5026cdb9b7bfa4eb8cebdf6fcd"
+  },
+  {
+    "file": "cases/upstream-detect-icmp-seq/expected.json",
+    "sha256": "ce1c16b5b41ed2c839f5b5bea9e064177278f95a447bb3501b64788b6983921d"
+  },
+  {
+    "file": "cases/upstream-detect-icmp-seq/model-input.json",
+    "sha256": "f7d750259fe0c0e7dfb4acaaf01876179ec5bb8209c96c85f1816504316f17a8"
+  },
+  {
+    "file": "cases/upstream-detect-icmp-seq/schema.json",
+    "sha256": "a2bfd21291038a45d054f208f6ed2658ce779a4b8953159a82a2d02e050e453a"
+  },
+  {
+    "file": "cases/upstream-dhcp-request-flood/brief.json",
+    "sha256": "da6dd181e688bad0544e4187c098f72f2ba0a609232443d5718f7f1dfa0503cb"
+  },
+  {
+    "file": "cases/upstream-dhcp-request-flood/expected.json",
+    "sha256": "517ad716f2d07dac74ccab12b7b4e0f11e79fd9e6a961dba03f8766109b36670"
+  },
+  {
+    "file": "cases/upstream-dhcp-request-flood/model-input.json",
+    "sha256": "b9fd442b41133c61efe4c6da6f6660ed99e3214d80d0cb6075f3dd1541cbdc82"
+  },
+  {
+    "file": "cases/upstream-dhcp-request-flood/schema.json",
+    "sha256": "62857cb837635f3eeb8d8fb061e4951bc7f2352e7e92f0deb82019825392e31d"
+  },
+  {
+    "file": "cases/upstream-flow-drop-iponly-01/brief.json",
+    "sha256": "3d848c1bd8cf4442428a34edd63e89a92f8de4e6db13bb93bc85649c273472bc"
+  },
+  {
+    "file": "cases/upstream-flow-drop-iponly-01/expected.json",
+    "sha256": "6d17437792b629ceb8a76ad74b6cc6710819b000d01b9f625e99bafd83d9b5a0"
+  },
+  {
+    "file": "cases/upstream-flow-drop-iponly-01/model-input.json",
+    "sha256": "a79fc982fa20703208c02cdef44daf09d65f28f259daff7174a98434996a79f5"
+  },
+  {
+    "file": "cases/upstream-flow-drop-iponly-01/schema.json",
+    "sha256": "9568a9fcf50788f5ad998243c15f92c5fa0a9a5bad98cb4bedd1f8aace87fec9"
+  },
+  {
+    "file": "protocol.json",
+    "sha256": "b04c6ba5f33afee7667f1deeff6b7d2e535feae954621411f1607f2d1eb80b6c"
+  },
+  {
+    "file": "schedule.json",
+    "sha256": "0588ac471db59bd1be72a4314a665f147bffa87d9b65a6e69b64d4e5a40370f2"
+  },
+  {
+    "file": "soc_analyst.py",
+    "sha256": "38edef2ea2a3029d3d425a838e79bc160b836f1e734b9fdaf2edb16ec91718a4"
+  },
+  {
+    "file": "soc_evidence.py",
+    "sha256": "0fd4cd089a66554cf3d93838c279eb67af17cc9bac52e917a6834535b0cde3dc"
+  }
+]

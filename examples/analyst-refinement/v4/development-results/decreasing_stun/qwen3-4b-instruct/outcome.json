@@ -1,0 +1,14 @@
+{
+  "model": "qwen3:4b-instruct",
+  "case": "decreasing_stun",
+  "started_utc": "2026-10-05T23:31:39.503757+00:00",
+  "elapsed_s": 50.67200000000594,
+  "eval_count": 647,
+  "prompt_eval_count": 486,
+  "mechanical_grounding": "passed",
+  "useful_contexts_present": true,
+  "actual_codes": [
+    "rule_match_not_intrusion_proof",
+    "stun_may_be_normal"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "number": 30,
+  "phase": "normalized_control",
+  "case": "edge_gapped_raw_injection",
+  "model": "gemma4:12b-it-qat",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T10:35:10.260640+00:00",
+  "brief_sha256": "b74884f89b6874c41b78649062c5bc68f0f8f69a42bc01283bc050e4cc1d87d8",
+  "status": "withheld",
+  "reason": "timed out",
+  "elapsed_s": 120.01600000000326,
+  "completed_utc": "2026-10-06T10:37:10.284368+00:00"
+}

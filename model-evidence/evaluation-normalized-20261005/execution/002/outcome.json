@@ -1,0 +1,30 @@
+{
+  "number": 2,
+  "phase": "normalized_control",
+  "case": "real_stun_decrease",
+  "model": "qwen3.5:4b",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T10:01:11.262705+00:00",
+  "brief_sha256": "a419bbb11a038294bc731e53f28c3421d5f9b0b55598f783ed482ddee035a956",
+  "elapsed_s": 42.39100000000326,
+  "eval_count": 467,
+  "prompt_eval_count": 513,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "a79af77ff9f707e8ecd35aed3cac9e07b696b841aad766c734dd62c42db147d0",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [
+      "stun_may_be_normal"
+    ],
+    "required_contexts": [
+      "stun_may_be_normal"
+    ],
+    "complete": true,
+    "problems": []
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T10:01:53.665000+00:00"
+}

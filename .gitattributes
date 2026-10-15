@@ -1,0 +1,2 @@
+# Preserve exact file hashes, including saved evidence and frozen source files.
+* -text

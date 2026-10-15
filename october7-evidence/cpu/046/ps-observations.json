@@ -1,0 +1,464 @@
+[
+  {
+    "utc": "2026-10-07T17:15:14.224728+00:00",
+    "ps": {
+      "models": []
+    },
+    "spare_memory_bytes": 34373165056
+  },
+  {
+    "utc": "2026-10-07T17:15:16.236432+00:00",
+    "ps": {
+      "models": []
+    },
+    "spare_memory_bytes": 30788419584
+  },
+  {
+    "utc": "2026-10-07T17:15:18.244129+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3:4b-instruct",
+          "model": "qwen3:4b-instruct",
+          "size": 3884460276,
+          "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:15:18.24301-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 30480678912
+  },
+  {
+    "utc": "2026-10-07T17:15:20.269090+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3:4b-instruct",
+          "model": "qwen3:4b-instruct",
+          "size": 3884460276,
+          "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:15:20.2676457-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 30511685632
+  },
+  {
+    "utc": "2026-10-07T17:15:22.289280+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3:4b-instruct",
+          "model": "qwen3:4b-instruct",
+          "size": 3884460276,
+          "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:15:22.2882242-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 30566731776
+  },
+  {
+    "utc": "2026-10-07T17:15:24.306056+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3:4b-instruct",
+          "model": "qwen3:4b-instruct",
+          "size": 3884460276,
+          "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:15:24.3049845-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 30550872064
+  },
+  {
+    "utc": "2026-10-07T17:15:26.320415+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3:4b-instruct",
+          "model": "qwen3:4b-instruct",
+          "size": 3884460276,
+          "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:15:26.314831-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 30497878016
+  },
+  {
+    "utc": "2026-10-07T17:15:28.347587+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3:4b-instruct",
+          "model": "qwen3:4b-instruct",
+          "size": 3884460276,
+          "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:15:28.3432768-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 30205620224
+  },
+  {
+    "utc": "2026-10-07T17:15:30.359807+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3:4b-instruct",
+          "model": "qwen3:4b-instruct",
+          "size": 3884460276,
+          "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:15:30.3582053-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 29985275904
+  },
+  {
+    "utc": "2026-10-07T17:15:32.364477+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3:4b-instruct",
+          "model": "qwen3:4b-instruct",
+          "size": 3884460276,
+          "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:15:32.3634242-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 30173655040
+  },
+  {
+    "utc": "2026-10-07T17:15:34.369520+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3:4b-instruct",
+          "model": "qwen3:4b-instruct",
+          "size": 3884460276,
+          "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:15:34.3683701-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 30352273408
+  },
+  {
+    "utc": "2026-10-07T17:15:36.381692+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3:4b-instruct",
+          "model": "qwen3:4b-instruct",
+          "size": 3884460276,
+          "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:15:36.3801554-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 30364561408
+  },
+  {
+    "utc": "2026-10-07T17:15:38.397178+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3:4b-instruct",
+          "model": "qwen3:4b-instruct",
+          "size": 3884460276,
+          "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:15:38.3946089-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 30377213952
+  },
+  {
+    "utc": "2026-10-07T17:15:40.420107+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3:4b-instruct",
+          "model": "qwen3:4b-instruct",
+          "size": 3884460276,
+          "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:15:40.4184978-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 30452350976
+  },
+  {
+    "utc": "2026-10-07T17:15:42.424373+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3:4b-instruct",
+          "model": "qwen3:4b-instruct",
+          "size": 3884460276,
+          "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:15:42.4227135-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 30513360896
+  },
+  {
+    "utc": "2026-10-07T17:15:44.429710+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3:4b-instruct",
+          "model": "qwen3:4b-instruct",
+          "size": 3884460276,
+          "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:15:44.4275599-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 30542241792
+  },
+  {
+    "utc": "2026-10-07T17:15:46.455482+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3:4b-instruct",
+          "model": "qwen3:4b-instruct",
+          "size": 3884460276,
+          "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:15:46.454425-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 30521438208
+  },
+  {
+    "utc": "2026-10-07T17:15:48.461559+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3:4b-instruct",
+          "model": "qwen3:4b-instruct",
+          "size": 3884460276,
+          "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:15:48.4596845-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 30545973248
+  }
+]

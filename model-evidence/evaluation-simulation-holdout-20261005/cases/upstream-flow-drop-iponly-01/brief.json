@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-06T04:10:50.876889+00:00",
+  "window": {
+    "minutes": 15,
+    "start_utc": "2026-10-06T03:55:50.876889+00:00",
+    "end_utc": "2026-10-06T04:10:50.876889+00:00"
+  },
+  "coverage": {
+    "snapshot_start_byte": 0,
+    "snapshot_end_byte": 2910,
+    "source_size_at_start": 2910,
+    "snapshot_sha256": "5194d809aa45e87f0644c1b76274dd4bb3d4167eff54cba836e05cbde2096619",
+    "tail_clipped": false,
+    "comparison_complete_for_retained_records": false,
+    "malformed_records": 0,
+    "invalid_alerts": 0,
+    "future_records": 0,
+    "out_of_scope_alerts": 0,
+    "current_records": 4,
+    "prior_records": 0,
+    "last_receipt_utc": "2026-10-06T04:10:50.876889+00:00",
+    "receiver_age_seconds": 0,
+    "total_current_groups": 1,
+    "omitted_groups": 0,
+    "complete_delivery_proven": false
+  },
+  "application_counts": {
+    "suricata": 4
+  },
+  "groups": [
+    {
+      "id": "G-78d565bebd92",
+      "sid": 1,
+      "action": "blocked",
+      "severity": 3,
+      "protocol": "TCP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-d3504dc3d2",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-6796c16be7820ad7"
+      ],
+      "first_received_utc": "2026-10-06T04:10:50.876889+00:00",
+      "last_received_utc": "2026-10-06T04:10:50.876889+00:00",
+      "priority_floor": "review_first",
+      "change": "comparison_unknown"
+    }
+  ]
+}

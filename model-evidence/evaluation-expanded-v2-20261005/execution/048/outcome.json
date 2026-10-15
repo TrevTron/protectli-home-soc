@@ -1,0 +1,30 @@
+{
+  "number": 48,
+  "phase": "production_contract",
+  "case": "edge_increased_unknown",
+  "model": "gemma4:12b-it-qat",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T05:02:16.178435+00:00",
+  "brief_sha256": "d6805d6cebc6a83a329f7a67d74636b1ec788d04c614c60cd684290eb749c14f",
+  "elapsed_s": 110.76599999999962,
+  "eval_count": 481,
+  "prompt_eval_count": 519,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "6bee347f26e637cc42e626565799927cd40e8fac1542d427abd75959f77a79a9",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [
+      "change_needs_context"
+    ],
+    "required_contexts": [
+      "change_needs_context"
+    ],
+    "complete": true,
+    "problems": []
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T05:04:06.952331+00:00"
+}

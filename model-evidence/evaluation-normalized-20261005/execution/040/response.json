@@ -1,0 +1,17 @@
+{
+  "model": "gemma4:12b-it-qat",
+  "created_at": "2026-10-06T10:49:38.0107587Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"inferred\": [\n    {\n      \"code\": \"change_needs_context\",\n      \"evidence_refs\": [\n        \"E-2b5ba2857d869aca\",\n        \"E-ef13539c0334ff69\",\n        \"E-868c6e960e444e1b\"\n      ],\n      \"group_id\": \"G-acaeeb7324a1\",\n        \"type\": \"inferred\"\n    },\n    {\n      \"code\": \"rule_match_not_intrusion_proof\",\n      \"evidence_refs\": [\n        \"E-2b5ba2857d869aca\",\n        \"E-ef13539c0334ff69\",\n        \"E-868c6e960e444e1b\"\n      ],\n      \"group_id\": \"G-acaeeb7324a1\",\n      \"type\": \"inferred\"\n    }\n  ],\n  \"next_steps\": [\n    {\n      \"action\": \"compare_baseline\",\n      \"group_id\": \"G-acaeeb7324a1\"\n    },\n    {\n      \"action\": \"inspect_event\",\n      \"group_id\": \"G-acaeeb7324a1\"\n    }\n  ],\n  \"observed\": [\n    {\"field\":\"action\",\"group_id\":\"G-acaeeb7324a1\",\"type\":\"observed\",\"value\":\"allowed\"},\n    {\"field\":\"change\",\"group_id\":\"G-acaeeb7324a1\",\"type\":\"observed\",\"value\":\"increased\"},\n    {\"field\":\"count\",\"group_id\":\"G-acaeeb7324a1\",\"type\":\"observed\",\"value\":7}\n  ],\n  \"unknown\": [{\"topic\":\"intent\",\"type\":\"unknown\"},{\"topic\":\"complete_visibility\",\"type\":\"unknown\"}]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 114495442300,
+  "load_duration": 9505942200,
+  "prompt_eval_count": 519,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 19701044000,
+  "eval_count": 481,
+  "eval_duration": 85281236000
+}

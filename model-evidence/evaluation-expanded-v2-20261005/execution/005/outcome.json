@@ -1,0 +1,15 @@
+{
+  "number": 5,
+  "phase": "development",
+  "case": "mixed_priority",
+  "model": "gemma4:12b-it-qat",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T04:11:06.256285+00:00",
+  "brief_sha256": "a9ddf4e5e1198f261c7218ab15c4687228cbdc5628412c354b932271d12358fc",
+  "status": "withheld",
+  "reason": "timed out",
+  "elapsed_s": 120.03099999999904,
+  "completed_utc": "2026-10-06T04:13:06.287182+00:00"
+}

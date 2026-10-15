@@ -1,0 +1,17 @@
+{
+  "model": "gemma4:12b-it-qat",
+  "created_at": "2026-10-06T04:08:24.3544266Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"inferred\": [\n    {\n      \"code\": \"rule_match_not_intrusion_proof\",\n      \"evidence_refs\": [\n        \"E-a7610a266cb9fe9f\"\n      ],\n      \"group_id\": \"G-150f9b4502fa\",\n      \"type\": \"inferred\"\n    },\n    {\n      \"code\": \"stun_may_be_normal\",\n      \"evidence_refs\": [\n        \"E-a7610a266cb9fe9f\"\n      ],\n      \"group_id\": \"G-150f9b4502fa\",\n      \"type\": \"inferred\"\n    }\n  ],\n  \"next_steps\": [\n    {\n      \"action\": \"inspect_event\",\n      \"group_id\": \"G-150f9b4502fa\"\n    },\n    {\n      \"action\": \"check_client_process\",\n      \"group_id\": \"G-150f9b4502fa\"\n    }\n  ],\n  \"observed\": [\n    {\"field\":\"action\",\"group_id\":\"G-150f9b4502fa\",\"type\":\"observed\",\"value\":\"allowed\"},\n    {\"field\":\"protocol\",\"group_id\":\"G-150f9b4502fa\",\"type\":\"observed\",\"value\":\"UDP\"},\n    {\"field\":\"count\",\"group_id\":\"G-150f9b4502fa\",\"type\":\"observed\",\"value\":25}\n  ],\n  \"unknown\": [{\"topic\":\"intent\",\"type\":\"unknown\"},{\"topic\":\"complete_visibility\",\"type\":\"unknown\"}]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 97094981400,
+  "load_duration": 8666034500,
+  "prompt_eval_count": 518,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 19224113000,
+  "eval_count": 412,
+  "eval_duration": 69196887000
+}

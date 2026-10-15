@@ -1,0 +1,29 @@
+{
+  "status": "Unpublished local review candidate",
+  "tested_date": "2026-10-05",
+  "timezone": "America/Los_Angeles",
+  "appliance": {
+    "model": "Protectli V1610",
+    "cpu": "Intel Pentium Silver N6005, four cores",
+    "memory_gib": 16,
+    "storage": "Kingston SNV3S1000G 1 TB NVMe",
+    "firmware": "Dasharo/coreboot v0.9.3",
+    "opnsense": "26.7.5-amd64",
+    "freebsd": "15.1-RELEASE-p3",
+    "openssl": "3.5.9",
+    "suricata_package": "8.0.7_1"
+  },
+  "receiver_and_client": { "python": "3.12", "platform": "Windows" },
+  "interface_mapping_for_this_unit": { "port_1": "LAN igc0", "port_2": "WAN igc1" },
+  "final_capture": { "mode": "Netmap IPS", "interface": "igc0", "workers": 8 },
+  "rules_snapshot": { "et_open_categories": 10, "active_rules": 37125, "drop": 4, "alert": 37121 },
+  "limits": [
+    "No private configuration export or endpoint identifiers included",
+    "Only the owned IPv4 client path was validated",
+    "Short Internet observations and terminating LAN endpoint transfers do not establish forwarding capacity",
+    "Capture and stream-error discards prevent a lossless inspection claim",
+    "Controlled harmless signature test does not validate all retained malware rules",
+    "Three-minute CPU load does not establish long-term thermal equilibrium",
+    "Receiver is an explicit launcher without Windows autostart"
+  ]
+}

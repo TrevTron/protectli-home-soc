@@ -1,0 +1,16 @@
+{
+  "pid": 64636,
+  "started_utc": "2026-10-07T22:59:38.2440866Z",
+  "url": "http://127.0.0.1:8766/",
+  "view_only": true,
+  "native_health": true,
+  "max_runs": 288,
+  "interval_seconds": 300,
+  "executable": "C:\\REDACTED_USER\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "script": "C:\\REDACTED_PROJECT\\tools\\soc_analyst_server.py",
+  "stdout": "C:\\REDACTED_PROJECT\\private\\analyst\\viewer-20261007T2259360389779Z.stdout.log",
+  "stderr": "C:\\REDACTED_PROJECT\\private\\analyst\\viewer-20261007T2259360389779Z.stderr.log",
+  "model": "qwen3.5:4b",
+  "generation_profile": "common",
+  "acceleration": "vulkan"
+}

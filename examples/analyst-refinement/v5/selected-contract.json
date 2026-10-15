@@ -1,0 +1,7 @@
+{
+  "selected_utc": "2026-10-05T23:39:48.116103+00:00",
+  "system_prompt_sha256": "9c8b743498f415ab9a44e69653d66ebef9ac550f986cac4cd13e4a87eecee2e6",
+  "source_sha256": "2316b3f31551253c3649ac5eb067788d76fa57ebbcfe506186ab8551fcdc8796",
+  "decision": "Use the shared v5 typed-observation grammar for every model. All returned v5 development answers manually inspected. Three Qwen variants passed grounding/useful contexts; Gemma retained its fixed-deadline timeout. The v4 string-SID failure is preserved. No further revisions, case-specific optimization or weights training.",
+  "evaluation_rule": "One unseen request per model/case, no retries or contract changes based on unseen answers. All outputs/errors retained. No model-default selection until unseen comparison finishes."
+}

@@ -1,0 +1,2667 @@
+{
+  "sealed_utc": "2026-10-07T21:31:15.499753+00:00",
+  "scope": "Private workbench code, documentation, retained requests, outcomes and verification receipts",
+  "large_artifacts": "Model and runtime bytes are bound by download-verified.json and pins.json; private API-key files are excluded",
+  "excluded_files_relative_to_workbench": [
+    "ling-isolated/Ling-3.0-tiny-Q4_K_M.gguf",
+    "ling-isolated/llama-b11429-bin-win-cpu-x64.zip",
+    "ling-isolated/runtime/ggml-base.dll",
+    "ling-isolated/runtime/ggml-cpu-alderlake.dll",
+    "ling-isolated/runtime/ggml-cpu-cannonlake.dll",
+    "ling-isolated/runtime/ggml-cpu-cascadelake.dll",
+    "ling-isolated/runtime/ggml-cpu-cooperlake.dll",
+    "ling-isolated/runtime/ggml-cpu-haswell.dll",
+    "ling-isolated/runtime/ggml-cpu-icelake.dll",
+    "ling-isolated/runtime/ggml-cpu-ivybridge.dll",
+    "ling-isolated/runtime/ggml-cpu-piledriver.dll",
+    "ling-isolated/runtime/ggml-cpu-sandybridge.dll",
+    "ling-isolated/runtime/ggml-cpu-sapphirerapids.dll",
+    "ling-isolated/runtime/ggml-cpu-skylakex.dll",
+    "ling-isolated/runtime/ggml-cpu-sse42.dll",
+    "ling-isolated/runtime/ggml-cpu-x64.dll",
+    "ling-isolated/runtime/ggml-cpu-zen4.dll",
+    "ling-isolated/runtime/ggml-rpc-server.exe",
+    "ling-isolated/runtime/ggml-rpc.dll",
+    "ling-isolated/runtime/ggml.dll",
+    "ling-isolated/runtime/libomp.dll",
+    "ling-isolated/runtime/LICENSE-LLVM-OpenMP",
+    "ling-isolated/runtime/llama-batched-bench-impl.dll",
+    "ling-isolated/runtime/llama-batched-bench.exe",
+    "ling-isolated/runtime/llama-bench-impl.dll",
+    "ling-isolated/runtime/llama-bench.exe",
+    "ling-isolated/runtime/llama-cli-impl.dll",
+    "ling-isolated/runtime/llama-cli.exe",
+    "ling-isolated/runtime/llama-common.dll",
+    "ling-isolated/runtime/llama-completion-impl.dll",
+    "ling-isolated/runtime/llama-completion.exe",
+    "ling-isolated/runtime/llama-fit-params-impl.dll",
+    "ling-isolated/runtime/llama-fit-params.exe",
+    "ling-isolated/runtime/llama-gemma3-cli.exe",
+    "ling-isolated/runtime/llama-gguf-split.exe",
+    "ling-isolated/runtime/llama-imatrix.exe",
+    "ling-isolated/runtime/llama-llava-cli.exe",
+    "ling-isolated/runtime/llama-minicpmv-cli.exe",
+    "ling-isolated/runtime/llama-mtmd-cli.exe",
+    "ling-isolated/runtime/llama-mtmd-debug.exe",
+    "ling-isolated/runtime/llama-perplexity-impl.dll",
+    "ling-isolated/runtime/llama-perplexity.exe",
+    "ling-isolated/runtime/llama-quantize-impl.dll",
+    "ling-isolated/runtime/llama-quantize.exe",
+    "ling-isolated/runtime/llama-qwen2vl-cli.exe",
+    "ling-isolated/runtime/llama-results.exe",
+    "ling-isolated/runtime/llama-server-impl.dll",
+    "ling-isolated/runtime/llama-server.exe",
+    "ling-isolated/runtime/llama-tokenize.exe",
+    "ling-isolated/runtime/llama-tts.exe",
+    "ling-isolated/runtime/llama.dll",
+    "ling-isolated/runtime/llama.exe",
+    "ling-isolated/runtime/mtmd.dll",
+    "ling-isolated/soc-development-02/api-key.txt",
+    "ling-isolated/soc-development-03/api-key.txt"
+  ],
+  "summary": {
+    "boundary": "Three author-known source cases and permitted-menu next-check selection; no open-ended quality or human-benefit winner claim.",
+    "default_11434_invoked": false,
+    "human_sessions": 0,
+    "ling_artifact_sha256": "246d67d45f5b0c7447ca0ce0bdb8b46b8a47b593c5068635dc16422c051d7be9",
+    "live_tools_integrated": false,
+    "operator_cases": [
+      "D01",
+      "D02",
+      "D05"
+    ],
+    "operator_delivered": 15,
+    "operator_demonstrations": 15,
+    "operator_models": [
+      "gemma4-12b",
+      "ling3-tiny",
+      "qwen3-4b",
+      "qwen35-4b",
+      "qwen35-9b"
+    ],
+    "original_evidence_hashes_unchanged": 563,
+    "prior_sealed_files_unchanged": 28,
+    "requests_retained": 57,
+    "sealed_case_files_unchanged": 216,
+    "totals_by_contract_run": {
+      "development-01": {
+        "delivered": 6,
+        "full_input_verified": 24,
+        "natural_complete": 24,
+        "requests": 24
+      },
+      "development-02": {
+        "delivered": 10,
+        "full_input_verified": 12,
+        "natural_complete": 12,
+        "requests": 12
+      },
+      "development-03": {
+        "delivered": 12,
+        "full_input_verified": 12,
+        "natural_complete": 12,
+        "requests": 12
+      },
+      "ling-isolated/soc-development-01": {
+        "delivered": 0,
+        "full_input_verified": 0,
+        "natural_complete": 1,
+        "requests": 1
+      },
+      "ling-isolated/soc-development-02": {
+        "delivered": 0,
+        "full_input_verified": 5,
+        "natural_complete": 5,
+        "requests": 5
+      },
+      "ling-isolated/soc-development-03": {
+        "delivered": 3,
+        "full_input_verified": 3,
+        "natural_complete": 3,
+        "requests": 3
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "docs/ai-followup-20261007/NEXT_STEP_WORKBENCH_RESULTS_V1.md",
+      "bytes": 9193,
+      "sha256": "9dd634bff1e29e4dbceb96318fd97184636b423fc8f40cab5d768f212d0bedda"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/browser-model-checks.json",
+      "bytes": 1950,
+      "sha256": "807599eed0759eef555f74f841e8c4e1cf1c442d8d2023ad01d9f4671178f68e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/closeout_workbench.py",
+      "bytes": 3000,
+      "sha256": "f95d967916d8754becf885367d8286fa705d10046a7d3e32b6bd777c93c826ed"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/001-gemma4-12b-D01-baseline/context-proof.json",
+      "bytes": 399,
+      "sha256": "2b5864d7299475f5ff5e5195ab2d04e56745ce3db20436e0967120c74cfa165a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/001-gemma4-12b-D01-baseline/outcome.json",
+      "bytes": 1176,
+      "sha256": "6b3ffdfb4402d45453ba4d0b0c84ca7d11b7cb6b8758ff94dc9a1948c30d69ca"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/001-gemma4-12b-D01-baseline/response.json",
+      "bytes": 501,
+      "sha256": "7396f704b0be6fb2ff905677eace7d6c66f05cc479796712a357d991794cd0fc"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/001-gemma4-12b-D01-baseline/runtime-observations.json",
+      "bytes": 6907,
+      "sha256": "257f52383e860cbff8c9e59e507606efde6feacab53b59dc2216250e51bdae40"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/001-gemma4-12b-D01-baseline/runtime-trace.log",
+      "bytes": 24495,
+      "sha256": "52f7cc9d76fc0d2b6515703f16a59d6debe329bf6ad670b15a88fae495f77764"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/002-gemma4-12b-D01-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "4795724f9392f9449da8d8307c59680da4a229e004417cb49c8841944bd5e1fa"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/002-gemma4-12b-D01-skills/outcome.json",
+      "bytes": 1103,
+      "sha256": "847da1e7774e5bed027d9de3faad4d53ac4f3dc47c45f82a1d5db24b87863963"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/002-gemma4-12b-D01-skills/response.json",
+      "bytes": 543,
+      "sha256": "a75a84888ade8be02fa5b615df370c14ccf518ea2fff64628bdafc7a33c9dcd5"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/002-gemma4-12b-D01-skills/runtime-observations.json",
+      "bytes": 9567,
+      "sha256": "9229b604803a90bd4c7c2e2a78f59ca4876c2855ab35d389e555351d3372f8de"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/002-gemma4-12b-D01-skills/runtime-trace.log",
+      "bytes": 24722,
+      "sha256": "e51eaf530441eb5faa30e33700b043cdf39f054883a8953e9e5c7149b693a8e1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/003-gemma4-12b-D02-baseline/context-proof.json",
+      "bytes": 399,
+      "sha256": "a88eb511dd86166854e4d77ccb1b20e5b2e1350a769709b5266a07f5f93c6277"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/003-gemma4-12b-D02-baseline/outcome.json",
+      "bytes": 1195,
+      "sha256": "0604b4d086e53ad888d41e3699cc491995d4299aa0bb8f7456c14605623ca099"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/003-gemma4-12b-D02-baseline/response.json",
+      "bytes": 519,
+      "sha256": "c199d5db44140b34f0b51dd15bc6f8545a2ed9cd8130fe4ec73e6838b35dee2b"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/003-gemma4-12b-D02-baseline/runtime-observations.json",
+      "bytes": 6610,
+      "sha256": "2e64f9d4c32c2ecba454fbf94e05f3aca454fd9ee681a7931910f0b5b961569d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/003-gemma4-12b-D02-baseline/runtime-trace.log",
+      "bytes": 24494,
+      "sha256": "a3cacc672c461dc752972a99e60c3fb9201304f4ad378e1b3cd765ac7e5e8209"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/004-gemma4-12b-D02-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "d2a09bbd81793a44484e8da3486b14f12154053644d9d2871b735371253443aa"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/004-gemma4-12b-D02-skills/outcome.json",
+      "bytes": 1115,
+      "sha256": "447e0ffe1b88b323dca7d52632baed0cf9a611964d352313dba744924a12803c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/004-gemma4-12b-D02-skills/response.json",
+      "bytes": 555,
+      "sha256": "1d8063c7e21f9b03bf26802c6ed778922e59dc4ecbe54d3de4405bb30504785d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/004-gemma4-12b-D02-skills/runtime-observations.json",
+      "bytes": 10160,
+      "sha256": "d2b232bd69be721ed030eca0f1389309a1e8c72d62cc91a0f9e2c96d680e01ae"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/004-gemma4-12b-D02-skills/runtime-trace.log",
+      "bytes": 24722,
+      "sha256": "1b89695aa362fb2e7a77f89813329bba49084665d0d805999326de90cf456699"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/005-gemma4-12b-D05-baseline/context-proof.json",
+      "bytes": 399,
+      "sha256": "35f198f810f5f36e496585f929519bebb8e39d285c8dfc6a33e7eb4316b4014b"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/005-gemma4-12b-D05-baseline/outcome.json",
+      "bytes": 1238,
+      "sha256": "c13b530b5beee9660742ff32162cde61c154530c01beeeaa6a231a767a14eea5"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/005-gemma4-12b-D05-baseline/response.json",
+      "bytes": 568,
+      "sha256": "7389293254703880df5c95d0a2b13a6e3b35704d52e2ea22eb9a056a4be48d1e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/005-gemma4-12b-D05-baseline/runtime-observations.json",
+      "bytes": 8089,
+      "sha256": "77f0872ecd239f3cfacbb75740708dcd60f7771a9e58b10fbe6a5b1f027fcb02"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/005-gemma4-12b-D05-baseline/runtime-trace.log",
+      "bytes": 24494,
+      "sha256": "4d22659d39227e0035e6c3ef176dd809b8fe10702ed68691edab7aa705439102"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/006-gemma4-12b-D05-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "d4a7f5106277e85244b49993cc9fd19a8b3f03dbca1baf317866c8744e0e1589"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/006-gemma4-12b-D05-skills/outcome.json",
+      "bytes": 1138,
+      "sha256": "6144a536eacfe8e91aa0c90dad3ef559f602d414c593ab525da898c031ac2161"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/006-gemma4-12b-D05-skills/response.json",
+      "bytes": 581,
+      "sha256": "9bb23fd4f28d6bddefc31cd172311c14f4778a910ab2c21ade6b4db0957981f7"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/006-gemma4-12b-D05-skills/runtime-observations.json",
+      "bytes": 11044,
+      "sha256": "08da2a604c66550246ad2b77956b28b45abbd617c5aaa1f5bb91799d924e3d70"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/006-gemma4-12b-D05-skills/runtime-trace.log",
+      "bytes": 24855,
+      "sha256": "181b37956666df588623109ab0ff8b819442d7f8988a9ff6c6318b7a59e8f2f9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/007-qwen35-4b-D01-baseline/context-proof.json",
+      "bytes": 399,
+      "sha256": "7d174819aaddfa0b59f1e9d31d37e410e2b738ac3d153e33d0ca5e2260015725"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/007-qwen35-4b-D01-baseline/outcome.json",
+      "bytes": 1216,
+      "sha256": "44d4a86f5349dffc97ba08bf95b2a4428b59cf0967502416d0cd881c2da326f1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/007-qwen35-4b-D01-baseline/response.json",
+      "bytes": 587,
+      "sha256": "8585edb17181f6085613edadc489f9dcf6693f43b44ba3527ca51efce9cdff2b"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/007-qwen35-4b-D01-baseline/runtime-observations.json",
+      "bytes": 2797,
+      "sha256": "38c9825b526811754cd52e8afa3402dd127d21021259a57fb3302a19b8fbe17d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/007-qwen35-4b-D01-baseline/runtime-trace.log",
+      "bytes": 22464,
+      "sha256": "2a1d5e2ac7a671d4029f6dfe5ab40dfaf099b29259c0dae31f3783c9c6742a40"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/008-qwen35-4b-D01-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "35bf74655e1cca386499453ba29f83284a08a262cfef7745553d6bdd9e2127fa"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/008-qwen35-4b-D01-skills/outcome.json",
+      "bytes": 1131,
+      "sha256": "888fe87f470c43d649b5748542ab6b1718f7c7ac643cc0ac5f47d26d05a7524c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/008-qwen35-4b-D01-skills/response.json",
+      "bytes": 579,
+      "sha256": "34e59afe446bfeb6fa79457818ffbbdd3b47a242ee3e0747951e8987a2153231"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/008-qwen35-4b-D01-skills/runtime-observations.json",
+      "bytes": 3757,
+      "sha256": "6cf32f994434119770790874a21f5457bafbcf51c9483028d2b52abbd56e246b"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/008-qwen35-4b-D01-skills/runtime-trace.log",
+      "bytes": 22823,
+      "sha256": "6daea8dfb69c90851d9d8e35e8b969dd4149ec0a76449a882c7db163c728104a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/009-qwen35-4b-D02-baseline/context-proof.json",
+      "bytes": 399,
+      "sha256": "58e351d398b09ce25aea4abdefca8025ca6e4101243cedc0e6ad1c27bac0e0b9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/009-qwen35-4b-D02-baseline/outcome.json",
+      "bytes": 1216,
+      "sha256": "353c733d995327336e99f6ae1ee54e2c28fabcc6807ffcb19224b0c99431daab"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/009-qwen35-4b-D02-baseline/response.json",
+      "bytes": 587,
+      "sha256": "17fd2751bfb3cbea0372382f33c40ffa587bfec32f404516994366a0aec472d9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/009-qwen35-4b-D02-baseline/runtime-observations.json",
+      "bytes": 2798,
+      "sha256": "01de71644543373ed22f7b225562d1f52e22425986eeb23f8a6bb8e99e393fd1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/009-qwen35-4b-D02-baseline/runtime-trace.log",
+      "bytes": 22464,
+      "sha256": "ee344a03fecc62c05023615a33f7b472d5ce776c09c7e5237cd8cac51c314eac"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/010-qwen35-4b-D02-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "379fcd8fa59202ce6389c791d0f48f473587d595af0d0e9b58339e41c0e8fa59"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/010-qwen35-4b-D02-skills/outcome.json",
+      "bytes": 1071,
+      "sha256": "0f8617f1d48f5db75dfe958986f51060034b397a145bbd6aef3705a4cd99c9ae"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/010-qwen35-4b-D02-skills/response.json",
+      "bytes": 588,
+      "sha256": "9ac49c6dafb0d651b9c7357c390122f668716f93a6386a22de3ac1430f3bc0c4"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/010-qwen35-4b-D02-skills/runtime-observations.json",
+      "bytes": 3753,
+      "sha256": "b590d471018bd5b9be566f111482d6fedf51d8698721bfbf2d7c1ebcec10b72c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/010-qwen35-4b-D02-skills/runtime-trace.log",
+      "bytes": 22828,
+      "sha256": "d3d276e2bea675f72aa94d6cb5af091c9b195040ca52d017e1e9eaebca0e0966"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/011-qwen35-4b-D05-baseline/context-proof.json",
+      "bytes": 399,
+      "sha256": "2763602769114b98f6e9d61e2c063328e56fa8860602480e72df8035a7b9dbba"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/011-qwen35-4b-D05-baseline/outcome.json",
+      "bytes": 1197,
+      "sha256": "3709d67908dc8096e6b096a7310269a72e682d2b484e023f9f7b2edae94d94f1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/011-qwen35-4b-D05-baseline/response.json",
+      "bytes": 567,
+      "sha256": "0125944bf9f48ecbb5089ba519fd369f1df288c67d6713c71f7b3400230d3b97"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/011-qwen35-4b-D05-baseline/runtime-observations.json",
+      "bytes": 3275,
+      "sha256": "c54b5488c7eca30a41d478f5e4a435f390baa860d16a6730dc0e2594f395f337"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/011-qwen35-4b-D05-baseline/runtime-trace.log",
+      "bytes": 22464,
+      "sha256": "91dcf3f0bfa8f2551a3d80d420e5cb1c70878c62999dfb26cefbbe6b1b1bad91"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/012-qwen35-4b-D05-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "4655ba2a5e31622e5cd1f20460a1dc14d72226234133a3a149b74b923af04e0f"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/012-qwen35-4b-D05-skills/outcome.json",
+      "bytes": 1214,
+      "sha256": "56cda69664815d77422adcedc135ad72df6229e02604fd8b745fe479cef56de3"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/012-qwen35-4b-D05-skills/response.json",
+      "bytes": 588,
+      "sha256": "21d523f9d745a3b7dad6c70a196625a7929f3760eb15fbcdad1264b8d13ec428"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/012-qwen35-4b-D05-skills/runtime-observations.json",
+      "bytes": 3757,
+      "sha256": "d3626c09c7be2e835bd6f8f168de9d5d59d03dd6c9f13bc9dafe32736dcd2bd0"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/012-qwen35-4b-D05-skills/runtime-trace.log",
+      "bytes": 22828,
+      "sha256": "8c4ddbaa7492cd9dfbc0798f95667efb9a54a1c45cc95aa6ff80a80f11c8e982"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/013-qwen3-4b-D01-baseline/context-proof.json",
+      "bytes": 399,
+      "sha256": "43b0fc582b2ddbaa1123994799e0c7ef8333e2bcacb6fd19200c45e2a52a753c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/013-qwen3-4b-D01-baseline/outcome.json",
+      "bytes": 1235,
+      "sha256": "993eb121de9ece1a6f55b6b796ff9d0e11ad6ed958f7189362c62d23f1d8ffc3"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/013-qwen3-4b-D01-baseline/response.json",
+      "bytes": 623,
+      "sha256": "a8cbb76e3c758d078a8a089565bf6600c5b479609df05b65463b14cf654a899f"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/013-qwen3-4b-D01-baseline/runtime-observations.json",
+      "bytes": 2366,
+      "sha256": "4b9e14bae30cfdd7b825207573f3af87d28f817757a93107cdcd60446050b939"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/013-qwen3-4b-D01-baseline/runtime-trace.log",
+      "bytes": 18373,
+      "sha256": "1957fadb33bd66185bbb3afef29f387348f5c27ebb0396db4a318b69be9ee131"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/014-qwen3-4b-D01-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "287629210e229a200a163947fd3a0c45f5f11092dd50c70f9b0e92e568f4512c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/014-qwen3-4b-D01-skills/outcome.json",
+      "bytes": 1237,
+      "sha256": "e8441e7851f4e1f151922a5262a366d25e0547a0299cfc036b9d743d2f0d6295"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/014-qwen3-4b-D01-skills/response.json",
+      "bytes": 628,
+      "sha256": "1520b7a1bc3bc5c981b423fe48685e50671b01755b9c974ba012d312d620cb3f"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/014-qwen3-4b-D01-skills/runtime-observations.json",
+      "bytes": 2759,
+      "sha256": "b4ca90b2d57f8727cdf715e672185b28e5d5a8ac3fcb8ce557f580b6ef91b4a9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/014-qwen3-4b-D01-skills/runtime-trace.log",
+      "bytes": 18464,
+      "sha256": "3b5335db37f115532d884a347b92c5e39e7264a3291faef0d77d34df93190b11"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/015-qwen3-4b-D02-baseline/context-proof.json",
+      "bytes": 399,
+      "sha256": "22bd8bfc35824889db63f6861b947b1e2921fd269f5c57fa9bee65dfdf0a0a9d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/015-qwen3-4b-D02-baseline/outcome.json",
+      "bytes": 1227,
+      "sha256": "84fa770d0fadc5377131458efaf2f7118ac3e4c5a6ba62fd9a21f9ec6cac7d91"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/015-qwen3-4b-D02-baseline/response.json",
+      "bytes": 614,
+      "sha256": "6bb9e98ca69a34b3611f12d06f0a8879b1af7891512f7e1e9fc7bf0684c543bc"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/015-qwen3-4b-D02-baseline/runtime-observations.json",
+      "bytes": 2267,
+      "sha256": "2b70d592d4ef5640ce23de648647799c113a7ed66af550ff03a051a8c5057b9e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/015-qwen3-4b-D02-baseline/runtime-trace.log",
+      "bytes": 18373,
+      "sha256": "d25f1f7bea10a8f7cfdf5273cc6f4d565f45510faf28d661fa19a2825192399c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/016-qwen3-4b-D02-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "23e4c6fe8fdde0e7db260ece47c5a787bffd6ea78af29106400d56e4bb23ce1d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/016-qwen3-4b-D02-skills/outcome.json",
+      "bytes": 1225,
+      "sha256": "6d4c7b148398fb38f0865a683eebfbd91f27c382428ebead120dd91fba694c0a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/016-qwen3-4b-D02-skills/response.json",
+      "bytes": 615,
+      "sha256": "43edd467f52175606e5c4d139823c72d30be43ad448d8e71d7c8b490b716b2ec"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/016-qwen3-4b-D02-skills/runtime-observations.json",
+      "bytes": 3251,
+      "sha256": "f6252f8e6761cbad63d823cab1db3aa5b07aef772db31b6974fe003d06e631c8"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/016-qwen3-4b-D02-skills/runtime-trace.log",
+      "bytes": 18464,
+      "sha256": "b701edbb3aa424aaac680e54e4a7aefa68b315f9eef61364a83c0c315ae721fd"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/017-qwen3-4b-D05-baseline/context-proof.json",
+      "bytes": 399,
+      "sha256": "2faa0ecd5f42d7032a2e115648d34ebc0a47a006fa525816e1b5c4224f7c3187"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/017-qwen3-4b-D05-baseline/outcome.json",
+      "bytes": 1235,
+      "sha256": "d8e11bafa04ab3dbaea558ff8cbf1cc16a6d586ab500936db56ec70d2e0911d3"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/017-qwen3-4b-D05-baseline/response.json",
+      "bytes": 623,
+      "sha256": "0cbde6a9e09921a257073e803ecc4efabbf60a44255806ee5366b79879cbc4a4"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/017-qwen3-4b-D05-baseline/runtime-observations.json",
+      "bytes": 2267,
+      "sha256": "0db89bb09ca75367987ed5cf81e7a4109b280faa9cf9d89d0ac7702cd12c7787"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/017-qwen3-4b-D05-baseline/runtime-trace.log",
+      "bytes": 18373,
+      "sha256": "078d2cf1e1d7e3dbce0e68fa4c6122745f98c14ca264ddb01579e6916a815e77"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/018-qwen3-4b-D05-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "ed97c643078bee7646c74dc275797e2acd863e577dfe47fc9ca560cf4852b6d0"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/018-qwen3-4b-D05-skills/outcome.json",
+      "bytes": 1233,
+      "sha256": "5344683d5d920b9e2ec84d7379f4a5df6f0e326d6d825c92d4a182b06ec92153"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/018-qwen3-4b-D05-skills/response.json",
+      "bytes": 624,
+      "sha256": "9c828ab23e01e4068baf3af9364c1af5116045d5727c74e4aa5b3ec9762e8de3"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/018-qwen3-4b-D05-skills/runtime-observations.json",
+      "bytes": 3250,
+      "sha256": "c2efb1d8a415a2ba44462ee73ba794a5504f60fba361184b887f6a9d1ba25b46"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/018-qwen3-4b-D05-skills/runtime-trace.log",
+      "bytes": 18464,
+      "sha256": "212bf3f9590c84986dd4985db0f6d1d962e9a17126b612d92d4f7e57b37d1ed1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/019-qwen35-9b-D01-baseline/context-proof.json",
+      "bytes": 399,
+      "sha256": "a9c286097e7bd7b996a740348f770cbee0afa59ad8b6bcb7153e244684f6c1d5"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/019-qwen35-9b-D01-baseline/outcome.json",
+      "bytes": 1138,
+      "sha256": "7bf2645e099d7aaee7eb18befd755cab0783bf36e7717761102095e43d361429"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/019-qwen35-9b-D01-baseline/response.json",
+      "bytes": 577,
+      "sha256": "69ab177d850e0bbf5dced6e0c5ae7fcf042fccfabf415165581cfe575e77b34f"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/019-qwen35-9b-D01-baseline/runtime-observations.json",
+      "bytes": 4831,
+      "sha256": "0bc2965b53c23f68f55423c1e0bbc471f1f5cf7671c347b532ba4dac7b5cf35a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/019-qwen35-9b-D01-baseline/runtime-trace.log",
+      "bytes": 22552,
+      "sha256": "2eae6c5c59aff1a894f1cdb820113908b46828e9a60a93aaa73b1f48e0f8ca2b"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/020-qwen35-9b-D01-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "9e6126e9b22c25ab46d2ebece948022e83d79fc416a5f3a83c28d628735056ad"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/020-qwen35-9b-D01-skills/outcome.json",
+      "bytes": 1071,
+      "sha256": "fda886f27509f976ca8ad0f49faefb439655d4dabe12790d15967f435932f84d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/020-qwen35-9b-D01-skills/response.json",
+      "bytes": 588,
+      "sha256": "bd3297dd1fabdacda5601d4063bd7d4e0972a5718d34fba14e88b89295c724d2"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/020-qwen35-9b-D01-skills/runtime-observations.json",
+      "bytes": 5777,
+      "sha256": "108b4dbd980f271128b6017d9d644a4a69df43dc5000901c010cb1881e8e786e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/020-qwen35-9b-D01-skills/runtime-trace.log",
+      "bytes": 22779,
+      "sha256": "2bf2b43300da4a6bf60ac5d0129551f9eeb81e7119eb2ae0821bc2517581a901"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/021-qwen35-9b-D02-baseline/context-proof.json",
+      "bytes": 399,
+      "sha256": "abec901131b75119311c558c2450a081e58a3034a293ecae2ab2a493c7330603"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/021-qwen35-9b-D02-baseline/outcome.json",
+      "bytes": 1138,
+      "sha256": "9a80d96a72cdfb80d267a19600a9d63110b13d38569ec83d427854599ff413f5"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/021-qwen35-9b-D02-baseline/response.json",
+      "bytes": 577,
+      "sha256": "1768c49c9dd846fb7159ca989b689a213c6ae1135d0cd1700882367f4068c75f"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/021-qwen35-9b-D02-baseline/runtime-observations.json",
+      "bytes": 6454,
+      "sha256": "cea860243c4f10f090d30256e57d77a47a4a6420a462610bf02c717eb6c995cf"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/021-qwen35-9b-D02-baseline/runtime-trace.log",
+      "bytes": 22552,
+      "sha256": "ce3f738eb65b143fa2c2b7d3f2a1338da1609bcec4127b672516f7b049782cef"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/022-qwen35-9b-D02-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "51cf78426badd690438d068ce962cb43c5e54ef8811f40320f41b152acac0b28"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/022-qwen35-9b-D02-skills/outcome.json",
+      "bytes": 1126,
+      "sha256": "8b45b97382a8088d711e1d0c86a79017b645f5ded510cb3cbc1a4ba61506c2f0"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/022-qwen35-9b-D02-skills/response.json",
+      "bytes": 619,
+      "sha256": "4859e9b2d00b2df485520823083c52432bcae77a54d9a230abc75f8cb586c3b5"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/022-qwen35-9b-D02-skills/runtime-observations.json",
+      "bytes": 6254,
+      "sha256": "0c4a6593a38f9bd977ea1eb9de763f789f296e2b2aeeaaf93e877f6e20b15c75"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/022-qwen35-9b-D02-skills/runtime-trace.log",
+      "bytes": 22784,
+      "sha256": "0c864a72f2bad8a335239ecd3d7695c0f93e18d1d73579fde6fae32a60a25fbe"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/023-qwen35-9b-D05-baseline/context-proof.json",
+      "bytes": 399,
+      "sha256": "630504c7d4b46ce92a0d591f5083576da6c7c53eacc7bab3532ac5703b583607"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/023-qwen35-9b-D05-baseline/outcome.json",
+      "bytes": 1218,
+      "sha256": "69d49cfe85ab7e5818afd29b1f9f983252c2d441c19ba6360b39d1c40125f5f1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/023-qwen35-9b-D05-baseline/response.json",
+      "bytes": 589,
+      "sha256": "cd49b24fbf9404b5ec2619c3621bc76db5294721dbc93b3576a6022089dc7891"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/023-qwen35-9b-D05-baseline/runtime-observations.json",
+      "bytes": 4816,
+      "sha256": "7b60c216de3ee5b60893f5df4be4cb553e8994f31f2600a9a9951438cc921db7"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/023-qwen35-9b-D05-baseline/runtime-trace.log",
+      "bytes": 22552,
+      "sha256": "dffc8f2216faa70c3ed9470a50b437b616d420824bc820b7abf32b58bcbf29d2"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/024-qwen35-9b-D05-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "07525fe67ddd356a6927e8a75452b9252b116f75e58b11043b12339fe1f40198"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/024-qwen35-9b-D05-skills/outcome.json",
+      "bytes": 1171,
+      "sha256": "c7ef15b16fa2ffeb906477d6c912bfa98af4c305ae6089e7e5ce9cd914ac42ab"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/024-qwen35-9b-D05-skills/response.json",
+      "bytes": 529,
+      "sha256": "5ee6bb6c10c6c023b068a3944b9ef5888cd28581e3f68721832bfbfff381841a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/024-qwen35-9b-D05-skills/runtime-observations.json",
+      "bytes": 5776,
+      "sha256": "3ae270d273730be39b1d8749f20673a4e52465ec2b9a3b62fae224369c9bf8d8"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/024-qwen35-9b-D05-skills/runtime-trace.log",
+      "bytes": 22784,
+      "sha256": "b9a6272fd177b82cc5ce47f141b487cc30294f0fc227f6c417963dc10eb3ad6c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/complete.json",
+      "bytes": 83,
+      "sha256": "7631d96125d77f290f9262bee77ec303e49adc7b0823ccb1bc5c0b12de459efa"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/completed-maintenance-20261007T2105587061583Z.flag",
+      "bytes": 39,
+      "sha256": "fc502b264e6547544e62b88b9097e1d2c3bae853b6d64543252130511ddeaa5a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/completed-reconciliation.flag",
+      "bytes": 49,
+      "sha256": "8f3f0e388c98d36d00353ffb8af43268215916c066a900fc3e349ca2e223d67d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/console.log",
+      "bytes": 2207,
+      "sha256": "c1e5675823ce13c00dd78183d48f59a502acf8933f20c41b1da0fa512701c8fe"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/execution-exit.json",
+      "bytes": 133,
+      "sha256": "962d3e99e9446e4fbd5eb8ab5b7b7a0a8fbd6df1f087c0413d3d878b9ebf6dd5"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/execution-start.json",
+      "bytes": 56,
+      "sha256": "dd443eec3eff2ace3c17c7e469e795734df9737f4b42661a30ff1c5de2868b96"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/frozen-tools/launch-development.ps1",
+      "bytes": 5246,
+      "sha256": "5ac35159f471d99288d1b7e95f24b0b96e94a1bda307468c2feed2196bfc9442"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/frozen-tools/prepare_ling.py",
+      "bytes": 3206,
+      "sha256": "84cad25c610f0a2283338df7b60201ab8f2707d47b25a278bb9b35e55186cc2a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/frozen-tools/run_development.py",
+      "bytes": 10454,
+      "sha256": "1a225e8b0226d546292137ba2fa4ed1567aeae5137dd1f2662fd2cffd9752913"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/frozen-tools/server.py",
+      "bytes": 1023,
+      "sha256": "b3d663afc76b995d224862001a8c1a3df7b4fe0292eb9af038e835ca329b359e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/frozen-tools/test_workbench.py",
+      "bytes": 3309,
+      "sha256": "64550eb1b4adba2072e1b162d96cbe33c644dae38ec8017078627050951362e9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/frozen-tools/workbench.py",
+      "bytes": 13012,
+      "sha256": "5ca2d49cd4742c7e217034b999ba104469c1618b5a7b36faba67e0ffe237ab43"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/launch-preflight.json",
+      "bytes": 1365,
+      "sha256": "c012eb19a47148266f535f3878d40dbfd4bae8f3c7d60b66175f1543e69279d3"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/PRE_EXECUTION_SEAL.json",
+      "bytes": 3096,
+      "sha256": "2c6a2dc71c37b4bf1c51746f78831c6226e4a1d3d3bb6d41020fd9d69ed68e49"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/PRE_EXECUTION_UI_AMENDMENT.json",
+      "bytes": 543,
+      "sha256": "13fde3d750235822266d33f5d558a6e587d27866d57385b79dce4555fc0cc34b"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/protocol.json",
+      "bytes": 7008,
+      "sha256": "b7b8ce7f7ebae9e4ae7103b472ec04dc2074d01e167bc59254d3b1fbfd80a740"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/reconciliation-preflight.json",
+      "bytes": 900,
+      "sha256": "705606f739e3b04eb9cb2044fcdd73ecea1016119f6b933367aff8e5edd3175b"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/reconciliation-recorded-owner-before.json",
+      "bytes": 688,
+      "sha256": "aee37793ccb506d2228fcccdef3c621b2e562c66aa2ccbc9b8cca3297ba20c41"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/recovery-after.json",
+      "bytes": 583,
+      "sha256": "bad0f14ba068976298e9d5b8e05c87ffc5de58720825441f33b3737b7bcb9978"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/recovery-reconciled.json",
+      "bytes": 556,
+      "sha256": "da1c9e96c6fdcb08e627c774b72a9308e380f9d8bca1a261f0cffc089bc2481c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/001-gemma4-12b-D01-baseline.json",
+      "bytes": 6247,
+      "sha256": "66301d96ceccd12daa8b1d395d014ed726c60af7acaefac2e2d1920cb1acb364"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/002-gemma4-12b-D01-skills.json",
+      "bytes": 9039,
+      "sha256": "07177ebb5a1cdc2dd98c3049018e47a30d83c8a764c290a410653d572cedcaa5"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/003-gemma4-12b-D02-baseline.json",
+      "bytes": 7707,
+      "sha256": "3c50b8fb55bcc6575418e29730dbe08e913823827f85960233016bd7fc54b3c9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/004-gemma4-12b-D02-skills.json",
+      "bytes": 10499,
+      "sha256": "6910ada506046966b4d9c97be5d1299554158ea76b7c5413269b148a70603e2a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/005-gemma4-12b-D05-baseline.json",
+      "bytes": 9449,
+      "sha256": "b64e3ade66d937414b2f46faf80ec11bc2a4330b1c52f46f0e283b629316bd8c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/006-gemma4-12b-D05-skills.json",
+      "bytes": 12241,
+      "sha256": "2aad3c8c2b6f1dbde11fe35c38e2701c634f87626a4bda400aa94c01a5c56baa"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/007-qwen35-4b-D01-baseline.json",
+      "bytes": 6239,
+      "sha256": "13f7f4d4f2ea5082b59d7cd06f2a4b36cfb9bd5f2ed007e1615706dd009b56e1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/008-qwen35-4b-D01-skills.json",
+      "bytes": 9031,
+      "sha256": "89db464fb27b957dc156b15b28f5d12e09951dddaffcbe04b023ab383b431a0a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/009-qwen35-4b-D02-baseline.json",
+      "bytes": 7699,
+      "sha256": "fe66ffb40a1da5ff6da15b77b7150213b1e53a753c25392f945b50d59a55a3df"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/010-qwen35-4b-D02-skills.json",
+      "bytes": 10491,
+      "sha256": "05e26a53b6bc332c45621d508920b47e76d31d6fd523a4201092dcc0e5f1f016"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/011-qwen35-4b-D05-baseline.json",
+      "bytes": 9441,
+      "sha256": "84a88caa92622ffa088e1075bbd37d873e223a1ecf67e161e4e07b9b6f9d81c4"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/012-qwen35-4b-D05-skills.json",
+      "bytes": 12233,
+      "sha256": "e7b5667acb6134f02b098e265f91c09971cba9fe7d5770a25511ed0d899e7466"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/013-qwen3-4b-D01-baseline.json",
+      "bytes": 6245,
+      "sha256": "389ab9841f712a47d6575a8ac9b0b88a6cb9fc7f2033a9baaff9f228c2ef4be9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/014-qwen3-4b-D01-skills.json",
+      "bytes": 9037,
+      "sha256": "b71fd67a98c46922e6a72eeb8a301378ee07111cb776c5397b765e6baa463ac3"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/015-qwen3-4b-D02-baseline.json",
+      "bytes": 7705,
+      "sha256": "cd79ed5d432171bcfe7e85d6146f1e7bf38a5f4fe8b1bb5a9d81a9ba47cbb2b0"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/016-qwen3-4b-D02-skills.json",
+      "bytes": 10497,
+      "sha256": "22a1eff4d3bc429ca9c2f95ec105198d4f1309615aaf4008ed82e9e2308614c0"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/017-qwen3-4b-D05-baseline.json",
+      "bytes": 9447,
+      "sha256": "1e48db906383e411c332144f8a77086ff2b071cf851e8f875447a6a619ea6bb4"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/018-qwen3-4b-D05-skills.json",
+      "bytes": 12239,
+      "sha256": "61dd0f7cd35de6946018469fa444a25f924d67650a8414a4e9c8490fac83cf33"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/019-qwen35-9b-D01-baseline.json",
+      "bytes": 6239,
+      "sha256": "e9a56d66a96da388dddfa3c2c1fe61b57c65f9388e983c84006bf4cd19102898"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/020-qwen35-9b-D01-skills.json",
+      "bytes": 9031,
+      "sha256": "63fb9baf63ba077edb8dfa45151d48bee1b8121d2780226c0b26a5409c1c0b26"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/021-qwen35-9b-D02-baseline.json",
+      "bytes": 7699,
+      "sha256": "f77aa3662fd4d26f21f4fecd8586624aa5195748cb647123b779f846f17e4980"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/022-qwen35-9b-D02-skills.json",
+      "bytes": 10491,
+      "sha256": "8a09b76a6f8bbef44d85aabdc458fbf68a91c8511eca6139280ea6c805acc80e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/023-qwen35-9b-D05-baseline.json",
+      "bytes": 9441,
+      "sha256": "2c6de391ba34943d742699f0d710f158f75ee9d898762010bd8d0f6767d937e8"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/requests/024-qwen35-9b-D05-skills.json",
+      "bytes": 12233,
+      "sha256": "66c55c7b71e78a6a1b25089af502ae90f2dc7ce2741134c35e59f8543205c65e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/runtime-preflight.json",
+      "bytes": 3043,
+      "sha256": "709b12f1c787dd683803b4c1f34b74d575381d9370304e9eef29e2699a2572e8"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-01/viewer-owner-before.json",
+      "bytes": 688,
+      "sha256": "7041eb1875e7b19ae3d71951a5eb5e1fe7bf208a848efe719d1eabf9d0d67dcd"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/001-gemma4-12b-D01-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "5028517836b5aa6d1ed9cad2ecb99677fa42ee09aaeae678a8c122b898c13fce"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/001-gemma4-12b-D01-skills/outcome.json",
+      "bytes": 1073,
+      "sha256": "07af3e7fef02e1a6e41472819e0c63eef2d7f4210865379597931a751428fca7"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/001-gemma4-12b-D01-skills/response.json",
+      "bytes": 548,
+      "sha256": "da230eb1836fbe4a66ca337b6635139ecb89670fe38730d812d579a59b8f06a7"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/001-gemma4-12b-D01-skills/runtime-observations.json",
+      "bytes": 12628,
+      "sha256": "f69fa76e0f108378c4685bf9709a0474d416600513edbb4170046f9f61f1a839"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/001-gemma4-12b-D01-skills/runtime-trace.log",
+      "bytes": 24857,
+      "sha256": "a32ca54023c68cc00c6a14bc493d8a74ba8f9256945a3f4f2f7cf41d19b69a94"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/002-gemma4-12b-D02-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "71cebf4587ec29f1b6d61aceaa327fab89ed22205e9b2670a71611ceceb3b6c4"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/002-gemma4-12b-D02-skills/outcome.json",
+      "bytes": 1073,
+      "sha256": "058f24ebe916df669d05aadda336a2dc29fd5a6e4b2dc014f8a224cffa7e20aa"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/002-gemma4-12b-D02-skills/response.json",
+      "bytes": 547,
+      "sha256": "043176dba3b2a2fdf98f8ceab3bc3e59094be1d3dfb88df36d197f46fc16a1b1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/002-gemma4-12b-D02-skills/runtime-observations.json",
+      "bytes": 12525,
+      "sha256": "04d279c647f455ab6c1b1a2672f070074b6a6a6d5a1f943ddf2a82eafa600d8a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/002-gemma4-12b-D02-skills/runtime-trace.log",
+      "bytes": 24855,
+      "sha256": "2a8a88ba439815f17df7a028d5c5f039638608a9a7e5a0eaa693227560157b64"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/003-gemma4-12b-D05-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "d773b94386e589c9334bc3e502d72315c0478b0be75e074300c2b6ace7b73db0"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/003-gemma4-12b-D05-skills/outcome.json",
+      "bytes": 1079,
+      "sha256": "863dbedde3d0d3e95ae6f060760ffe01c86ea00bc05ccb470f61a36eaf80fa50"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/003-gemma4-12b-D05-skills/response.json",
+      "bytes": 554,
+      "sha256": "50ac1eb818365cbd09525679a0fb70fc72676ba9f63641bd299cd18c93f58e57"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/003-gemma4-12b-D05-skills/runtime-observations.json",
+      "bytes": 13413,
+      "sha256": "4bc51a321971f7b03b081578f3bfeb3c86223ae5947dc2b2f22f60b62cc84b46"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/003-gemma4-12b-D05-skills/runtime-trace.log",
+      "bytes": 24855,
+      "sha256": "846a21bc10b7abb661fa55e41ce538c2b83d117c172fa41905fd89c81e2240c1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/004-qwen35-4b-D01-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "fb719952ff75d8fde8122aa17dab71eaeceea27fdafbcea0073043985d756e62"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/004-qwen35-4b-D01-skills/outcome.json",
+      "bytes": 1071,
+      "sha256": "6ea66401de093422723f687c5ddb860b1d04df9de7e1c742f77ad55d0b3d89da"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/004-qwen35-4b-D01-skills/response.json",
+      "bytes": 588,
+      "sha256": "f0a584cb5273ce9a5e85393ad6d850a0eb20e7f409c9a3b282ee1da4edb976e1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/004-qwen35-4b-D01-skills/runtime-observations.json",
+      "bytes": 4238,
+      "sha256": "00bff0cbe6dbffbbf315b288da57dfd9353614e9d96d38df8fc670cfaa824544"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/004-qwen35-4b-D01-skills/runtime-trace.log",
+      "bytes": 22827,
+      "sha256": "a51d8dc70277e2d587b03a35a5c1caab54c51ed7212cd18d0eae2360971889d0"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/005-qwen35-4b-D02-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "6299c5bbb7089da5fbdf2a527f3a0f8d9df104bab4cefcc3d9d9edb370de197b"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/005-qwen35-4b-D02-skills/outcome.json",
+      "bytes": 1070,
+      "sha256": "dd917155bd0ef4687bbdd3cddb2a33a2c1042e9f7c8ca976457617cde7d53b8d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/005-qwen35-4b-D02-skills/response.json",
+      "bytes": 588,
+      "sha256": "7c6087f1c3cf03db724f377fb189fe6f3ca3c9f6cf0ac3247a20f5e92ccc0a26"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/005-qwen35-4b-D02-skills/runtime-observations.json",
+      "bytes": 4717,
+      "sha256": "6b3580865773772200a763a003be6fa0c44d6fa46f21f618ecae075833efa6ae"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/005-qwen35-4b-D02-skills/runtime-trace.log",
+      "bytes": 22828,
+      "sha256": "4f2518f121e9a4cd7da8ab2c1e45c54b1b5d2b046d57beea466ad9ae3d8a03b0"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/006-qwen35-4b-D05-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "583644386053fa99a59d9b2a1cf5977d031c040e2b2a99c5fa397788618e8eb9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/006-qwen35-4b-D05-skills/outcome.json",
+      "bytes": 1214,
+      "sha256": "c9c760d77248fd836c379e568a318e99bd0da8d5e45f6b26b0afcfbe77ca6022"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/006-qwen35-4b-D05-skills/response.json",
+      "bytes": 588,
+      "sha256": "9b148ba17a295412ee9662e699af02a33023d459b0632ef6d4500583c5591ede"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/006-qwen35-4b-D05-skills/runtime-observations.json",
+      "bytes": 4717,
+      "sha256": "1c29d3d8ca066a6f25c26a31a832604ac3fd6b6a7eb31bfd459686bb5c4a8963"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/006-qwen35-4b-D05-skills/runtime-trace.log",
+      "bytes": 22828,
+      "sha256": "178e6d3decd668cbe9beae7a2b4ba49ca587f97551a62b173776afdc00e33055"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/007-qwen3-4b-D01-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "440309221345d7624f72cc7de9997414a1fb068d04907212a1f58b7366624ecf"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/007-qwen3-4b-D01-skills/outcome.json",
+      "bytes": 1041,
+      "sha256": "e8f9a3045e6a01ca6182dc9953ec02b74e9dc49d95030e4680a1e045793ad008"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/007-qwen3-4b-D01-skills/response.json",
+      "bytes": 559,
+      "sha256": "68a10f15440c4722d0909cb2dc388abe4f4b3121c682156cb740d5ecca844c24"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/007-qwen3-4b-D01-skills/runtime-observations.json",
+      "bytes": 3842,
+      "sha256": "c228e4eef9630a4bc0b4f20504f87e96c909747edef12f639d003e800d4ae6ff"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/007-qwen3-4b-D01-skills/runtime-trace.log",
+      "bytes": 18464,
+      "sha256": "8127e5378ee9c32c22e9ca8c5d3c4d424ecc74e22e416228553bb7ec0167f172"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/008-qwen3-4b-D02-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "fd30b153d29a3b23da283b359f751e417fb4b675f125316d77b39f23f575cd89"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/008-qwen3-4b-D02-skills/outcome.json",
+      "bytes": 1041,
+      "sha256": "ca8ff10be81346402e60d20ffb85721cda5781a8a37dc7e3e54279c07bc73f60"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/008-qwen3-4b-D02-skills/response.json",
+      "bytes": 558,
+      "sha256": "06053bca0bc727ff2b5886f0fe1041f85e30ba9d1fd1a6ddf9e65d80fcd9cb84"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/008-qwen3-4b-D02-skills/runtime-observations.json",
+      "bytes": 3742,
+      "sha256": "433e1cf4e385f79f089c42e7a180f147925aeab30242cb8a74a7ced74b606788"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/008-qwen3-4b-D02-skills/runtime-trace.log",
+      "bytes": 18464,
+      "sha256": "a1dcd732c9a61a1cc5e6e6e209609b7727c296cdb6ef539b2837bf6d1bfb2364"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/009-qwen3-4b-D05-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "3bbe9287ef3d43cbc1baf88cb723d7aa9ec6dc3a2c25a517a6c7484cbb8bf8da"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/009-qwen3-4b-D05-skills/outcome.json",
+      "bytes": 1184,
+      "sha256": "bf7f1193b04e5bb9501499d9d4aa841cd588015a7b614d5e319963549f44a796"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/009-qwen3-4b-D05-skills/response.json",
+      "bytes": 559,
+      "sha256": "f73c529b57d0d11550a0c2b9e0d1b9852c8354f054f8cdee72c8f8d335f382e1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/009-qwen3-4b-D05-skills/runtime-observations.json",
+      "bytes": 4235,
+      "sha256": "3df94f99201cd42e4173fb9a9b670365a28e6e54747adbad05e8a87174ec38ea"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/009-qwen3-4b-D05-skills/runtime-trace.log",
+      "bytes": 18464,
+      "sha256": "30d0787c9236b874441aeda6dc893bf854b49c34a81740068f466624ccff92e9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/010-qwen35-9b-D01-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "fcef7a798d6be277cb1d61bf75725d5a1434050a8976edf869127e7205c48b31"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/010-qwen35-9b-D01-skills/outcome.json",
+      "bytes": 1071,
+      "sha256": "8d885cb782408f33233c740e051753aee9f90b64cb399961039ac1b90398cb2a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/010-qwen35-9b-D01-skills/response.json",
+      "bytes": 588,
+      "sha256": "4e065e7c4776a222ff787370a05c5f39303860dbe925c7bc9614fbf965f2436c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/010-qwen35-9b-D01-skills/runtime-observations.json",
+      "bytes": 7613,
+      "sha256": "876b73f371de4709fca78dc0ff72baac26a94fd08c93873820a3ee7a2eac898f"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/010-qwen35-9b-D01-skills/runtime-trace.log",
+      "bytes": 22916,
+      "sha256": "c1dc311028b31f8952667cd04a9e3e2356024afb81c8979c46f9a5e38f0978e9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/011-qwen35-9b-D02-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "c89862917f8a93049ca4003a50f2b8e00c24470a894a94f3b841361338ed115d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/011-qwen35-9b-D02-skills/outcome.json",
+      "bytes": 1071,
+      "sha256": "3edec086a8f77cab1984a24ac5fbfeb04f6fe2d97f26b02ce5c2fecb654f112d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/011-qwen35-9b-D02-skills/response.json",
+      "bytes": 588,
+      "sha256": "2781538d0272180a31ffc650ab7ed96015f4f1cc22b41eb4d1556d040311679c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/011-qwen35-9b-D02-skills/runtime-observations.json",
+      "bytes": 7215,
+      "sha256": "abaa004f728c4975e0c75be3b718ec63bb63089b1cb2191010d5ee235ae656c5"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/011-qwen35-9b-D02-skills/runtime-trace.log",
+      "bytes": 22916,
+      "sha256": "9902bc1159d76b5bd2f98a938f47c9de9443e7f8847146c8135abd0b647d20f9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/012-qwen35-9b-D05-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "9341d574f1ca0f3c0e04593951dc8375d605ee6320f0af585cd1709022e2c78e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/012-qwen35-9b-D05-skills/outcome.json",
+      "bytes": 1079,
+      "sha256": "2358d850d24e0b72ec16e8ce12746ef2e64b8b9def2169824345697156a5091e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/012-qwen35-9b-D05-skills/response.json",
+      "bytes": 597,
+      "sha256": "6ba4e43a49421e844b6f10a07cf998fe001a3aed38f2efe3bb242dcd2c1f3b16"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/012-qwen35-9b-D05-skills/runtime-observations.json",
+      "bytes": 7696,
+      "sha256": "53b7e4cc8def079b0e4b9381f74559f426b2c5c5826a5eab422a1112763d8d3c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/012-qwen35-9b-D05-skills/runtime-trace.log",
+      "bytes": 22916,
+      "sha256": "fddbd702fc5c216db2b0452ef3c2a19f0b930e5feac3113a1090a7a8f9c83d2a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/complete.json",
+      "bytes": 84,
+      "sha256": "c92c3a92af8c0b8e28725411dd4e8be818842f9de3416a402aa63b994e1724cf"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/completed-maintenance-20261007T2112508123063Z.flag",
+      "bytes": 39,
+      "sha256": "fc502b264e6547544e62b88b9097e1d2c3bae853b6d64543252130511ddeaa5a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/console.log",
+      "bytes": 1082,
+      "sha256": "3a34ab00a0beee3919a457556d94745459e735e4ffdc20d636b4d04d85f69802"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/execution-exit.json",
+      "bytes": 133,
+      "sha256": "dac144c4cde1654dd04030ff72f358b57ea6f9d8a51c030ef4124b8f9f0bbca0"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/execution-start.json",
+      "bytes": 56,
+      "sha256": "5f57d58c6447288dbe0c8746c5629813b025ac8ccd0553d18769133cd657ef0a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/frozen-tools/launch-development.ps1",
+      "bytes": 6040,
+      "sha256": "5c5e928af7cce177564d0770e8741a4a2802dc575c77398ffcb95f51f286af7a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/frozen-tools/prepare_ling.py",
+      "bytes": 3206,
+      "sha256": "84cad25c610f0a2283338df7b60201ab8f2707d47b25a278bb9b35e55186cc2a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/frozen-tools/run_development.py",
+      "bytes": 11125,
+      "sha256": "c3a8209c1610fc65786a444ed2112feee5b4ab5529ea47cc69ae4c474853a3a4"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/frozen-tools/server.py",
+      "bytes": 1023,
+      "sha256": "b3d663afc76b995d224862001a8c1a3df7b4fe0292eb9af038e835ca329b359e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/frozen-tools/skills-refinement-v1.md",
+      "bytes": 2424,
+      "sha256": "dec14627174f537232bc1934014b5f880b005e7ab8a49baae1fac73d63a8d513"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/frozen-tools/test_workbench.py",
+      "bytes": 3309,
+      "sha256": "64550eb1b4adba2072e1b162d96cbe33c644dae38ec8017078627050951362e9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/frozen-tools/workbench.py",
+      "bytes": 13012,
+      "sha256": "5ca2d49cd4742c7e217034b999ba104469c1618b5a7b36faba67e0ffe237ab43"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/launch-preflight.json",
+      "bytes": 1361,
+      "sha256": "4dee53e7b970b2bbe82af57813af77f22d2b160d24852b012181c568751fd67c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/owned-snapshot-viewer.json",
+      "bytes": 687,
+      "sha256": "923689cca55509dcec0925fa72586f3decfb2a6acd22e5fbbe4447681dee1d11"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/PRE_EXECUTION_SEAL.json",
+      "bytes": 1861,
+      "sha256": "17ee2fd7c096ad78aadfaf61c36e6467b3df61780ecb1d2fd9079fc088561d3e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/protocol.json",
+      "bytes": 3901,
+      "sha256": "ab84c0985bcbce7af0aed1956bf7bfeb9b9e41063c32523581ed45a14b806c64"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/recovery-after.json",
+      "bytes": 556,
+      "sha256": "2ba2e4dbf4065767b804de09eb9a8153db241cdec1ec5f9886eb54de72cb0747"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/requests/001-gemma4-12b-D01-skills.json",
+      "bytes": 11575,
+      "sha256": "bbd0c762d387e0c4fcd1b9c5e45a7881f398e5e0e4d3c24b90f0d852db492b2c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/requests/002-gemma4-12b-D02-skills.json",
+      "bytes": 13035,
+      "sha256": "33efde2b3ff52069d6d2dc07549dbe3b885f5cf5ec0b3d4795ae214f93ee88a9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/requests/003-gemma4-12b-D05-skills.json",
+      "bytes": 14777,
+      "sha256": "d186acebacf786dd9c6bbd37cd06b1d2e2f03bec72a01e5503c7b164754ba98f"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/requests/004-qwen35-4b-D01-skills.json",
+      "bytes": 11567,
+      "sha256": "39d623cdefdb94a4785c500d82a077cf51008fed46afa452bb732970a356db14"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/requests/005-qwen35-4b-D02-skills.json",
+      "bytes": 13027,
+      "sha256": "2c1b40f6071bd5b5e4da61aed77d17a72933ee2d6f6d1b56883fa2df4c807c60"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/requests/006-qwen35-4b-D05-skills.json",
+      "bytes": 14769,
+      "sha256": "1cf8e89966e0e261fe5e2f2266ae83c333851a55cfb8fdad460d54105aa3ab3a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/requests/007-qwen3-4b-D01-skills.json",
+      "bytes": 11573,
+      "sha256": "c053ad5cf1256c2c97c5675977e501a9dcb43576e55aa0a2f05b9306334120d9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/requests/008-qwen3-4b-D02-skills.json",
+      "bytes": 13033,
+      "sha256": "d665364634af23fb319be3b4897a3ae16e941fce1e04578b26682ab299ad79d5"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/requests/009-qwen3-4b-D05-skills.json",
+      "bytes": 14775,
+      "sha256": "975374c1c0d57b21d80be2148640647861afde01cb1387812e201bee0aab5862"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/requests/010-qwen35-9b-D01-skills.json",
+      "bytes": 11567,
+      "sha256": "febf94bc6f4f4a6a5ee6af82335315c2b35787ea85a11191859ca56dddb39419"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/requests/011-qwen35-9b-D02-skills.json",
+      "bytes": 13027,
+      "sha256": "8c40de3acef03a6d657662b52b17a5364449502ef04a4db5cf990c9767042c42"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/requests/012-qwen35-9b-D05-skills.json",
+      "bytes": 14769,
+      "sha256": "7faac9e1cd13324cff22cf1892b549c44b2ccd5794a95fb9143f4c6b4091ba33"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/runtime-preflight.json",
+      "bytes": 3043,
+      "sha256": "da1841ad9e6cd7ec7683c958c75ea648a77bace299fd09dea97de70901212e9e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-02/viewer-owner-before.json",
+      "bytes": 688,
+      "sha256": "dcd4d2146c9d608bd2e89a88a82b13eb3054813e001c24552657f51780def470"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/001-gemma4-12b-D01-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "484274381c47e405b58338f0c789166c3dd099aea9cc6e5388cb445ff9d2568e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/001-gemma4-12b-D01-skills/outcome.json",
+      "bytes": 3625,
+      "sha256": "5aa77f9fc9765c7ece34f35769ebeac418579f157e22933b74f9c3810b6c5a76"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/001-gemma4-12b-D01-skills/response.json",
+      "bytes": 386,
+      "sha256": "b068ff96b5d286f0ff822e9f3ff27e7c1fc83a43d56069a40846b759576180c3"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/001-gemma4-12b-D01-skills/runtime-observations.json",
+      "bytes": 7105,
+      "sha256": "705a3b1b19bcf93099c70557c2cb3c097e224ce99b1a5eb53359716759bc8cd7"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/001-gemma4-12b-D01-skills/runtime-trace.log",
+      "bytes": 24504,
+      "sha256": "5132f1329cc01a8898f66b18976cda8caf9193e74f7a62274fdfe556e5c5dc85"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/002-gemma4-12b-D02-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "c6565c290016392297983e5964c5c067aa87d6eb4c6161312868d99f508303a1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/002-gemma4-12b-D02-skills/outcome.json",
+      "bytes": 4680,
+      "sha256": "ee4198d0dac346a8396ba963076d08296ad7c7cb3504a3f1977a9cd6ac25a62a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/002-gemma4-12b-D02-skills/response.json",
+      "bytes": 385,
+      "sha256": "1b4cdab3ba48f587d99b8d37178b9b6815eea7f6ea7d23a94653d45ab09b0f68"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/002-gemma4-12b-D02-skills/runtime-observations.json",
+      "bytes": 7203,
+      "sha256": "1e48af90a03f4c744ce8f2dbc00e3e0b0b85f4bc2a28cb28fbb841508fcd7fb2"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/002-gemma4-12b-D02-skills/runtime-trace.log",
+      "bytes": 24722,
+      "sha256": "fb36509da572dffd1623ab00f38c479f5a3212619f1262eb31ee9df35d3c0654"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/003-gemma4-12b-D05-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "a6472002881ae878ce8ed926c43200061b037c78e6668d6cd2a281845c5d873a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/003-gemma4-12b-D05-skills/outcome.json",
+      "bytes": 6119,
+      "sha256": "25c30f1f690c92cd9d615115e3295964839b4e2efe919d7fc3f28a6eb099dfd9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/003-gemma4-12b-D05-skills/response.json",
+      "bytes": 385,
+      "sha256": "f69683f5fdec26015329078aa7a98b2cc1a4f29ca1e0dd572b1038749d5b7c08"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/003-gemma4-12b-D05-skills/runtime-observations.json",
+      "bytes": 7597,
+      "sha256": "b39134b7ba01778814db991f17c31b53740611e55f403b2c6702f9ff71f2575b"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/003-gemma4-12b-D05-skills/runtime-trace.log",
+      "bytes": 24723,
+      "sha256": "6e50a770915814a5642ac18ebefd5cc768a772e9a8e8e988eae0fe32d1ebbccc"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/004-qwen35-4b-D01-skills/context-proof.json",
+      "bytes": 399,
+      "sha256": "4026d8d5b13b50e5a8f2c88bccfa1c11a628dbcf9d03d69857312a35615e1fa8"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/004-qwen35-4b-D01-skills/outcome.json",
+      "bytes": 3618,
+      "sha256": "483c7c5b52de720c1715c69d98ad32a15e6731fc0f49d8734be26cf3e395d9a6"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/004-qwen35-4b-D01-skills/response.json",
+      "bytes": 373,
+      "sha256": "e692fb884ac653eaeed402b37d79678746a80b58e799b385db687d31bcd16f8f"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/004-qwen35-4b-D01-skills/runtime-observations.json",
+      "bytes": 2219,
+      "sha256": "ee92ae00607b83a95e21b660519c004bb6a3d3c55002b0174eb182f169e89df3"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/004-qwen35-4b-D01-skills/runtime-trace.log",
+      "bytes": 22596,
+      "sha256": "3db2861871539f108615b7915008c6c479da4baaa66bcee05561776c242fbbfb"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/005-qwen35-4b-D02-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "47a2ba0b1772f1c3f49b2a556695094a73831562d24e575774630d425a772bdb"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/005-qwen35-4b-D02-skills/outcome.json",
+      "bytes": 4674,
+      "sha256": "ff278f98ff48f6b70bee33cb92ad953094676c086277bbbc8bd37b0a9acb323f"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/005-qwen35-4b-D02-skills/response.json",
+      "bytes": 373,
+      "sha256": "6db7bc03c0b13ce14252eab7f114188c3b07b32bb837f32428ffe6edcff10d8e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/005-qwen35-4b-D02-skills/runtime-observations.json",
+      "bytes": 2698,
+      "sha256": "3dd1974072dbd18ec8a750864d22e1b85b72e1134083adbab1008f6617e803cb"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/005-qwen35-4b-D02-skills/runtime-trace.log",
+      "bytes": 22823,
+      "sha256": "3868fe84c8b2678291da05c35723fc74fcbc448652ffa890a4bee667587eed86"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/006-qwen35-4b-D05-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "c5f1c75a54a6157f074eb25d7c2850507aebf43601dd1e52cf83121fa6ae1be8"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/006-qwen35-4b-D05-skills/outcome.json",
+      "bytes": 6076,
+      "sha256": "c443907c10c712cfb2319d66fd8882375ce4b4221a3623398605884dde4a0649"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/006-qwen35-4b-D05-skills/response.json",
+      "bytes": 360,
+      "sha256": "964f8ed3ac3b26e3b6a713dd7724238e184395a917638461072a1b7e97c15db1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/006-qwen35-4b-D05-skills/runtime-observations.json",
+      "bytes": 2698,
+      "sha256": "1d9ddc25888c4e58b3a38f5855346180974fa9bb559251c6fd91d43b9e168f55"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/006-qwen35-4b-D05-skills/runtime-trace.log",
+      "bytes": 22828,
+      "sha256": "85e5bf312a0cedfa2f54f127ae8f325177cf30eaf49226e3a6e81640839ba667"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/007-qwen3-4b-D01-skills/context-proof.json",
+      "bytes": 399,
+      "sha256": "10f7f6a640a87486e1a5027c1662f283234763872a2b9e376d35718aaf34ebea"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/007-qwen3-4b-D01-skills/outcome.json",
+      "bytes": 3616,
+      "sha256": "5a0aed517be14905a7c09685ae36aeb9b7758364ff5b0d7bb33634c26c4cd50d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/007-qwen3-4b-D01-skills/response.json",
+      "bytes": 380,
+      "sha256": "a7a460ca95bb6d3c77ecdd25c0e650c71f7bfad892cee21e2ad2a6b889324db8"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/007-qwen3-4b-D01-skills/runtime-observations.json",
+      "bytes": 1871,
+      "sha256": "4540a31bca428d26b093ee7988341f2756c078af00b9ee3ca4f372546d05f970"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/007-qwen3-4b-D01-skills/runtime-trace.log",
+      "bytes": 18373,
+      "sha256": "b1b6b63fb933b368e3cb19f6c83f02b5854eb4d63b453fa6baf7058976094f7d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/008-qwen3-4b-D02-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "eaaae44357fb00ff242a18bd35239a67be2726d74bfdff5cc815aa29fcd89491"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/008-qwen3-4b-D02-skills/outcome.json",
+      "bytes": 4672,
+      "sha256": "305b879795722212be0cde2c5a5a947b604a783160093fdc14a18998cc2f0526"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/008-qwen3-4b-D02-skills/response.json",
+      "bytes": 381,
+      "sha256": "9c6e57738c0de5ac49d464ebfefc620e209e3a8e84eb86cf69bd58502d5073e6"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/008-qwen3-4b-D02-skills/runtime-observations.json",
+      "bytes": 2168,
+      "sha256": "a7324252dd5518d1b07506483123ad7109e2695256526c0456df6dbe896c5228"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/008-qwen3-4b-D02-skills/runtime-trace.log",
+      "bytes": 18464,
+      "sha256": "71f9f41cfbfa0b48f963141c13a652169cb9c4251b8ee4cb295b0d817b415602"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/009-qwen3-4b-D05-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "61dd9a2969e38384e1aa710accd465085e75e48add5530687e2c4cf6360bf3e5"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/009-qwen3-4b-D05-skills/outcome.json",
+      "bytes": 6073,
+      "sha256": "ca29c78eddc42afd920b61848e63e8f625961abe4e8bc71e548248fdc734328c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/009-qwen3-4b-D05-skills/response.json",
+      "bytes": 368,
+      "sha256": "5de28cef3e1827d6eda88bc6d31297ffdf935bd4be814ce2180ebb7682d6d5bb"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/009-qwen3-4b-D05-skills/runtime-observations.json",
+      "bytes": 1774,
+      "sha256": "0f4f3fc86b780fb8c09922712efe3d5702b45894d0b7c9a8e9e80594ce192cf2"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/009-qwen3-4b-D05-skills/runtime-trace.log",
+      "bytes": 18464,
+      "sha256": "753b8c3f8057ab3606e116d3aac2c1144c3ecd1c42882dd4a94d3f60f5007001"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/010-qwen35-9b-D01-skills/context-proof.json",
+      "bytes": 399,
+      "sha256": "b36a122d25f54ae3adcdc428e3f388a070909f94ad29fa8701f149b773a5a879"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/010-qwen35-9b-D01-skills/outcome.json",
+      "bytes": 3619,
+      "sha256": "767d7c05b90766fa154a388aea8adfa7a890499beae964c31ba08d20d50b9e6a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/010-qwen35-9b-D01-skills/response.json",
+      "bytes": 374,
+      "sha256": "7ac46334a0ffe7e7f393e2c4ce99e3783c03c496b8ed8cec46b13a1720f1cd93"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/010-qwen35-9b-D01-skills/runtime-observations.json",
+      "bytes": 3771,
+      "sha256": "689839ead2a71c5caeb4b099c219f4aeb12bdc4cf220edb9279d6657706c6c58"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/010-qwen35-9b-D01-skills/runtime-trace.log",
+      "bytes": 22552,
+      "sha256": "aec412e2af34d1c8972a058573c6277aa90c672c6c6e9a7b863ed6f21f8629ba"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/011-qwen35-9b-D02-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "f948cf7acd82e356088e3185136afced332bba2a2744ec0f425964a9c47bc7c3"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/011-qwen35-9b-D02-skills/outcome.json",
+      "bytes": 4675,
+      "sha256": "47b2a90bd83fae91fb9ab7c7e1afd836b3eb30d92e9e43dba6807523a49e7bb8"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/011-qwen35-9b-D02-skills/response.json",
+      "bytes": 375,
+      "sha256": "5ba54e42a2fd503713c9a929d4c33c3bd00902f288dcbcc5b72ab776a3ad8d99"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/011-qwen35-9b-D02-skills/runtime-observations.json",
+      "bytes": 3855,
+      "sha256": "b0f25c6f44646b04c38a4caa167cd4896499a95a401d6f1e626b1787717d1c79"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/011-qwen35-9b-D02-skills/runtime-trace.log",
+      "bytes": 22779,
+      "sha256": "0d03cd0fe2d83b15596a45f7a9c6ba39783748a3a3a1525ee1672e223cf1d817"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/012-qwen35-9b-D05-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "2d6bc2c3d48bafc035d9063967875ec5da7112b57cfe1afdf2c2f20521dc71cb"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/012-qwen35-9b-D05-skills/outcome.json",
+      "bytes": 6117,
+      "sha256": "a305fd992427d59e27297fc7bb22e6bcabab5d1fd6ad643f1b8df190724bad9c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/012-qwen35-9b-D05-skills/response.json",
+      "bytes": 375,
+      "sha256": "1b6efd7eb0b49406f7f81a5ac036ac1195bd3880ed183317a9806e3ad7a8b166"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/012-qwen35-9b-D05-skills/runtime-observations.json",
+      "bytes": 3856,
+      "sha256": "62642ef5d3f6015bc2c3c5a6aae9bc8ba96588000e38d9d6db2158b2436a057f"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/012-qwen35-9b-D05-skills/runtime-trace.log",
+      "bytes": 22784,
+      "sha256": "9028c0f4678ae2ef7062c8e02c9b8c0b36a4807161405f9ca7215a47aedda100"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/complete.json",
+      "bytes": 84,
+      "sha256": "d86161f7ebda283f1501aacb52b5330097a7a34fe731763a4c2c5623fe18b509"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/completed-maintenance-20261007T2123229023445Z.flag",
+      "bytes": 39,
+      "sha256": "fc502b264e6547544e62b88b9097e1d2c3bae853b6d64543252130511ddeaa5a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/console.log",
+      "bytes": 1076,
+      "sha256": "e1444be77ae7afdc712674630760d924a2cea91916679e441b6cec1627e03356"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/execution-exit.json",
+      "bytes": 133,
+      "sha256": "6bf18ef31ff74af1b51792fd9eb2e369b56d9c05c012024a5e30d5a858859b9e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/execution-start.json",
+      "bytes": 56,
+      "sha256": "64aa54b452ead403c7143ad032a5285c10001dc3ff7c7a9fed12fefb7e8c9930"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/frozen-tools/display.py",
+      "bytes": 10567,
+      "sha256": "4fa1cd9e2126e418cd5bb944caf247cac737ac18ac304670260ec6f7cf7acbcf"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/frozen-tools/launch-development.ps1",
+      "bytes": 6057,
+      "sha256": "5bd68a6fc3ef38a3aed0116172f92f66271a9c077ac7addeb6382f9d7c03f8de"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/frozen-tools/operator_contract.py",
+      "bytes": 2722,
+      "sha256": "20b478acdbe06a311f9427c0043f9a4ded539b65b3152365b061a9cf5ccd5c9e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/frozen-tools/prepare_ling.py",
+      "bytes": 3206,
+      "sha256": "84cad25c610f0a2283338df7b60201ab8f2707d47b25a278bb9b35e55186cc2a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/frozen-tools/resume_ling_download.py",
+      "bytes": 4106,
+      "sha256": "db15279bf84d6bc299715e90e4363effc7238ee8b9965724ac1facad348d9650"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/frozen-tools/run_development.py",
+      "bytes": 12218,
+      "sha256": "38fb24352a91e1d3c1e457e34048a4520fa43a3e2431ac4d361c86b49aeb456b"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/frozen-tools/run_ling.py",
+      "bytes": 13497,
+      "sha256": "cac9d9f6910a94d3c784b1f965cd06424ef957d627217dd2f24315ee8d965211"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/frozen-tools/server.py",
+      "bytes": 1445,
+      "sha256": "eb0c9abb73e260050d03e2db5d3a41bb421a572a789ab1475d743c3b908177fc"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/frozen-tools/test_display.py",
+      "bytes": 1135,
+      "sha256": "5466b73adf97aeb779ae5baf1c82cd3cf7d03b3ad6dc9444348e18e3115fbad3"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/frozen-tools/test_operator_contract.py",
+      "bytes": 1561,
+      "sha256": "72017492ee3186687e8e3eba0b250b5b5f8682d46f40d4ebecc11e0563f2df2d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/frozen-tools/test_workbench.py",
+      "bytes": 3309,
+      "sha256": "64550eb1b4adba2072e1b162d96cbe33c644dae38ec8017078627050951362e9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/frozen-tools/workbench.py",
+      "bytes": 13012,
+      "sha256": "5ca2d49cd4742c7e217034b999ba104469c1618b5a7b36faba67e0ffe237ab43"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/launch-preflight.json",
+      "bytes": 1358,
+      "sha256": "f733fe50f6b2f6ac5d2beeffe2d43c9c4017e6cd0a472e4c3f68df4a39001a44"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/owned-snapshot-viewer.json",
+      "bytes": 687,
+      "sha256": "16b4ba06f72814b787d21840aa7fefae3a9932f0c17e36f3f8518e36a5d5ce2f"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/PRE_EXECUTION_SEAL.json",
+      "bytes": 2385,
+      "sha256": "cdcd69f247b2ee1feda32c503a901ce7bd5ce9777f249ee02427f39a980b3292"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/protocol.json",
+      "bytes": 3927,
+      "sha256": "708b34c9de7f1c605cf4b6784998113d78fd565dc3ef5565f12a669694950564"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/recovery-after.json",
+      "bytes": 556,
+      "sha256": "c7bb095c3dd03dc6476690843c2e3c25da57afcb918d5ca06b0a7589492c9baf"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/requests/001-gemma4-12b-D01-skills.json",
+      "bytes": 9921,
+      "sha256": "31c42ab280c0b81878c81d64f0d3c7ceed0453e7e23a361b69536f1b0de48e52"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/requests/002-gemma4-12b-D02-skills.json",
+      "bytes": 11832,
+      "sha256": "d6c726dc6ae4f22e54f97110b6702d1c1fa26dba652002478cb664787fcbc459"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/requests/003-gemma4-12b-D05-skills.json",
+      "bytes": 14898,
+      "sha256": "714db2538d9a1183a4737f29cb795b663618dd650afdc17f8013e197c60c7b18"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/requests/004-qwen35-4b-D01-skills.json",
+      "bytes": 9913,
+      "sha256": "7a4a0624f42751219b85abe2176112ae36547fccaee6f714cabfa3459161383e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/requests/005-qwen35-4b-D02-skills.json",
+      "bytes": 11824,
+      "sha256": "ceaac1b62391b4fe062765588c04b3c7972d5cee15519bb9c5afdfd82af0dae4"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/requests/006-qwen35-4b-D05-skills.json",
+      "bytes": 14890,
+      "sha256": "3af025b4a3bfae038d40b4146b4b37a57e87d0832fdcc60b0d5c52e57a87ffe6"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/requests/007-qwen3-4b-D01-skills.json",
+      "bytes": 9919,
+      "sha256": "76bf6b082310eadd3dcbfb8f4746d051f01c5c41d0313f50592177acd4b78c60"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/requests/008-qwen3-4b-D02-skills.json",
+      "bytes": 11830,
+      "sha256": "55c439089b51f0e47e4b2566c8f1a0f4f3fe1edcdcc71a2b0e8df2fa1d5cf349"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/requests/009-qwen3-4b-D05-skills.json",
+      "bytes": 14896,
+      "sha256": "fd23cdf08eedbd68c9c82ab8bcdff38ff3c3db715f0937a8c415a0765a5188c8"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/requests/010-qwen35-9b-D01-skills.json",
+      "bytes": 9913,
+      "sha256": "28f54a18401df2486cb733e44a62efe38fedb62b7d97b50721990a6446a8cb7e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/requests/011-qwen35-9b-D02-skills.json",
+      "bytes": 11824,
+      "sha256": "03b3e98e61e7b45e66e575684ade7207a27a694789918c04da452cc4021135f9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/requests/012-qwen35-9b-D05-skills.json",
+      "bytes": 14890,
+      "sha256": "2f31b7efa28899bdeeeadda85824c3d73656d31ae7649b295ef770a55b4953d0"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/runtime-preflight.json",
+      "bytes": 3043,
+      "sha256": "774aed61083b65b0ef3ec7c6d3684cb22a51936ac453d23a80c4d2ccdca8a029"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/development-03/viewer-owner-before.json",
+      "bytes": 688,
+      "sha256": "0e139d20fba138214425f82ee289d5b9d6c1502744294332188283b7f46f9b86"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/display.py",
+      "bytes": 10993,
+      "sha256": "fa6ba2e35c821da315581a4af6fd4e81c0eba1deb71af8fc317ca781ec554e66"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/launch-development.ps1",
+      "bytes": 6057,
+      "sha256": "5bd68a6fc3ef38a3aed0116172f92f66271a9c077ac7addeb6382f9d7c03f8de"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/launch-ling-continuation.ps1",
+      "bytes": 5965,
+      "sha256": "5f6a674da12272de38488d6f14e17e3e544c76215afbcf45405d46b2cd296754"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/launch-ling-operator.ps1",
+      "bytes": 5961,
+      "sha256": "b6fb30de69bb03a11ebba3d755a2f0a2065a0e8d58149ec73ca333752e4f6418"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/launch-ling.ps1",
+      "bytes": 5950,
+      "sha256": "32e77cee65619c3097245c9be3398b94d580b5d01c151f13ebb34fa3d784f2e2"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/download-attempt-01.json",
+      "bytes": 282,
+      "sha256": "24f9cde290fe9c7698307cc6785f5d4efeeb39d51c3943a8347e6cb4a1f1dcb8"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/download-verified.json",
+      "bytes": 5545,
+      "sha256": "395238f13b3e4a322e332caf5f447e0bc679e087e3db04f370427cab74405efa"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/pins.json",
+      "bytes": 1545,
+      "sha256": "eba056f2d3de6112354022c288b565ca4d4e6dc5cc3e5d29d78b8b680a02d7a6"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/001-ling3-tiny-D01-baseline/context-proof.json",
+      "bytes": 391,
+      "sha256": "dc493fcd819598eaf23bdd0506b11b2246baa261ec37bef36dfe6f304694a6c6"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/001-ling3-tiny-D01-baseline/outcome.json",
+      "bytes": 4769,
+      "sha256": "d1e443f276b6b3aeeba2060916df674b7a20f591609c50dd57614bc63787a985"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/001-ling3-tiny-D01-baseline/response.json",
+      "bytes": 790,
+      "sha256": "d7af599c68fde9da79ab8af364eb89196e7563effc0407cdfd86859666480431"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/001-ling3-tiny-D01-baseline/runtime-trace.log",
+      "bytes": 754,
+      "sha256": "bc260e6be87d6d76aab96eeb3d73db51a4ed12834930416c18e18665e2ab2e15"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/001-ling3-tiny-D01-baseline-request.json",
+      "bytes": 3654,
+      "sha256": "e235f34a1024657b09b9ced0143d5bc9002648b33c62f1c8bab3453667ce52e9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/002-ling3-tiny-D01-skills-request.json",
+      "bytes": 8647,
+      "sha256": "f840481e3726576311b7de949af7f1ab6b0b06f0f124979c119d0ac711bf9b2c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/003-ling3-tiny-D02-baseline-request.json",
+      "bytes": 4059,
+      "sha256": "e45c06b063b57c5fe6a2734116630114ddb3e80e475662e7c711a8068a8329bf"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/004-ling3-tiny-D02-skills-request.json",
+      "bytes": 9052,
+      "sha256": "688b8b7bae6f6c5ef9570d6d9faeb5a2533d3487b3eca0a570f1357211791416"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/005-ling3-tiny-D05-baseline-request.json",
+      "bytes": 4432,
+      "sha256": "3d3492e43f787ef8ac979e2b2f0050775023b2c7a8e77fb3350772a71b0d1bc1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/006-ling3-tiny-D05-skills-request.json",
+      "bytes": 9425,
+      "sha256": "97946dbb9978f3fb8e8590f21107482f5245b233c70db994357ae7a57964ab45"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/completed-maintenance-20261007T2115189621728Z.flag",
+      "bytes": 39,
+      "sha256": "fc502b264e6547544e62b88b9097e1d2c3bae853b6d64543252130511ddeaa5a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/console.log",
+      "bytes": 726,
+      "sha256": "39eef4bcbbe46c00cc31261800ec8c63c6a169c7fb6874dcd26c9b1b5b68d7c9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/execution-exit.json",
+      "bytes": 133,
+      "sha256": "e377c4c055dc346685b208be4423d095d37909efbd17f46b0d97187ca4072114"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/execution-start.json",
+      "bytes": 773,
+      "sha256": "c360cf533e25e463a188afd0919122f76bf22d9463d8dac1924e6986fffe4c4c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/frozen-tools/launch-ling.ps1",
+      "bytes": 5950,
+      "sha256": "32e77cee65619c3097245c9be3398b94d580b5d01c151f13ebb34fa3d784f2e2"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/frozen-tools/run_ling.py",
+      "bytes": 9945,
+      "sha256": "9cec599dec568e3a6c48446dd2da792ccf9b66ede994cbb63c91347edc5a4fee"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/frozen-tools/workbench.py",
+      "bytes": 13012,
+      "sha256": "5ca2d49cd4742c7e217034b999ba104469c1618b5a7b36faba67e0ffe237ab43"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/gguf-metadata.json",
+      "bytes": 6731,
+      "sha256": "ebf933fa0015c6d541e96ef6b55ae40a5cca4e40466bbb6d71791ed7c669f274"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/launch-preflight.json",
+      "bytes": 1357,
+      "sha256": "577db4ff3066025bd93b87b75b3a177612f5847a917ac22be94fb19a818294bc"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/native-runtime-properties.json",
+      "bytes": 8139,
+      "sha256": "31abe30cd5879ecabda6301f43c7a961985fa3b1b057dd3e4e3c41342d6b6b56"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/owned-child-cleanup.json",
+      "bytes": 60,
+      "sha256": "12bfbe5743fcd643be18a4cdcdab3c019097874aae6e38bd86d76ac2bf7416ba"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/owned-snapshot-viewer.json",
+      "bytes": 687,
+      "sha256": "24398e5d48ecda44e4294b952cd47e6606bdb33bb0e61390088c85d967077961"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/PRE_EXECUTION_SEAL.json",
+      "bytes": 832,
+      "sha256": "1149f51b40929695a405a23070312406afba52e3e28bba453ce0ecd5f19dcc77"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/protocol.json",
+      "bytes": 1666,
+      "sha256": "c682f76eb737eaac9d281f993601deb7a66bfdad92cd318773ac70ed3a94416c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/recovery-after.json",
+      "bytes": 556,
+      "sha256": "b56fedb2b98c45f152469bb781de52a0d34e2c3763465d8f32bae3a7295ea3b2"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/server.stderr.log",
+      "bytes": 2078,
+      "sha256": "995fbd3fd7687ad09e5807bb0ca6c2f3ce14cce79a2907fc056864e774ea1f7f"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/server.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-01/viewer-owner-before.json",
+      "bytes": 688,
+      "sha256": "d13c196884eca29bf17297588dc55090f26361e9b54e44e58ed45c2b75b1aaa3"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/001-ling3-tiny-D01-baseline-request.json",
+      "bytes": 3654,
+      "sha256": "e235f34a1024657b09b9ced0143d5bc9002648b33c62f1c8bab3453667ce52e9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/002-ling3-tiny-D01-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "386c5ecabc3c594e062057f61443f7904c97dd9173189e486cec7e64e3812630"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/002-ling3-tiny-D01-skills/outcome.json",
+      "bytes": 9737,
+      "sha256": "013721e7681f6c56baf2a875718aefcbecdad07f62b0e8d025e4a05b7dae28f5"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/002-ling3-tiny-D01-skills/response.json",
+      "bytes": 853,
+      "sha256": "423e3ed519be7b84c54a5a79088818c53eb94585ad549ea5ff434cf3e419683a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/002-ling3-tiny-D01-skills/runtime-trace.log",
+      "bytes": 80638,
+      "sha256": "1035860145241e7c9ae6cf63aa2cf1b26872bb02034f0ba91129efd92d6fb9a6"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/002-ling3-tiny-D01-skills-request.json",
+      "bytes": 8647,
+      "sha256": "f840481e3726576311b7de949af7f1ab6b0b06f0f124979c119d0ac711bf9b2c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/003-ling3-tiny-D02-baseline/context-proof.json",
+      "bytes": 399,
+      "sha256": "219c90827e80981220ddab1040dd30104f92891d7b0e35ffe928ef1e7a7c585d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/003-ling3-tiny-D02-baseline/outcome.json",
+      "bytes": 5201,
+      "sha256": "cb01a3bef6133e4750cd3417103a2354d1c170baa96cf1e192eeb44687e8db42"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/003-ling3-tiny-D02-baseline/response.json",
+      "bytes": 808,
+      "sha256": "3422cf26c3c51a1232bb309d50b34e410a8bb542033f043c9de200da514fc0fc"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/003-ling3-tiny-D02-baseline/runtime-trace.log",
+      "bytes": 80694,
+      "sha256": "5c0bb5b94196d842cc6159f34ff2f4d1df41d6472c7b70f773ce6fdc822cc29a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/003-ling3-tiny-D02-baseline-request.json",
+      "bytes": 4059,
+      "sha256": "e45c06b063b57c5fe6a2734116630114ddb3e80e475662e7c711a8068a8329bf"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/004-ling3-tiny-D02-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "f6e66dcc9794a880227ba98b07e36e4ee9281db1192b76b64f281bbc9b732df8"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/004-ling3-tiny-D02-skills/outcome.json",
+      "bytes": 10142,
+      "sha256": "93f698ca600d02b7872fb591180064fc4dc963decb7a7be321670057df196e0e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/004-ling3-tiny-D02-skills/response.json",
+      "bytes": 853,
+      "sha256": "1101d01c6137d16faad2fca30c74d86f1b366cf0b45fd9102f3922da95c4e631"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/004-ling3-tiny-D02-skills/runtime-trace.log",
+      "bytes": 89436,
+      "sha256": "1e50ccaaefa5ba657a9b074bf04a3f2774d536546293475d35f73a75b1de6d46"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/004-ling3-tiny-D02-skills-request.json",
+      "bytes": 9052,
+      "sha256": "688b8b7bae6f6c5ef9570d6d9faeb5a2533d3487b3eca0a570f1357211791416"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/005-ling3-tiny-D05-baseline/context-proof.json",
+      "bytes": 400,
+      "sha256": "9a00b63cba1a9af65f3626c2966e10aa6195c5e51fbe7209d2be6c59a781aa27"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/005-ling3-tiny-D05-baseline/outcome.json",
+      "bytes": 5770,
+      "sha256": "bc43f724f4250ea704a6ca4d4f127ece39fb528c6cd43915ad4465a61dcb58ba"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/005-ling3-tiny-D05-baseline/response.json",
+      "bytes": 1040,
+      "sha256": "84f30374265a966f584557e8c9502b22574e3b19d6fe292b2b24d7f1dd881916"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/005-ling3-tiny-D05-baseline/runtime-trace.log",
+      "bytes": 139429,
+      "sha256": "236f570672645381db3a64d6158bd86cacec9a3336e233626d439f5f2f168099"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/005-ling3-tiny-D05-baseline-request.json",
+      "bytes": 4432,
+      "sha256": "3d3492e43f787ef8ac979e2b2f0050775023b2c7a8e77fb3350772a71b0d1bc1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/006-ling3-tiny-D05-skills/context-proof.json",
+      "bytes": 401,
+      "sha256": "5d001cb2cbb3f4462d782fd4f39597aed73aa21556b12e88995b42950cbf300c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/006-ling3-tiny-D05-skills/outcome.json",
+      "bytes": 10583,
+      "sha256": "06bda59d99701747764633f2c2775065b36926038825d249defe0774fca1c5c2"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/006-ling3-tiny-D05-skills/response.json",
+      "bytes": 855,
+      "sha256": "5fd8866807fa67ab708a42970686e79123d2e03ef6d88d3f9ddc42c0a539eb41"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/006-ling3-tiny-D05-skills/runtime-trace.log",
+      "bytes": 89959,
+      "sha256": "92f54aadcbfbc3f9f06caa21d114d0050956e0e65d58dfbe937b719bd2b4fad2"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/006-ling3-tiny-D05-skills-request.json",
+      "bytes": 9425,
+      "sha256": "97946dbb9978f3fb8e8590f21107482f5245b233c70db994357ae7a57964ab45"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/complete.json",
+      "bytes": 41,
+      "sha256": "75be94d297750bae7087eb74d962131b1da60e2db3eeeb0f642f46ea4c9dc324"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/completed-maintenance-20261007T2117136262398Z.flag",
+      "bytes": 39,
+      "sha256": "fc502b264e6547544e62b88b9097e1d2c3bae853b6d64543252130511ddeaa5a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/console.log",
+      "bytes": 554,
+      "sha256": "3a093342a6d5157db8b83d3880500b2c7882a6b9620e32f3cb981cab19f2023b"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/execution-exit.json",
+      "bytes": 133,
+      "sha256": "d0bfbae917af7947d182037eabdd5dd7b0f65d4b5da1be37d314f0ee20554b72"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/execution-start.json",
+      "bytes": 1005,
+      "sha256": "e71b545f2dcb89bad96702fed11ca9595ade5ce860c011b6798b54cc3bbe265d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/gguf-metadata.json",
+      "bytes": 6731,
+      "sha256": "ebf933fa0015c6d541e96ef6b55ae40a5cca4e40466bbb6d71791ed7c669f274"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/launch-preflight.json",
+      "bytes": 1362,
+      "sha256": "2c357bd6a2609ff0e9c6a53435af06b9aaa2c3ba74f4f5c0283126f7a3e04cde"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/native-runtime-properties.json",
+      "bytes": 8139,
+      "sha256": "01e53b3bbb0b076559bd106b4520e59dd24ade7646eef70eb9768b8cc1dec18c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/owned-child-cleanup.json",
+      "bytes": 60,
+      "sha256": "f3b2ebbe774f344840f74988eefdcf6b433578cf35b2f9fc15b6e77a93fa82b0"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/owned-snapshot-viewer.json",
+      "bytes": 687,
+      "sha256": "7b818dfc281ef316d49af2f8a7b4ab89e5c59f53a4aaff01ae494eadedd60e44"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/PRE_EXECUTION_SEAL.json",
+      "bytes": 832,
+      "sha256": "59c4c9bf04d547e61a81ca312a401c40d642804e27dde6d4f7f902204af82061"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/protocol.json",
+      "bytes": 1780,
+      "sha256": "39c37855668e905499f6e16247cde7343729e5de4b9b61007e8969349fb3673a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/recovery-after.json",
+      "bytes": 556,
+      "sha256": "f464214da0dce8c9480824a5f553a0091431be45069c57416af781545a33c984"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/server.stderr.log",
+      "bytes": 704016,
+      "sha256": "3b4009fd6ea87970c32d68a30fa15b7ccb10e37021f9b2bb3d09f67b9889c055"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/server.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-02/viewer-owner-before.json",
+      "bytes": 688,
+      "sha256": "01acd44631741be7455258ec83c381125eafaf3dbfbbd00aaa089bbfd66a1830"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/001-ling3-tiny-D01-baseline-request.json",
+      "bytes": 3654,
+      "sha256": "e235f34a1024657b09b9ced0143d5bc9002648b33c62f1c8bab3453667ce52e9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/001-ling3-tiny-D01-operator/context-proof.json",
+      "bytes": 399,
+      "sha256": "04d1a13017e4beabd1ae5ef5bbc8be9b73e764379748901bc084052cd2b3542e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/001-ling3-tiny-D01-operator/outcome.json",
+      "bytes": 8574,
+      "sha256": "72eca455562c13d381e655c272203beb0d730a19f265b9e9fdead801f36773cc"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/001-ling3-tiny-D01-operator/response.json",
+      "bytes": 660,
+      "sha256": "69a4ee2963884f5b255ef8d1b769758b84d2d009648dee3f559ac09573f7b90a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/001-ling3-tiny-D01-operator/runtime-trace.log",
+      "bytes": 20988,
+      "sha256": "b52e869590d8fa4f7ff435f9c6e40ed0e0107e1e19d36c0bc0e23d51ddad80cc"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/001-ling3-tiny-D01-operator-request.json",
+      "bytes": 5044,
+      "sha256": "05b9615ea85b646f83cefc86478dc620e78dde2bb939cf7031290574f6b5346e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/002-ling3-tiny-D01-skills-request.json",
+      "bytes": 8647,
+      "sha256": "f840481e3726576311b7de949af7f1ab6b0b06f0f124979c119d0ac711bf9b2c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/002-ling3-tiny-D02-operator/context-proof.json",
+      "bytes": 401,
+      "sha256": "084fb24fe762de29dafaaa17234d3044ef54076dd52d8bd71fb6f09db49640e4"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/002-ling3-tiny-D02-operator/outcome.json",
+      "bytes": 10034,
+      "sha256": "3ad5d29e37f9d6cc823bd7996825c3ff8f58cd92036114b6b2373eeae632d0c1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/002-ling3-tiny-D02-operator/response.json",
+      "bytes": 652,
+      "sha256": "090f830de1453705e214d4a00efd9bb2d1e2097fdd3bee9e9b21cc19f374b789"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/002-ling3-tiny-D02-operator/runtime-trace.log",
+      "bytes": 28942,
+      "sha256": "947e4a9295587f4273fa1f9ea29c3d501e8ea4e1b55e3c433584b8d7f5276c94"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/002-ling3-tiny-D02-operator-request.json",
+      "bytes": 5449,
+      "sha256": "bc28b4465c5047a74899fa57e850bc758231d6896af25b4ac214e788166e49a0"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/003-ling3-tiny-D02-baseline-request.json",
+      "bytes": 4059,
+      "sha256": "e45c06b063b57c5fe6a2734116630114ddb3e80e475662e7c711a8068a8329bf"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/003-ling3-tiny-D05-operator/context-proof.json",
+      "bytes": 401,
+      "sha256": "f1c42f0c80e46861381dcdd0a05140c3896058a0c246cc1782011f7722f768d9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/003-ling3-tiny-D05-operator/outcome.json",
+      "bytes": 11828,
+      "sha256": "96f9994e9108743b837944f04540ef16bf73af79cd7f0e2629a130cd2147e17b"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/003-ling3-tiny-D05-operator/response.json",
+      "bytes": 665,
+      "sha256": "c7c373b264723a09ab14e804d20079deaeb2e490764511213976971f484b1326"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/003-ling3-tiny-D05-operator/runtime-trace.log",
+      "bytes": 30419,
+      "sha256": "3374c96c4d98d2a3fb648a01b1151f1fbc4e6f9a8a392babb8d4f244bc65fc21"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/003-ling3-tiny-D05-operator-request.json",
+      "bytes": 5803,
+      "sha256": "9e61ef77f246ca3d0e0818de52de74176ec9d81395c93b35e8465f123e375eb6"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/004-ling3-tiny-D02-skills-request.json",
+      "bytes": 9052,
+      "sha256": "688b8b7bae6f6c5ef9570d6d9faeb5a2533d3487b3eca0a570f1357211791416"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/005-ling3-tiny-D05-baseline-request.json",
+      "bytes": 4432,
+      "sha256": "3d3492e43f787ef8ac979e2b2f0050775023b2c7a8e77fb3350772a71b0d1bc1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/006-ling3-tiny-D05-skills-request.json",
+      "bytes": 9425,
+      "sha256": "97946dbb9978f3fb8e8590f21107482f5245b233c70db994357ae7a57964ab45"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/complete.json",
+      "bytes": 41,
+      "sha256": "ecf12e823c62b445147a53b728ef42df0b39361d870ab95c7b9b4ea17fbeae18"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/completed-maintenance-20261007T2124121630351Z.flag",
+      "bytes": 39,
+      "sha256": "fc502b264e6547544e62b88b9097e1d2c3bae853b6d64543252130511ddeaa5a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/console.log",
+      "bytes": 332,
+      "sha256": "5a62a3217112e2c15165b5e2d1a2eb51c866ff55d8e27f31bf4c4746a2a7f3ed"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/execution-exit.json",
+      "bytes": 133,
+      "sha256": "dfa5ef1c42e58c9fb6a7dfdb88c6bd6caa15c6209ebec8d43cd4ef5056a9a04a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/execution-start.json",
+      "bytes": 1005,
+      "sha256": "dac4a38c45536b1e048ad62e263ef7f1ed96b68c3bcbcdceea69d40291c0956d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/frozen-tools/display.py",
+      "bytes": 10993,
+      "sha256": "fa6ba2e35c821da315581a4af6fd4e81c0eba1deb71af8fc317ca781ec554e66"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/frozen-tools/launch-ling-operator.ps1",
+      "bytes": 5961,
+      "sha256": "b6fb30de69bb03a11ebba3d755a2f0a2065a0e8d58149ec73ca333752e4f6418"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/frozen-tools/operator_contract.py",
+      "bytes": 2722,
+      "sha256": "20b478acdbe06a311f9427c0043f9a4ded539b65b3152365b061a9cf5ccd5c9e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/frozen-tools/prepare_ling.py",
+      "bytes": 3206,
+      "sha256": "84cad25c610f0a2283338df7b60201ab8f2707d47b25a278bb9b35e55186cc2a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/frozen-tools/resume_ling_download.py",
+      "bytes": 4106,
+      "sha256": "db15279bf84d6bc299715e90e4363effc7238ee8b9965724ac1facad348d9650"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/frozen-tools/run_development.py",
+      "bytes": 12218,
+      "sha256": "38fb24352a91e1d3c1e457e34048a4520fa43a3e2431ac4d361c86b49aeb456b"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/frozen-tools/run_ling.py",
+      "bytes": 13497,
+      "sha256": "cac9d9f6910a94d3c784b1f965cd06424ef957d627217dd2f24315ee8d965211"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/frozen-tools/server.py",
+      "bytes": 1620,
+      "sha256": "009c8b8f42762fdffd1ce3571c4f386eaf96a7c0d17c91af61fc86c584ca5704"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/frozen-tools/test_display.py",
+      "bytes": 1135,
+      "sha256": "5466b73adf97aeb779ae5baf1c82cd3cf7d03b3ad6dc9444348e18e3115fbad3"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/frozen-tools/test_operator_contract.py",
+      "bytes": 1561,
+      "sha256": "72017492ee3186687e8e3eba0b250b5b5f8682d46f40d4ebecc11e0563f2df2d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/frozen-tools/test_workbench.py",
+      "bytes": 3309,
+      "sha256": "64550eb1b4adba2072e1b162d96cbe33c644dae38ec8017078627050951362e9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/frozen-tools/workbench.py",
+      "bytes": 13012,
+      "sha256": "5ca2d49cd4742c7e217034b999ba104469c1618b5a7b36faba67e0ffe237ab43"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/gguf-metadata.json",
+      "bytes": 6731,
+      "sha256": "ebf933fa0015c6d541e96ef6b55ae40a5cca4e40466bbb6d71791ed7c669f274"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/launch-preflight.json",
+      "bytes": 1348,
+      "sha256": "703029c5258ffe9fb1a5969c2003390b590192f5f6130b9b12e8eb47884678f8"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/native-runtime-properties.json",
+      "bytes": 8139,
+      "sha256": "522f2e16c5f09e8491a888a4b256714a3351d7e2f4cf4e37597f34066c991c9e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/owned-child-cleanup.json",
+      "bytes": 60,
+      "sha256": "f25cf90b040f27b526181380fa63712da57130940f5b052022dfc55aa52b3128"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/owned-snapshot-viewer.json",
+      "bytes": 687,
+      "sha256": "35bc8eaa109e475b7840e74c68c1129c175f48bf31824a8ce39a1d34a6d3b09b"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/PRE_EXECUTION_SEAL.json",
+      "bytes": 1162,
+      "sha256": "01d22284a6d54167cea1eb351fb65368ed6b2abbd22c36b53d81b5c344aae88c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/protocol.json",
+      "bytes": 1232,
+      "sha256": "175bc9909834eb686c5a9c520e3136fe56ec9d1bae27d03969166ecec6869b3c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/recovery-after.json",
+      "bytes": 556,
+      "sha256": "e3287695dd75577820b97e460735f9e6d50c4ef00ea607585c13720c996d381c"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/server.stderr.log",
+      "bytes": 304209,
+      "sha256": "b644b629fd63711bd9d433c8794b4fbc1bfaa6d924165dac56781df10ac94551"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/server.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-isolated/soc-development-03/viewer-owner-before.json",
+      "bytes": 688,
+      "sha256": "58696b29f82ca2163eb02197ffbca1a6c3400ac63dfee5b8ce191b1d54500ca1"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/ling-official-candidate.json",
+      "bytes": 573,
+      "sha256": "24eaa4f7f013ac059f1379e6aa930ee4899c1326ede0241b3f39fc809e504619"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/llama-nightly-candidate.json",
+      "bytes": 1137,
+      "sha256": "f3d17652404e84256f3e49f5ab28c0f87f6b92a4a3606d85bf456ee81ea8972e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/llama-release-candidate.json",
+      "bytes": 159,
+      "sha256": "a2164cd4f876d7cb322b843f702d1143abb70db0618aac7270a650ef277367b7"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/offline-tests-display.txt",
+      "bytes": 1306,
+      "sha256": "4d454c0182da5c481340813eccfd8e7291158576c88435eeeec8af5d9eea5540"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/offline-tests-final.txt",
+      "bytes": 1711,
+      "sha256": "5eca9e7c8d57fb74254bbc9e7c2aea102dabc097024a3e64506d2b21102aa7b8"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/offline-tests-operator.txt",
+      "bytes": 508,
+      "sha256": "b66677c3125c76834b3620ac02a3329ee7b13d8a3bb9c9f997a73c72902220e5"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/offline-tests.txt",
+      "bytes": 1057,
+      "sha256": "e0bbffcf947e85314f15f287250ae5ec9d3625cc5546ed5c967e1fd1ec744cd2"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/operator_contract.py",
+      "bytes": 2722,
+      "sha256": "20b478acdbe06a311f9427c0043f9a4ded539b65b3152365b061a9cf5ccd5c9e"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/prepare_ling.py",
+      "bytes": 3206,
+      "sha256": "84cad25c610f0a2283338df7b60201ab8f2707d47b25a278bb9b35e55186cc2a"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/reconcile-viewer.ps1",
+      "bytes": 2447,
+      "sha256": "5dae947f7ad03daed9af1df32bb8e44e7d054f509a79ac5e81fd5709f09ef36b"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/recovery-final.json",
+      "bytes": 2542,
+      "sha256": "0540a1862967f443625931322af35b17dfb5525cd7d27aa215866b3e4c55f453"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/resume_ling_download.py",
+      "bytes": 4106,
+      "sha256": "db15279bf84d6bc299715e90e4363effc7238ee8b9965724ac1facad348d9650"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/run_development.py",
+      "bytes": 12218,
+      "sha256": "38fb24352a91e1d3c1e457e34048a4520fa43a3e2431ac4d361c86b49aeb456b"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/run_ling.py",
+      "bytes": 13497,
+      "sha256": "cac9d9f6910a94d3c784b1f965cd06424ef957d627217dd2f24315ee8d965211"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/server-owner-final.json",
+      "bytes": 480,
+      "sha256": "c6d8e9d457c6511250ba0b65e7395075ca74d514afe54ff39e8df2de1bd271ca"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/server-owner.json",
+      "bytes": 392,
+      "sha256": "ddc3d5db917138af99565ddfdd090094d2bfb9112b3f834c2388d87ca12f3156"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/server.py",
+      "bytes": 1620,
+      "sha256": "009c8b8f42762fdffd1ce3571c4f386eaf96a7c0d17c91af61fc86c584ca5704"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/skills-refinement-v1.md",
+      "bytes": 2424,
+      "sha256": "dec14627174f537232bc1934014b5f880b005e7ab8a49baae1fac73d63a8d513"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/test_display.py",
+      "bytes": 1135,
+      "sha256": "5466b73adf97aeb779ae5baf1c82cd3cf7d03b3ad6dc9444348e18e3115fbad3"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/test_operator_contract.py",
+      "bytes": 1561,
+      "sha256": "72017492ee3186687e8e3eba0b250b5b5f8682d46f40d4ebecc11e0563f2df2d"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/test_workbench.py",
+      "bytes": 3309,
+      "sha256": "64550eb1b4adba2072e1b162d96cbe33c644dae38ec8017078627050951362e9"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/VERIFIED_LEDGER.json",
+      "bytes": 45271,
+      "sha256": "b82e3bdfff68629d88c119e2cadd86d08af9ce278053097c5c24a104b44e7039"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/verify_workbench.py",
+      "bytes": 6595,
+      "sha256": "458696ee19d0407f3bc21a856b2a6e1335d8982f3aaa7969882107325c0db394"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/workbench-current-ling.png",
+      "bytes": 178379,
+      "sha256": "1ce8a3802b3f68317c0a94293e2ddaad45ea24445e7f9d57074ef8a96ae3bff2"
+    },
+    {
+      "path": "private/ai-followup-20261007/model-skills-v2/workbench.py",
+      "bytes": 13012,
+      "sha256": "5ca2d49cd4742c7e217034b999ba104469c1618b5a7b36faba67e0ffe237ab43"
+    }
+  ]
+}

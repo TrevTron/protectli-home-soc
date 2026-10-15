@@ -1,0 +1,32 @@
+{
+  "number": 20,
+  "phase": "production_contract",
+  "case": "real_controlled_block",
+  "model": "qwen3.5:4b",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T04:30:57.260070+00:00",
+  "brief_sha256": "d41602518d3dae0cd0f5e9a8f5175155c6a406a6447dcdbce9ec91528cfd12fb",
+  "elapsed_s": 55.5,
+  "eval_count": 268,
+  "prompt_eval_count": 2510,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "b1e91f0b520fe946ada72d3f01aadc56eae7b1993dee9bfbc73e043ba5b6fca4",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [],
+    "required_contexts": [
+      "sensor_reported_block",
+      "uid_fixture_possible",
+      "tailscale_control_possible"
+    ],
+    "complete": false,
+    "problems": [
+      "Missing required contexts"
+    ]
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T04:31:52.770674+00:00"
+}

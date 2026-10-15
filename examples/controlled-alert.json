@@ -1,0 +1,21 @@
+{
+  "classification": "Sanitized derivative of actual October 5 detection; endpoints and identifiers replaced",
+  "timestamp": "2026-10-05T12:18:21.202268-0700",
+  "event_type": "alert",
+  "in_iface": "owned-LAN",
+  "src_ip": "203.0.113.10",
+  "src_port": 80,
+  "dest_ip": "192.0.2.10",
+  "dest_port": 50000,
+  "proto": "TCP",
+  "app_proto": "http",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2100498,
+    "rev": 7,
+    "signature": "GPL ATTACK_RESPONSE id check returned root",
+    "category": "Potentially Bad Traffic",
+    "severity": 2
+  }
+}

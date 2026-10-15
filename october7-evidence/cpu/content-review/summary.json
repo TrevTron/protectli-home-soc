@@ -1,0 +1,57 @@
+{
+  "models": {
+    "gemma4:12b-it-qat": {
+      "delivered": 6,
+      "material_rejections": 3,
+      "dimension_totals": {
+        "facts_citations": 3,
+        "supplied_context": 9,
+        "priorities": 10,
+        "uncertainty": 6,
+        "next_review": 11
+      },
+      "not_rejected_is_not_certified_correct": true
+    },
+    "qwen3.5:4b": {
+      "delivered": 6,
+      "material_rejections": 5,
+      "dimension_totals": {
+        "facts_citations": 3,
+        "supplied_context": 5,
+        "priorities": 12,
+        "uncertainty": 5,
+        "next_review": 10
+      },
+      "not_rejected_is_not_certified_correct": true
+    },
+    "qwen3.5:9b": {
+      "delivered": 6,
+      "material_rejections": 3,
+      "dimension_totals": {
+        "facts_citations": 5,
+        "supplied_context": 12,
+        "priorities": 11,
+        "uncertainty": 9,
+        "next_review": 9
+      },
+      "not_rejected_is_not_certified_correct": true
+    },
+    "qwen3:4b-instruct": {
+      "delivered": 6,
+      "material_rejections": 4,
+      "dimension_totals": {
+        "facts_citations": 4,
+        "supplied_context": 10,
+        "priorities": 11,
+        "uncertainty": 5,
+        "next_review": 10
+      },
+      "not_rejected_is_not_certified_correct": true
+    }
+  },
+  "graded": 24,
+  "source_sha256": "77951b43793ee7cf008c78897771ac952f788e0138f60f0f7a212880ec5adb8f",
+  "rubric_sha256": "a8f4b69130041b109a3164d40761fb20df7909fc230cf0a143f1cafa0be407f2",
+  "no_production_selection": true,
+  "original_outcomes_unchanged": true
+}

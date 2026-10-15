@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-05T22:00:00+00:00",
+  "window": {
+    "minutes": 15,
+    "start_utc": "2026-10-05T21:45:00+00:00",
+    "end_utc": "2026-10-05T22:00:00+00:00"
+  },
+  "coverage": {
+    "snapshot_start_byte": 0,
+    "snapshot_end_byte": 2500,
+    "source_size_at_start": 2500,
+    "snapshot_sha256": "ba90649e9adbf09ba14516696e183895a8e672fcf3fc7060b15553e0481c9ea9",
+    "tail_clipped": false,
+    "comparison_complete_for_retained_records": true,
+    "malformed_records": 0,
+    "invalid_alerts": 0,
+    "future_records": 0,
+    "out_of_scope_alerts": 0,
+    "current_records": 4,
+    "prior_records": 1,
+    "last_receipt_utc": "2026-10-05T21:59:00+00:00",
+    "receiver_age_seconds": 60.0,
+    "total_current_groups": 2,
+    "omitted_groups": 0,
+    "complete_delivery_proven": false
+  },
+  "application_counts": {
+    "suricata": 4
+  },
+  "groups": [
+    {
+      "id": "G-7b5ae4cff471",
+      "sid": 920001,
+      "action": "blocked",
+      "severity": 1,
+      "protocol": "UDP",
+      "source_alias": "endpoint-6a22538871",
+      "destination_alias": "owned-client",
+      "count": 3,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-90f802481fa7778c",
+        "E-49947e82e8b9d3df",
+        "E-8a15bfda12f89c24"
+      ],
+      "first_received_utc": "2026-10-05T21:57:00+00:00",
+      "last_received_utc": "2026-10-05T21:59:00+00:00",
+      "priority_floor": "review_first",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-7e1c1b96bc3e",
+      "sid": 2071648,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "TCP",
+      "source_alias": "endpoint-6a22538871",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 1,
+      "evidence_refs": [
+        "E-74043350eb994517"
+      ],
+      "first_received_utc": "2026-10-05T21:55:00+00:00",
+      "last_received_utc": "2026-10-05T21:55:00+00:00",
+      "priority_floor": "review",
+      "change": "unchanged"
+    }
+  ]
+}

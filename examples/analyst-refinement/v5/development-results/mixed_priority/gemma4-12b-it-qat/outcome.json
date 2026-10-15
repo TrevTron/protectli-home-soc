@@ -1,0 +1,8 @@
+{
+  "model": "gemma4:12b-it-qat",
+  "case": "mixed_priority",
+  "started_utc": "2026-10-05T23:34:26.145310+00:00",
+  "status": "withheld",
+  "reason": "timed out",
+  "wall_elapsed_s": 120.875
+}

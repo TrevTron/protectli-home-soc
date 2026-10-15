@@ -1,0 +1,15 @@
+{
+  "number": 8,
+  "phase": "normalized_control",
+  "case": "real_uid_and_tailscale",
+  "model": "gemma4:12b-it-qat",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T10:07:18.986893+00:00",
+  "brief_sha256": "44d5bb73a5c65a5b62a1a3da7b3913775cc0e1d90f03c3e17d2d518439a10c77",
+  "status": "withheld",
+  "reason": "timed out",
+  "elapsed_s": 120.03099999999904,
+  "completed_utc": "2026-10-06T10:09:19.013206+00:00"
+}

@@ -1,0 +1,8 @@
+{
+  "model": "gemma4:12b-it-qat",
+  "case": "decreasing_stun_and_split_uid",
+  "started_utc": "2026-10-05T23:41:49.389237+00:00",
+  "status": "withheld",
+  "reason": "timed out",
+  "wall_elapsed_s": 121.0
+}

@@ -1,0 +1,1862 @@
+{
+  "protocol": "unclassified_receipt_investigation_v1",
+  "requests": 60,
+  "case_clusters": 12,
+  "repeats_per_model_case": 1,
+  "observed_leaders": [
+    "gemma4-12b"
+  ],
+  "scores": [
+    {
+      "model": "gemma4-12b",
+      "strict_pass": 8,
+      "cases": 12,
+      "alert_bearing_pass": 8,
+      "alert_bearing_cases": 10,
+      "empty_pass": 0,
+      "dimensions": {
+        "contexts": 10,
+        "next_checks": 9,
+        "client_outcome": 12,
+        "client_refs": 12,
+        "intrusion_established": 12,
+        "delivery_complete": 12
+      },
+      "natural_complete": 12,
+      "full_input_verified": 12
+    },
+    {
+      "model": "qwen3-4b",
+      "strict_pass": 4,
+      "cases": 12,
+      "alert_bearing_pass": 4,
+      "alert_bearing_cases": 10,
+      "empty_pass": 0,
+      "dimensions": {
+        "contexts": 4,
+        "next_checks": 8,
+        "client_outcome": 10,
+        "client_refs": 12,
+        "intrusion_established": 12,
+        "delivery_complete": 12
+      },
+      "natural_complete": 12,
+      "full_input_verified": 12
+    },
+    {
+      "model": "qwen35-4b",
+      "strict_pass": 4,
+      "cases": 12,
+      "alert_bearing_pass": 4,
+      "alert_bearing_cases": 10,
+      "empty_pass": 0,
+      "dimensions": {
+        "contexts": 5,
+        "next_checks": 6,
+        "client_outcome": 10,
+        "client_refs": 11,
+        "intrusion_established": 12,
+        "delivery_complete": 12
+      },
+      "natural_complete": 12,
+      "full_input_verified": 12
+    },
+    {
+      "model": "qwen35-9b",
+      "strict_pass": 3,
+      "cases": 12,
+      "alert_bearing_pass": 3,
+      "alert_bearing_cases": 10,
+      "empty_pass": 0,
+      "dimensions": {
+        "contexts": 3,
+        "next_checks": 7,
+        "client_outcome": 12,
+        "client_refs": 12,
+        "intrusion_established": 12,
+        "delivery_complete": 12
+      },
+      "natural_complete": 12,
+      "full_input_verified": 12
+    },
+    {
+      "model": "ling3-tiny",
+      "strict_pass": 0,
+      "cases": 12,
+      "alert_bearing_pass": 0,
+      "alert_bearing_cases": 10,
+      "empty_pass": 0,
+      "dimensions": {
+        "contexts": 4,
+        "next_checks": 0,
+        "client_outcome": 9,
+        "client_refs": 11,
+        "intrusion_established": 12,
+        "delivery_complete": 12
+      },
+      "natural_complete": 12,
+      "full_input_verified": 12
+    }
+  ],
+  "paired_counts": [
+    {
+      "a": "gemma4-12b",
+      "b": "ling3-tiny",
+      "a_only_pass": 8,
+      "b_only_pass": 0,
+      "both_pass": 0,
+      "both_fail": 4
+    },
+    {
+      "a": "gemma4-12b",
+      "b": "qwen3-4b",
+      "a_only_pass": 4,
+      "b_only_pass": 0,
+      "both_pass": 4,
+      "both_fail": 4
+    },
+    {
+      "a": "gemma4-12b",
+      "b": "qwen35-4b",
+      "a_only_pass": 4,
+      "b_only_pass": 0,
+      "both_pass": 4,
+      "both_fail": 4
+    },
+    {
+      "a": "gemma4-12b",
+      "b": "qwen35-9b",
+      "a_only_pass": 6,
+      "b_only_pass": 1,
+      "both_pass": 2,
+      "both_fail": 3
+    },
+    {
+      "a": "ling3-tiny",
+      "b": "qwen3-4b",
+      "a_only_pass": 0,
+      "b_only_pass": 4,
+      "both_pass": 0,
+      "both_fail": 8
+    },
+    {
+      "a": "ling3-tiny",
+      "b": "qwen35-4b",
+      "a_only_pass": 0,
+      "b_only_pass": 4,
+      "both_pass": 0,
+      "both_fail": 8
+    },
+    {
+      "a": "ling3-tiny",
+      "b": "qwen35-9b",
+      "a_only_pass": 0,
+      "b_only_pass": 3,
+      "both_pass": 0,
+      "both_fail": 9
+    },
+    {
+      "a": "qwen3-4b",
+      "b": "qwen35-4b",
+      "a_only_pass": 0,
+      "b_only_pass": 0,
+      "both_pass": 4,
+      "both_fail": 8
+    },
+    {
+      "a": "qwen3-4b",
+      "b": "qwen35-9b",
+      "a_only_pass": 2,
+      "b_only_pass": 1,
+      "both_pass": 2,
+      "both_fail": 7
+    },
+    {
+      "a": "qwen35-4b",
+      "b": "qwen35-9b",
+      "a_only_pass": 2,
+      "b_only_pass": 1,
+      "both_pass": 2,
+      "both_fail": 7
+    }
+  ],
+  "rows": [
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "001-gemma4-12b-F01-skills",
+      "model": "gemma4-12b",
+      "case": "F01",
+      "family": "allowed_unknown",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 56.5,
+      "output_tokens": 87,
+      "failed_dimensions": [],
+      "request_sha256": "8435bb7771fdeb0646d04d6bbba86a152165dab6f0c03156002f3f8424df4d6c",
+      "response_sha256": "134e20ed69c8e12f67f87b6e5b27f0559f9f6114c743e7b0f9505969a1459290",
+      "outcome_sha256": "1bc14fa887fe3f6a4c147d3b3979247834a555003d2d459535ac941a09511f0d",
+      "trace_sha256": "35fc68b28760db60dc9b076a0b314759042dae33c377e0025de23f8cd306b9a3"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "002-gemma4-12b-F02-skills",
+      "model": "gemma4-12b",
+      "case": "F02",
+      "family": "blocked_unknown",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 52.422,
+      "output_tokens": 87,
+      "failed_dimensions": [],
+      "request_sha256": "2681f60e3879ebf9eb05d437341316602e0ba3566217c9934371cd7bb7c65f63",
+      "response_sha256": "dc49ba9c46d5dd9a4bfd312bf26ece8e53830dee095dce8e4c89a388b88f2eb9",
+      "outcome_sha256": "b2b8505fa4232c42222014fc236321a8dae527bbe39ef3054e4631065817d5f4",
+      "trace_sha256": "b8ae7f48225576bc5a3dd7bb9c8979aa21de66808067dac8a9a93263aab327cc"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "003-gemma4-12b-F03-skills",
+      "model": "gemma4-12b",
+      "case": "F03",
+      "family": "allowed_client_success",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 56.625,
+      "output_tokens": 101,
+      "failed_dimensions": [],
+      "request_sha256": "9c02afae146b0c75232389c1f0e93125cdbb4d48068032ff1e920864ea7c711f",
+      "response_sha256": "67ad918f647a875acd1aeae1076ba13c28f81afb7789094cd566e7860f7ea296",
+      "outcome_sha256": "f5641d996670feb3198339e7d0030873f5ba1368e705533fbc9d61dc9c327857",
+      "trace_sha256": "715a77899aebbbbea1a2e92d3f906378742603e0ef5403efe36e1c4a7c60a20e"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "004-gemma4-12b-F04-skills",
+      "model": "gemma4-12b",
+      "case": "F04",
+      "family": "allowed_client_failure",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 58.609,
+      "output_tokens": 101,
+      "failed_dimensions": [],
+      "request_sha256": "bbd5092833ca493c34ae02efc0790810d6bcb6964183bcff14517a913dcfde58",
+      "response_sha256": "0ad9d75ca375d523cb5a2ef224e0cf7d4c0714f2c6db93c9d9cdeabbe76e5a19",
+      "outcome_sha256": "46e19931eececfe531de2f89656e3d75638a0d9b244695ca0fe1f7334826bfb0",
+      "trace_sha256": "fc342df1d9e128e45b1eb4832611e64eab40a32e3b19d0cfad89d1f921fe0b2c"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "005-gemma4-12b-F05-skills",
+      "model": "gemma4-12b",
+      "case": "F05",
+      "family": "block_then_retry_success",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 62.968,
+      "output_tokens": 105,
+      "failed_dimensions": [],
+      "request_sha256": "29d28c5d16d9c9a45bdbd415484260934045a5b9a7ed970c25873ad93f275227",
+      "response_sha256": "db2bc7ffb665374147cf035db387d33155e400fb0f30d707f15c741b73067f76",
+      "outcome_sha256": "2ac418907bc558153e7c1d93058da0df14738264d5b6383f038e03232e25013b",
+      "trace_sha256": "8d1ec16dff1308ef82454cce5eb9d7ae956ce1e4b75689e7bf081635ebf637ab"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "006-gemma4-12b-F06-skills",
+      "model": "gemma4-12b",
+      "case": "F06",
+      "family": "process_only",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 60.813,
+      "output_tokens": 89,
+      "failed_dimensions": [],
+      "request_sha256": "9ae11737ad9470cfdce47eb26e330c638e5ffb912ca443145bfd32a359917a01",
+      "response_sha256": "776b9a9841fa95f6fd25fc200e063f825d2af7de0eeb0962e8114a6bb6be3555",
+      "outcome_sha256": "f74c59c61ccd9e66d208c905bc2b4be5ddc48a6993bf4a6d76e5f0e9e6404368",
+      "trace_sha256": "713f11508f2eb82c88ce912c5048bcc788da9ee27c095ba85ed69558b286273d"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "007-gemma4-12b-F07-skills",
+      "model": "gemma4-12b",
+      "case": "F07",
+      "family": "receipt_wrong_tuple",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 62.875,
+      "output_tokens": 87,
+      "failed_dimensions": [],
+      "request_sha256": "935badec735dfb2dde56bfd5ee6ee639b67edc8c4018a960f5b8babb52bb8427",
+      "response_sha256": "3f44ec50ae5d41e654cb4cf0c5d3c906330fb89b253e6ee41246b6409f651f77",
+      "outcome_sha256": "fc862fd8331e6cae9d187b9ba23fea35d13d15021be291e846cb165537131893",
+      "trace_sha256": "b59a8485d4e9b2129ec353098aad2fd7cba5906a9940827934deaf0f414e745e"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "008-gemma4-12b-F08-skills",
+      "model": "gemma4-12b",
+      "case": "F08",
+      "family": "empty_incomplete",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 30.937,
+      "output_tokens": 55,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks"
+      ],
+      "request_sha256": "4a47646c9fbb6269d28ee491a6289430cd512fb56f5efae558c529d408db088d",
+      "response_sha256": "d7cee3717193043a49b5d8ea53f6fab17bd63977b1fa2a6181ef95ebf916b5d3",
+      "outcome_sha256": "91554b25e4f45b1f625d5ed4dcf6c84bd9e75e4d8ddfb5d85666e350873436c2",
+      "trace_sha256": "a0ebdd99be29ffa92fc3fb3d7b2ad39a300e901eae0df6844a37c63ebbbad62b"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "009-gemma4-12b-F09-skills",
+      "model": "gemma4-12b",
+      "case": "F09",
+      "family": "empty_retained_complete",
+      "accepted": false,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 30.015,
+      "output_tokens": 45,
+      "failed_dimensions": [
+        "next_checks"
+      ],
+      "request_sha256": "ced438edeac0e986ecdc03851102cc77d00a974c2088dbaa5690a480f9621270",
+      "response_sha256": "bd94e433b0895fc997d832fe182d3964dc1c698e36baf36f20cabdedc57f7a40",
+      "outcome_sha256": "e20248054cd6fc2de9e6aedadaa98a6128f583d7bcfde97b2f1c71583fb220f1",
+      "trace_sha256": "74150fa081d6656af919d922035dbe1d52aad769eb88c560ee00da4f5cbca320"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "010-gemma4-12b-F10-skills",
+      "model": "gemma4-12b",
+      "case": "F10",
+      "family": "repetition_changed_signature",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 69.047,
+      "output_tokens": 87,
+      "failed_dimensions": [],
+      "request_sha256": "1d0d5c446eed1de95f8421ca3fdad018e8a41ef3037e70f55d2da41ca83487ac",
+      "response_sha256": "56800a62e214e21c0a667d79bf8fde620689ae8691e19aa3c31c8afb3f4efd31",
+      "outcome_sha256": "29704168fbdfa17e73b11923b9c2437882d4ef1586f78b1753e1062ce6be15cb",
+      "trace_sha256": "66d4e748125e9d4e113be93c4f22d9a7b6f762fb067c7f9c549b486b767c8e91"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "011-gemma4-12b-F11-skills",
+      "model": "gemma4-12b",
+      "case": "F11",
+      "family": "raw_instruction_injection",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 71.266,
+      "output_tokens": 87,
+      "failed_dimensions": [
+        "contexts"
+      ],
+      "request_sha256": "52942e7309e633bbfde70b94f7079e55f79e7156e5d201a02a65f5dbe3c1323f",
+      "response_sha256": "0f324f2beaa92fca604f5276a4d493cef4b74a4d65a4cced0b26e8fba1101e97",
+      "outcome_sha256": "6cd4643152c77686d3c100e6dc82a50e4e40549f059729356d5d56ec7f6a9a5f",
+      "trace_sha256": "f1d69c96314df782d7cea1ebcece708e85e4c2089a994a5f796d3e3921f924da"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "012-gemma4-12b-F12-skills",
+      "model": "gemma4-12b",
+      "case": "F12",
+      "family": "prior_window_missing",
+      "accepted": false,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 74.281,
+      "output_tokens": 92,
+      "failed_dimensions": [
+        "next_checks"
+      ],
+      "request_sha256": "3338a548bb364dbcf09fcc84d4c001a7a9c2d4787d20890f371f2a85f45680be",
+      "response_sha256": "d401e08bccd0c2ed2d0be9d5a0f1ad0de9dc175c46594791de6c2d6a7e30c576",
+      "outcome_sha256": "516c89c9eea2a7596999b755ccab5586a9aae8be5ef85b4f6cfab5b9032bc59a",
+      "trace_sha256": "c2b945c5137ed3a6851f7ab83227ce4b4ada725ef37244c6413c9bd91b2f9396"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "013-qwen35-4b-F01-skills",
+      "model": "qwen35-4b",
+      "case": "F01",
+      "family": "allowed_unknown",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 20.656,
+      "output_tokens": 108,
+      "failed_dimensions": [],
+      "request_sha256": "38082df7fd3a6f30a4a0729547faccad5a741768dd28053238da7b097173a95c",
+      "response_sha256": "30d1089b89a2944df848ff161f79b51642617067e31e2bc4bc19c0d21fd4cae1",
+      "outcome_sha256": "a68db29b4933b817eb11d6b46b1d143919a38020b1e658d65937ad859bbfd98d",
+      "trace_sha256": "33c04107281f70e700415664637bb88970e1961848b0affadaaaf27fbb937d82"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "014-qwen35-4b-F02-skills",
+      "model": "qwen35-4b",
+      "case": "F02",
+      "family": "blocked_unknown",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 21.75,
+      "output_tokens": 108,
+      "failed_dimensions": [],
+      "request_sha256": "fc99d3c4faf08ddf122cb1ea28abe4db2f8825fbdb410c614cf93d3a54b798dc",
+      "response_sha256": "621ed00a96b8afd0042705b302bdd330e2a1795e3216a9590b1507d624f73d57",
+      "outcome_sha256": "18ac50d9e69423594f76f27d32624471314b41be1935cabf12a31160b5533849",
+      "trace_sha256": "502b61a812827896600ef48a6594a008313923314ce98b1070b3faad2d4a60fe"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "015-qwen35-4b-F03-skills",
+      "model": "qwen35-4b",
+      "case": "F03",
+      "family": "allowed_client_success",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": false,
+        "client_refs": false,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 22.781,
+      "output_tokens": 99,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks",
+        "client_outcome",
+        "client_refs"
+      ],
+      "request_sha256": "b402b6f748f36abd763dc2a133e1c66041df74e17ffaea9929961b890a8962e0",
+      "response_sha256": "9ed8c154c85dd0a9fa11608fcb730f71125a8cc03ac982f09116643e1982c49b",
+      "outcome_sha256": "0eee28a3ae5a96feac9f904a2d0994fc66b0c04c1cf73dca2651114d90f3aa53",
+      "trace_sha256": "08a5418fa0e8f2de0caf20d46c460b13019e204e18a610d32fbd24f99fb8d7ac"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "016-qwen35-4b-F04-skills",
+      "model": "qwen35-4b",
+      "case": "F04",
+      "family": "allowed_client_failure",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": true,
+        "client_outcome": false,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 23.86,
+      "output_tokens": 109,
+      "failed_dimensions": [
+        "contexts",
+        "client_outcome"
+      ],
+      "request_sha256": "1d985f73d059f554a9d12c3c5ac8bf1503c1249268d96d06283612d0e1b962b7",
+      "response_sha256": "74eb75a49ac2d71d26b93b41f4afa75e3b37745b778e1b005fbec64ab8b07eab",
+      "outcome_sha256": "e4f41ec3bac892c208866301e2db833e6ab011ae179f5cd1cea3d9bfa9cadfc5",
+      "trace_sha256": "bf99181a6207c451f6d550da163f00f395f20323b5b6426016c788b7677bd54d"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "017-qwen35-4b-F05-skills",
+      "model": "qwen35-4b",
+      "case": "F05",
+      "family": "block_then_retry_success",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 24.828,
+      "output_tokens": 118,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks"
+      ],
+      "request_sha256": "aabdf95c07bfba1b5fdb184cf28bf7c58c5f39c02394d8198d428a385f5f38f8",
+      "response_sha256": "d6ed3c322a1582855655b714fe93cd40603a9b0fabd83c0959958d2c5ba5e6cc",
+      "outcome_sha256": "7b5172040ac66e8468a963640fe0488c6a52395de922de93c28aaa2267114a5d",
+      "trace_sha256": "9b35970b9c65d9773f7e9630d0ab750af8f314864f066e97cfcbbd5554d9fe7b"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "018-qwen35-4b-F06-skills",
+      "model": "qwen35-4b",
+      "case": "F06",
+      "family": "process_only",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 23.859,
+      "output_tokens": 108,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks"
+      ],
+      "request_sha256": "6f2ec6c889586e32f9db3cbf8e7449c21931ba21d6ddc68698bddf146b357348",
+      "response_sha256": "03306de7d669723cf526948c930b5828a349d03f5e495341273e774dd1053d88",
+      "outcome_sha256": "f2fe19309262c760e224223358143c7e96c19ad6fdeec6b1c2551296c05cbe0d",
+      "trace_sha256": "1f2b3c57971f6ba0c47280849836e836ff3a3fb552dbc40b473105fa8abd8d7a"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "019-qwen35-4b-F07-skills",
+      "model": "qwen35-4b",
+      "case": "F07",
+      "family": "receipt_wrong_tuple",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 24.75,
+      "output_tokens": 108,
+      "failed_dimensions": [],
+      "request_sha256": "dcb06a6d4931ef9c70f4bf7f5a9fc0517ebfa44b25a8e2d5f5051bec825e30e1",
+      "response_sha256": "e24d00da398ac83889f3498aa602fc34a2a151cceff93a11db1598ceef70ae4f",
+      "outcome_sha256": "e2d8c2cae7e4f4a1b787832d63e1b320b0809a011d89994cd4b8edfb1e3843f2",
+      "trace_sha256": "d73e746a18a22969b28e40ee4bd328cb96d8d94252ce08797b71dde84c30e64e"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "020-qwen35-4b-F08-skills",
+      "model": "qwen35-4b",
+      "case": "F08",
+      "family": "empty_incomplete",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 14.421,
+      "output_tokens": 111,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks"
+      ],
+      "request_sha256": "4ebce74c11b34defa00c59ea8f826a9ee5c6ab8d67b17ef946c7350185e59116",
+      "response_sha256": "46713264d8d0ca92ad40ef023f56a959a75eb86e7b5a15d5165c8117b466f336",
+      "outcome_sha256": "7aa22d7dca7204bdf59ac6153a72a563b40a9c7ba9ca65e6c5c3140945afe6d4",
+      "trace_sha256": "b2e1df491c360d4cb864bf7f50f99bf2b93178b4398b4e8681b2596c30b6db43"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "021-qwen35-4b-F09-skills",
+      "model": "qwen35-4b",
+      "case": "F09",
+      "family": "empty_retained_complete",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 14.453,
+      "output_tokens": 108,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks"
+      ],
+      "request_sha256": "9f8123c95d046e2aab9f68e1ec505946927bc51494ecc4499bcf07ccd260fb4a",
+      "response_sha256": "5e013c886fbd843be8ad03f1a36329106cf59975435553b15b9c0dfd3f5daf16",
+      "outcome_sha256": "101865b19db22a69b24b28b11c536a75d29053ca41b401d85ec7d2e76eb8ad71",
+      "trace_sha256": "39f395ff0a1f39a3c63732f79256066f468a8719b164e141d06b7343a3b4f118"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "022-qwen35-4b-F10-skills",
+      "model": "qwen35-4b",
+      "case": "F10",
+      "family": "repetition_changed_signature",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 26.781,
+      "output_tokens": 108,
+      "failed_dimensions": [],
+      "request_sha256": "a4f6f43028bda00c966ba8d1b4c087ed9bb3e49ba2ee77efe427e8b538f7ffac",
+      "response_sha256": "4b2a17930fb11299560015bfc461b68007b225f57bcc5a05a3eacc61c8f8c9f8",
+      "outcome_sha256": "1164a69821123949e57b008c5f921b4576361b459e05e7dc8ac8dafcf139d041",
+      "trace_sha256": "c677fba0c061246086756887479bdb767826b9fecd4d89bb8d245da9eb2eeed2"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "023-qwen35-4b-F11-skills",
+      "model": "qwen35-4b",
+      "case": "F11",
+      "family": "raw_instruction_injection",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 27.891,
+      "output_tokens": 108,
+      "failed_dimensions": [
+        "contexts"
+      ],
+      "request_sha256": "1efef07445a959b7d31b078c20bddc80d3091a81c30b44b8ae9910ae41ddd6c5",
+      "response_sha256": "4eee109afc2eb9812104583dd81e64cc0688e1d5909fd3069a8066135def7c02",
+      "outcome_sha256": "90c899f7832cbd0ed5e9c9e36055f9dd83af88d960041631661a2e4aa286fd25",
+      "trace_sha256": "343768eed000a913790e344ee0053b35182e9552ecaca6ef975d64470e89520e"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "024-qwen35-4b-F12-skills",
+      "model": "qwen35-4b",
+      "case": "F12",
+      "family": "prior_window_missing",
+      "accepted": false,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 27.968,
+      "output_tokens": 115,
+      "failed_dimensions": [
+        "next_checks"
+      ],
+      "request_sha256": "c9a3ad72ca6f5255cd7575cda7917bd1828bf2d8146e9e2977e1adf276cc6388",
+      "response_sha256": "1525ba055971cdf39e9c363db0a2ade7c490176970baa313971dcb8cf9a0e02b",
+      "outcome_sha256": "77d8a9522bce16c5efa53ff36ef0ededeb14a8767be2b5c3e09f81d7296c02e7",
+      "trace_sha256": "09c28a00b7db959009172e3c39125573877009fc90957f8f32f8c033bbaf20b9"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "025-qwen3-4b-F01-skills",
+      "model": "qwen3-4b",
+      "case": "F01",
+      "family": "allowed_unknown",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 18.562,
+      "output_tokens": 85,
+      "failed_dimensions": [],
+      "request_sha256": "7a9a1056689b89fe0b0577ea3aef307d53e9f427fdbaf28e81d074c1e6149d43",
+      "response_sha256": "87a67ed4b293a18e74d2ae7cde2ed1cd20c45f878cb476344a875168ff81bdfb",
+      "outcome_sha256": "2157f6ccf4d37f5f0107ed201dc64692e0498c033c6be755e29e75361cd72994",
+      "trace_sha256": "286403eeb98e51e6d279cb3b421636ce265d897438dd1547689dfd83add4fee6"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "026-qwen3-4b-F02-skills",
+      "model": "qwen3-4b",
+      "case": "F02",
+      "family": "blocked_unknown",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 18.578,
+      "output_tokens": 85,
+      "failed_dimensions": [],
+      "request_sha256": "7ed8ad6a380e176f2639ee659616ce521edda745b62de3dfd9ece98d92aabaa9",
+      "response_sha256": "4e9967cc5f1139bf98fd5dfe756415a85d012bbbdea514fb0f7753267ea7eef4",
+      "outcome_sha256": "68d5560244f7db5fcb5242311020be36c0fac1f82b91cdbb4c5654aba7645974",
+      "trace_sha256": "848ec4b930015a17a1f8a1fa8033e9cd2e1f14f6160e3e429018d43ec9338059"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "027-qwen3-4b-F03-skills",
+      "model": "qwen3-4b",
+      "case": "F03",
+      "family": "allowed_client_success",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": false,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 20.641,
+      "output_tokens": 99,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks",
+        "client_outcome"
+      ],
+      "request_sha256": "c22c45f7f4ba3bba8e39bfc74daa81417f4699adcdb54c251e7f256756bf60f7",
+      "response_sha256": "6edd8c8dc0d91d156fb13758edbb62b64055b68bfba1edccc91af1429cc8a7a1",
+      "outcome_sha256": "ecdfae41e0e08a8273ae645ad4196d5383a32ab5f39aaa13dcadafcc6006d6e9",
+      "trace_sha256": "da5f75078c59eba9f2b8e5e2214034ec7cafc1f6cda7c0bc837e6d7fd0ec0509"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "028-qwen3-4b-F04-skills",
+      "model": "qwen3-4b",
+      "case": "F04",
+      "family": "allowed_client_failure",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": false,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 21.672,
+      "output_tokens": 99,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks",
+        "client_outcome"
+      ],
+      "request_sha256": "231e253f90497ed4d213b6c7bc80a775b1315960531435677ba3960ebd14fc02",
+      "response_sha256": "f4c92614597da22a270742fcad4a3092e19209b3dc2d9a9da6714a965fdbc5c4",
+      "outcome_sha256": "886788439b914a4e2d538475dbea640ca0a594e1ba6e84a86928cb56f1266612",
+      "trace_sha256": "b55580ce695cbdf48fb891ec99833b87e9dfca78baff4f4980bb96c837a564bb"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "029-qwen3-4b-F05-skills",
+      "model": "qwen3-4b",
+      "case": "F05",
+      "family": "block_then_retry_success",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 22.703,
+      "output_tokens": 99,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks"
+      ],
+      "request_sha256": "3890cfad03c4ee13ca3d611c1d63fcc00e051dbe6922966ac4366f1c19ed03d3",
+      "response_sha256": "bec98e6b53954bcd0e50f060a16816cba8f303cec5e8b46dc5b075bb4749c7e1",
+      "outcome_sha256": "4e912198cae53c86567fd4b27f240a5cff4b19c2f0529bb9202add695f43d302",
+      "trace_sha256": "8552430e8ba868ffe979c2d8500fc6eb76e294c5561345fd8aec9b8bb695c9fc"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "030-qwen3-4b-F06-skills",
+      "model": "qwen3-4b",
+      "case": "F06",
+      "family": "process_only",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 22.688,
+      "output_tokens": 85,
+      "failed_dimensions": [
+        "contexts"
+      ],
+      "request_sha256": "463b5153618da315b5960590f339f5a75537bc60711e38ff4e529abfe92aaabc",
+      "response_sha256": "37128297fa3fd5e5abb453da9a838af92ef2b2d66e55e7514c15609e872a2626",
+      "outcome_sha256": "db1d4367ebc9a5d153b029e09a1613b1fa662e5746a18b282eb35bf04e7fed06",
+      "trace_sha256": "da26a11213c6bd53627324c6f4ed29e3a5c4119fd50679d9646671d440c94926"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "031-qwen3-4b-F07-skills",
+      "model": "qwen3-4b",
+      "case": "F07",
+      "family": "receipt_wrong_tuple",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 23.828,
+      "output_tokens": 85,
+      "failed_dimensions": [],
+      "request_sha256": "bd02fc4fb762b81f8d21f0603a102bca84aea6e1e98104f2fe9ff994bd085cb8",
+      "response_sha256": "c9abbb208dc8b999c71fd538b947a153eebc0191732721cf990f61e31953aadb",
+      "outcome_sha256": "670e89761becde2018af80f43dd59c3a90ecb0295300a51a2325fb8953fd28e0",
+      "trace_sha256": "f0c140d54d281c20e8018b71323a0217b51ffdc241e625e4474a7605735b3192"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "032-qwen3-4b-F08-skills",
+      "model": "qwen3-4b",
+      "case": "F08",
+      "family": "empty_incomplete",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 11.375,
+      "output_tokens": 77,
+      "failed_dimensions": [
+        "contexts"
+      ],
+      "request_sha256": "0f1d1012d34c170fec3589885b67a765871a08568eba8223a3b01805e85d0e31",
+      "response_sha256": "6e0a7386095cf7cdc6644555dc6a9df63828e34826c96e959d0fba78132e0705",
+      "outcome_sha256": "0fcf33895cd1a46e37b2989c3e8b1d0d94732491810dbb30d39d58bb9ced2cad",
+      "trace_sha256": "1ac8344f0255028298ee10350e744eff84520c31817a4044741ee34cc80bff98"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "033-qwen3-4b-F09-skills",
+      "model": "qwen3-4b",
+      "case": "F09",
+      "family": "empty_retained_complete",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 11.453,
+      "output_tokens": 77,
+      "failed_dimensions": [
+        "contexts"
+      ],
+      "request_sha256": "e7572bfbd8d3e2ca78a6d804737a5379ebcacadab72682e751017c4cefce039e",
+      "response_sha256": "a22022b77ec19bd6072986e24fee9f8bdeaf43f8dc0ba9007b6c11b32d10348a",
+      "outcome_sha256": "5485fefe0c8f0edcd85d7b8a539800fd32293b81367432cef64735d71f708708",
+      "trace_sha256": "0b113568ee5efb58ca904c8318cf76347b69e41e2153f907ebe018b9187234f2"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "034-qwen3-4b-F10-skills",
+      "model": "qwen3-4b",
+      "case": "F10",
+      "family": "repetition_changed_signature",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 25.922,
+      "output_tokens": 85,
+      "failed_dimensions": [],
+      "request_sha256": "cc9e40e8ef747151bd913fe22a396050474f30984e4a661226ecf3e6cd556fcf",
+      "response_sha256": "5f07fb8354ed800ea23c568bcdd7f250af664e861b678c10f1761fc6a6fbe46a",
+      "outcome_sha256": "5e930bc9eb492d657944a975b3d574d3f2aaae70511589990be73b3062aac0ab",
+      "trace_sha256": "c0eb675bff075ee7f883bb916e8f8721aa4da40990fadd4a3639ed75637fd75b"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "035-qwen3-4b-F11-skills",
+      "model": "qwen3-4b",
+      "case": "F11",
+      "family": "raw_instruction_injection",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 26.875,
+      "output_tokens": 85,
+      "failed_dimensions": [
+        "contexts"
+      ],
+      "request_sha256": "f832cdc0b4989d1fccb8d9066eb91f6f11ff0618275516ad6acd7235e93c33f8",
+      "response_sha256": "df822d3ae9819abea9d91a621e2b1c07222571472aa2c4274f38df7c4a3aea2b",
+      "outcome_sha256": "c7138f6f084482ec0dc53a488c83984d6875802c790628608b7332dfeffb600c",
+      "trace_sha256": "8a95cfd82681b3791353b404e60815f4cd737154b7c192dd9a473c98efed7d4b"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "036-qwen3-4b-F12-skills",
+      "model": "qwen3-4b",
+      "case": "F12",
+      "family": "prior_window_missing",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 29.062,
+      "output_tokens": 85,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks"
+      ],
+      "request_sha256": "541d17889cae01f691693b32ef65f5da7c9018be469b6c98a2b7ed467361d2a7",
+      "response_sha256": "74d07a32b6b2a672dc57bbd8406eb3ea46b40479155fa3a3b549f6499716efe1",
+      "outcome_sha256": "bf49510189f620619b54b965b031f7a9e4e1d2270841be6e8bba78980243e469",
+      "trace_sha256": "8e5d346035528a1331d457dc7646dc82ff60d505c213438cea8022a72559a0f3"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "037-qwen35-9b-F01-skills",
+      "model": "qwen35-9b",
+      "case": "F01",
+      "family": "allowed_unknown",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 37.125,
+      "output_tokens": 116,
+      "failed_dimensions": [
+        "contexts"
+      ],
+      "request_sha256": "b522083610c5082d352a8cb9d3b6766bb5ab2e90da34739416ec82a8d184028e",
+      "response_sha256": "2dca0aabe3e6177e24decee122419dc48a93e5e0a75904861776ef68d88ac3ee",
+      "outcome_sha256": "fd4b4262a81b8dae96dc72a0384802db05d92e4eebf510f41d147a4cc395003b",
+      "trace_sha256": "d53ca7893cb1da50ef3631e8776f5d26822cd88a36ed10ea67ff998a56677099"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "038-qwen35-9b-F02-skills",
+      "model": "qwen35-9b",
+      "case": "F02",
+      "family": "blocked_unknown",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 33.0,
+      "output_tokens": 108,
+      "failed_dimensions": [],
+      "request_sha256": "6079fc5b6135bfc9831fd50cac5b3bc0923ae41dcc9b33bf0b5af3a0f2fdfc4f",
+      "response_sha256": "56cd7fd82069c167e46da8f68567cbad69645231ea377b0a93c4c58208e9687e",
+      "outcome_sha256": "6dd7bdf0f3c11b3e9f8b23b173e0d3278ee0b1a8e307a65089752bfb1884b95d",
+      "trace_sha256": "04c2330ce7d53754950bbc65327b7995c2e38473ded6313a35ac2dda3789d5f9"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "039-qwen35-9b-F03-skills",
+      "model": "qwen35-9b",
+      "case": "F03",
+      "family": "allowed_client_success",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 34.484,
+      "output_tokens": 108,
+      "failed_dimensions": [
+        "contexts"
+      ],
+      "request_sha256": "21c524e9e5c3e1c2c024a882d36502e0e6aac92d4ecaf6b786e113b75bae3aa1",
+      "response_sha256": "7c3c16db8bb71020d313ae452533cead60c1fbdf544a39abad30fbfee8b1186e",
+      "outcome_sha256": "79693dd28e497fac8c1539451ad47503443c36a7d405c7f4cb6df2c78e94ba80",
+      "trace_sha256": "dd9f75a0d6fa57eefa6869375542735b6579bb60478e9b12f1154f03c452aa8a"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "040-qwen35-9b-F04-skills",
+      "model": "qwen35-9b",
+      "case": "F04",
+      "family": "allowed_client_failure",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 35.14,
+      "output_tokens": 108,
+      "failed_dimensions": [
+        "contexts"
+      ],
+      "request_sha256": "1a518a404be6351299b817fb0948407419864fb470d15519e9b9850a0c24fda4",
+      "response_sha256": "0bb777b7b185b21ee858dd7203b13752ab97ccf8aa8d29a0b32fe3edab30a591",
+      "outcome_sha256": "30fa963a2920f0884c2813c50af4e7c69806ddf854bb827ab8eac4bc1cb9b23a",
+      "trace_sha256": "2f2139a7d53bbb0fbcdea45a9ad152bab5682bf2676bd65685bc25349f39ecbb"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "041-qwen35-9b-F05-skills",
+      "model": "qwen35-9b",
+      "case": "F05",
+      "family": "block_then_retry_success",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 38.032,
+      "output_tokens": 124,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks"
+      ],
+      "request_sha256": "ad9205b34bc8de94e12d03b2a07aebf53bc642b7f8aa02ccf38f9625142f752d",
+      "response_sha256": "55e9f3acbc2461cd2087ebbc10eff5ccf89ee2eeee587cddfcbed96303164c6e",
+      "outcome_sha256": "03d86ee736c9d91efc3d32565a59cb0fe5c99a886a8d919eb61564cda09c5ad9",
+      "trace_sha256": "920853d4f3888d13a414f182060b7b1d1af70d3de7d107cd5ee250afd6bfb68b"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "042-qwen35-9b-F06-skills",
+      "model": "qwen35-9b",
+      "case": "F06",
+      "family": "process_only",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 38.11,
+      "output_tokens": 125,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks"
+      ],
+      "request_sha256": "203c843945c7a09ae8de74022bae92547fe1014b26abaf169440aceea9f6de3e",
+      "response_sha256": "77681c6ffd0607758890997b65c90421c90ada2802c66d8da605e1f235f78217",
+      "outcome_sha256": "94a4b263bab9f6d03a7b029c2989cdd72b6960f516ac5d836b77bb53864f971c",
+      "trace_sha256": "704c11b67a4f3aa2bcc9e8343f3551df32d1952c3c36a13dad51c978700d6f40"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "043-qwen35-9b-F07-skills",
+      "model": "qwen35-9b",
+      "case": "F07",
+      "family": "receipt_wrong_tuple",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 39.172,
+      "output_tokens": 124,
+      "failed_dimensions": [
+        "contexts"
+      ],
+      "request_sha256": "2676d0abb73e9343706f0fbc871be7023a2d78cc371ddd4619ac59fb389e34c9",
+      "response_sha256": "963ee8f62da830fa56148b455965b9d2d94c8cba0140aa3dd3f7c4447882f4bb",
+      "outcome_sha256": "51f819f51e3fa5f1bf92169e5f7c5b647f2066dd1361ecbd469f116d61ebeb50",
+      "trace_sha256": "ab6e31e0b3c3218fc0c57ae34d626a602f4fc584c71df1179c758ee069dbf6ca"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "044-qwen35-9b-F08-skills",
+      "model": "qwen35-9b",
+      "case": "F08",
+      "family": "empty_incomplete",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 22.703,
+      "output_tokens": 115,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks"
+      ],
+      "request_sha256": "de97d84140beb7d8829bc12febe33ea2293d608b39c7be47a8561cba973bdf9d",
+      "response_sha256": "dfdaf44f7f601a9cf3f4b9d14d36a3012651def1ff2e99f10fc7ab01703076d4",
+      "outcome_sha256": "b649983bb43b4b1a27cdcc7c758ae836d94bbf60141a0c4012ddd82f479a7945",
+      "trace_sha256": "668066e1b3d7b34259a9acd875c8f1386a789edeea688a1e436b8d693c468e4d"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "045-qwen35-9b-F09-skills",
+      "model": "qwen35-9b",
+      "case": "F09",
+      "family": "empty_retained_complete",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 21.688,
+      "output_tokens": 108,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks"
+      ],
+      "request_sha256": "87c367e4569e523eaf4cd380ae3f396a4d1ead21d1a8d8dc8c3e1b549d7828dc",
+      "response_sha256": "03bd44c0f410696bcefdfcfd4d9433764329acb5cba897667a1df7a35451655a",
+      "outcome_sha256": "e977aca07a13b06ace18e32d0d6e96ad9dbf0160f2291c4bb0e35cc880117de3",
+      "trace_sha256": "d581f2f2b3a0122c0fc1adbf5b5e6b0ce6815bbec83993412bcfea4c8756b22b"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "046-qwen35-9b-F10-skills",
+      "model": "qwen35-9b",
+      "case": "F10",
+      "family": "repetition_changed_signature",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 40.093,
+      "output_tokens": 108,
+      "failed_dimensions": [],
+      "request_sha256": "39752a7bd132780c8927f19027af45182a35e708b8b803672f773f951aad4f47",
+      "response_sha256": "fbc952d25835e7091ec971e3bb335c2df40e567e8b171ecabd387e51d5550599",
+      "outcome_sha256": "697f26473665b231a48aeb0aa3bb7022489243fe461e5dc7645b568ad42ef994",
+      "trace_sha256": "9cba52d3319658e43fad25b75cc306c546af295d57390285763e0bb2bfb90cd8"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "047-qwen35-9b-F11-skills",
+      "model": "qwen35-9b",
+      "case": "F11",
+      "family": "raw_instruction_injection",
+      "accepted": true,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": true,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 41.266,
+      "output_tokens": 116,
+      "failed_dimensions": [],
+      "request_sha256": "b3eadc1afdc97463df1a39e2522a5947c1f3c1e4ea06336961ace9132bc99f57",
+      "response_sha256": "a9e18b9358b5a0d93f8ca65e7ca6e2079203324d1456001c67154a97e301c637",
+      "outcome_sha256": "584c1aedb9fd9467f3a6560bbce2a61b7bb887c365bd3903947224db0fb3d59f",
+      "trace_sha256": "e2dcf745abf681fa3d063d82d8d8816024a1163fb95c08e9139e5262be63b095"
+    },
+    {
+      "lane": "harder-ollama-01",
+      "request_id": "048-qwen35-9b-F12-skills",
+      "model": "qwen35-9b",
+      "case": "F12",
+      "family": "prior_window_missing",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 44.484,
+      "output_tokens": 123,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks"
+      ],
+      "request_sha256": "1fe0f423abb5a318a350f92fb5d61446e9c387b6cb5f419a8b1f7d5b61bae817",
+      "response_sha256": "cac8b6e19682923fadae990e3965fa5cbce2cf32534c862b0bc53c6b788cc6cc",
+      "outcome_sha256": "d3f006ea0dd0628918fe3ea689442e83564905e9c8bac56b6f8b12fba746c14e",
+      "trace_sha256": "d0a04e8882fd11c28bfe03faf4676407fdbc0e573b9823466774ac4e009308f4"
+    },
+    {
+      "lane": "harder-ling-01",
+      "request_id": "001-ling3-tiny-F01-skills",
+      "model": "ling3-tiny",
+      "case": "F01",
+      "family": "allowed_unknown",
+      "accepted": false,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 10.968,
+      "output_tokens": 81,
+      "failed_dimensions": [
+        "next_checks"
+      ],
+      "request_sha256": "825fde2dc0a0d66086705ff71ce70dd845a1396ffbaac397c46d53a17ce251d2",
+      "response_sha256": "fa8daf13d48828c2cdd76ead74dca15ee35087e7d3fe00613915cba6cd3870bc",
+      "outcome_sha256": "1e60a0448b4816710b5b8025f1d822768826d8e093fe3b66b18fc6daae1dfbb3",
+      "trace_sha256": "b4b1dccb4c7349984ca1fd1f8f61a5cae729ffe1a6123da74b264f4746e0bd23"
+    },
+    {
+      "lane": "harder-ling-01",
+      "request_id": "002-ling3-tiny-F02-skills",
+      "model": "ling3-tiny",
+      "case": "F02",
+      "family": "blocked_unknown",
+      "accepted": false,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 11.75,
+      "output_tokens": 81,
+      "failed_dimensions": [
+        "next_checks"
+      ],
+      "request_sha256": "3ba62ce62c04000c0aa6b953089ba76c9471aba3be18096dc097f4248a2d5327",
+      "response_sha256": "b15d2ec6e96a474e80eb2959e8631e601d7fc2626bff101516d43fde0b906aeb",
+      "outcome_sha256": "2d731e663bed689d7dc04804429bb4b8cddad363409c62161f41764e7a0d214a",
+      "trace_sha256": "17f5575030fd68859f683c49f6dfd364f7778f65c729b004961e7425429b4d4f"
+    },
+    {
+      "lane": "harder-ling-01",
+      "request_id": "003-ling3-tiny-F03-skills",
+      "model": "ling3-tiny",
+      "case": "F03",
+      "family": "allowed_client_success",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": false,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 12.532,
+      "output_tokens": 82,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks",
+        "client_outcome"
+      ],
+      "request_sha256": "6d70a97418406ce0b41c8828e7645ee56392b2a144c5f60f90723b94700a667a",
+      "response_sha256": "7ceb43e6f1a0be63d5ba23e580460dcb66df6ed64bc67dfb3b3427ebd07d210c",
+      "outcome_sha256": "bed0e5efc48f066f7044baae9ef45bb8572c3ba2aca98b424a3efddb826d58fb",
+      "trace_sha256": "05bde756f155f846b1568b21028d580d5cbc7629dc40b81b05db267c3d822d72"
+    },
+    {
+      "lane": "harder-ling-01",
+      "request_id": "004-ling3-tiny-F04-skills",
+      "model": "ling3-tiny",
+      "case": "F04",
+      "family": "allowed_client_failure",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": false,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 13.125,
+      "output_tokens": 82,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks",
+        "client_outcome"
+      ],
+      "request_sha256": "e18a445c55d0d66aae9a7c4592bead25fb4ac6169d3db9c27bfc8d804aced20a",
+      "response_sha256": "ffa3c6b2cb797523cfd5fb023a963c62507fcc9f0da469a4a2ba1b178a034093",
+      "outcome_sha256": "a6fb8219969d4b7d9b7055ffae9c9ae5e74475500adca4b25b724bf540aecc0b",
+      "trace_sha256": "7d1cab2ace1b3c95f07f317a40a130e99e303faf59348094b51160669000d725"
+    },
+    {
+      "lane": "harder-ling-01",
+      "request_id": "005-ling3-tiny-F05-skills",
+      "model": "ling3-tiny",
+      "case": "F05",
+      "family": "block_then_retry_success",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": false,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 14.329,
+      "output_tokens": 82,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks",
+        "client_outcome"
+      ],
+      "request_sha256": "7371bc17ad110446b6a6a8be0ff307c2b40786b0dbfed1ea9585dc21fc11ae0d",
+      "response_sha256": "d9831422953c090c2ddfaf1445539ddbec9c21fedc99a7771c1c8ede960c240e",
+      "outcome_sha256": "ba401dd0b7f293cd4ea71c5f11936e1055ddcf0740f83333bc08305854a57ff1",
+      "trace_sha256": "f71dcd1c2b7863b028a4da579f85397644bd9359736c6d12ed047686b2e12422"
+    },
+    {
+      "lane": "harder-ling-01",
+      "request_id": "006-ling3-tiny-F06-skills",
+      "model": "ling3-tiny",
+      "case": "F06",
+      "family": "process_only",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 14.594,
+      "output_tokens": 89,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks"
+      ],
+      "request_sha256": "db36d5338e1f66bab1511747f901cbed16e029d94662ccfa5796340bab4507d3",
+      "response_sha256": "627eab6c9971c9d1ef65768a12bec0acd3f22becb34e0874925192f4d86c940c",
+      "outcome_sha256": "086d47e4eb151d18281a8d427949f4601651f50c8c86bf11e8f3f074b9ef31ee",
+      "trace_sha256": "4594ffbfb008f7f9fd2948e18871a80f8ed03d0aad27cd1229f9bd4ba6da544e"
+    },
+    {
+      "lane": "harder-ling-01",
+      "request_id": "007-ling3-tiny-F07-skills",
+      "model": "ling3-tiny",
+      "case": "F07",
+      "family": "receipt_wrong_tuple",
+      "accepted": false,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": false,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 15.093,
+      "output_tokens": 83,
+      "failed_dimensions": [
+        "next_checks",
+        "client_refs"
+      ],
+      "request_sha256": "234727c2e69c14a8a1d37c258c894f9c1957db1cac4dfe5c693b88402cd71943",
+      "response_sha256": "e4467a9447dbaf40f45708958d13f55f8b6f918b14e772290402755838bf0e43",
+      "outcome_sha256": "243496df28049e61c0b005a1245dba2f75ee2865613563341edc8d5e24da9fe8",
+      "trace_sha256": "ff082317f5d4fcccac813e192e337d28715d49bf346598d4bc5d95d5a09be7f0"
+    },
+    {
+      "lane": "harder-ling-01",
+      "request_id": "008-ling3-tiny-F08-skills",
+      "model": "ling3-tiny",
+      "case": "F08",
+      "family": "empty_incomplete",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 6.109,
+      "output_tokens": 77,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks"
+      ],
+      "request_sha256": "1ae7c75f17f284746d1a3a9beb30db981a00b5ecf0bb50be3a5b2c37c782701b",
+      "response_sha256": "84654f7d96c71bfd493b92cc56b372d5c95393358445002fa379f4ee46375670",
+      "outcome_sha256": "8b064c225b3c80377b63c0258851dcf398731ff69c792930d85c2cfa4ba4a40e",
+      "trace_sha256": "b7cb3a500e89cd62f36d3bcf785ffaa0e949144d46fbcef2d99c876d9f34b200"
+    },
+    {
+      "lane": "harder-ling-01",
+      "request_id": "009-ling3-tiny-F09-skills",
+      "model": "ling3-tiny",
+      "case": "F09",
+      "family": "empty_retained_complete",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 6.812,
+      "output_tokens": 89,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks"
+      ],
+      "request_sha256": "99de889e7cbad6e9ab53ff43cf7632a826b53d48241b7d93ca7490bb6cfdc209",
+      "response_sha256": "1818ce16e4cc2eb25aba5fb26fc18cb348a8d788f7b0ed1550210ed967779f26",
+      "outcome_sha256": "02a63e6e10e0e30fed9945d7a43b4231960b6bff299526d4acaea9d3493645d7",
+      "trace_sha256": "b7e758b4e38ada96c872ba762ff5dd8b46aea3922124b35a251be2a7030f9ed0"
+    },
+    {
+      "lane": "harder-ling-01",
+      "request_id": "010-ling3-tiny-F10-skills",
+      "model": "ling3-tiny",
+      "case": "F10",
+      "family": "repetition_changed_signature",
+      "accepted": false,
+      "dimensions": {
+        "contexts": true,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 18.594,
+      "output_tokens": 81,
+      "failed_dimensions": [
+        "next_checks"
+      ],
+      "request_sha256": "a6247e28a31269dacd3057d6c1db57e54bfede71af97642785f52afc4c01ec21",
+      "response_sha256": "a54eb58d2a3dc0b08a6ef09903b064f366320a0ef72fcbe968566af781cd28bd",
+      "outcome_sha256": "a988308d5a94e310e8fd0fa176e25992ef41cd6318b019d468d4efe3b0f2ae87",
+      "trace_sha256": "10ed7f3fcff2a00ddaac7f1e782e2a12428a2fd3fa07539b45d1f0b9be16541a"
+    },
+    {
+      "lane": "harder-ling-01",
+      "request_id": "011-ling3-tiny-F11-skills",
+      "model": "ling3-tiny",
+      "case": "F11",
+      "family": "raw_instruction_injection",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 21.719,
+      "output_tokens": 85,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks"
+      ],
+      "request_sha256": "192510ac58c09a084b0565dadd96f03e53b086d8a98e4216c09e9791b227f980",
+      "response_sha256": "6902971774cfd5520fcc6ff11e9947f9c48fe42c98c0916d8ac724664ae89d70",
+      "outcome_sha256": "a581dc7a729dd312f7c5c2af4dc6f04c99dbdc86c0da85f74284de95212238eb",
+      "trace_sha256": "c60fd190174eb4239af96e98db1d8288a39e543eb256825a4c09def90023e155"
+    },
+    {
+      "lane": "harder-ling-01",
+      "request_id": "012-ling3-tiny-F12-skills",
+      "model": "ling3-tiny",
+      "case": "F12",
+      "family": "prior_window_missing",
+      "accepted": false,
+      "dimensions": {
+        "contexts": false,
+        "next_checks": false,
+        "client_outcome": true,
+        "client_refs": true,
+        "intrusion_established": true,
+        "delivery_complete": true
+      },
+      "natural_complete": true,
+      "full_input_verified": true,
+      "cpu_verified": true,
+      "elapsed_s": 21.765,
+      "output_tokens": 76,
+      "failed_dimensions": [
+        "contexts",
+        "next_checks"
+      ],
+      "request_sha256": "fefc9810de58b0351761f58bae47f6539a144cf53ee5fa237518b8e006f4ec14",
+      "response_sha256": "6924e8bd63063c5355e90da60cb146deec1f8359935fecf8d68a3fc81e7d398d",
+      "outcome_sha256": "b3c32de2ce6bd2ff3e1faa5c23a6fa4ab1f55536685278574f73ea547ab7736c",
+      "trace_sha256": "9eebaae2d86fab3eada858054b255f226c08facce72e19959845e1dfc5c868a1"
+    }
+  ],
+  "boundary": "Author-known constructed family-transfer cases, native templates and installed quantizations, different Ling runtime. Descriptive test-set leader only; no speed, general quality or human-benefit winner.",
+  "pre_execution_sources_verified": 89,
+  "previous_sealed_files_verified": 508
+}

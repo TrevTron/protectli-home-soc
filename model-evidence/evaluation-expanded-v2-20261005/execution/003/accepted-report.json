@@ -1,0 +1,72 @@
+{
+  "inferred": [
+    {
+      "code": "rule_match_not_intrusion_proof",
+      "evidence_refs": [
+        "E-a7610a266cb9fe9f"
+      ],
+      "group_id": "G-150f9b4502fa",
+      "type": "inferred"
+    },
+    {
+      "code": "stun_may_be_normal",
+      "evidence_refs": [
+        "E-a7610a266cb9fe9f"
+      ],
+      "group_id": "G-150f9b4502fa",
+      "type": "inferred"
+    },
+    {
+      "code": "stun_may_be_normal",
+      "evidence_refs": [
+        "E-a7610a266cb9fe9f"
+      ],
+      "group_id": "G-150f9b4502fa",
+      "type": "inferred"
+    }
+  ],
+  "next_steps": [
+    {
+      "action": "inspect_event",
+      "group_id": "G-150f9b4502fa"
+    },
+    {
+      "action": "check_client_process",
+      "group_id": "G-150f9b4502fa"
+    },
+    {
+      "action": "compare_baseline",
+      "group_id": "G-150f9b4502fa"
+    }
+  ],
+  "observed": [
+    {
+      "field": "action",
+      "group_id": "G-150f9b4502fa",
+      "type": "observed",
+      "value": "allowed"
+    },
+    {
+      "field": "change",
+      "group_id": "G-150f9b4502fa",
+      "type": "observed",
+      "value": "decreased"
+    },
+    {
+      "field": "count",
+      "group_id": "G-150f9b4502fa",
+      "type": "observed",
+      "value": 25
+    }
+  ],
+  "unknown": [
+    {
+      "topic": "intent",
+      "type": "unknown"
+    },
+    {
+      "topic": "complete_visibility",
+      "type": "unknown"
+    }
+  ]
+}

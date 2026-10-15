@@ -1,0 +1,11 @@
+{
+  "model": "qwen3.5:4b",
+  "case": "mixed_priority",
+  "started_utc": "2026-10-05T23:27:55.663299+00:00",
+  "elapsed_s": 47.46899999999732,
+  "eval_count": 500,
+  "prompt_eval_count": 941,
+  "status": "withheld",
+  "reason": "Observed value does not match evidence",
+  "wall_elapsed_s": 48.469000000011874
+}

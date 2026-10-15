@@ -1,0 +1,12 @@
+{
+  "use": "new held-out multi-group fixture",
+  "useful_inferences": [
+    "sensor_reported_block"
+  ],
+  "required_unknowns": [
+    "intent",
+    "complete_visibility"
+  ],
+  "no_compromise_or_client_outcome_verdict": true,
+  "synthetic_not_actual_attack": true
+}

@@ -1,0 +1,41 @@
+{
+  "required_contexts": [
+    {
+      "code": "uid_fixture_possible",
+      "any_group_ids": [
+        "G-b5089c0d3d3d"
+      ]
+    },
+    {
+      "code": "stun_may_be_normal",
+      "any_group_ids": [
+        "G-32de6c3018a3",
+        "G-52be711c5d5f",
+        "G-5e6affd7862a",
+        "G-6e0d9e7f06b3",
+        "G-a3d31a85527f",
+        "G-ebc93ba5a764",
+        "G-3cbfea212c3b",
+        "G-7b06c9b0d6ec",
+        "G-03bf34a69ac1",
+        "G-20757dd7f0ac"
+      ]
+    }
+  ],
+  "review_first_any_groups": [],
+  "empty_report": false,
+  "unknowns_required": [
+    "intent",
+    "complete_visibility"
+  ],
+  "comparison_complete": true,
+  "quality_checks": [
+    "grounded exact fields and references",
+    "specific context coverage",
+    "at least one read-only step",
+    "review-first group attended when present",
+    "no repeated inference or citation",
+    "at most three items per requested observed/inferred/next-step list",
+    "no process/intent/client-outcome certainty"
+  ]
+}

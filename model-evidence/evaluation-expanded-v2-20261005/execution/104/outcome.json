@@ -1,0 +1,36 @@
+{
+  "number": 104,
+  "phase": "production_contract",
+  "case": "edge_dense_omitted",
+  "model": "qwen3:4b-instruct",
+  "repeat": 2,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T06:04:53.860206+00:00",
+  "brief_sha256": "f8be27e4202725455730aab4b568eb9d507a131b597dbd97cffa99557ea38569",
+  "elapsed_s": 78.38999999999942,
+  "eval_count": 477,
+  "prompt_eval_count": 2435,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "e627ff0542871cf1b99e5f75427bffbb3e261e64ea379de9cc735039fece09ed",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [
+      "uid_fixture_possible",
+      "tailscale_control_possible"
+    ],
+    "required_contexts": [
+      "sensor_reported_block",
+      "uid_fixture_possible",
+      "tailscale_control_possible"
+    ],
+    "complete": false,
+    "problems": [
+      "Missing required contexts",
+      "Repeated citation within inference"
+    ]
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T06:06:12.261806+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "qwen3.5:9b",
+  "case": "block_with_unchanged_tailscale",
+  "started_utc": "2026-10-05T23:46:57.968544+00:00",
+  "elapsed_s": 86.4380000000092,
+  "eval_count": 564,
+  "prompt_eval_count": 699,
+  "mechanical_grounding": "passed",
+  "useful_contexts_present": true,
+  "actual_codes": [
+    "rule_match_not_intrusion_proof",
+    "sensor_reported_block",
+    "tailscale_control_possible"
+  ]
+}

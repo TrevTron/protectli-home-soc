@@ -1,0 +1,19 @@
+{
+  "required_contexts": [],
+  "review_first_any_groups": [],
+  "empty_report": true,
+  "unknowns_required": [
+    "intent",
+    "complete_visibility"
+  ],
+  "comparison_complete": false,
+  "quality_checks": [
+    "grounded exact fields and references",
+    "specific context coverage",
+    "at least one read-only step",
+    "review-first group attended when present",
+    "no repeated inference or citation",
+    "at most three items per requested observed/inferred/next-step list",
+    "no process/intent/client-outcome certainty"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "useful_inferences": [
+    "sensor_reported_block",
+    "tailscale_control_possible"
+  ],
+  "groups": 2,
+  "changes": {
+    "2071648": "unchanged",
+    "920001": "new_in_observed_windows"
+  }
+}

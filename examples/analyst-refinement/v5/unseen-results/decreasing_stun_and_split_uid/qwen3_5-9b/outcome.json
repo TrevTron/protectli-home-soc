@@ -1,0 +1,15 @@
+{
+  "model": "qwen3.5:9b",
+  "case": "decreasing_stun_and_split_uid",
+  "started_utc": "2026-10-05T23:48:24.700245+00:00",
+  "elapsed_s": 85.03100000000268,
+  "eval_count": 537,
+  "prompt_eval_count": 806,
+  "mechanical_grounding": "passed",
+  "useful_contexts_present": false,
+  "actual_codes": [
+    "change_needs_context",
+    "rule_match_not_intrusion_proof",
+    "uid_fixture_possible"
+  ]
+}

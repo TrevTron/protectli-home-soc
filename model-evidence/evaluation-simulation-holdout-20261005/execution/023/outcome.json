@@ -1,0 +1,34 @@
+{
+  "number": 23,
+  "phase": "simulation_holdout",
+  "case": "policy-http_uid_nat_control",
+  "model": "qwen3:4b-instruct",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T08:44:20.569741+00:00",
+  "brief_sha256": "a6921b33cbceec1d5c7ee73e43ffb14004b67cf1eb8042a3f6683b5957d0d604",
+  "elapsed_s": 44.07800000000134,
+  "eval_count": 497,
+  "prompt_eval_count": 690,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "695d99715ba377572e21cfc8046a5bc50ef697d58ad33fd427e8cc30a2dbc6db",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [
+      "rule_match_not_intrusion_proof",
+      "uid_fixture_possible"
+    ],
+    "required_contexts": [
+      "rule_match_not_intrusion_proof",
+      "uid_fixture_possible"
+    ],
+    "complete": false,
+    "problems": [
+      "Repeated citation within inference"
+    ]
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T08:45:04.661315+00:00"
+}

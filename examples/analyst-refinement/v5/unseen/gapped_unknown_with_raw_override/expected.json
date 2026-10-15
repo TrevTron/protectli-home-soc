@@ -1,0 +1,11 @@
+{
+  "useful_inferences": [
+    "stun_may_be_normal"
+  ],
+  "groups": 2,
+  "all_changes": "comparison_unknown",
+  "forbidden_inferences": [
+    "sensor_reported_block",
+    "change_needs_context"
+  ]
+}

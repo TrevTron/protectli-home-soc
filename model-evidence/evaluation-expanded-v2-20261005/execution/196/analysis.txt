@@ -1,0 +1,22 @@
+**First-Pass Network Evidence Report**
+
+**Observed Facts**
+During the 15-minute window, three UDP connections were initiated from `endpoint-53e4cb969e` to an `owned-client` destination. All three events were allowed by the sensor.
+*   **G-328ad74c3ca0 (SID 2071648):** 1 UDP connection allowed (Ref: E-1f2428ada8109510).
+*   **G-65aec4e41f2d (SID 930099):** 1 UDP connection allowed (Ref: E-45d9ec47327eeca9).
+*   **G-9d33b16a3003 (SID 2016149):** 1 UDP connection allowed (Ref: E-b18ec2833f4d9d95).
+
+**Possible Explanations**
+*   **Tailscale Activity:** The match for G-328ad74c3ca0 aligns with a Tailscale control-plane TLS server name; this could be explained by an authorized Tailscale client on the endpoint (G-328ad74c3ca0).
+*   **NAT Traversal:** The match for G-9d33b16a3003 involves STUN, which is commonly used for NAT traversal in applications such as VoIP, gaming, or video conferencing (G-9d33b16a3003).
+*   **General Signature Matches:** The matches for G-328ad74c3ca0, G-65aec4e41f2d, and G-9d33b16a3003 are signature matches and do not constitute proof of an intrusion (G-328ad74c3ca0, G-65aec4e41f2d, G-9d33b16a3003).
+
+**Unknowns**
+*   **Intent:** The intent behind these connections is unknown.
+*   **Process Identity:** The specific processes initiating these UDP connections have not been identified.
+*   **Visibility:** Comparison is incomplete, and complete delivery has not been proven.
+
+**Read-Only Next Review Steps**
+*   Verify if Tailscale is an authorized and managed application on `endpoint-53e4cb969e`.
+*   Identify the specific applications (e.g., conferencing, gaming) utilizing STUN on the endpoint.
+*   Correlate endpoint logs to identify the specific binaries associated with these UDP flows.

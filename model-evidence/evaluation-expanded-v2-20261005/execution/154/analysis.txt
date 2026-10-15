@@ -1,0 +1,22 @@
+### Observed Facts
+*   **Group ID:** G-562c1a128755
+*   **Source Alias:** owned-client (Protocol: UDP)
+*   **Destination Alias:** endpoint-71d6921e6c
+*   **Action:** allowed (Count decreased from 16 to 12 over the 15-minute window).
+*   **Evidence References:** E-9eae2685c6410637, E-b2d0ccea912a5c1c, E-1841cd05b6443909.
+*   **Key Inferences:** `rule_match_not_intrusion_proof`, `stun_may_be_normal`.
+
+### Possible Explanations
+*   **STUN Usage:** The traffic involves STUN (Session Traversal Utilities for NAT), which is standard for applications requiring NAT traversal, such as conferencing or gaming. This does not inherently indicate malicious intent.
+*   **Signature Match Context:** A signature match was observed but is explicitly noted as a starting point for review rather than proof of intrusion. The allowed action suggests the traffic did not trigger a block at this stage.
+
+### Unknowns
+*   **Intent:** The specific application generating the traffic and its operational intent are not established.
+*   **Process Identity:** The process identity associated with the source alias is unknown.
+*   **Delivery Status:** While the action was "allowed," complete delivery has not been proven (`complete_delivery_proven: false`); therefore, it is unknown if every request succeeded or failed.
+*   **Intrusion Verification:** No definitive evidence confirms whether this traffic represents an intrusion; the match requires further review.
+
+### Read-Only Next Review Steps
+1.  **Review Evidence:** Examine evidence references E-9eae2685c6410637, E-b2d0ccea912a5c1c, and E-1841cd05b6443909 to correlate the signature match with specific payload characteristics.
+2.  **Contextualize STUN:** Investigate whether the source alias (`owned-client`) is known to run legitimate conferencing or gaming applications that utilize UDP/STUN.
+3.  **Monitor Trends:** Continue monitoring Group G-562c1a128755 for changes in action status (e.g., if it shifts from allowed to blocked) or increases in frequency that might indicate a shift in behavior.

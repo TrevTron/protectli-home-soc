@@ -1,0 +1,32 @@
+{
+  "number": 51,
+  "phase": "simulation_holdout",
+  "case": "policy-sid-2072087-positive",
+  "model": "qwen3.5:9b",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T09:00:37.102975+00:00",
+  "brief_sha256": "22553e237df3422a545296ce3cca49cbe992b103d8f8fb6d28ecf0b601e6e18d",
+  "elapsed_s": 63.86000000000058,
+  "eval_count": 393,
+  "prompt_eval_count": 463,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "80fe34d57b09a68cede10e7cca4361dedec3e2e65da9f8be3eb0775f2965c59c",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [
+      "rule_match_not_intrusion_proof",
+      "sensor_reported_block"
+    ],
+    "required_contexts": [
+      "rule_match_not_intrusion_proof",
+      "sensor_reported_block"
+    ],
+    "complete": true,
+    "problems": []
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T09:01:40.975784+00:00"
+}

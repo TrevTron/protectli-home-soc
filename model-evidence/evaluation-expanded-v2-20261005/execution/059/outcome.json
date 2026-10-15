@@ -1,0 +1,20 @@
+{
+  "number": 59,
+  "phase": "production_contract",
+  "case": "real_stun_decrease",
+  "model": "qwen3:4b-instruct",
+  "repeat": 2,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T05:13:00.561480+00:00",
+  "brief_sha256": "a419bbb11a038294bc731e53f28c3421d5f9b0b55598f783ed482ddee035a956",
+  "elapsed_s": 58.40699999999924,
+  "eval_count": 700,
+  "prompt_eval_count": 510,
+  "done_reason": "length",
+  "thinking_characters": 0,
+  "content_sha256": "c79016e6389dc3efc598b60cbd388337aeac6e5e036cfa80b5c7feed71bb4588",
+  "status": "withheld",
+  "reason": "Incomplete/capped output or unexpected thinking channel",
+  "completed_utc": "2026-10-06T05:13:58.967511+00:00"
+}

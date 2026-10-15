@@ -1,0 +1,30 @@
+{
+  "number": 45,
+  "phase": "production_contract",
+  "case": "edge_increased_unknown",
+  "model": "qwen3.5:4b",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T04:59:15.555116+00:00",
+  "brief_sha256": "d6805d6cebc6a83a329f7a67d74636b1ec788d04c614c60cd684290eb749c14f",
+  "elapsed_s": 39.5,
+  "eval_count": 445,
+  "prompt_eval_count": 493,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "3ab6ee498ecacf745c32b3ed9d740fd8a79aaf2e42a7abbbc86d48924c8a9bd3",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [
+      "change_needs_context"
+    ],
+    "required_contexts": [
+      "change_needs_context"
+    ],
+    "complete": true,
+    "problems": []
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T04:59:55.073397+00:00"
+}

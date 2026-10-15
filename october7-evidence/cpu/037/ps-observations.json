@@ -1,0 +1,926 @@
+[
+  {
+    "utc": "2026-10-07T17:08:48.119906+00:00",
+    "ps": {
+      "models": []
+    },
+    "spare_memory_bytes": 33884250112
+  },
+  {
+    "utc": "2026-10-07T17:08:50.126696+00:00",
+    "ps": {
+      "models": []
+    },
+    "spare_memory_bytes": 32912715776
+  },
+  {
+    "utc": "2026-10-07T17:08:52.132975+00:00",
+    "ps": {
+      "models": []
+    },
+    "spare_memory_bytes": 29471629312
+  },
+  {
+    "utc": "2026-10-07T17:08:54.145425+00:00",
+    "ps": {
+      "models": []
+    },
+    "spare_memory_bytes": 26054320128
+  },
+  {
+    "utc": "2026-10-07T17:08:56.154471+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:08:56.1534206-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24591605760
+  },
+  {
+    "utc": "2026-10-07T17:08:58.175775+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:08:58.1712669-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24581804032
+  },
+  {
+    "utc": "2026-10-07T17:09:00.179946+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:00.1783047-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24511381504
+  },
+  {
+    "utc": "2026-10-07T17:09:02.188605+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:02.1870441-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24687259648
+  },
+  {
+    "utc": "2026-10-07T17:09:04.197229+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:04.1956539-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24604479488
+  },
+  {
+    "utc": "2026-10-07T17:09:06.222755+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:06.221187-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24250236928
+  },
+  {
+    "utc": "2026-10-07T17:09:08.240528+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:08.2389761-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24262610944
+  },
+  {
+    "utc": "2026-10-07T17:09:10.267373+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:10.2651139-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24176586752
+  },
+  {
+    "utc": "2026-10-07T17:09:12.279431+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:12.2778538-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24117747712
+  },
+  {
+    "utc": "2026-10-07T17:09:14.289034+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:14.2877063-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24215605248
+  },
+  {
+    "utc": "2026-10-07T17:09:16.298693+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:16.2962882-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24155992064
+  },
+  {
+    "utc": "2026-10-07T17:09:18.312113+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:18.3082138-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 23846289408
+  },
+  {
+    "utc": "2026-10-07T17:09:20.329801+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:20.3287716-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 23779573760
+  },
+  {
+    "utc": "2026-10-07T17:09:22.340343+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:22.3383001-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 23845261312
+  },
+  {
+    "utc": "2026-10-07T17:09:24.350982+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:24.348327-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 23810478080
+  },
+  {
+    "utc": "2026-10-07T17:09:26.365495+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:26.359965-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 23777939456
+  },
+  {
+    "utc": "2026-10-07T17:09:28.386190+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:28.3817864-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 23754547200
+  },
+  {
+    "utc": "2026-10-07T17:09:30.400047+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:30.3982421-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 23749283840
+  },
+  {
+    "utc": "2026-10-07T17:09:32.416646+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:32.4150636-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 23632637952
+  },
+  {
+    "utc": "2026-10-07T17:09:34.424408+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:34.4206755-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 23533256704
+  },
+  {
+    "utc": "2026-10-07T17:09:36.434821+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:36.4326531-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24167227392
+  },
+  {
+    "utc": "2026-10-07T17:09:38.444072+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:38.4413062-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24012247040
+  },
+  {
+    "utc": "2026-10-07T17:09:40.452728+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:40.4504259-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24184582144
+  },
+  {
+    "utc": "2026-10-07T17:09:42.460841+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:42.4587007-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24200794112
+  },
+  {
+    "utc": "2026-10-07T17:09:44.485670+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:44.4831144-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24192786432
+  },
+  {
+    "utc": "2026-10-07T17:09:46.501956+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:46.5007647-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24404848640
+  },
+  {
+    "utc": "2026-10-07T17:09:48.522162+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:48.5194352-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24401481728
+  },
+  {
+    "utc": "2026-10-07T17:09:50.527783+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:50.5260226-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24385228800
+  },
+  {
+    "utc": "2026-10-07T17:09:52.537158+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:52.5352007-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24421240832
+  },
+  {
+    "utc": "2026-10-07T17:09:54.552605+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:54.5511978-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24434245632
+  },
+  {
+    "utc": "2026-10-07T17:09:56.563819+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:56.5593466-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24432807936
+  },
+  {
+    "utc": "2026-10-07T17:09:58.580162+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:09:58.5777763-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24427606016
+  }
+]

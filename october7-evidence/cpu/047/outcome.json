@@ -1,0 +1,55 @@
+{
+  "number": 47,
+  "model": "qwen3.5:9b",
+  "case": "real_uid_and_tailscale",
+  "structured": true,
+  "threads": 16,
+  "started_utc": "2026-10-07T17:15:49.997553+00:00",
+  "request_sha256": "60bae7c6f37318663a1387d9edcbfdd5f0749d1bb47988af1090f16d706c71f4",
+  "brief_sha256": "e1ee2633c1ce2d80236eba2a106652f7292e40c89b8eae2eea9a9c727074069b",
+  "options": {
+    "temperature": 0,
+    "seed": 17,
+    "num_predict": 2048,
+    "num_ctx": 8192,
+    "num_thread": 16,
+    "num_gpu": 0,
+    "top_k": 20,
+    "top_p": 1,
+    "min_p": 0,
+    "repeat_penalty": 1,
+    "presence_penalty": 0,
+    "frequency_penalty": 0
+  },
+  "deadline_seconds": 300,
+  "model_digest": "56671c2ab9385f9cfcb404638e32cd62d88e3501d44822208363c010179a3c90",
+  "status": "delivered",
+  "spare_memory_before_bytes": 34512433152,
+  "elapsed_s": 55.76500000000033,
+  "done": true,
+  "done_reason": "stop",
+  "prompt_eval_count": 663,
+  "eval_count": 540,
+  "eval_duration_ns": 46599092000,
+  "content_characters": 1280,
+  "thinking_characters": 0,
+  "combined_output_sha256": "5a376672dae15d7a705f686aca1da6b1acaf0750b52d10d72a2286cd4356cacb",
+  "input_context": {
+    "trace_sha256": "8b464d2d905dcf9ab74541462e12e0feeea37d9eb1267886144a0333ee9f2a96",
+    "trace_bytes": 23710,
+    "requested_context": 8192,
+    "returned_prompt_tokens": 663,
+    "input_truncated": false,
+    "logged_prompt_tokens": [
+      663
+    ],
+    "logged_contexts": [
+      8192
+    ],
+    "verified_full_context": true,
+    "boundary": "One isolated sequential request; retained append slice and runtime-specific trace format. No general tokenizer estimate."
+  },
+  "runtime_model_seen": true,
+  "semantic_review": "pending; completion is not accuracy",
+  "completed_utc": "2026-10-07T17:16:45.902743+00:00"
+}

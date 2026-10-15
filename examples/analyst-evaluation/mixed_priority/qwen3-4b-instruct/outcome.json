@@ -1,0 +1,20 @@
+{
+  "model": "qwen3:4b-instruct",
+  "case": "mixed_priority",
+  "started_utc": "2026-10-05T22:48:47.197812+00:00",
+  "done": true,
+  "done_reason": "stop",
+  "elapsed_s": 59.65600000000268,
+  "eval_count": 619,
+  "prompt_eval_count": 896,
+  "thinking_characters": 0,
+  "mechanical_grounding": "passed",
+  "expected_useful_codes_present": true,
+  "actual_inference_codes": [
+    "rule_match_not_intrusion_proof",
+    "sensor_reported_block",
+    "stun_may_be_normal",
+    "uid_fixture_possible"
+  ],
+  "frozen_inputs_unchanged": true
+}

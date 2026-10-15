@@ -1,0 +1,83 @@
+{
+  "window_minutes": 15,
+  "visibility": {
+    "complete_delivery_proven": false,
+    "comparison_complete": true,
+    "omitted_groups": 0
+  },
+  "groups": [
+    {
+      "id": "G-b5089c0d3d3d",
+      "sid": 2100498,
+      "action": "allowed",
+      "severity": 2,
+      "protocol": "TCP",
+      "source_alias": "endpoint-d794639191",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 1,
+      "evidence_refs": [
+        "E-a1a598085cab984f"
+      ],
+      "priority_floor": "review",
+      "change": "unchanged"
+    },
+    {
+      "id": "G-13b2ab304e5d",
+      "sid": 2016149,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-aa682f3d87",
+      "count": 4,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-860ae5a4c3a884c0",
+        "E-a708091ebc87414f",
+        "E-b9a15ddf8faaedb2"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-f3b8caf31050",
+      "sid": 2033077,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-aa682f3d87",
+      "count": 4,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-7aa41924b98fb0bd",
+        "E-e528f127d6fbb2ea",
+        "E-8c5d99e6c5a7918e"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    }
+  ],
+  "eligible_inferences": {
+    "G-b5089c0d3d3d": [
+      "rule_match_not_intrusion_proof",
+      "uid_fixture_possible"
+    ],
+    "G-13b2ab304e5d": [
+      "rule_match_not_intrusion_proof",
+      "stun_may_be_normal",
+      "change_needs_context"
+    ],
+    "G-f3b8caf31050": [
+      "rule_match_not_intrusion_proof",
+      "change_needs_context"
+    ]
+  },
+  "interpretation_catalog": {
+    "change_needs_context": "This group appeared or increased in the observed comparison windows. Confirm application activity and collection coverage before interpreting the change.",
+    "rule_match_not_intrusion_proof": "A signature match is a starting point for review, not proof of an intrusion.",
+    "stun_may_be_normal": "STUN is used for NAT traversal. Conferencing, games or other applications may explain it; process identity and intent are not established.",
+    "uid_fixture_possible": "This rule can match a harmless UID-response fixture. Verify the exact request against the owned test receipt before treating it as expected."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "model": "gemma4:12b-it-qat",
+  "case": "decreasing_stun",
+  "started_utc": "2026-10-05T23:23:37.769040+00:00",
+  "elapsed_s": 105.48400000001129,
+  "eval_count": 477,
+  "prompt_eval_count": 518,
+  "mechanical_grounding": "passed",
+  "useful_contexts_present": true,
+  "actual_codes": [
+    "rule_match_not_intrusion_proof",
+    "stun_may_be_normal"
+  ]
+}

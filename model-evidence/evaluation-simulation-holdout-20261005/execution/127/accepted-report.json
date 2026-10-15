@@ -1,0 +1,48 @@
+{
+  "inferred": [
+    {
+      "code": "rule_match_not_intrusion_proof",
+      "evidence_refs": [
+        "E-2b1f9a1cb70de257"
+      ],
+      "group_id": "G-4fb885a7e924",
+      "type": "inferred"
+    }
+  ],
+  "next_steps": [
+    {
+      "action": "check_client_process",
+      "group_id": "G-4fb885a7e924"
+    }
+  ],
+  "observed": [
+    {
+      "field": "action",
+      "group_id": "G-4fb885a7e924",
+      "type": "observed",
+      "value": "blocked"
+    },
+    {
+      "field": "protocol",
+      "group_id": "G-4fb885a7e924",
+      "type": "observed",
+      "value": "TCP"
+    },
+    {
+      "field": "sid",
+      "group_id": "G-4fb885a7e924",
+      "type": "observed",
+      "value": 2072083
+    }
+  ],
+  "unknown": [
+    {
+      "topic": "intent",
+      "type": "unknown"
+    },
+    {
+      "topic": "complete_visibility",
+      "type": "unknown"
+    }
+  ]
+}

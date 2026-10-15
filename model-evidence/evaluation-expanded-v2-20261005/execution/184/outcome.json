@@ -1,0 +1,20 @@
+{
+  "number": 184,
+  "phase": "written_analysis",
+  "case": "real_uid_and_tailscale",
+  "model": "qwen3.5:4b",
+  "repeat": 2,
+  "structured": false,
+  "deadline_seconds": 300,
+  "started_utc": "2026-10-06T07:54:17.999695+00:00",
+  "brief_sha256": "44d5bb73a5c65a5b62a1a3da7b3913775cc0e1d90f03c3e17d2d518439a10c77",
+  "elapsed_s": 44.93800000000192,
+  "eval_count": 513,
+  "prompt_eval_count": 554,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "f9b39866d27f8c415a3629a4f80b90ded53946a34782322cc495dd49cb5de798",
+  "manual_review": "pending",
+  "status": "delivered",
+  "completed_utc": "2026-10-06T07:55:02.960568+00:00"
+}

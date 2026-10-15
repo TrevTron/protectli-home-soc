@@ -1,0 +1,170 @@
+[
+  {
+    "utc": "2026-10-07T17:23:21.941460+00:00",
+    "ps": {
+      "models": []
+    },
+    "spare_memory_bytes": 34368258048
+  },
+  {
+    "utc": "2026-10-07T17:23:23.954221+00:00",
+    "ps": {
+      "models": []
+    },
+    "spare_memory_bytes": 33485262848
+  },
+  {
+    "utc": "2026-10-07T17:23:25.971145+00:00",
+    "ps": {
+      "models": []
+    },
+    "spare_memory_bytes": 29863600128
+  },
+  {
+    "utc": "2026-10-07T17:23:27.981453+00:00",
+    "ps": {
+      "models": []
+    },
+    "spare_memory_bytes": 25365987328
+  },
+  {
+    "utc": "2026-10-07T17:23:29.998264+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:23:29.9966902-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 25196027904
+  },
+  {
+    "utc": "2026-10-07T17:23:32.029397+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:23:32.0272496-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 25061875712
+  },
+  {
+    "utc": "2026-10-07T17:23:34.043911+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:23:34.0417762-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 24980594688
+  },
+  {
+    "utc": "2026-10-07T17:23:36.072779+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:23:36.0716686-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 25019240448
+  },
+  {
+    "utc": "2026-10-07T17:23:38.082684+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "gemma4:12b-it-qat",
+          "model": "gemma4:12b-it-qat",
+          "size": 8809883892,
+          "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "11.9B",
+            "quantization_level": "Q4_0"
+          },
+          "expires_at": "2026-10-07T10:23:38.0788408-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 25182298112
+  }
+]

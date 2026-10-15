@@ -1,0 +1,17 @@
+{
+  "model": "gemma4:12b-it-qat",
+  "created_at": "2026-10-06T08:48:51.4257261Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"inferred\": [],\n  \"next_steps\": [\n        \n  ],\n  \"observed\": [],\n  \"unknown\": [{\"topic\":\"intent\",\"type\":\"unknown\"},{\"topic\":\"complete_visibility\",\"type\":\"unknown\"}]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 28156962200,
+  "load_duration": 6156205200,
+  "prompt_eval_count": 303,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 11145687000,
+  "eval_count": 65,
+  "eval_duration": 10847868000
+}

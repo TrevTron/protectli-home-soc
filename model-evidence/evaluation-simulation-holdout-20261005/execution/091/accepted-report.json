@@ -1,0 +1,48 @@
+{
+  "inferred": [
+    {
+      "code": "rule_match_not_intrusion_proof",
+      "evidence_refs": [
+        "E-bfc2ae28d331246f"
+      ],
+      "group_id": "G-89c1d774ccd8",
+      "type": "inferred"
+    }
+  ],
+  "next_steps": [
+    {
+      "action": "inspect_event",
+      "group_id": "G-89c1d774ccd8"
+    }
+  ],
+  "observed": [
+    {
+      "field": "action",
+      "group_id": "G-89c1d774ccd8",
+      "type": "observed",
+      "value": "allowed"
+    },
+    {
+      "field": "protocol",
+      "group_id": "G-89c1d774ccd8",
+      "type": "observed",
+      "value": "ICMP"
+    },
+    {
+      "field": "severity",
+      "group_id": "G-89c1d774ccd8",
+      "type": "observed",
+      "value": 3
+    }
+  ],
+  "unknown": [
+    {
+      "topic": "intent",
+      "type": "unknown"
+    },
+    {
+      "topic": "complete_visibility",
+      "type": "unknown"
+    }
+  ]
+}

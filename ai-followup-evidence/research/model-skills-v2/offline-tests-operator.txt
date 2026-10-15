@@ -1,0 +1,8 @@
+test_all_twelve_menus_follow_independent_fixture_oracles (test_operator_contract.OperatorTests.test_all_twelve_menus_follow_independent_fixture_oracles) ... ok
+test_cannot_invent_outcome_or_source (test_operator_contract.OperatorTests.test_cannot_invent_outcome_or_source) ... ok
+test_empty_case_and_changed_signature (test_operator_contract.OperatorTests.test_empty_case_and_changed_signature) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.257s
+
+OK

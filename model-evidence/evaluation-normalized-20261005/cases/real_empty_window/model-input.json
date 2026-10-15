@@ -1,0 +1,11 @@
+{
+  "window_minutes": 15,
+  "visibility": {
+    "complete_delivery_proven": false,
+    "comparison_complete": true,
+    "omitted_groups": 0
+  },
+  "groups": [],
+  "eligible_inferences": {},
+  "interpretation_catalog": {}
+}

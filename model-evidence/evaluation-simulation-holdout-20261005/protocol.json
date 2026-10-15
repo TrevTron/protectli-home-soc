@@ -1,0 +1,11 @@
+{
+  "frozen_utc": "2026-10-06T04:54:21.805505+00:00",
+  "cases": 21,
+  "requests": 168,
+  "independent_upstream_cases": 4,
+  "authored_actual_policy_cases": 17,
+  "method": "Balanced model order, two exact repeats, unchanged shared structured contract: CPU2/GPU0/ctx4096/cap700/temp0/seed17/thinkingfalse/keepalive0/120s. No training, retries or model-specific prompt adjustment. Written analysis already belongs to the expanded study.",
+  "timing": "Queued after 200-request study completes and owned recovery is verified ready. Separate maintenance wrapper preserves receiver/native sampling and restores the periodic model worker afterward.",
+  "status": "Frozen before any model answers on these cases. No request executed yet.",
+  "scope": "Assess retained brief interpretations and source grounding. Authored TLS/PF simulations are not independent real intrusion examples; DHCP/no-alert reports must preserve intent/visibility unknowns."
+}

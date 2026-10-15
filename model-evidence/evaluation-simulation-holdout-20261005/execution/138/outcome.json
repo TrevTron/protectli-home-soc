@@ -1,0 +1,26 @@
+{
+  "number": 138,
+  "phase": "simulation_holdout",
+  "case": "policy-sid-2072087-suffix_negative",
+  "model": "qwen3:4b-instruct",
+  "repeat": 2,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T09:46:08.681704+00:00",
+  "brief_sha256": "e687b722d27fd84744d335470bf53945b51c67f8ca84b8becfacdc47ab5cff29",
+  "elapsed_s": 8.34400000000096,
+  "eval_count": 36,
+  "prompt_eval_count": 286,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "ec26888a42db18ac2f5c5e60b7e0730a8050a66b46af540b52e855e8d29d0cf9",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [],
+    "required_contexts": [],
+    "complete": true,
+    "problems": []
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T09:46:17.027524+00:00"
+}

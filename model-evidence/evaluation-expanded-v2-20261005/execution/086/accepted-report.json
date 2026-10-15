@@ -1,0 +1,48 @@
+{
+  "inferred": [
+    {
+      "code": "rule_match_not_intrusion_proof",
+      "evidence_refs": [
+        "E-1f2428ada8109510"
+      ],
+      "group_id": "G-328ad74c3ca0",
+      "type": "inferred"
+    }
+  ],
+  "next_steps": [
+    {
+      "action": "check_client_process",
+      "group_id": "G-328ad74c3ca0"
+    }
+  ],
+  "observed": [
+    {
+      "field": "action",
+      "group_id": "G-328ad74c3ca0",
+      "type": "observed",
+      "value": "allowed"
+    },
+    {
+      "field": "protocol",
+      "group_id": "G-328ad74c3ca0",
+      "type": "observed",
+      "value": "UDP"
+    },
+    {
+      "field": "sid",
+      "group_id": "G-328ad74c3ca0",
+      "type": "observed",
+      "value": 2071648
+    }
+  ],
+  "unknown": [
+    {
+      "topic": "intent",
+      "type": "unknown"
+    },
+    {
+      "topic": "complete_visibility",
+      "type": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "inferred": [],
+  "next_steps": [],
+  "observed": [],
+  "unknown": [
+    {
+      "topic": "intent",
+      "type": "unknown"
+    },
+    {
+      "topic": "complete_visibility",
+      "type": "unknown"
+    }
+  ]
+}

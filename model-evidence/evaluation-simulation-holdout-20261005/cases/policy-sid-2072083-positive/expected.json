@@ -1,0 +1,25 @@
+{
+  "required_contexts": [
+    {
+      "code": "rule_match_not_intrusion_proof",
+      "any_group_ids": [
+        "G-4fb885a7e924"
+      ]
+    },
+    {
+      "code": "sensor_reported_block",
+      "any_group_ids": [
+        "G-4fb885a7e924"
+      ]
+    }
+  ],
+  "unknowns_required": [
+    "intent",
+    "complete_visibility"
+  ],
+  "empty_report": false,
+  "review_first_any_groups": [
+    "G-4fb885a7e924"
+  ],
+  "authored_simulation_not_real_intrusion": true
+}

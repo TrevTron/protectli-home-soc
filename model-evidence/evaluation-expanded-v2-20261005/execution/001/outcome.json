@@ -1,0 +1,20 @@
+{
+  "number": 1,
+  "phase": "development",
+  "case": "decreasing_stun",
+  "model": "gemma4:12b-it-qat",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T04:06:47.247928+00:00",
+  "brief_sha256": "d0661624b63fe6252d53026eb7a9b8604ee7d9f8129ef5d3b32099be64a92901",
+  "elapsed_s": 97.10899999999856,
+  "eval_count": 412,
+  "prompt_eval_count": 518,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "4f83fb435298ae18d1a6254f63ccad5a49133dcdbf720eddda32f04eba776d24",
+  "mechanical_grounding": "passed",
+  "status": "delivered",
+  "completed_utc": "2026-10-06T04:08:24.360185+00:00"
+}

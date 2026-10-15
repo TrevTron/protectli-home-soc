@@ -1,0 +1,20 @@
+{
+  "number": 154,
+  "phase": "written_analysis",
+  "case": "real_stun_decrease",
+  "model": "qwen3.5:4b",
+  "repeat": 1,
+  "structured": false,
+  "deadline_seconds": 300,
+  "started_utc": "2026-10-06T07:02:28.830613+00:00",
+  "brief_sha256": "a419bbb11a038294bc731e53f28c3421d5f9b0b55598f783ed482ddee035a956",
+  "elapsed_s": 45.06200000000172,
+  "eval_count": 546,
+  "prompt_eval_count": 404,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "2a525c2cf35a86aaf85f270452d5e60d61905e76b81fd28f0b7320fe806dd08f",
+  "manual_review": "pending",
+  "status": "delivered",
+  "completed_utc": "2026-10-06T07:03:13.907659+00:00"
+}

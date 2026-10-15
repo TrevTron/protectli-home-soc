@@ -1,0 +1,17 @@
+{
+  "model": "gemma4:12b-it-qat",
+  "created_at": "2026-10-06T07:54:17.3042553Z",
+  "message": {
+    "role": "assistant",
+    "content": "**First-Pass Network Evidence Report**\n\n**Observed Facts**\n*   **Group G-b5089c0d3d3d:** One new occurrence of a signature match (SID: 2100498) was observed during the 15-minute window. The traffic originated from `endpoint-d794639191` and was directed toward the `owned-client` alias via TCP. The action was allowed.\n*   **Group G-dbb49ee0163d:** One new occurrence of a signature match (SID: 2071648) was observed during the 15-minute window. The traffic originated from `owned-client` and was directed toward `endpoint-ddd27df208` via TCP. The action was allowed.\n\n**Possible Explanations**\n*   **G-b5089c0d3d3d:** The signature match may correspond to a harmless UID-response fixture (uid_fixture_possible).\n*   **G-dbb49ee0163d:** The inspected rule matches a Tailscale control-plane TLS server name; this could be explained by the presence of an owned Tailscale client on the network (tailscale_control_possible).\n\n**Unknowns**\n*   **Intent:** The intent behind these connections is unknown.\n*   **Process Identity:** The specific applications or processes generating this traffic are not identified.\n*   **Completeness:** Visibility is incomplete; complete delivery of the requests cannot be proven.\n*   **Verification:** It is unclear if these matches represent routine administrative activity or unauthorized behavior.\n\n**Read-Only Next Review Steps**\n*   Verify the exact request against known owned test receipts to rule out UID fixtures (G-b5089c0d3d3d).\n*   Confirm application activity and collection coverage to provide context for the new group appearances (G-b5089c0d3d3d, G-dbb49ee0163d).\n*   Correlate the Tailscale server name match with known Tailscale client deployments on the endpoints (G-dbb49ee0163d)."
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 112041040200,
+  "load_duration": 7229454100,
+  "prompt_eval_count": 606,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 22379433000,
+  "eval_count": 483,
+  "eval_duration": 82425061000
+}

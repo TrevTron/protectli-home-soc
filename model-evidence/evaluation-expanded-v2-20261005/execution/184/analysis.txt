@@ -1,0 +1,18 @@
+### Observed Facts
+*   **Group G-b5089c0d3d3d**: One TCP connection (sid 2100498) from `endpoint-d794639191` to `owned-client`. Action: allowed. Count: 1. Evidence ref: E-c1204abaa64ee798. Eligible inferences include `rule_match_not_intrusion_proof`, `uid_fixture_possible`, and `change_needs_context`.
+*   **Group G-dbb49ee0163d**: One TCP connection (sid 2071648) from `owned-client` to `endpoint-ddd27df208`. Action: allowed. Count: 1. Evidence ref: E-df86fe9bfb92be23. Eligible inferences include `rule_match_not_intrusion_proof`, `tailscale_control_possible`, and `change_needs_context`.
+*   **Visibility**: Comparison windows are complete; delivery completeness is not proven. No groups omitted.
+
+### Possible Explanations
+*   **G-b5089c0d3d3d**: The match may be a harmless UID-response fixture rather than an intrusion. It requires verification against the owned test receipt to confirm expected application activity.
+*   **G-dbb49ee0163d**: The rule matches a Tailscale control-plane TLS server name. This could indicate legitimate communication with an owned Tailscale client, but the server-name match alone does not establish process identity or intent.
+
+### Unknowns
+*   Intent and client outcomes are unknown. A signature match is not proof of intrusion, and an allowed action is not proof of safety.
+*   The exact request payloads for both groups have not been verified against owned test receipts.
+*   Complete delivery has not been proven for either group.
+
+### Read-Only Next Review Steps
+1.  Verify the exact request in evidence ref E-c1204abaa64ee798 against the owned test receipt to rule out a harmless UID-response fixture.
+2.  Inspect the payload of evidence ref E-df86fe9bfb92be23 to confirm if it aligns with expected Tailscale control-plane traffic or requires further investigation.
+3.  Confirm application activity and collection coverage before interpreting these changes as significant events.

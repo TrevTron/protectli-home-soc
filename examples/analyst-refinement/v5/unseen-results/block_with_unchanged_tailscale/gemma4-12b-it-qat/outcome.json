@@ -1,0 +1,8 @@
+{
+  "model": "gemma4:12b-it-qat",
+  "case": "block_with_unchanged_tailscale",
+  "started_utc": "2026-10-05T23:39:48.355129+00:00",
+  "status": "withheld",
+  "reason": "timed out",
+  "wall_elapsed_s": 121.03100000000268
+}

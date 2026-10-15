@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-06T04:49:21.816139+00:00",
+  "window": {
+    "minutes": 15,
+    "start_utc": "2026-10-06T04:34:21.816139+00:00",
+    "end_utc": "2026-10-06T04:49:21.816139+00:00"
+  },
+  "coverage": {
+    "snapshot_start_byte": 0,
+    "snapshot_end_byte": 11618,
+    "source_size_at_start": 11618,
+    "snapshot_sha256": "ae770231e4dae6aa72907c58f1152547e82e0876a5df5f2065fa84ea01cb2e9f",
+    "tail_clipped": false,
+    "comparison_complete_for_retained_records": false,
+    "malformed_records": 0,
+    "invalid_alerts": 0,
+    "future_records": 0,
+    "out_of_scope_alerts": 0,
+    "current_records": 2,
+    "prior_records": 0,
+    "last_receipt_utc": "2026-10-06T04:49:21.492430+00:00",
+    "receiver_age_seconds": 0.323709,
+    "total_current_groups": 0,
+    "omitted_groups": 0,
+    "complete_delivery_proven": false
+  },
+  "application_counts": {
+    "suricata": 2
+  },
+  "groups": []
+}

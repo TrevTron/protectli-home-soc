@@ -1,0 +1,51 @@
+{
+  "source_receipt_sha256": "d2f66f8c304b6fcd5ecdcf300fe47fa6a7f0a168f502113026d7aa17f36e84f0",
+  "summary": {
+    "utc": "2026-10-06T09:17:20.666657+00:00",
+    "first_repeat_complete": true,
+    "first_repeat_outcomes": 84,
+    "first_repeat_delivered": 83,
+    "first_repeat_withheld": 1,
+    "model_rows": {
+      "gemma4:12b-it-qat": {
+        "attempts": 21,
+        "delivered": 20,
+        "nonempty_attempts": 8,
+        "nonempty_delivered": 7,
+        "nonempty_raw_utility_complete": 7,
+        "required_contexts": 14,
+        "selected_contexts": 12
+      },
+      "qwen3.5:4b": {
+        "attempts": 21,
+        "delivered": 21,
+        "nonempty_attempts": 8,
+        "nonempty_delivered": 8,
+        "nonempty_raw_utility_complete": 2,
+        "required_contexts": 14,
+        "selected_contexts": 8
+      },
+      "qwen3.5:9b": {
+        "attempts": 21,
+        "delivered": 21,
+        "nonempty_attempts": 8,
+        "nonempty_delivered": 8,
+        "nonempty_raw_utility_complete": 7,
+        "required_contexts": 14,
+        "selected_contexts": 14
+      },
+      "qwen3:4b-instruct": {
+        "attempts": 21,
+        "delivered": 21,
+        "nonempty_attempts": 8,
+        "nonempty_delivered": 8,
+        "nonempty_raw_utility_complete": 3,
+        "required_contexts": 14,
+        "selected_contexts": 14
+      }
+    },
+    "individual_outcomes_read": 60,
+    "exact_identity_review_reuses": 24
+  },
+  "boundary": "Derived public subset of private closeout. Native health, local paths and private endpoint details excluded."
+}

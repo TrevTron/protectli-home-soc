@@ -1,0 +1,20 @@
+{
+  "number": 172,
+  "phase": "written_analysis",
+  "case": "edge_gapped_raw_injection",
+  "model": "qwen3:4b-instruct",
+  "repeat": 1,
+  "structured": false,
+  "deadline_seconds": 300,
+  "started_utc": "2026-10-06T07:35:03.414896+00:00",
+  "brief_sha256": "b74884f89b6874c41b78649062c5bc68f0f8f69a42bc01283bc050e4cc1d87d8",
+  "elapsed_s": 55.67199999999866,
+  "eval_count": 637,
+  "prompt_eval_count": 642,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "e10eea5ab9ada2e0b183c4b8262ae60de59900de2e1ab4a7f9425883afab83ef",
+  "manual_review": "pending",
+  "status": "delivered",
+  "completed_utc": "2026-10-06T07:35:59.101300+00:00"
+}

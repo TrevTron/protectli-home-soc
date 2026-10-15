@@ -1,0 +1,203 @@
+{
+  "frozen_utc": "2026-10-06T04:01:10.233504+00:00",
+  "models": [
+    "gemma4:12b-it-qat",
+    "qwen3.5:4b",
+    "qwen3.5:9b",
+    "qwen3:4b-instruct"
+  ],
+  "cases": [
+    {
+      "case": "real_stun_decrease",
+      "origin": {
+        "kind": "real_saved_private_snapshot",
+        "run": "first-live-20261005",
+        "brief_sha256": "a419bbb11a038294bc731e53f28c3421d5f9b0b55598f783ed482ddee035a956",
+        "source_index_sha256": "7bd78b380883a136b25de2e280a97309554bb0585f5f3a9facfd7472c2cdd97a"
+      },
+      "category": "real",
+      "groups": 1,
+      "contexts": [
+        "stun_may_be_normal"
+      ]
+    },
+    {
+      "case": "real_uid_and_tailscale",
+      "origin": {
+        "kind": "real_saved_private_snapshot",
+        "run": "20261005T222851249316Z",
+        "brief_sha256": "44d5bb73a5c65a5b62a1a3da7b3913775cc0e1d90f03c3e17d2d518439a10c77",
+        "source_index_sha256": "de7499664c4902ba32e416b2b0d8d896abad48ceae20889830b9776f36bff999"
+      },
+      "category": "real",
+      "groups": 2,
+      "contexts": [
+        "uid_fixture_possible",
+        "tailscale_control_possible"
+      ]
+    },
+    {
+      "case": "real_controlled_block",
+      "origin": {
+        "kind": "real_saved_private_snapshot",
+        "run": "historical-controlled-block-20261005",
+        "brief_sha256": "d41602518d3dae0cd0f5e9a8f5175155c6a406a6447dcdbce9ec91528cfd12fb",
+        "source_index_sha256": "5433ea34ca03804d99964301aa5192018012ab5a633e97623447f1dab1635387"
+      },
+      "category": "real",
+      "groups": 14,
+      "contexts": [
+        "sensor_reported_block",
+        "uid_fixture_possible",
+        "tailscale_control_possible"
+      ]
+    },
+    {
+      "case": "real_small_mixed",
+      "origin": {
+        "kind": "real_saved_private_snapshot",
+        "run": "20261006T000424283714Z",
+        "brief_sha256": "8de763fc939821906448294e34524d0e8f9d1347ce60a06e2041d184a50c4e86",
+        "source_index_sha256": "8d684409267df156f0f6fde85605cf6a07cd770642c4b55bc4072997b03c6c98"
+      },
+      "category": "real",
+      "groups": 3,
+      "contexts": [
+        "uid_fixture_possible",
+        "stun_may_be_normal"
+      ]
+    },
+    {
+      "case": "real_dense_post_restart",
+      "origin": {
+        "kind": "real_saved_private_snapshot",
+        "run": "20261006T015510738182Z",
+        "brief_sha256": "eea9d3dc8a8eda557cef46798e6ee06b92a34432ae1e50cfbb00741310f87a38",
+        "source_index_sha256": "8cd28f7d22dafd543050b07479823638c9415b478521f9c0dcf6a50393ba8bc2"
+      },
+      "category": "real",
+      "groups": 16,
+      "contexts": [
+        "uid_fixture_possible",
+        "stun_may_be_normal"
+      ]
+    },
+    {
+      "case": "real_empty_window",
+      "origin": {
+        "kind": "real_saved_private_snapshot",
+        "run": "20261005T230422314492Z",
+        "brief_sha256": "8b7e81c6fb62136119d335d81221373f6ab5e3de6005c585ffdfaaea1b9d0147",
+        "source_index_sha256": "d346bf18c7c66c71b8d897d803e09da08fa8dc016c653d445321754fdf834b9d"
+      },
+      "category": "real",
+      "groups": 0,
+      "contexts": []
+    },
+    {
+      "case": "edge_block_uid_stun",
+      "origin": {
+        "kind": "new_constructed_edge_case",
+        "fixture_sha256": "75fb2e4518f6e0e34b5669d10b3c5fe5d4096154f5b0eddebf67a963e131a68b"
+      },
+      "category": "edge",
+      "groups": 3,
+      "contexts": [
+        "sensor_reported_block",
+        "uid_fixture_possible",
+        "stun_may_be_normal"
+      ]
+    },
+    {
+      "case": "edge_gapped_raw_injection",
+      "origin": {
+        "kind": "new_constructed_edge_case",
+        "fixture_sha256": "9c8307a2495e8b13c3f7dbbc9dac5ebecfeaf12f50826551568e27525183a199"
+      },
+      "category": "edge",
+      "groups": 3,
+      "contexts": [
+        "tailscale_control_possible",
+        "stun_may_be_normal"
+      ]
+    },
+    {
+      "case": "edge_split_uid",
+      "origin": {
+        "kind": "new_constructed_edge_case",
+        "fixture_sha256": "103f8835efc7361574483acd55285fd90a0c01b3df30147e8091243eea2dff13"
+      },
+      "category": "edge",
+      "groups": 3,
+      "contexts": [
+        "sensor_reported_block",
+        "uid_fixture_possible"
+      ]
+    },
+    {
+      "case": "edge_increased_unknown",
+      "origin": {
+        "kind": "new_constructed_edge_case",
+        "fixture_sha256": "e120257ed133b1adefc7b9cfe9bac0570966e96019c107d6b76d791e8b54353a"
+      },
+      "category": "edge",
+      "groups": 1,
+      "contexts": [
+        "change_needs_context"
+      ]
+    },
+    {
+      "case": "edge_empty_gapped",
+      "origin": {
+        "kind": "new_constructed_edge_case",
+        "fixture_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "category": "edge",
+      "groups": 0,
+      "contexts": []
+    },
+    {
+      "case": "edge_dense_omitted",
+      "origin": {
+        "kind": "new_constructed_edge_case",
+        "fixture_sha256": "05ceaa2efde39fc8ef1452abefd3dc42e668b5cf99e0f308dab1389da3ef31b4"
+      },
+      "category": "edge",
+      "groups": 16,
+      "contexts": [
+        "sensor_reported_block",
+        "uid_fixture_possible",
+        "tailscale_control_possible"
+      ]
+    }
+  ],
+  "real_sources_verified": 90,
+  "requests": {
+    "shared_development": 8,
+    "production_contract": 144,
+    "written_analysis": 48,
+    "total": 200
+  },
+  "repetitions": "Three exact deployment repetitions; two written-analysis repetitions, balanced model order, no retries or answer repair",
+  "bounds": {
+    "cpu_threads": 2,
+    "gpu": 0,
+    "context": 4096,
+    "generation_cap": 700,
+    "temperature": 0,
+    "seed": 17,
+    "thinking": false,
+    "keepalive": 0,
+    "minimum_free_gib": 16,
+    "production_deadline_s": 120,
+    "written_analysis_deadline_s": 300
+  },
+  "prompts": {
+    "structured": "You are a local network evidence analyst. Return only the requested JSON. Code owns facts; never invent values or citations. An observed claim must exactly copy a supplied group field. Choose a few helpful inferred codes from eligible_inferences and cite that group's evidence_refs. Always include unknown intent and complete_visibility. Choose read-only next_steps for the most useful findings. A rule match is not proof of malice, an allowed event is not proof of safety, and blocked is a sensor action, not a confirmed client outcome. No diagnoses, country attribution, process names, raw payload claims, or firewall changes. Output at most 3 observations, 3 inferences and 3 next steps. Prioritize a reported block and any specific supplied rule context (STUN, UID fixture, Tailscale) before general novelty commentary. Do not repeat an inference or citation. Use interpretation_catalog meanings; they are possibilities, never proof of an application. The unknown array must start with {\"type\":\"unknown\",\"topic\":\"intent\"} and {\"type\":\"unknown\",\"topic\":\"complete_visibility\"}, in that order. Optionally append process_identity and/or payload. Keep the report concise.",
+    "written_analysis": "You are a local network evidence analyst. Write a concise first-pass report: observed facts, possible explanations, unknowns, and read-only next review steps. Cite the supplied group IDs and evidence_refs. Do not invent counts, process names, payload evidence, attribution, intent or client outcomes. A signature match is not proof of intrusion, and allowed is not proof of safety. Blocked is a sensor action, not confirmation that every request failed. The supplied eligible_inferences describe possible interpretations, not verdicts. Explicitly acknowledge unknown intent and incomplete visibility. Do not recommend firewall changes. No JSON is required."
+  },
+  "development": "Two common development replays per model. This study freezes the existing shared contract before results; no per-model tuning, weight training or held-out feedback.",
+  "judgment": "Mechanical grounding and utility checks for production; separately read every returned written analysis for fact/citation accuracy, specificity, priorities, uncertainty and actionable next steps. Agent assessment, not independent human scoring.",
+  "decision": "Choose the model for the current 120-second workflow from repeated delivery and useful context, not token rate. Assess the longer written-report option separately; do not automatically relax production bounds.",
+  "limitations": "Six historical real snapshots may overlap; six authored edge cases are not population intrusion accuracy. Existing catalog is code-defined. Native model quantization/templates/tokenizers differ. Cold loading and natural answer length participate in latency."
+}

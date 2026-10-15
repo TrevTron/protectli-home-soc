@@ -1,0 +1,1 @@
+{"cases":"Old M03/M06 investigators, old incorrect M01 and conservative-correct M02 reviewer controls","change":"Fixed explicit boolean decision/context/check slots, reversible conversion only; observations still authored and graded; same 700token/120s bounds"}

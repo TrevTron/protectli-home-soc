@@ -1,0 +1,15 @@
+{
+  "number": 27,
+  "phase": "normalized_control",
+  "case": "edge_block_uid_stun",
+  "model": "gemma4:12b-it-qat",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T10:31:29.374788+00:00",
+  "brief_sha256": "795073d205fa5a285e493f196593fd882fa2920d873d7db995d5af4d206ed3a3",
+  "status": "withheld",
+  "reason": "timed out",
+  "elapsed_s": 120.03100000000268,
+  "completed_utc": "2026-10-06T10:33:29.407917+00:00"
+}

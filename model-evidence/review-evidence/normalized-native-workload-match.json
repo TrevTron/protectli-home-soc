@@ -1,0 +1,160 @@
+{
+  "utc": "2026-10-06T10:15:12.144335+00:00",
+  "matched_cases": 12,
+  "exact_sources_per_case": 4,
+  "common_core_options": {
+    "temperature": 0,
+    "seed": 17,
+    "num_predict": 700,
+    "num_ctx": 4096,
+    "num_thread": 2,
+    "num_gpu": 0
+  },
+  "explicit_common_options": {
+    "temperature": 0,
+    "seed": 17,
+    "num_predict": 700,
+    "num_ctx": 4096,
+    "num_thread": 2,
+    "num_gpu": 0,
+    "top_k": 20,
+    "top_p": 1,
+    "min_p": 0,
+    "repeat_penalty": 1,
+    "presence_penalty": 0,
+    "frequency_penalty": 0
+  },
+  "same_structured_prompt": true,
+  "thinking": false,
+  "keepalive": 0,
+  "deadline_seconds": 120,
+  "rows": [
+    {
+      "case": "edge_block_uid_stun",
+      "exact_matching_source_hashes": {
+        "brief.json": "795073d205fa5a285e493f196593fd882fa2920d873d7db995d5af4d206ed3a3",
+        "model-input.json": "1960efdac2d79c99449e8c1c29028743576e64cb7964fd63aa942416590b1c8c",
+        "schema.json": "2d149d09c23d9e34fd37b59cc01e3742df87ee6986869c66ad86606d22f0b6cb",
+        "expected.json": "5b3b48713ee899fc5f94ab0b982c0fde43e71c0febbbe0a0821604bfada5b44b"
+      },
+      "groups": 3
+    },
+    {
+      "case": "edge_dense_omitted",
+      "exact_matching_source_hashes": {
+        "brief.json": "f8be27e4202725455730aab4b568eb9d507a131b597dbd97cffa99557ea38569",
+        "model-input.json": "e8c4c2ec22df9e34784fb173343e0fbd6d9a31533f6b6fa58e9cb18db8571e25",
+        "schema.json": "dda56c5a382968ef87f38698a423809dd6874754713e8a9f3625b2bbb8e90b4b",
+        "expected.json": "78c9341de86ddd5a132219a8f4ccbd1ecb233f36e70a660fedd22a06cee36245"
+      },
+      "groups": 16
+    },
+    {
+      "case": "edge_empty_gapped",
+      "exact_matching_source_hashes": {
+        "brief.json": "605153b4d43ad4f02a403671f34f8912e9d48de96af8cd16b2a55af7616cb4d9",
+        "model-input.json": "b9fd442b41133c61efe4c6da6f6660ed99e3214d80d0cb6075f3dd1541cbdc82",
+        "schema.json": "62857cb837635f3eeb8d8fb061e4951bc7f2352e7e92f0deb82019825392e31d",
+        "expected.json": "0fcfd0c1491c4a57da1211512670ff01e59a0666f9a1e5a66e839d7847f19937"
+      },
+      "groups": 0
+    },
+    {
+      "case": "edge_gapped_raw_injection",
+      "exact_matching_source_hashes": {
+        "brief.json": "b74884f89b6874c41b78649062c5bc68f0f8f69a42bc01283bc050e4cc1d87d8",
+        "model-input.json": "6dddf79f8020dea3ba1deec857a288137eda2012313e00d558309c1ff91e9f44",
+        "schema.json": "308697fd8bcbd7ba5638a0e0ae8af24e031668aa0e1d7e606c0bb8979532562b",
+        "expected.json": "639fee17d14aa8e5ff0dc608a3f1ac4ce26444e390ed2e7ac4a3b2bc1ba10cf8"
+      },
+      "groups": 3
+    },
+    {
+      "case": "edge_increased_unknown",
+      "exact_matching_source_hashes": {
+        "brief.json": "d6805d6cebc6a83a329f7a67d74636b1ec788d04c614c60cd684290eb749c14f",
+        "model-input.json": "29813877406daf624bc5f5c05e43f8b64259a9e7d1a38cfdd1e5adf236940768",
+        "schema.json": "343474cf482dc4c3736fd317cfada10c41403f2a28937d94702be3dbb9d59ed5",
+        "expected.json": "56f8a52257ccee3c47c9b99259e3515d410d4c5defc71a53c6795e9d2b256810"
+      },
+      "groups": 1
+    },
+    {
+      "case": "edge_split_uid",
+      "exact_matching_source_hashes": {
+        "brief.json": "537ca166b047d45d73f06409f51cf1c2ba10307200952980652f98917b2ff41d",
+        "model-input.json": "58a4a1ca21e243550c10c255cf343ba67321a22bc5fb3ab32179bb3d33d059df",
+        "schema.json": "31c4a03ddec9cedfac41e89e7303eb125b57dfd4cc49301ddd75ca379f604d51",
+        "expected.json": "c30dc254ab9d48e11fda15183f8cef41a9f87327b54ee53f18223811b67ea663"
+      },
+      "groups": 3
+    },
+    {
+      "case": "real_controlled_block",
+      "exact_matching_source_hashes": {
+        "brief.json": "d41602518d3dae0cd0f5e9a8f5175155c6a406a6447dcdbce9ec91528cfd12fb",
+        "model-input.json": "479a0372cdd7809eea206c3bde9f420786b95f52831b5222f52eea7915e3bb49",
+        "schema.json": "a048baeea22fc1424767c2c201b9cbc4856a13ff33fea92d875b310a08af0328",
+        "expected.json": "c0054c031d4deb2fe59894fd97f68b98e0e7e37b043bd117f0f3aed372b8678d"
+      },
+      "groups": 14
+    },
+    {
+      "case": "real_dense_post_restart",
+      "exact_matching_source_hashes": {
+        "brief.json": "eea9d3dc8a8eda557cef46798e6ee06b92a34432ae1e50cfbb00741310f87a38",
+        "model-input.json": "513db0718277c3b4d6b3ce059e3ac65ee4bae293e38a3a5b0af65db23db0f841",
+        "schema.json": "e21bee543808f6ac7135e2143fc71353ca39568b5a73996aedfcaad216d471bf",
+        "expected.json": "9f46714488c57fdf88f3649907cdb3df0eb1acc66da619aa913715b1503e3fae"
+      },
+      "groups": 16
+    },
+    {
+      "case": "real_empty_window",
+      "exact_matching_source_hashes": {
+        "brief.json": "8b7e81c6fb62136119d335d81221373f6ab5e3de6005c585ffdfaaea1b9d0147",
+        "model-input.json": "39ade2e1397905fe64b2edd796206d401e5fae18dbd07c6941504a7478010e55",
+        "schema.json": "62857cb837635f3eeb8d8fb061e4951bc7f2352e7e92f0deb82019825392e31d",
+        "expected.json": "1c939def1eb5b2209a47b82f54d066c214b806765b937e419620f7800ef47469"
+      },
+      "groups": 0
+    },
+    {
+      "case": "real_small_mixed",
+      "exact_matching_source_hashes": {
+        "brief.json": "8de763fc939821906448294e34524d0e8f9d1347ce60a06e2041d184a50c4e86",
+        "model-input.json": "c65c50a3f5c4d99623230f5668e5f251a6a2e88f45e5397f53854112f0c591c3",
+        "schema.json": "ed3ff0de10f277d5475857327c1fb15837b2816f1e9cd79b3f5335cd91359792",
+        "expected.json": "6b99138cfa5749ae58ec74c35cf08406ab2313a517ac3a6f3fdfab70a8247640"
+      },
+      "groups": 3
+    },
+    {
+      "case": "real_stun_decrease",
+      "exact_matching_source_hashes": {
+        "brief.json": "a419bbb11a038294bc731e53f28c3421d5f9b0b55598f783ed482ddee035a956",
+        "model-input.json": "97f4218b69c8fde978d22e5d5e1124f2dc90ad257824589425bf1b99f2dce4f1",
+        "schema.json": "539af8dd865c00aed2d41ccd22adb0e1c3cdf9695ef98f956637b3bd361b4d4a",
+        "expected.json": "f14649c3f40f99249256ed9062bee4bd86ae7056c50bed3d355274f66283b232"
+      },
+      "groups": 1
+    },
+    {
+      "case": "real_uid_and_tailscale",
+      "exact_matching_source_hashes": {
+        "brief.json": "44d5bb73a5c65a5b62a1a3da7b3913775cc0e1d90f03c3e17d2d518439a10c77",
+        "model-input.json": "7ae55046c397fda43346e8d15aa6274c24c8bb744736bf5786c862588589a2b7",
+        "schema.json": "b67ca40175911d4beee8277b873f1b125f54e76156c1aca86ee1964281ff0bf6",
+        "expected.json": "8a6a38ccc92daf7479003240fcfee089941a9f1f52f2d7e5a280282f3bda8e27"
+      },
+      "groups": 2
+    }
+  ],
+  "source_hashes": {
+    "evaluation-expanded-v2-20261005\\protocol.json": "a45220748af287cca913bf3d31313755bbd12390013c15d8302944306c1c2a1a",
+    "evaluation-normalized-20261005\\protocol.json": "819d51921f0d4ef2983e66464b5ca3287a03a7986f88f849217cf2a9add85001",
+    "evaluation-expanded-v2-20261005\\frozen-manifest.json": "443d01b42b15a3da4ac71e3520b1c2b1e426931bc0b59ca92b083d104e8da843",
+    "evaluation-normalized-20261005\\frozen-manifest.json": "9c652ff52fe8a24f410cf2e0259d06e0f8f608a90edd946401318800dff39487"
+  },
+  "boundary": "Offline frozen workload consistency. Several generation controls change together and runs occur at different times with natural output lengths. This does not isolate one cause, equalize native templates/quantization/tokenizers, or establish a pure throughput winner."
+}

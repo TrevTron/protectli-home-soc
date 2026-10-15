@@ -1,0 +1,15 @@
+{
+  "number": 48,
+  "phase": "normalized_control",
+  "case": "edge_dense_omitted",
+  "model": "qwen3.5:9b",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T10:55:21.221516+00:00",
+  "brief_sha256": "f8be27e4202725455730aab4b568eb9d507a131b597dbd97cffa99557ea38569",
+  "status": "withheld",
+  "reason": "timed out",
+  "elapsed_s": 120.01499999999942,
+  "completed_utc": "2026-10-06T10:57:21.242135+00:00"
+}

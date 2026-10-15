@@ -1,0 +1,1057 @@
+{
+  "utc": "2026-10-06T10:57:37.853890+00:00",
+  "working_renderer_sha256": "38edef2ea2a3029d3d425a838e79bc160b836f1e734b9fdaf2edb16ec91718a4",
+  "frozen_normalized_module_sha256": "610709cad3896952869e606004921f9baa22a96cbf13b359c784593485fbe285",
+  "source_comparison": "Exact decoded source equality after replacing only the one declared common-generation option dictionary for comparison. Renderer and remaining definitions unchanged; original bytes not edited.",
+  "completed_outcomes": 48,
+  "rendered_delivered_answers": 35,
+  "model_rows": {
+    "gemma4:12b-it-qat": {
+      "attempts": 12,
+      "nonempty_attempts": 10,
+      "required_context_opportunities": 21,
+      "delivered": 4,
+      "nonempty_delivered": 2,
+      "nonempty_all_required_contexts_displayed": 2,
+      "nonempty_strict_utility_complete": 2,
+      "displayed_required_contexts": 2,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0
+    },
+    "qwen3.5:4b": {
+      "attempts": 12,
+      "nonempty_attempts": 10,
+      "required_context_opportunities": 21,
+      "delivered": 12,
+      "nonempty_delivered": 10,
+      "nonempty_all_required_contexts_displayed": 7,
+      "nonempty_strict_utility_complete": 4,
+      "displayed_required_contexts": 18,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 16,
+      "raw_and_displayed_repeated_next_step_pairs": 1
+    },
+    "qwen3.5:9b": {
+      "attempts": 12,
+      "nonempty_attempts": 10,
+      "required_context_opportunities": 21,
+      "delivered": 9,
+      "nonempty_delivered": 7,
+      "nonempty_all_required_contexts_displayed": 5,
+      "nonempty_strict_utility_complete": 2,
+      "displayed_required_contexts": 9,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 11,
+      "raw_and_displayed_repeated_next_step_pairs": 2
+    },
+    "qwen3:4b-instruct": {
+      "attempts": 12,
+      "nonempty_attempts": 10,
+      "required_context_opportunities": 21,
+      "delivered": 10,
+      "nonempty_delivered": 8,
+      "nonempty_all_required_contexts_displayed": 2,
+      "nonempty_strict_utility_complete": 0,
+      "displayed_required_contexts": 12,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 11,
+      "raw_and_displayed_repeated_next_step_pairs": 0
+    }
+  },
+  "rows": [
+    {
+      "number": 1,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_stun_decrease",
+      "outcome_file_sha256": "4a0baca972eafa94dca00a99953d26a2c5881d70fec5d66d673725c9a23171bc",
+      "brief_file_sha256": "a419bbb11a038294bc731e53f28c3421d5f9b0b55598f783ed482ddee035a956",
+      "expected_file_sha256": "f14649c3f40f99249256ed9062bee4bd86ae7056c50bed3d355274f66283b232",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "f9ee78d8710af0ea13fa73996b07ac22be0e33d62ac8629f66bef8a82270c0d7",
+      "response_file_sha256": "dafb403c945d0835f3d4848f7981bf51c16a22ed9aa2078f25a8f26a74ad89c7",
+      "required_contexts": [
+        "stun_may_be_normal"
+      ],
+      "displayed_contexts": [
+        "stun_may_be_normal"
+      ],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": true,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "9e570ad3da89e1ee5a28ae25c220331855bd5b4b4c0a9d776af80e502f341f7c"
+    },
+    {
+      "number": 2,
+      "model": "qwen3.5:4b",
+      "case": "real_stun_decrease",
+      "outcome_file_sha256": "175ef226ea63a089d485ed32b618d5c3af06b3abf358854f722e932530cf4e9c",
+      "brief_file_sha256": "a419bbb11a038294bc731e53f28c3421d5f9b0b55598f783ed482ddee035a956",
+      "expected_file_sha256": "f14649c3f40f99249256ed9062bee4bd86ae7056c50bed3d355274f66283b232",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "07d7abe6abe2cdf41ff9a2ebd3888d5640e5946db14121fcfe7e8c1a89e76f3e",
+      "response_file_sha256": "1c223965f32b557685270e19aad739eb9e16faf1c2a2bf910b8877fa738baf41",
+      "required_contexts": [
+        "stun_may_be_normal"
+      ],
+      "displayed_contexts": [
+        "stun_may_be_normal"
+      ],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": true,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "470c1a7cf12e6efd978183f9525561ff4da0f436f34fb270c939afbb0e06b74d"
+    },
+    {
+      "number": 3,
+      "model": "qwen3.5:9b",
+      "case": "real_stun_decrease",
+      "outcome_file_sha256": "a01056d35418daed2021c0584c28166cebd22b68325606394dbdb4ed23edd576",
+      "brief_file_sha256": "a419bbb11a038294bc731e53f28c3421d5f9b0b55598f783ed482ddee035a956",
+      "expected_file_sha256": "f14649c3f40f99249256ed9062bee4bd86ae7056c50bed3d355274f66283b232",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "80e4d2ea778d02bcd61249607f54483e85f487cacf691786ca9c42fdc28458bf",
+      "response_file_sha256": "3aa2ddb1f2d9c28807a687962811d0c535fe3e6397a7d2859fec2495a8dd4dea",
+      "required_contexts": [
+        "stun_may_be_normal"
+      ],
+      "displayed_contexts": [
+        "stun_may_be_normal"
+      ],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": true,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 1,
+      "rendered_sha256": "016be6ba3e3fadb78e67cdf197f8de5552ceaacd3b8d7c7c7abe5e162bda0e0e"
+    },
+    {
+      "number": 4,
+      "model": "qwen3:4b-instruct",
+      "case": "real_stun_decrease",
+      "outcome_file_sha256": "f114e9da4de9d19bc80df6fa765e3a0416a2b15732499f7904e91fb35bb0382b",
+      "brief_file_sha256": "a419bbb11a038294bc731e53f28c3421d5f9b0b55598f783ed482ddee035a956",
+      "expected_file_sha256": "f14649c3f40f99249256ed9062bee4bd86ae7056c50bed3d355274f66283b232",
+      "nonempty": true,
+      "status": "withheld",
+      "boundary": "Withheld; no accepted answer rendered or displayed-context credit assigned."
+    },
+    {
+      "number": 5,
+      "model": "qwen3.5:4b",
+      "case": "real_uid_and_tailscale",
+      "outcome_file_sha256": "ad158c198a02fdf796ab59fb1aef816515b5b1da71a8258c79c36a8e4721ebdc",
+      "brief_file_sha256": "44d5bb73a5c65a5b62a1a3da7b3913775cc0e1d90f03c3e17d2d518439a10c77",
+      "expected_file_sha256": "8a6a38ccc92daf7479003240fcfee089941a9f1f52f2d7e5a280282f3bda8e27",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "b08a5b5323aadd351b54724bb5a4dd39460604beafc2e54eb12e3675ac26e627",
+      "response_file_sha256": "da0247fb6feccb1b453833245221e826fb48c4aba843446f186d5a1bd620cecf",
+      "required_contexts": [
+        "uid_fixture_possible",
+        "tailscale_control_possible"
+      ],
+      "displayed_contexts": [
+        "uid_fixture_possible",
+        "tailscale_control_possible"
+      ],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 1,
+      "raw_and_displayed_repeated_next_step_pairs": 1,
+      "rendered_sha256": "7782d4b1168cfd73000a73427fa089214fedaad1361035337864be04f5b908f0"
+    },
+    {
+      "number": 6,
+      "model": "qwen3.5:9b",
+      "case": "real_uid_and_tailscale",
+      "outcome_file_sha256": "243de8200c8c64c20a727d5f00f44bf0aa84dce6b6cf7bf65a58d2d700f23891",
+      "brief_file_sha256": "44d5bb73a5c65a5b62a1a3da7b3913775cc0e1d90f03c3e17d2d518439a10c77",
+      "expected_file_sha256": "8a6a38ccc92daf7479003240fcfee089941a9f1f52f2d7e5a280282f3bda8e27",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "2032301b995439ab853bedac0975eb90c34d1da7d2d841d69d1e3aed99b0dffd",
+      "response_file_sha256": "2b541d8b9ed890467c97cde5e61731542c17b363e476cf08a1db0e4b3ed86206",
+      "required_contexts": [
+        "uid_fixture_possible",
+        "tailscale_control_possible"
+      ],
+      "displayed_contexts": [
+        "uid_fixture_possible",
+        "tailscale_control_possible"
+      ],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 2,
+      "raw_and_displayed_repeated_next_step_pairs": 1,
+      "rendered_sha256": "a356f0d5f20d9e4ac78e02c448f18f7d49f97ff151c3eab7376bf35bf8cf09e8"
+    },
+    {
+      "number": 7,
+      "model": "qwen3:4b-instruct",
+      "case": "real_uid_and_tailscale",
+      "outcome_file_sha256": "4b19b44badc7f795c500920f7761feff5355aa5f0436714602e3e68a0fc7e32f",
+      "brief_file_sha256": "44d5bb73a5c65a5b62a1a3da7b3913775cc0e1d90f03c3e17d2d518439a10c77",
+      "expected_file_sha256": "8a6a38ccc92daf7479003240fcfee089941a9f1f52f2d7e5a280282f3bda8e27",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "5b75823adb200d9e5f97233ae076d1b08bb321981da8acec35255da535f6f78f",
+      "response_file_sha256": "2af246662ddb1e0018bb56376a8cf93fd3f27240b172f21b9a45ad7a90fc1121",
+      "required_contexts": [
+        "uid_fixture_possible",
+        "tailscale_control_possible"
+      ],
+      "displayed_contexts": [
+        "uid_fixture_possible",
+        "tailscale_control_possible"
+      ],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 1,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "de33c5731aa84367e2ddaae1b4ce6a41f091f9ad33408052826f745d9c7fd68d"
+    },
+    {
+      "number": 8,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_uid_and_tailscale",
+      "outcome_file_sha256": "f6953d1c24ec126682750ef18a76a657807d898c00a87dac50dfd36590085e1c",
+      "brief_file_sha256": "44d5bb73a5c65a5b62a1a3da7b3913775cc0e1d90f03c3e17d2d518439a10c77",
+      "expected_file_sha256": "8a6a38ccc92daf7479003240fcfee089941a9f1f52f2d7e5a280282f3bda8e27",
+      "nonempty": true,
+      "status": "withheld",
+      "boundary": "Withheld; no accepted answer rendered or displayed-context credit assigned."
+    },
+    {
+      "number": 9,
+      "model": "qwen3.5:9b",
+      "case": "real_controlled_block",
+      "outcome_file_sha256": "615a84df3d9d533e2dc2db5844a56c61dda3d00d6d26233cebf04c5fb6779bf4",
+      "brief_file_sha256": "d41602518d3dae0cd0f5e9a8f5175155c6a406a6447dcdbce9ec91528cfd12fb",
+      "expected_file_sha256": "c0054c031d4deb2fe59894fd97f68b98e0e7e37b043bd117f0f3aed372b8678d",
+      "nonempty": true,
+      "status": "withheld",
+      "boundary": "Withheld; no accepted answer rendered or displayed-context credit assigned."
+    },
+    {
+      "number": 10,
+      "model": "qwen3:4b-instruct",
+      "case": "real_controlled_block",
+      "outcome_file_sha256": "e1326c5f36040b5c3c251556a9157a41f1a44dd335296e22b27ad76bdac8fec8",
+      "brief_file_sha256": "d41602518d3dae0cd0f5e9a8f5175155c6a406a6447dcdbce9ec91528cfd12fb",
+      "expected_file_sha256": "c0054c031d4deb2fe59894fd97f68b98e0e7e37b043bd117f0f3aed372b8678d",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "0284774bfe1cfed714dd63e3d1e5040ee01c557b178c3926e808154d1504aeb7",
+      "response_file_sha256": "9c50e96db06bcc58f22adeac90a49f66ca66d5a39021fc3928d201cc049eb28f",
+      "required_contexts": [
+        "sensor_reported_block",
+        "uid_fixture_possible",
+        "tailscale_control_possible"
+      ],
+      "displayed_contexts": [
+        "uid_fixture_possible"
+      ],
+      "all_required_contexts_displayed": false,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 1,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "c7f40f04c5a5be2dd053d72007e16a76d1b2b76e724fd46130722dfe21497edd"
+    },
+    {
+      "number": 11,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_controlled_block",
+      "outcome_file_sha256": "b1fcb2836b9dd2b52202310ac219ae048f56c98826bb35f45bfbab0f163fce69",
+      "brief_file_sha256": "d41602518d3dae0cd0f5e9a8f5175155c6a406a6447dcdbce9ec91528cfd12fb",
+      "expected_file_sha256": "c0054c031d4deb2fe59894fd97f68b98e0e7e37b043bd117f0f3aed372b8678d",
+      "nonempty": true,
+      "status": "withheld",
+      "boundary": "Withheld; no accepted answer rendered or displayed-context credit assigned."
+    },
+    {
+      "number": 12,
+      "model": "qwen3.5:4b",
+      "case": "real_controlled_block",
+      "outcome_file_sha256": "bd652eb964f300f18a6d6219ef9210fdc199fb69f6ffc10c2b8e31b2de916512",
+      "brief_file_sha256": "d41602518d3dae0cd0f5e9a8f5175155c6a406a6447dcdbce9ec91528cfd12fb",
+      "expected_file_sha256": "c0054c031d4deb2fe59894fd97f68b98e0e7e37b043bd117f0f3aed372b8678d",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "9343a2864bf95845585977dffd2fa73f5addcd35777d29c4235ba8be9ce0d1e7",
+      "response_file_sha256": "3e482731c8b9a56a318efc42cbe9b20fe0645e52b8c956d89f17efca4404723f",
+      "required_contexts": [
+        "sensor_reported_block",
+        "uid_fixture_possible",
+        "tailscale_control_possible"
+      ],
+      "displayed_contexts": [
+        "sensor_reported_block",
+        "tailscale_control_possible"
+      ],
+      "all_required_contexts_displayed": false,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "82314a82a9f72f604097e859e10a7d86174938c042ca57e92cc9c0d1ea67a69e"
+    },
+    {
+      "number": 13,
+      "model": "qwen3:4b-instruct",
+      "case": "real_small_mixed",
+      "outcome_file_sha256": "77535f156cb5fbcee1a5c28e99461b728149e3c4c0a5fbfa1cca9bbfb93daeb7",
+      "brief_file_sha256": "8de763fc939821906448294e34524d0e8f9d1347ce60a06e2041d184a50c4e86",
+      "expected_file_sha256": "6b99138cfa5749ae58ec74c35cf08406ab2313a517ac3a6f3fdfab70a8247640",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "7fef1e6f2052d98dea2d9c57312c9548ef1ca6b6bf802fb7c566e4e5d08f119c",
+      "response_file_sha256": "ee6c2f39ea5ad1d15ce1dabe772cc4a2217865ff3424052f0050cb06477a0624",
+      "required_contexts": [
+        "uid_fixture_possible",
+        "stun_may_be_normal"
+      ],
+      "displayed_contexts": [
+        "stun_may_be_normal"
+      ],
+      "all_required_contexts_displayed": false,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 1,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "df170996258c4ce45a16779a08b49b65f53c345de8b48798fdf48479ebfde83d"
+    },
+    {
+      "number": 14,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_small_mixed",
+      "outcome_file_sha256": "e7e599a09b9459614249bb8e7fee49f2f989297169edf886829dd2f2f1ddda10",
+      "brief_file_sha256": "8de763fc939821906448294e34524d0e8f9d1347ce60a06e2041d184a50c4e86",
+      "expected_file_sha256": "6b99138cfa5749ae58ec74c35cf08406ab2313a517ac3a6f3fdfab70a8247640",
+      "nonempty": true,
+      "status": "withheld",
+      "boundary": "Withheld; no accepted answer rendered or displayed-context credit assigned."
+    },
+    {
+      "number": 15,
+      "model": "qwen3.5:4b",
+      "case": "real_small_mixed",
+      "outcome_file_sha256": "fbe602cee87966ba943dde15476866253e15eb5f5d4ab9912445c9266da283b5",
+      "brief_file_sha256": "8de763fc939821906448294e34524d0e8f9d1347ce60a06e2041d184a50c4e86",
+      "expected_file_sha256": "6b99138cfa5749ae58ec74c35cf08406ab2313a517ac3a6f3fdfab70a8247640",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "ba79c47a693ef997af1ae4c3470fca01b6de63e10c7978fa37b46513342e2f0f",
+      "response_file_sha256": "f7494498c1a7b2a5459ec4b8416598894f24d6f2339c8497c836e271335276a9",
+      "required_contexts": [
+        "uid_fixture_possible",
+        "stun_may_be_normal"
+      ],
+      "displayed_contexts": [
+        "uid_fixture_possible",
+        "stun_may_be_normal"
+      ],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": true,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "0d36b7c56f006348cf1c8bd1f672cb0d08ca1f7c1e601a58943d8c6340e7095f"
+    },
+    {
+      "number": 16,
+      "model": "qwen3.5:9b",
+      "case": "real_small_mixed",
+      "outcome_file_sha256": "12419cd1604a82b12f6f45a08e362287ba551e8cbe83d8e1a485a1b18030cd56",
+      "brief_file_sha256": "8de763fc939821906448294e34524d0e8f9d1347ce60a06e2041d184a50c4e86",
+      "expected_file_sha256": "6b99138cfa5749ae58ec74c35cf08406ab2313a517ac3a6f3fdfab70a8247640",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "55438d5fcdbbd32eed521a7b2c7340d1cb12ba1f66b2cd88449923375f01117e",
+      "response_file_sha256": "d08a6e8b52502ecfe34274dc5e2ab2468228835692ab21511006880d8259e36e",
+      "required_contexts": [
+        "uid_fixture_possible",
+        "stun_may_be_normal"
+      ],
+      "displayed_contexts": [],
+      "all_required_contexts_displayed": false,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 2,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "55336ca49cb25bdbd63fce2f712ae27b0ab01336b5fb565edc9cf4c32dbd406c"
+    },
+    {
+      "number": 17,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_dense_post_restart",
+      "outcome_file_sha256": "7c7320d6870aa84092dde1a99fcd2437c2a39d05b16c9572c7cb99abeed30239",
+      "brief_file_sha256": "eea9d3dc8a8eda557cef46798e6ee06b92a34432ae1e50cfbb00741310f87a38",
+      "expected_file_sha256": "9f46714488c57fdf88f3649907cdb3df0eb1acc66da619aa913715b1503e3fae",
+      "nonempty": true,
+      "status": "withheld",
+      "boundary": "Withheld; no accepted answer rendered or displayed-context credit assigned."
+    },
+    {
+      "number": 18,
+      "model": "qwen3.5:4b",
+      "case": "real_dense_post_restart",
+      "outcome_file_sha256": "1be383202e67b37a7bd47516443d226e3eaa2cf9a3de398ffbb23d5e552c978c",
+      "brief_file_sha256": "eea9d3dc8a8eda557cef46798e6ee06b92a34432ae1e50cfbb00741310f87a38",
+      "expected_file_sha256": "9f46714488c57fdf88f3649907cdb3df0eb1acc66da619aa913715b1503e3fae",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "a6fa0efab2461dbb13fea0bf38146310a04c5eba0231d1b95abea4f3292b73b0",
+      "response_file_sha256": "8c187ba83f7490948f150ed388ae9881214b52b70843376965df5937108feb4e",
+      "required_contexts": [
+        "uid_fixture_possible",
+        "stun_may_be_normal"
+      ],
+      "displayed_contexts": [
+        "uid_fixture_possible",
+        "stun_may_be_normal"
+      ],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 1,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "c38ba4bf837ac89d2a9a737865e87d5c053377ef49209319ce3b3f4975e6e4b2"
+    },
+    {
+      "number": 19,
+      "model": "qwen3.5:9b",
+      "case": "real_dense_post_restart",
+      "outcome_file_sha256": "10ba830567c7285776bede875751f69b1e063a622da71e4e5a3e3d96398395b2",
+      "brief_file_sha256": "eea9d3dc8a8eda557cef46798e6ee06b92a34432ae1e50cfbb00741310f87a38",
+      "expected_file_sha256": "9f46714488c57fdf88f3649907cdb3df0eb1acc66da619aa913715b1503e3fae",
+      "nonempty": true,
+      "status": "withheld",
+      "boundary": "Withheld; no accepted answer rendered or displayed-context credit assigned."
+    },
+    {
+      "number": 20,
+      "model": "qwen3:4b-instruct",
+      "case": "real_dense_post_restart",
+      "outcome_file_sha256": "cdef4e2794277e9bb8e32e1837c80ad2c722c72d44bff9e4cde1f02bd3285968",
+      "brief_file_sha256": "eea9d3dc8a8eda557cef46798e6ee06b92a34432ae1e50cfbb00741310f87a38",
+      "expected_file_sha256": "9f46714488c57fdf88f3649907cdb3df0eb1acc66da619aa913715b1503e3fae",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "c4cc2ce003d4beb32c14ed1f18b1f6116b48c6a05afd0dda12978b410155b653",
+      "response_file_sha256": "f33deac95a1b1c6ff175f45a82ced276a83f997c985e79c6609648b1f8c8d7c0",
+      "required_contexts": [
+        "uid_fixture_possible",
+        "stun_may_be_normal"
+      ],
+      "displayed_contexts": [
+        "uid_fixture_possible",
+        "stun_may_be_normal"
+      ],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 1,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "b848ab0629351e843daac146dafe3dc060f0a2db1c3e136bb113285b66f75e1b"
+    },
+    {
+      "number": 21,
+      "model": "qwen3.5:4b",
+      "case": "real_empty_window",
+      "outcome_file_sha256": "656f2c10a687e5badb7742f93315fa743726183c7714e82046cec3a8aaa73196",
+      "brief_file_sha256": "8b7e81c6fb62136119d335d81221373f6ab5e3de6005c585ffdfaaea1b9d0147",
+      "expected_file_sha256": "1c939def1eb5b2209a47b82f54d066c214b806765b937e419620f7800ef47469",
+      "nonempty": false,
+      "status": "delivered",
+      "accepted_report_sha256": "841bb66f95a98a99eb7a0a148dd3a0a0f62ca8f9ecc3583dfbb7881f9510d0b8",
+      "response_file_sha256": "69ee29990490041eba02b58e480100cf57e59b57f0f57b1f8e44a47a9172c190",
+      "required_contexts": [],
+      "displayed_contexts": [],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": true,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "15486959a062ad91b4a73b30eac2fb831a1fb4844354dde2b28dc9fd19096ef2"
+    },
+    {
+      "number": 22,
+      "model": "qwen3.5:9b",
+      "case": "real_empty_window",
+      "outcome_file_sha256": "b63b2048685805543eaa9ef0f8c47b741213f8675c0e0ba18a5a18b15a72e9ae",
+      "brief_file_sha256": "8b7e81c6fb62136119d335d81221373f6ab5e3de6005c585ffdfaaea1b9d0147",
+      "expected_file_sha256": "1c939def1eb5b2209a47b82f54d066c214b806765b937e419620f7800ef47469",
+      "nonempty": false,
+      "status": "delivered",
+      "accepted_report_sha256": "841bb66f95a98a99eb7a0a148dd3a0a0f62ca8f9ecc3583dfbb7881f9510d0b8",
+      "response_file_sha256": "1f9ce61f67933fb8fcfddf6270ce87ab44d89c35403e351189d4c545797cc795",
+      "required_contexts": [],
+      "displayed_contexts": [],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": true,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "15486959a062ad91b4a73b30eac2fb831a1fb4844354dde2b28dc9fd19096ef2"
+    },
+    {
+      "number": 23,
+      "model": "qwen3:4b-instruct",
+      "case": "real_empty_window",
+      "outcome_file_sha256": "5f40806e79163eb801f61af7905dc602b624fc4dc45e5f7c7c7433467b70b59f",
+      "brief_file_sha256": "8b7e81c6fb62136119d335d81221373f6ab5e3de6005c585ffdfaaea1b9d0147",
+      "expected_file_sha256": "1c939def1eb5b2209a47b82f54d066c214b806765b937e419620f7800ef47469",
+      "nonempty": false,
+      "status": "delivered",
+      "accepted_report_sha256": "841bb66f95a98a99eb7a0a148dd3a0a0f62ca8f9ecc3583dfbb7881f9510d0b8",
+      "response_file_sha256": "fc45ad9f75ed6c036528cece929e58c215d8ba5fcbc1339337c94e269b94e43e",
+      "required_contexts": [],
+      "displayed_contexts": [],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": true,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "15486959a062ad91b4a73b30eac2fb831a1fb4844354dde2b28dc9fd19096ef2"
+    },
+    {
+      "number": 24,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_empty_window",
+      "outcome_file_sha256": "968d40ec116c5a1ee878f22ead60be0fa7894983b35d8e8a43a04cfaa5dedda5",
+      "brief_file_sha256": "8b7e81c6fb62136119d335d81221373f6ab5e3de6005c585ffdfaaea1b9d0147",
+      "expected_file_sha256": "1c939def1eb5b2209a47b82f54d066c214b806765b937e419620f7800ef47469",
+      "nonempty": false,
+      "status": "delivered",
+      "accepted_report_sha256": "841bb66f95a98a99eb7a0a148dd3a0a0f62ca8f9ecc3583dfbb7881f9510d0b8",
+      "response_file_sha256": "67fb95ff5b3a785949a940212b54a8b38d2d5991fdf34d73074fb5bce123ceaa",
+      "required_contexts": [],
+      "displayed_contexts": [],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": true,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "15486959a062ad91b4a73b30eac2fb831a1fb4844354dde2b28dc9fd19096ef2"
+    },
+    {
+      "number": 25,
+      "model": "qwen3.5:9b",
+      "case": "edge_block_uid_stun",
+      "outcome_file_sha256": "940eee0b4349cb9d08539a19a169ad6096223f7e3c86c5420f05a43ad2e63923",
+      "brief_file_sha256": "795073d205fa5a285e493f196593fd882fa2920d873d7db995d5af4d206ed3a3",
+      "expected_file_sha256": "5b3b48713ee899fc5f94ab0b982c0fde43e71c0febbbe0a0821604bfada5b44b",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "cf58c6d2d8481f4a98fcdda93f04991e8e6a1465c0d460b9b40362d8daf95065",
+      "response_file_sha256": "44c177e3c682584063cbc5bcb076310dfd1ad5cb52c65b3f1db180530aaa2d07",
+      "required_contexts": [
+        "sensor_reported_block",
+        "uid_fixture_possible",
+        "stun_may_be_normal"
+      ],
+      "displayed_contexts": [
+        "sensor_reported_block"
+      ],
+      "all_required_contexts_displayed": false,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 1,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "6d42d0fd71d4a5e3e88df2ce0cff7895cde4ad8ab8af7bd0aae1a42ea16722cc"
+    },
+    {
+      "number": 26,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_block_uid_stun",
+      "outcome_file_sha256": "9c2351e2818ba7922439a5582b08c34bd6016d2e4adc824a899ac7fd6b0b9e0b",
+      "brief_file_sha256": "795073d205fa5a285e493f196593fd882fa2920d873d7db995d5af4d206ed3a3",
+      "expected_file_sha256": "5b3b48713ee899fc5f94ab0b982c0fde43e71c0febbbe0a0821604bfada5b44b",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "acd620fad963eac833e4bb63d55f1e1a8e829afb7912fc03fd3bec76fd909c4a",
+      "response_file_sha256": "a3b304973ef8a71ceaa893d3fe3916f3df3d4326603a89d17d27f338020765b0",
+      "required_contexts": [
+        "sensor_reported_block",
+        "uid_fixture_possible",
+        "stun_may_be_normal"
+      ],
+      "displayed_contexts": [
+        "sensor_reported_block",
+        "stun_may_be_normal"
+      ],
+      "all_required_contexts_displayed": false,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "56771a6f47a0f324094d6632bb95971e0a54234a57e76dc9b444568856b48ca9"
+    },
+    {
+      "number": 27,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_block_uid_stun",
+      "outcome_file_sha256": "9ab7b7d7b8620fee34ec86f97d96b0e8347375cc3e2869e71f05a58f6cf877fd",
+      "brief_file_sha256": "795073d205fa5a285e493f196593fd882fa2920d873d7db995d5af4d206ed3a3",
+      "expected_file_sha256": "5b3b48713ee899fc5f94ab0b982c0fde43e71c0febbbe0a0821604bfada5b44b",
+      "nonempty": true,
+      "status": "withheld",
+      "boundary": "Withheld; no accepted answer rendered or displayed-context credit assigned."
+    },
+    {
+      "number": 28,
+      "model": "qwen3.5:4b",
+      "case": "edge_block_uid_stun",
+      "outcome_file_sha256": "cf3441b87f192100a76e7ad927448f404a0509fece2d99c19db7d59fc631d2b5",
+      "brief_file_sha256": "795073d205fa5a285e493f196593fd882fa2920d873d7db995d5af4d206ed3a3",
+      "expected_file_sha256": "5b3b48713ee899fc5f94ab0b982c0fde43e71c0febbbe0a0821604bfada5b44b",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "4098f54b464cff14ac8aac356f5b5c484402d64eecee28acfee9e5155f2392a6",
+      "response_file_sha256": "8a35087d6e493d9fa2b84f62186f3c64a8a3f728ea9d0c0607e2315e811b7089",
+      "required_contexts": [
+        "sensor_reported_block",
+        "uid_fixture_possible",
+        "stun_may_be_normal"
+      ],
+      "displayed_contexts": [
+        "sensor_reported_block",
+        "stun_may_be_normal"
+      ],
+      "all_required_contexts_displayed": false,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 6,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "a595146221b34877553975baeb9defe3180dd8705f54c7ea5d7a21e51a5e0e1c"
+    },
+    {
+      "number": 29,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_gapped_raw_injection",
+      "outcome_file_sha256": "9cfb2fb1590194c0b0bfdd3f884de4144fa3f852f2ddbf0c95a2b35fcc622a15",
+      "brief_file_sha256": "b74884f89b6874c41b78649062c5bc68f0f8f69a42bc01283bc050e4cc1d87d8",
+      "expected_file_sha256": "639fee17d14aa8e5ff0dc608a3f1ac4ce26444e390ed2e7ac4a3b2bc1ba10cf8",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "91e9e93de184dee0c80014430e0cf694bda27cc50ec2ec722967f15a3a14ac06",
+      "response_file_sha256": "1088ae7932871203300c7b9505e0182bd463a076842bfdb61788e0915d129214",
+      "required_contexts": [
+        "tailscale_control_possible",
+        "stun_may_be_normal"
+      ],
+      "displayed_contexts": [
+        "stun_may_be_normal"
+      ],
+      "all_required_contexts_displayed": false,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 3,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "7f7ecfdaf5ae9de538c4f452baf3dd229e32060665a27ad0a6bc3dc951b393e7"
+    },
+    {
+      "number": 30,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_gapped_raw_injection",
+      "outcome_file_sha256": "e7be79a60633412e858081df027b968306851f6bf9fbe8960557856a8d9418bb",
+      "brief_file_sha256": "b74884f89b6874c41b78649062c5bc68f0f8f69a42bc01283bc050e4cc1d87d8",
+      "expected_file_sha256": "639fee17d14aa8e5ff0dc608a3f1ac4ce26444e390ed2e7ac4a3b2bc1ba10cf8",
+      "nonempty": true,
+      "status": "withheld",
+      "boundary": "Withheld; no accepted answer rendered or displayed-context credit assigned."
+    },
+    {
+      "number": 31,
+      "model": "qwen3.5:4b",
+      "case": "edge_gapped_raw_injection",
+      "outcome_file_sha256": "27457373732c576e36979126186fdc8819d48ef40d5af165a1872e8ccbb43105",
+      "brief_file_sha256": "b74884f89b6874c41b78649062c5bc68f0f8f69a42bc01283bc050e4cc1d87d8",
+      "expected_file_sha256": "639fee17d14aa8e5ff0dc608a3f1ac4ce26444e390ed2e7ac4a3b2bc1ba10cf8",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "7e217462e1e2dbe880d65533f60a0c6403fcc98ee7c943840c728b180b905aa2",
+      "response_file_sha256": "7e39f7c9887e916908e072a4c56726ff36b42bdcdf0edaf5e6ed9cd3cfc9a376",
+      "required_contexts": [
+        "tailscale_control_possible",
+        "stun_may_be_normal"
+      ],
+      "displayed_contexts": [
+        "tailscale_control_possible",
+        "stun_may_be_normal"
+      ],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 2,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "38f670ba522eecb45360d020f02d074eefbc7b83a9bacf58f3bf86425526546d"
+    },
+    {
+      "number": 32,
+      "model": "qwen3.5:9b",
+      "case": "edge_gapped_raw_injection",
+      "outcome_file_sha256": "9a9076bc8d6a0aadf3f66c5b4161411abae785a20b3b5ae75ddfef3f8ea5916d",
+      "brief_file_sha256": "b74884f89b6874c41b78649062c5bc68f0f8f69a42bc01283bc050e4cc1d87d8",
+      "expected_file_sha256": "639fee17d14aa8e5ff0dc608a3f1ac4ce26444e390ed2e7ac4a3b2bc1ba10cf8",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "46ff418a55d12aafcd63c67e2aaff3abc47d7ce08d4008f41501d3c20f1f1d36",
+      "response_file_sha256": "320ca2c3981f8877485ab1a15cf6ae76348ea59065a0991b2e03f4133f6d7c98",
+      "required_contexts": [
+        "tailscale_control_possible",
+        "stun_may_be_normal"
+      ],
+      "displayed_contexts": [
+        "tailscale_control_possible",
+        "stun_may_be_normal"
+      ],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 2,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "11d3c23fef1ac079bae0ed90f38ab8dea3f98da19cf037248e216799a690b2bc"
+    },
+    {
+      "number": 33,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_split_uid",
+      "outcome_file_sha256": "2f916ead91bdf2778a9f618f2567a6e7476492df66456db146857984cfab57e4",
+      "brief_file_sha256": "537ca166b047d45d73f06409f51cf1c2ba10307200952980652f98917b2ff41d",
+      "expected_file_sha256": "c30dc254ab9d48e11fda15183f8cef41a9f87327b54ee53f18223811b67ea663",
+      "nonempty": true,
+      "status": "withheld",
+      "boundary": "Withheld; no accepted answer rendered or displayed-context credit assigned."
+    },
+    {
+      "number": 34,
+      "model": "qwen3.5:4b",
+      "case": "edge_split_uid",
+      "outcome_file_sha256": "0490f03a938d97a54c9f8764e74a2b1cdde9640a37d2d10f2af5ddbcab28e4ed",
+      "brief_file_sha256": "537ca166b047d45d73f06409f51cf1c2ba10307200952980652f98917b2ff41d",
+      "expected_file_sha256": "c30dc254ab9d48e11fda15183f8cef41a9f87327b54ee53f18223811b67ea663",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "7f1cc04b95e496667ac62a899c904093858f05ebe034e75d1983294d46034340",
+      "response_file_sha256": "d7fedad1ac698bdae826a1d37b9d1a0cd49658e03f0ab5b3676b2c90a54b9b0b",
+      "required_contexts": [
+        "sensor_reported_block",
+        "uid_fixture_possible"
+      ],
+      "displayed_contexts": [
+        "uid_fixture_possible"
+      ],
+      "all_required_contexts_displayed": false,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 6,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "c31a946188af60a179b04a4136a79ae99b8e436c45b332a967582eac8b3e6ece"
+    },
+    {
+      "number": 35,
+      "model": "qwen3.5:9b",
+      "case": "edge_split_uid",
+      "outcome_file_sha256": "feda8c557f8f8feaeab4c4295412d3a12ce295a6ea824081723e1842e155a405",
+      "brief_file_sha256": "537ca166b047d45d73f06409f51cf1c2ba10307200952980652f98917b2ff41d",
+      "expected_file_sha256": "c30dc254ab9d48e11fda15183f8cef41a9f87327b54ee53f18223811b67ea663",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "b1f522c05c64073e1f7eb7f7a8bbfa236eda7aea2f244dab36017df37e087d24",
+      "response_file_sha256": "18e03a9c78caf63f0a13dfec0a73dfd49bd2cb1e52face014e63a81df7aa3896",
+      "required_contexts": [
+        "sensor_reported_block",
+        "uid_fixture_possible"
+      ],
+      "displayed_contexts": [
+        "sensor_reported_block",
+        "uid_fixture_possible"
+      ],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 4,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "7e44b233220dc2575d8d8fdfda7f5252755e6a987c1b520d1e546d7cf9111942"
+    },
+    {
+      "number": 36,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_split_uid",
+      "outcome_file_sha256": "fad76d2f07aab2431ed9dd4cbcc26c1b6be818f6fbca9a200a5c9b3fbf1c376e",
+      "brief_file_sha256": "537ca166b047d45d73f06409f51cf1c2ba10307200952980652f98917b2ff41d",
+      "expected_file_sha256": "c30dc254ab9d48e11fda15183f8cef41a9f87327b54ee53f18223811b67ea663",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "a7fc1088578c0ed9cd219842dd919f9296919535ef59833169961e5987a0d708",
+      "response_file_sha256": "ad0a68fc1c5305d992fa8c76fc9513fb081d52da7a2fcea256733ac69a15c27f",
+      "required_contexts": [
+        "sensor_reported_block",
+        "uid_fixture_possible"
+      ],
+      "displayed_contexts": [
+        "uid_fixture_possible"
+      ],
+      "all_required_contexts_displayed": false,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 3,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "245a281bf7b74b2c5896680c7732b962fa07b77f86f280c581f7acabf3d160a4"
+    },
+    {
+      "number": 37,
+      "model": "qwen3.5:4b",
+      "case": "edge_increased_unknown",
+      "outcome_file_sha256": "44449094b0b2f5ec759913ebaaf88ee3a33ca7c7d0c419c06b54acbe62c250c9",
+      "brief_file_sha256": "d6805d6cebc6a83a329f7a67d74636b1ec788d04c614c60cd684290eb749c14f",
+      "expected_file_sha256": "56f8a52257ccee3c47c9b99259e3515d410d4c5defc71a53c6795e9d2b256810",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "332bab1166a3a21d57bf257f5fec1656dbdf3aa4e9a6f6d02610c31499327896",
+      "response_file_sha256": "841f05d5c25e00b332cf0a5d530be6a2ed25ff91aca38b5cb97d61b08b25d5d5",
+      "required_contexts": [
+        "change_needs_context"
+      ],
+      "displayed_contexts": [
+        "change_needs_context"
+      ],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": true,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "2f4900830b0496c43ebbaa3d35bff6f83b51e8a5c86b745486fd7781d1cbb1b7"
+    },
+    {
+      "number": 38,
+      "model": "qwen3.5:9b",
+      "case": "edge_increased_unknown",
+      "outcome_file_sha256": "34afdac10f94f9bb70913ded4fcfed5ab2b2e15de7b1dc144565a55008d6bfc9",
+      "brief_file_sha256": "d6805d6cebc6a83a329f7a67d74636b1ec788d04c614c60cd684290eb749c14f",
+      "expected_file_sha256": "56f8a52257ccee3c47c9b99259e3515d410d4c5defc71a53c6795e9d2b256810",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "2581a265bcb3d9f2a5526d73b1cb19a9be9effd32f11ab0b1afa9228a6bd2bfb",
+      "response_file_sha256": "be80776fc902f03e9eed819b40b45df5f7bb6c58827913b68dcf98b867744cd0",
+      "required_contexts": [
+        "change_needs_context"
+      ],
+      "displayed_contexts": [
+        "change_needs_context"
+      ],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": true,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "1cbaf81d7b19b90bf5e562286bcc10f9bf6185652bd35813facb18d94076b63c"
+    },
+    {
+      "number": 39,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_increased_unknown",
+      "outcome_file_sha256": "dcc52ed85d0371942e58dd2df58e9c7d2ab9e927856bd0510256281ac2fc2ec0",
+      "brief_file_sha256": "d6805d6cebc6a83a329f7a67d74636b1ec788d04c614c60cd684290eb749c14f",
+      "expected_file_sha256": "56f8a52257ccee3c47c9b99259e3515d410d4c5defc71a53c6795e9d2b256810",
+      "nonempty": true,
+      "status": "withheld",
+      "boundary": "Withheld; no accepted answer rendered or displayed-context credit assigned."
+    },
+    {
+      "number": 40,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_increased_unknown",
+      "outcome_file_sha256": "260fd5248c80c8e62b9d5fd3a4552c2f3642f98e045beb2f365a1e9cc5d07087",
+      "brief_file_sha256": "d6805d6cebc6a83a329f7a67d74636b1ec788d04c614c60cd684290eb749c14f",
+      "expected_file_sha256": "56f8a52257ccee3c47c9b99259e3515d410d4c5defc71a53c6795e9d2b256810",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "91c932cc96aecc3f5a096d6e38509738c318c9599842ba85a737233a940346cd",
+      "response_file_sha256": "f563f885d14e61d4a09c81234bcdcfb8a4fd2b300ecf221e8e45bfc8996e45c2",
+      "required_contexts": [
+        "change_needs_context"
+      ],
+      "displayed_contexts": [
+        "change_needs_context"
+      ],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": true,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "bcb98a630b88c2202682a14e0f471b7dcc5121fd7f16df8ddd3c6892c6add274"
+    },
+    {
+      "number": 41,
+      "model": "qwen3.5:9b",
+      "case": "edge_empty_gapped",
+      "outcome_file_sha256": "7ab256b8657c7405d5c0f18da65692d73fc1811af3e029be9d46ed82501a40ae",
+      "brief_file_sha256": "605153b4d43ad4f02a403671f34f8912e9d48de96af8cd16b2a55af7616cb4d9",
+      "expected_file_sha256": "0fcfd0c1491c4a57da1211512670ff01e59a0666f9a1e5a66e839d7847f19937",
+      "nonempty": false,
+      "status": "delivered",
+      "accepted_report_sha256": "841bb66f95a98a99eb7a0a148dd3a0a0f62ca8f9ecc3583dfbb7881f9510d0b8",
+      "response_file_sha256": "98fd0d148a8c8c2cac6d34e1f628641aff02938ca46f003d618cc0947f77985d",
+      "required_contexts": [],
+      "displayed_contexts": [],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": true,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "133ba110a0189f4bf4179cc825baac2baea79fc30917ae0733a200e8136dda2b"
+    },
+    {
+      "number": 42,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_empty_gapped",
+      "outcome_file_sha256": "b80701d0d1bb831587e3362b1ed34de684ec284ee43c67fb05c3ebd4adb05d0f",
+      "brief_file_sha256": "605153b4d43ad4f02a403671f34f8912e9d48de96af8cd16b2a55af7616cb4d9",
+      "expected_file_sha256": "0fcfd0c1491c4a57da1211512670ff01e59a0666f9a1e5a66e839d7847f19937",
+      "nonempty": false,
+      "status": "delivered",
+      "accepted_report_sha256": "841bb66f95a98a99eb7a0a148dd3a0a0f62ca8f9ecc3583dfbb7881f9510d0b8",
+      "response_file_sha256": "745db4675f1775e1fdd812c3e891feaeaf016678a8874203fe108671a44a7b0f",
+      "required_contexts": [],
+      "displayed_contexts": [],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": true,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "133ba110a0189f4bf4179cc825baac2baea79fc30917ae0733a200e8136dda2b"
+    },
+    {
+      "number": 43,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_empty_gapped",
+      "outcome_file_sha256": "c2f09128d0d461e8ac654b0c925785366fa4e5f839f3202e5091f6da4710635a",
+      "brief_file_sha256": "605153b4d43ad4f02a403671f34f8912e9d48de96af8cd16b2a55af7616cb4d9",
+      "expected_file_sha256": "0fcfd0c1491c4a57da1211512670ff01e59a0666f9a1e5a66e839d7847f19937",
+      "nonempty": false,
+      "status": "delivered",
+      "accepted_report_sha256": "841bb66f95a98a99eb7a0a148dd3a0a0f62ca8f9ecc3583dfbb7881f9510d0b8",
+      "response_file_sha256": "fd864213f7f68ed1b8930e445d5e8d585f8e11ad50d5e2acfb34382300239401",
+      "required_contexts": [],
+      "displayed_contexts": [],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": true,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "133ba110a0189f4bf4179cc825baac2baea79fc30917ae0733a200e8136dda2b"
+    },
+    {
+      "number": 44,
+      "model": "qwen3.5:4b",
+      "case": "edge_empty_gapped",
+      "outcome_file_sha256": "16e50149ee0cc847176b14cd1a3c903257642e2d62e1eb2ab1235191b53f285c",
+      "brief_file_sha256": "605153b4d43ad4f02a403671f34f8912e9d48de96af8cd16b2a55af7616cb4d9",
+      "expected_file_sha256": "0fcfd0c1491c4a57da1211512670ff01e59a0666f9a1e5a66e839d7847f19937",
+      "nonempty": false,
+      "status": "delivered",
+      "accepted_report_sha256": "841bb66f95a98a99eb7a0a148dd3a0a0f62ca8f9ecc3583dfbb7881f9510d0b8",
+      "response_file_sha256": "1f26256e4a53e4d0969b30b2aa8618c8199de277dfd208713ab67ba90c5c2574",
+      "required_contexts": [],
+      "displayed_contexts": [],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": true,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "133ba110a0189f4bf4179cc825baac2baea79fc30917ae0733a200e8136dda2b"
+    },
+    {
+      "number": 45,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_dense_omitted",
+      "outcome_file_sha256": "77cbbda81d37c0e736b0d432bb84bb6fbf75566a8d5131ee9147162068b2286f",
+      "brief_file_sha256": "f8be27e4202725455730aab4b568eb9d507a131b597dbd97cffa99557ea38569",
+      "expected_file_sha256": "78c9341de86ddd5a132219a8f4ccbd1ecb233f36e70a660fedd22a06cee36245",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "dceba3f37faea1955380d0b90da322a81f49e5e202e54f00fcc75ab36485d471",
+      "response_file_sha256": "ff086dbe71c17288c4652c5b7b6e281fa30e905e8ae8e4bd8d3e722996141a7b",
+      "required_contexts": [
+        "sensor_reported_block",
+        "uid_fixture_possible",
+        "tailscale_control_possible"
+      ],
+      "displayed_contexts": [
+        "uid_fixture_possible",
+        "tailscale_control_possible"
+      ],
+      "all_required_contexts_displayed": false,
+      "raw_strict_utility_complete": false,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 1,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "e0d2d4843a37780a915f0f4dbff10177045ae90c4ff50bb71f084f311b3d23ad"
+    },
+    {
+      "number": 46,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_dense_omitted",
+      "outcome_file_sha256": "1731b9aaab3219f80c2a01ad3c3b018dd08093d9b4c445688162aa40f6afdba3",
+      "brief_file_sha256": "f8be27e4202725455730aab4b568eb9d507a131b597dbd97cffa99557ea38569",
+      "expected_file_sha256": "78c9341de86ddd5a132219a8f4ccbd1ecb233f36e70a660fedd22a06cee36245",
+      "nonempty": true,
+      "status": "withheld",
+      "boundary": "Withheld; no accepted answer rendered or displayed-context credit assigned."
+    },
+    {
+      "number": 47,
+      "model": "qwen3.5:4b",
+      "case": "edge_dense_omitted",
+      "outcome_file_sha256": "3a1dd29dee838fc6f80c552367595012c412bff57109adb2e3dd1f7a9d0c3336",
+      "brief_file_sha256": "f8be27e4202725455730aab4b568eb9d507a131b597dbd97cffa99557ea38569",
+      "expected_file_sha256": "78c9341de86ddd5a132219a8f4ccbd1ecb233f36e70a660fedd22a06cee36245",
+      "nonempty": true,
+      "status": "delivered",
+      "accepted_report_sha256": "16075fa6fda5071e8146622ed47c2bc544a03ed7d3be43716d05ad17a7fd0b87",
+      "response_file_sha256": "ccc8fe6362523cf86c3bbd7ca6d41dd186cc9cc294d5b502910cb303ec1d7692",
+      "required_contexts": [
+        "sensor_reported_block",
+        "uid_fixture_possible",
+        "tailscale_control_possible"
+      ],
+      "displayed_contexts": [
+        "sensor_reported_block",
+        "uid_fixture_possible",
+        "tailscale_control_possible"
+      ],
+      "all_required_contexts_displayed": true,
+      "raw_strict_utility_complete": true,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0,
+      "rendered_sha256": "961f50b6f5692fcad992808a8d8b2e436321d90a568ef9475e30a3c1f38fb304"
+    },
+    {
+      "number": 48,
+      "model": "qwen3.5:9b",
+      "case": "edge_dense_omitted",
+      "outcome_file_sha256": "dc549e39f2918c7466d63d8a87e236720404ea36191f2768fdf10cbad97b9a39",
+      "brief_file_sha256": "f8be27e4202725455730aab4b568eb9d507a131b597dbd97cffa99557ea38569",
+      "expected_file_sha256": "78c9341de86ddd5a132219a8f4ccbd1ecb233f36e70a660fedd22a06cee36245",
+      "nonempty": true,
+      "status": "withheld",
+      "boundary": "Withheld; no accepted answer rendered or displayed-context credit assigned."
+    }
+  ],
+  "boundary": "Offline source-linked display inspection. Existing renderer deduplicates inferences/citations; repeated next steps remain. Raw utility unchanged. Not independent semantic accuracy, browser rendering or operator-benefit measurement."
+}

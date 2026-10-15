@@ -1,0 +1,106 @@
+[
+  {
+    "model": "gemma4:12b-it-qat",
+    "case": "decreasing_stun",
+    "started_utc": "2026-10-05T23:23:37.769040+00:00",
+    "elapsed_s": 105.48400000001129,
+    "eval_count": 477,
+    "prompt_eval_count": 518,
+    "mechanical_grounding": "passed",
+    "useful_contexts_present": true,
+    "actual_codes": [
+      "rule_match_not_intrusion_proof",
+      "stun_may_be_normal"
+    ]
+  },
+  {
+    "model": "gemma4:12b-it-qat",
+    "case": "mixed_priority",
+    "started_utc": "2026-10-05T23:25:24.509869+00:00",
+    "status": "withheld",
+    "reason": "timed out",
+    "wall_elapsed_s": 120.85899999999674
+  },
+  {
+    "model": "qwen3.5:4b",
+    "case": "decreasing_stun",
+    "started_utc": "2026-10-05T23:27:25.403491+00:00",
+    "elapsed_s": 28.28200000000652,
+    "eval_count": 290,
+    "prompt_eval_count": 489,
+    "mechanical_grounding": "passed",
+    "useful_contexts_present": false,
+    "actual_codes": [
+      "rule_match_not_intrusion_proof"
+    ]
+  },
+  {
+    "model": "qwen3.5:4b",
+    "case": "mixed_priority",
+    "started_utc": "2026-10-05T23:27:55.663299+00:00",
+    "elapsed_s": 47.46899999999732,
+    "eval_count": 500,
+    "prompt_eval_count": 941,
+    "status": "withheld",
+    "reason": "Observed value does not match evidence",
+    "wall_elapsed_s": 48.469000000011874
+  },
+  {
+    "model": "qwen3.5:9b",
+    "case": "decreasing_stun",
+    "started_utc": "2026-10-05T23:28:44.151272+00:00",
+    "elapsed_s": 82.17200000000594,
+    "eval_count": 570,
+    "prompt_eval_count": 489,
+    "mechanical_grounding": "passed",
+    "useful_contexts_present": true,
+    "actual_codes": [
+      "rule_match_not_intrusion_proof",
+      "stun_may_be_normal"
+    ]
+  },
+  {
+    "model": "qwen3.5:9b",
+    "case": "mixed_priority",
+    "started_utc": "2026-10-05T23:30:06.834331+00:00",
+    "elapsed_s": 91.29699999999139,
+    "eval_count": 571,
+    "prompt_eval_count": 941,
+    "mechanical_grounding": "passed",
+    "useful_contexts_present": true,
+    "actual_codes": [
+      "rule_match_not_intrusion_proof",
+      "sensor_reported_block",
+      "uid_fixture_possible"
+    ]
+  },
+  {
+    "model": "qwen3:4b-instruct",
+    "case": "decreasing_stun",
+    "started_utc": "2026-10-05T23:31:39.503757+00:00",
+    "elapsed_s": 50.67200000000594,
+    "eval_count": 647,
+    "prompt_eval_count": 486,
+    "mechanical_grounding": "passed",
+    "useful_contexts_present": true,
+    "actual_codes": [
+      "rule_match_not_intrusion_proof",
+      "stun_may_be_normal"
+    ]
+  },
+  {
+    "model": "qwen3:4b-instruct",
+    "case": "mixed_priority",
+    "started_utc": "2026-10-05T23:32:31.946338+00:00",
+    "elapsed_s": 50.1869999999908,
+    "eval_count": 527,
+    "prompt_eval_count": 939,
+    "mechanical_grounding": "passed",
+    "useful_contexts_present": true,
+    "actual_codes": [
+      "rule_match_not_intrusion_proof",
+      "sensor_reported_block",
+      "uid_fixture_possible"
+    ]
+  }
+]

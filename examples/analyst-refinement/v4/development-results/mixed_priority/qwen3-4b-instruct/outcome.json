@@ -1,0 +1,15 @@
+{
+  "model": "qwen3:4b-instruct",
+  "case": "mixed_priority",
+  "started_utc": "2026-10-05T23:32:31.946338+00:00",
+  "elapsed_s": 50.1869999999908,
+  "eval_count": 527,
+  "prompt_eval_count": 939,
+  "mechanical_grounding": "passed",
+  "useful_contexts_present": true,
+  "actual_codes": [
+    "rule_match_not_intrusion_proof",
+    "sensor_reported_block",
+    "uid_fixture_possible"
+  ]
+}

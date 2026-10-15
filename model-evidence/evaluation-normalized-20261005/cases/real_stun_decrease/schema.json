@@ -1,0 +1,219 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "observed",
+    "inferred",
+    "unknown",
+    "next_steps"
+  ],
+  "properties": {
+    "observed": {
+      "type": "array",
+      "items": {
+        "enum": [
+          {
+            "type": "observed",
+            "group_id": "G-562c1a128755",
+            "field": "count",
+            "value": 12
+          },
+          {
+            "type": "observed",
+            "group_id": "G-562c1a128755",
+            "field": "sid",
+            "value": 2033078
+          },
+          {
+            "type": "observed",
+            "group_id": "G-562c1a128755",
+            "field": "action",
+            "value": "allowed"
+          },
+          {
+            "type": "observed",
+            "group_id": "G-562c1a128755",
+            "field": "severity",
+            "value": 3
+          },
+          {
+            "type": "observed",
+            "group_id": "G-562c1a128755",
+            "field": "protocol",
+            "value": "UDP"
+          },
+          {
+            "type": "observed",
+            "group_id": "G-562c1a128755",
+            "field": "prior_count",
+            "value": 16
+          },
+          {
+            "type": "observed",
+            "group_id": "G-562c1a128755",
+            "field": "change",
+            "value": "decreased"
+          }
+        ]
+      },
+      "maxItems": 12
+    },
+    "inferred": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "type",
+              "code",
+              "group_id",
+              "evidence_refs"
+            ],
+            "properties": {
+              "type": {
+                "const": "inferred"
+              },
+              "group_id": {
+                "const": "G-562c1a128755"
+              },
+              "code": {
+                "enum": [
+                  "rule_match_not_intrusion_proof",
+                  "stun_may_be_normal"
+                ]
+              },
+              "evidence_refs": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 3,
+                "items": {
+                  "enum": [
+                    "E-1841cd05b6443909",
+                    "E-9eae2685c6410637",
+                    "E-b2d0ccea912a5c1c"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      },
+      "maxItems": 6,
+      "minItems": 1
+    },
+    "unknown": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "type",
+          "topic"
+        ],
+        "properties": {
+          "type": {
+            "const": "unknown"
+          },
+          "topic": {
+            "enum": [
+              "intent",
+              "process_identity",
+              "payload",
+              "complete_visibility"
+            ]
+          }
+        }
+      },
+      "minItems": 2,
+      "maxItems": 4,
+      "enum": [
+        [
+          {
+            "type": "unknown",
+            "topic": "intent"
+          },
+          {
+            "type": "unknown",
+            "topic": "complete_visibility"
+          }
+        ],
+        [
+          {
+            "type": "unknown",
+            "topic": "intent"
+          },
+          {
+            "type": "unknown",
+            "topic": "complete_visibility"
+          },
+          {
+            "type": "unknown",
+            "topic": "process_identity"
+          }
+        ],
+        [
+          {
+            "type": "unknown",
+            "topic": "intent"
+          },
+          {
+            "type": "unknown",
+            "topic": "complete_visibility"
+          },
+          {
+            "type": "unknown",
+            "topic": "payload"
+          }
+        ],
+        [
+          {
+            "type": "unknown",
+            "topic": "intent"
+          },
+          {
+            "type": "unknown",
+            "topic": "complete_visibility"
+          },
+          {
+            "type": "unknown",
+            "topic": "process_identity"
+          },
+          {
+            "type": "unknown",
+            "topic": "payload"
+          }
+        ]
+      ]
+    },
+    "next_steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "group_id",
+          "action"
+        ],
+        "properties": {
+          "group_id": {
+            "enum": [
+              "G-562c1a128755"
+            ]
+          },
+          "action": {
+            "enum": [
+              "inspect_event",
+              "check_client_process",
+              "compare_baseline",
+              "check_rule",
+              "check_visibility"
+            ]
+          }
+        }
+      },
+      "maxItems": 6
+    }
+  }
+}

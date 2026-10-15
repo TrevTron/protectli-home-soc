@@ -1,0 +1,34 @@
+{
+  "number": 13,
+  "phase": "simulation_holdout",
+  "case": "upstream-flow-drop-iponly-01",
+  "model": "qwen3:4b-instruct",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T08:37:48.707787+00:00",
+  "brief_sha256": "3d848c1bd8cf4442428a34edd63e89a92f8de4e6db13bb93bc85649c273472bc",
+  "elapsed_s": 37.20300000000134,
+  "eval_count": 456,
+  "prompt_eval_count": 452,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "d71d6363a146ce122bd0a5b419b3d33330354b9acf90b708618696a3ba350889",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [
+      "rule_match_not_intrusion_proof",
+      "sensor_reported_block"
+    ],
+    "required_contexts": [
+      "rule_match_not_intrusion_proof",
+      "sensor_reported_block"
+    ],
+    "complete": false,
+    "problems": [
+      "Repeated inference"
+    ]
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T08:38:25.925161+00:00"
+}

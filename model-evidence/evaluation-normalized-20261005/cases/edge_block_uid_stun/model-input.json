@@ -1,0 +1,82 @@
+{
+  "window_minutes": 15,
+  "visibility": {
+    "complete_delivery_proven": false,
+    "comparison_complete": true,
+    "omitted_groups": 0
+  },
+  "groups": [
+    {
+      "id": "G-a95e10cbc16f",
+      "sid": 930001,
+      "action": "blocked",
+      "severity": 1,
+      "protocol": "UDP",
+      "source_alias": "endpoint-53e4cb969e",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-28e7ee5cdf579afe"
+      ],
+      "priority_floor": "review_first",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-82d773ff9100",
+      "sid": 2100498,
+      "action": "allowed",
+      "severity": 2,
+      "protocol": "UDP",
+      "source_alias": "endpoint-53e4cb969e",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-249259a88ed7c7d0"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-e4e44a9c9469",
+      "sid": 2016150,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "endpoint-53e4cb969e",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-61dcb60f740781ae"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    }
+  ],
+  "eligible_inferences": {
+    "G-a95e10cbc16f": [
+      "rule_match_not_intrusion_proof",
+      "sensor_reported_block",
+      "change_needs_context"
+    ],
+    "G-82d773ff9100": [
+      "rule_match_not_intrusion_proof",
+      "uid_fixture_possible",
+      "change_needs_context"
+    ],
+    "G-e4e44a9c9469": [
+      "rule_match_not_intrusion_proof",
+      "stun_may_be_normal",
+      "change_needs_context"
+    ]
+  },
+  "interpretation_catalog": {
+    "change_needs_context": "This group appeared or increased in the observed comparison windows. Confirm application activity and collection coverage before interpreting the change.",
+    "rule_match_not_intrusion_proof": "A signature match is a starting point for review, not proof of an intrusion.",
+    "sensor_reported_block": "Suricata reported a blocked event. Confirm the associated client outcome; this does not prove every related request failed.",
+    "stun_may_be_normal": "STUN is used for NAT traversal. Conferencing, games or other applications may explain it; process identity and intent are not established.",
+    "uid_fixture_possible": "This rule can match a harmless UID-response fixture. Verify the exact request against the owned test receipt before treating it as expected."
+  }
+}

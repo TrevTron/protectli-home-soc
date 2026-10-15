@@ -1,0 +1,72 @@
+{
+  "inferred": [
+    {
+      "code": "sensor_reported_block",
+      "evidence_refs": [
+        "E-28e7ee5cdf579afe"
+      ],
+      "group_id": "G-a95e10cbc16f",
+      "type": "inferred"
+    },
+    {
+      "code": "stun_may_be_normal",
+      "evidence_refs": [
+        "E-61dcb60f740781ae"
+      ],
+      "group_id": "G-e4e44a9c9469",
+      "type": "inferred"
+    },
+    {
+      "code": "uid_fixture_possible",
+      "evidence_refs": [
+        "E-249259a88ed7c7d0"
+      ],
+      "group_id": "G-82d773ff9100",
+      "type": "inferred"
+    }
+  ],
+  "next_steps": [
+    {
+      "action": "compare_baseline",
+      "group_id": "G-a95e10cbc16f"
+    },
+    {
+      "action": "inspect_event",
+      "group_id": "G-e4e44a9c9469"
+    },
+    {
+      "action": "check_client_process",
+      "group_id": "G-82d773ff9100"
+    }
+  ],
+  "observed": [
+    {
+      "field": "action",
+      "group_id": "G-a95e10cbc16f",
+      "type": "observed",
+      "value": "blocked"
+    },
+    {
+      "field": "protocol",
+      "group_id": "G-a95e10cbc16f",
+      "type": "observed",
+      "value": "UDP"
+    },
+    {
+      "field": "severity",
+      "group_id": "G-a95e10cbc16f",
+      "type": "observed",
+      "value": 1
+    }
+  ],
+  "unknown": [
+    {
+      "topic": "intent",
+      "type": "unknown"
+    },
+    {
+      "topic": "complete_visibility",
+      "type": "unknown"
+    }
+  ]
+}

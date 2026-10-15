@@ -1,0 +1,14 @@
+{
+  "new_distinct": 24,
+  "checks": [
+    {
+      "prior_pack": "private\\retention-holdout-20261006\\fresh-cases-03",
+      "overlap": 0
+    },
+    {
+      "prior_pack": "private\\resource-retention-20261007\\fresh-cases-04",
+      "overlap": 0
+    }
+  ],
+  "scope": "New bytes, recurring scenario families, developer-known labels."
+}

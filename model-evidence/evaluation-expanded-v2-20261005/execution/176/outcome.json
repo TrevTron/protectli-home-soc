@@ -1,0 +1,20 @@
+{
+  "number": 176,
+  "phase": "written_analysis",
+  "case": "edge_dense_omitted",
+  "model": "gemma4:12b-it-qat",
+  "repeat": 1,
+  "structured": false,
+  "deadline_seconds": 300,
+  "started_utc": "2026-10-06T07:41:05.899026+00:00",
+  "brief_sha256": "f8be27e4202725455730aab4b568eb9d507a131b597dbd97cffa99557ea38569",
+  "elapsed_s": 227.15599999999904,
+  "eval_count": 658,
+  "prompt_eval_count": 2547,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "e5fe9242c1460d2a038298e53d701e282230669a321b6b61fe9357e595f7f8c9",
+  "manual_review": "pending",
+  "status": "delivered",
+  "completed_utc": "2026-10-06T07:44:53.065116+00:00"
+}

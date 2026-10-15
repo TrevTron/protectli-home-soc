@@ -1,0 +1,23 @@
+### Observed Facts
+*   **Groups Analyzed:** 14 groups (G-03bf34a69ac1 through G-ebc93ba5a764) were processed.
+*   **Actions:** All groups resulted in an `allowed` action with no changes to the baseline policy (`change: unchanged`, `decreased`, or `increased` counts reflect traffic volume, not policy modification).
+*   **Protocols:** Traffic involves both TCP (G-5ec49eeabb64) and UDP (all others).
+*   **Key Inferences:** The majority of groups are flagged with `rule_match_not_intrusion_proof` and `stun_may_be_normal`. One group (G-b5089c0d3d3d) is flagged with `uid_fixture_possible`. Several groups show `change_needs_context` due to new activity or increased counts in the observation window.
+*   **Visibility Gaps:** The analysis indicates `complete_delivery_proven: false` and `omitted_groups: 100`, meaning significant traffic or groups were not captured in this review cycle.
+
+### Possible Explanations
+*   **STUN Traffic:** The prevalence of `stun_may_be_normal` suggests observed UDP traffic is likely related to NAT traversal for legitimate applications such as conferencing, gaming, or VoIP, rather than malicious scanning.
+*   **Signature Matches:** Groups matching specific rules are treated as potential indicators but are not confirmed as intrusions; they require further context regarding the application identity and intent.
+*   **Fixture Activity:** Group G-b5089c0d3d3d may represent a harmless UID-response fixture rather than active exploitation.
+*   **New Activity:** Groups with `change_needs_context` (e.g., G-a1cd704d3448, G-796ff429bffd) indicate new traffic patterns appearing in the 15-minute window that require verification of application behavior before ruling out anomalies.
+
+### Unknowns
+*   **Intent:** No definitive attribution or malicious intent has been established for any group. All matches are preliminary.
+*   **Completeness:** With 100 groups omitted and delivery provenance unconfirmed, the full scope of network activity during the window is unknown.
+*   **Payload Context:** Specific payload contents, process identities, and client outcomes are not available in the provided data.
+
+### Read-Only Next Review Steps
+*   **Verify STUN Context:** For groups flagged `stun_may_be_normal`, confirm if the traffic aligns with known legitimate applications (e.g., Zoom, Teams, gaming clients) by checking process identity against owned test receipts.
+*   **Investigate New Activity:** Prioritize review of groups with `change_needs_context` to determine if the new traffic volume represents a baseline shift or anomalous behavior.
+*   **Validate UID Fixtures:** For G-b5089c0d3d3d, explicitly verify the request against the owned test receipt to confirm it is a benign fixture.
+*   **Address Visibility Gaps:** Investigate why 100 groups were omitted and whether critical traffic streams were missed due to delivery issues or sampling limits.

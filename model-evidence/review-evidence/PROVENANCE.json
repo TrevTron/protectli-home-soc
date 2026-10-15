@@ -1,0 +1,34 @@
+{
+  "exact_source_copies": [
+    {
+      "file": "review-evidence/MANUAL_REVIEW_PROTOCOL_20261005.md",
+      "source_sha256": "a8f4b69130041b109a3164d40761fb20df7909fc230cf0a143f1cafa0be407f2"
+    },
+    {
+      "file": "review-evidence/SIMULATION_HOLDOUT_MANUAL_NOTES_20261006.md",
+      "source_sha256": "2974926b75fcf238ca0f3c093679f904655b70edc9ed18f5574ca0a63d49af45"
+    },
+    {
+      "file": "review-evidence/simulation-manual-notes-through60-20261006.json",
+      "source_sha256": "0ce4c244ab8c8115c4fa161b8eed50a56a84ddfc4f1f0ce4f3bbebc7d415bbb1"
+    },
+    {
+      "file": "review-evidence/simulation-empty-review-reuse-through84-20261006.json",
+      "source_sha256": "75ec88bfdd2fddcb27fcd44a54b3925a6ed2d2147c4f3314923fb7203cdaf42d"
+    },
+    {
+      "file": "review-evidence/simulation-notes-through60-original.md",
+      "source_sha256": "bedf5344ddd46b96bbbc97a66806acfa130e9cb8940aaab2915535f4d2c74393"
+    },
+    {
+      "file": "review-evidence/simulation-notes-through84-original.md",
+      "source_sha256": "0f622af42e400e024920222da0ab8e40417db90bbc025aff03ee051821fd3547"
+    },
+    {
+      "file": "review-evidence/simulation-nonempty-repeat1-render-audit-20261006.json",
+      "source_sha256": "3ecd136b33ca2e755e8a6cd62ceef03958b7a2910611b36a9f2305228fc4b7cc"
+    }
+  ],
+  "repeat_audit_helper_sha256": "b65e2861fbe432dfc038bf907e98a6fd538baa1cda9cc6937ffd85ec3a99a70d",
+  "boundary": "Supplementary post-output agent reviews, separate from frozen pre-answer criteria. Earlier pending statements are dated stages. Exact repeat reuse is not independent accuracy scoring. Original packet/rule/native evidence remains private."
+}

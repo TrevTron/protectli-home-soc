@@ -1,0 +1,26 @@
+{
+  "number": 159,
+  "phase": "simulation_holdout",
+  "case": "policy-wan_port_attempts",
+  "model": "qwen3.5:4b",
+  "repeat": 2,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T09:54:43.731555+00:00",
+  "brief_sha256": "71fae6b6070bb7ca5257e9d90787892d51acb35b863534e191e85c5eb9983a9a",
+  "elapsed_s": 10.28099999999904,
+  "eval_count": 53,
+  "prompt_eval_count": 290,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "6cfd2bac012c4f491a37a4af3d19c39aaef2e45cafe4c5960ab7dfc56f0f6636",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [],
+    "required_contexts": [],
+    "complete": true,
+    "problems": []
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T09:54:54.016061+00:00"
+}

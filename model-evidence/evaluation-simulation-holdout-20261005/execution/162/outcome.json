@@ -1,0 +1,26 @@
+{
+  "number": 162,
+  "phase": "simulation_holdout",
+  "case": "policy-wan_syn_connection_burst",
+  "model": "qwen3.5:4b",
+  "repeat": 2,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T09:55:47.297991+00:00",
+  "brief_sha256": "b269f69897b0a64cc86d1a43b91f0df1856cf1ae695a750c56eb04db19fd65ed",
+  "elapsed_s": 11.265999999999622,
+  "eval_count": 53,
+  "prompt_eval_count": 290,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "6cfd2bac012c4f491a37a4af3d19c39aaef2e45cafe4c5960ab7dfc56f0f6636",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [],
+    "required_contexts": [],
+    "complete": true,
+    "problems": []
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T09:55:58.583550+00:00"
+}

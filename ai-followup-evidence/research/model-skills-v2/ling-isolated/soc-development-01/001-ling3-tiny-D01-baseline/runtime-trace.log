@@ -1,0 +1,7 @@
+0.03.581.522 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = -1
+0.03.581.971 I slot launch_slot_: id  0 | task 0 | processing task, is_child = 0
+0.06.195.980 I slot print_timing: id  0 | task 0 | prompt eval time =    1614.58 ms /   620 tokens (    2.60 ms per token,   384.00 tokens per second)
+0.06.195.989 I slot print_timing: id  0 | task 0 |        eval time =     999.35 ms /    42 tokens (   24.37 ms per token,    41.03 tokens per second)
+0.06.195.991 I slot print_timing: id  0 | task 0 |       total time =    2613.93 ms /   662 tokens
+0.06.195.992 I slot print_timing: id  0 | task 0 |    graphs reused =         41
+0.06.196.111 I slot      release: id  0 | task 0 | stop processing: n_tokens = 661, truncated = 0

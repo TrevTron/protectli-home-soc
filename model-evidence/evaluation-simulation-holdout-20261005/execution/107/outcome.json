@@ -1,0 +1,15 @@
+{
+  "number": 107,
+  "phase": "simulation_holdout",
+  "case": "policy-http_uid_nat_control",
+  "model": "gemma4:12b-it-qat",
+  "repeat": 2,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T09:28:05.397917+00:00",
+  "brief_sha256": "a6921b33cbceec1d5c7ee73e43ffb14004b67cf1eb8042a3f6683b5957d0d604",
+  "status": "withheld",
+  "reason": "timed out",
+  "elapsed_s": 120.0470000000023,
+  "completed_utc": "2026-10-06T09:30:05.437377+00:00"
+}

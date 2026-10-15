@@ -1,0 +1,15 @@
+{
+  "number": 85,
+  "phase": "production_contract",
+  "case": "edge_gapped_raw_injection",
+  "model": "gemma4:12b-it-qat",
+  "repeat": 2,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T05:44:12.626705+00:00",
+  "brief_sha256": "b74884f89b6874c41b78649062c5bc68f0f8f69a42bc01283bc050e4cc1d87d8",
+  "status": "withheld",
+  "reason": "timed out",
+  "elapsed_s": 120.01499999999942,
+  "completed_utc": "2026-10-06T05:46:12.642255+00:00"
+}

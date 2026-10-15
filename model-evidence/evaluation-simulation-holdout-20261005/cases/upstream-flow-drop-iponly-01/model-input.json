@@ -1,0 +1,36 @@
+{
+  "window_minutes": 15,
+  "visibility": {
+    "complete_delivery_proven": false,
+    "comparison_complete": false,
+    "omitted_groups": 0
+  },
+  "groups": [
+    {
+      "id": "G-78d565bebd92",
+      "sid": 1,
+      "action": "blocked",
+      "severity": 3,
+      "protocol": "TCP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-d3504dc3d2",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-6796c16be7820ad7"
+      ],
+      "priority_floor": "review_first",
+      "change": "comparison_unknown"
+    }
+  ],
+  "eligible_inferences": {
+    "G-78d565bebd92": [
+      "rule_match_not_intrusion_proof",
+      "sensor_reported_block"
+    ]
+  },
+  "interpretation_catalog": {
+    "rule_match_not_intrusion_proof": "A signature match is a starting point for review, not proof of an intrusion.",
+    "sensor_reported_block": "Suricata reported a blocked event. Confirm the associated client outcome; this does not prove every related request failed."
+  }
+}

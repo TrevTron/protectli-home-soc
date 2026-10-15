@@ -1,0 +1,40 @@
+{
+  "required_contexts": [
+    {
+      "code": "sensor_reported_block",
+      "any_group_ids": [
+        "G-c805677216a2"
+      ]
+    },
+    {
+      "code": "uid_fixture_possible",
+      "any_group_ids": [
+        "G-b453bdf70849"
+      ]
+    },
+    {
+      "code": "tailscale_control_possible",
+      "any_group_ids": [
+        "G-851decf12c9f"
+      ]
+    }
+  ],
+  "review_first_any_groups": [
+    "G-c805677216a2"
+  ],
+  "empty_report": false,
+  "unknowns_required": [
+    "intent",
+    "complete_visibility"
+  ],
+  "comparison_complete": true,
+  "quality_checks": [
+    "grounded exact fields and references",
+    "specific context coverage",
+    "at least one read-only step",
+    "review-first group attended when present",
+    "no repeated inference or citation",
+    "at most three items per requested observed/inferred/next-step list",
+    "no process/intent/client-outcome certainty"
+  ]
+}

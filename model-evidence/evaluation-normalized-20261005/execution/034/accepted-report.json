@@ -1,0 +1,78 @@
+{
+  "inferred": [
+    {
+      "code": "rule_match_not_intrusion_proof",
+      "evidence_refs": [
+        "E-e0817d5432dda2e7",
+        "E-e0817d5432dda2e7",
+        "E-e0817d5432dda2e7"
+      ],
+      "group_id": "G-91323b66c8fe",
+      "type": "inferred"
+    },
+    {
+      "code": "uid_fixture_possible",
+      "evidence_refs": [
+        "E-e0817d5432dda2e7",
+        "E-e0817d5432dda2e7",
+        "E-e0817d5432dda2e7"
+      ],
+      "group_id": "G-91323b66c8fe",
+      "type": "inferred"
+    },
+    {
+      "code": "change_needs_context",
+      "evidence_refs": [
+        "E-e0817d5432dda2e7",
+        "E-e0817d5432dda2e7",
+        "E-e0817d5432dda2e7"
+      ],
+      "group_id": "G-91323b66c8fe",
+      "type": "inferred"
+    }
+  ],
+  "next_steps": [
+    {
+      "action": "compare_baseline",
+      "group_id": "G-91323b66c8fe"
+    },
+    {
+      "action": "compare_baseline",
+      "group_id": "G-82d773ff9100"
+    },
+    {
+      "action": "compare_baseline",
+      "group_id": "G-9132b0494f63"
+    }
+  ],
+  "observed": [
+    {
+      "field": "action",
+      "group_id": "G-91323b66c8fe",
+      "type": "observed",
+      "value": "blocked"
+    },
+    {
+      "field": "change",
+      "group_id": "G-91323b66c8fe",
+      "type": "observed",
+      "value": "new_in_observed_windows"
+    },
+    {
+      "field": "protocol",
+      "group_id": "G-91323b66c8fe",
+      "type": "observed",
+      "value": "UDP"
+    }
+  ],
+  "unknown": [
+    {
+      "topic": "intent",
+      "type": "unknown"
+    },
+    {
+      "topic": "complete_visibility",
+      "type": "unknown"
+    }
+  ]
+}

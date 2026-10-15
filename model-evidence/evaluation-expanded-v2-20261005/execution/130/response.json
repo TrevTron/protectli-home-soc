@@ -1,0 +1,17 @@
+{
+  "model": "qwen3.5:4b",
+  "created_at": "2026-10-06T06:37:00.8307767Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"inferred\": [\n    {\n      \"code\": \"rule_match_not_intrusion_proof\",\n      \"evidence_refs\": [\"E-28e7ee5cdf579afe\"],\"group_id\":\"G-a95e10cbc16f\",\"type\":\"inferred\"},\n    {\n      \"code\": \"stun_may_be_normal\",\n      \"evidence_refs\": [\"E-61dcb60f740781ae\"],\"group_id\":\"G-e4e44a9c9469\",\"type\":\"inferred\"},\n    {\n      \"code\": \"uid_fixture_possible\",\n      \"evidence_refs\": [\"E-249259a88ed7c7d0\"],\"group_id\":\"G-82d773ff9100\",\"type\":\"inferred\"}\n  ],\n  \"next_steps\": [\n    {\n      \"action\": \"compare_baseline\",\n      \"group_id\":\"G-a95e10cbc16f\"\n    },\n    {\n      \"action\": \"check_client_process\",\n      \"group_id\":\"G-e4e44a9c9469\"\n    },\n    {\n      \"action\": \"inspect_event\",\n      \"group_id\":\"G-82d773ff9100\"\n    }\n  ],\n  \"observed\": [\n    {\"field\":\"action\",\"group_id\":\"G-a95e10cbc16f\",\"type\":\"observed\",\"value\":\"blocked\"},\n    {\"field\":\"protocol\",\"group_id\":\"G-e4e44a9c9469\",\"type\":\"observed\",\"value\":\"UDP\"},\n    {\"field\":\"sid\",\"group_id\":\"G-82d773ff9100\",\"type\":\"observed\",\"value\":2100498}\n  ],\n  \"unknown\": [{\"topic\":\"intent\",\"type\":\"unknown\"},{\"topic\":\"complete_visibility\",\"type\":\"unknown\"}]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 45742098400,
+  "load_duration": 4418251500,
+  "prompt_eval_count": 822,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 8761008000,
+  "eval_count": 455,
+  "eval_duration": 32554989000
+}

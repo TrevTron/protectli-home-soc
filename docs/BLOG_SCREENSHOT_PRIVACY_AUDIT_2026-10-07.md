@@ -1,0 +1,13 @@
+# Privacy audit of the article images
+
+Reviewed all eight distinct dashboard/setup/report screenshots in the current local Protectli article, plus its four photographs and all responsive image variants. All 16 image files served by the local preview and copied into the built output match the audited SHA256 values. No article prose or image files were changed in this audit. Nothing was published.
+
+The eight screenshots show no exposed password, API key, authentication token, private key, Wi-Fi SSID, MAC address, personal contact detail, SSN, personal filesystem path or real network address. The OPNsense WAN gateway is covered by a flattened redaction in the actual JPEG. The grouped overview replaces addresses with withheld labels. The analyst report uses opaque endpoint aliases generated with a private HMAC salt; that salt is absent from the assets.
+
+All three SVG files contain complete embedded source JPEGs. A viewBox is cropping, not secure redaction: the embedded image can be extracted. Extracted and visually reviewed the entire sources, including the portions outside the visible crop. Those full sources also contained no identified PII or credentials. The setup source's hidden lower section contains blank DNS fields. This confirms these specific files; it does not make SVG cropping a suitable future redaction method.
+
+No audited image or embedded JPEG contains EXIF or GPS metadata. The JPEG metadata consists of image-format fields and, in some files, an ICC color profile. Hardware photographs contain no visible people, personal picture frame, shipping label or personal identifier; the kit label is the product model/branding label. Its decorative QR rendering is not presented as a verified functioning code.
+
+Information deliberately retained includes the generic project hostname `protectli-soc.home.arpa`, the well-known account label `root`, software versions, service/process names and IDs, Pacific timestamps, aggregate counts, port numbers, opaque endpoint aliases and evidence references/hashes. These are project/technical context, not an exposed password or a personal email address. The product labels and logos remain intact.
+
+Private receipt directory: `private/screenshot-privacy-audit-20261007/`. It contains before copies of all assets, metadata results, the three extracted embedded images and final served/built hash verification. Original private evidence remains untouched. This is a scoped technical inspection, not a legal compliance certification or a clearance of every private evidence file or repository-release artifact. Recheck changed assets before release.

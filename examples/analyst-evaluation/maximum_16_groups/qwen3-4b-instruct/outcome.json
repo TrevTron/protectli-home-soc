@@ -1,0 +1,21 @@
+{
+  "model": "qwen3:4b-instruct",
+  "case": "maximum_16_groups",
+  "started_utc": "2026-10-05T22:50:19.916900+00:00",
+  "done": true,
+  "done_reason": "stop",
+  "elapsed_s": 94.60899999999674,
+  "eval_count": 661,
+  "prompt_eval_count": 2280,
+  "thinking_characters": 0,
+  "mechanical_grounding": "passed",
+  "expected_useful_codes_present": true,
+  "actual_inference_codes": [
+    "rule_match_not_intrusion_proof",
+    "sensor_reported_block",
+    "stun_may_be_normal",
+    "tailscale_control_possible",
+    "uid_fixture_possible"
+  ],
+  "frozen_inputs_unchanged": true
+}

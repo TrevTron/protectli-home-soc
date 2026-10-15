@@ -1,0 +1,13 @@
+{
+  "model": "qwen3.5:4b",
+  "case": "block_with_unchanged_tailscale",
+  "started_utc": "2026-10-05T23:45:23.198503+00:00",
+  "elapsed_s": 30.312000000005355,
+  "eval_count": 280,
+  "prompt_eval_count": 699,
+  "mechanical_grounding": "passed",
+  "useful_contexts_present": false,
+  "actual_codes": [
+    "rule_match_not_intrusion_proof"
+  ]
+}

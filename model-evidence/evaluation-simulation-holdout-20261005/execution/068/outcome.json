@@ -1,0 +1,26 @@
+{
+  "number": 68,
+  "phase": "simulation_holdout",
+  "case": "policy-wan_icmp_attempts",
+  "model": "qwen3:4b-instruct",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T09:09:21.831955+00:00",
+  "brief_sha256": "62659c1d9854068e07989256985c712e56f18e6f073ed89a4d6fcca14064d06c",
+  "elapsed_s": 8.65599999999904,
+  "eval_count": 36,
+  "prompt_eval_count": 286,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "ec26888a42db18ac2f5c5e60b7e0730a8050a66b46af540b52e855e8d29d0cf9",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [],
+    "required_contexts": [],
+    "complete": true,
+    "problems": []
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T09:09:30.501953+00:00"
+}

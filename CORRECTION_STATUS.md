@@ -1,0 +1,4 @@
+Current correction: Vault plus Minisforum is the selected default. SQLite, exact repetition and GPU reporting are live. The separately frozen investigation retest passed 18/18 measured decisions with verified full input context and no capped investigator/reviewer output. The 9B reviewer remains unreliable on defect controls (1/6); its opinions are advisory. Read [corrected results](docs/AUTOMATED_INVESTIGATION_CORRECTED_RESULTS_2026-10-06.md) and [the correction protocol](docs/INVESTIGATION_CONTRACT_CORRECTION_2026-10-06.md). Older failed studies and their copied evidence remain unchanged. Human benefit and the 48-hour operating acceptance remain unproved. Local draft only.
+
+
+Use the V6 investigation entry point for the corrected bounded contract. Earlier development runners are preserved for reproducibility and include failures. None replaces the live constrained analyst.

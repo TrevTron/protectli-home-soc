@@ -1,0 +1,9 @@
+{"delivered":false,"elapsed_s":2.641,"full_input":false,"natural":true,"request":"001-ling3-tiny-D01-baseline"}
+Traceback (most recent call last):
+  File "C:\REDACTED_PROJECT\private\ai-followup-20261007\model-skills-v2\run_ling.py", line 177, in <module>
+    main()
+  File "C:\REDACTED_PROJECT\private\ai-followup-20261007\model-skills-v2\run_ling.py", line 173, in main
+    execute(output)
+  File "C:\REDACTED_PROJECT\private\ai-followup-20261007\model-skills-v2\run_ling.py", line 152, in execute
+    raise RuntimeError('Ling delivery/input guard; retain original and stop subsequent requests')
+RuntimeError: Ling delivery/input guard; retain original and stop subsequent requests

@@ -1,0 +1,12 @@
+{
+  "use": "new held-out cold-start priority fixture",
+  "useful_inferences": [
+    "rule_match_not_intrusion_proof"
+  ],
+  "required_unknowns": [
+    "intent",
+    "complete_visibility"
+  ],
+  "no_compromise_or_client_outcome_verdict": true,
+  "synthetic_not_actual_attack": true
+}

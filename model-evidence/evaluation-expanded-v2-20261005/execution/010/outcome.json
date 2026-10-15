@@ -1,0 +1,30 @@
+{
+  "number": 10,
+  "phase": "production_contract",
+  "case": "real_stun_decrease",
+  "model": "qwen3.5:4b",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T04:18:12.549504+00:00",
+  "brief_sha256": "a419bbb11a038294bc731e53f28c3421d5f9b0b55598f783ed482ddee035a956",
+  "elapsed_s": 28.96899999999914,
+  "eval_count": 271,
+  "prompt_eval_count": 513,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "305af3d5e554e2dbafa2e8b6cf6cd76fe97306f6089d80ef4275a1170ecb7e2b",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [],
+    "required_contexts": [
+      "stun_may_be_normal"
+    ],
+    "complete": false,
+    "problems": [
+      "Missing required contexts"
+    ]
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T04:18:41.537573+00:00"
+}

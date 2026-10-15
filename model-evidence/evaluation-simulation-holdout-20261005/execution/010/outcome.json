@@ -1,0 +1,26 @@
+{
+  "number": 10,
+  "phase": "simulation_holdout",
+  "case": "upstream-dhcp-request-flood",
+  "model": "qwen3:4b-instruct",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T08:36:59.144042+00:00",
+  "brief_sha256": "da6dd181e688bad0544e4187c098f72f2ba0a609232443d5718f7f1dfa0503cb",
+  "elapsed_s": 8.25,
+  "eval_count": 36,
+  "prompt_eval_count": 286,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "ec26888a42db18ac2f5c5e60b7e0730a8050a66b46af540b52e855e8d29d0cf9",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [],
+    "required_contexts": [],
+    "complete": true,
+    "problems": []
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T08:37:07.402735+00:00"
+}

@@ -1,0 +1,17 @@
+Project media and likeness terms
+
+Photographs, images, videos, diagrams, and Trevor Unland's name and likeness
+are excluded from the MIT software license in LICENSE. Where Trevor Unland
+controls the applicable rights, noncommercial sharing requires credit to
+"Trevor Unland (unland.dev)" and a link to this repository:
+https://github.com/TrevTron/protectli-home-soc
+
+Commercial reuse of project media or likeness requires prior permission.
+These terms do not grant rights to third-party logos, trademarks, software,
+model weights, upstream model metadata, or third-party data. Those remain
+subject to their owners' terms. No endorsement is implied by reuse.
+
+Original project code and textual software documentation are MIT licensed.
+Retain the copyright and permission notices when distributing copies or
+substantial portions. MIT does not add an About-screen or visible-credit
+requirement for code use. Public credit and a repository link are appreciated.

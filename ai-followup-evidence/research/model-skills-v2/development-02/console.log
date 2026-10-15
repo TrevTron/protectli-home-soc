@@ -1,0 +1,12 @@
+{"completed":1,"delivered":true,"elapsed_s":36.907,"request":"001-gemma4-12b-D01-skills"}
+{"completed":2,"delivered":true,"elapsed_s":31.968,"request":"002-gemma4-12b-D02-skills"}
+{"completed":3,"delivered":true,"elapsed_s":33.0,"request":"003-gemma4-12b-D05-skills"}
+{"completed":4,"delivered":true,"elapsed_s":12.328,"request":"004-qwen35-4b-D01-skills"}
+{"completed":5,"delivered":true,"elapsed_s":13.36,"request":"005-qwen35-4b-D02-skills"}
+{"completed":6,"delivered":false,"elapsed_s":13.375,"request":"006-qwen35-4b-D05-skills"}
+{"completed":7,"delivered":true,"elapsed_s":11.375,"request":"007-qwen3-4b-D01-skills"}
+{"completed":8,"delivered":true,"elapsed_s":10.297,"request":"008-qwen3-4b-D02-skills"}
+{"completed":9,"delivered":false,"elapsed_s":11.344,"request":"009-qwen3-4b-D05-skills"}
+{"completed":10,"delivered":true,"elapsed_s":23.719,"request":"010-qwen35-9b-D01-skills"}
+{"completed":11,"delivered":true,"elapsed_s":19.547,"request":"011-qwen35-9b-D02-skills"}
+{"completed":12,"delivered":true,"elapsed_s":20.672,"request":"012-qwen35-9b-D05-skills"}

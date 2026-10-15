@@ -1,0 +1,17 @@
+{
+  "model": "qwen3.5:9b",
+  "created_at": "2026-10-06T05:01:20.386191Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"inferred\": [\n    {\n      \"code\": \"rule_match_not_intrusion_proof\",\n      \"evidence_refs\": [\"E-2b5ba2857d869aca\", \"E-ef13539c0334ff69\", \"E-868c6e960e444e1b\"],\n      \"group_id\": \"G-acaeeb7324a1\",\n      \"type\": \"inferred\"\n    },\n    {\n      \"code\": \"change_needs_context\",\n      \"evidence_refs\": [\"E-2b5ba2857d869aca\", \"E-ef13539c0334ff69\", \"E-868c6e960e444e1b\"],\n      \"group_id\": \"G-acaeeb7324a1\",\n      \"type\": \"inferred\"\n    },\n    {\n      \"code\": \"change_needs_context\",\n      \"evidence_refs\": [\"E-2b5ba2857d869aca\", \"E-ef13539c0334ff69\", \"E-868c6e960e444e1b\"],\n      \"group_id\": \"G-acaeeb7324a1\",\n      \"type\": \"inferred\"\n    }\n  ],\n  \"next_steps\": [\n    {\n      \"action\": \"check_rule\",\n      \"group_id\": \"G-acaeeb7324a1\"\n    },\n    {\n      \"action\": \"check_rule\",\n      \"group_id\": \"G-acaeeb7324a1\"\n    },\n    {\n      \"action\": \"check_rule\",\n      \"group_id\": \"G-acaeeb7324a1\"\n    }\n  ],\n  \"observed\": [\n    {\"field\":\"sid\",\"group_id\":\"G-acaeeb7324a1\",\"type\":\"observed\",\"value\":930077},\n    {\"field\":\"protocol\",\"group_id\":\"G-acaeeb7324a1\",\"type\":\"observed\",\"value\":\"UDP\"},\n    {\"field\":\"action\",\"group_id\":\"G-acaeeb7324a1\",\"type\":\"observed\",\"value\":\"allowed\"}\n  ],\n  \"unknown\": [{\"topic\":\"intent\",\"type\":\"unknown\"},{\"topic\":\"complete_visibility\",\"type\":\"unknown\"}]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 85171481000,
+  "load_duration": 4852391600,
+  "prompt_eval_count": 493,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 8847679000,
+  "eval_count": 586,
+  "eval_duration": 71465106000
+}

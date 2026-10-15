@@ -1,0 +1,20 @@
+{
+  "number": 165,
+  "phase": "written_analysis",
+  "case": "real_dense_post_restart",
+  "model": "qwen3:4b-instruct",
+  "repeat": 1,
+  "structured": false,
+  "deadline_seconds": 300,
+  "started_utc": "2026-10-06T07:20:16.186311+00:00",
+  "brief_sha256": "eea9d3dc8a8eda557cef46798e6ee06b92a34432ae1e50cfbb00741310f87a38",
+  "elapsed_s": 104.01599999999962,
+  "eval_count": 700,
+  "prompt_eval_count": 2816,
+  "done_reason": "length",
+  "thinking_characters": 0,
+  "content_sha256": "449270992fe5be433009f057d13ebe3f1d606fa215d463850770431b5ccf46ba",
+  "status": "withheld",
+  "reason": "Incomplete/capped output or unexpected thinking channel",
+  "completed_utc": "2026-10-06T07:22:00.206137+00:00"
+}

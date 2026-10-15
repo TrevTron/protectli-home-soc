@@ -1,0 +1,1 @@
+{"case":"D12","client_outcome":"unknown","client_refs":[],"contexts":["sensor_action_not_client_result","rule_match_not_intrusion_proof","coverage_limits","comparison_incomplete"],"delivery_complete":false,"groups":[{"action":"allowed","count":15,"id":"G-cc1f2acd0f04","refs":["E-5777df431275b2d6"]}],"intrusion_established":false,"next_checks":["inspect_coverage"]}

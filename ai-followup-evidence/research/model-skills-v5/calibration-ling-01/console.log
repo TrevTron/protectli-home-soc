@@ -1,0 +1,16 @@
+{"delivered":false,"elapsed_s":11.203,"full_input":true,"natural":true,"request":"001-ling3-tiny-D03-legacy-off"}
+{"delivered":false,"elapsed_s":11.047,"full_input":true,"natural":true,"request":"002-ling3-tiny-D04-legacy-off"}
+{"delivered":false,"elapsed_s":6.5,"full_input":true,"natural":true,"request":"003-ling3-tiny-D08-legacy-off"}
+{"delivered":false,"elapsed_s":15.437,"full_input":true,"natural":true,"request":"004-ling3-tiny-D12-legacy-off"}
+{"delivered":false,"elapsed_s":7.782,"full_input":true,"natural":true,"request":"005-ling3-tiny-D03-clean-off"}
+{"delivered":false,"elapsed_s":8.187,"full_input":true,"natural":true,"request":"006-ling3-tiny-D04-clean-off"}
+{"delivered":false,"elapsed_s":4.516,"full_input":true,"natural":true,"request":"007-ling3-tiny-D08-clean-off"}
+{"delivered":false,"elapsed_s":12.313,"full_input":true,"natural":true,"request":"008-ling3-tiny-D12-clean-off"}
+{"delivered":false,"elapsed_s":29.516,"full_input":true,"natural":true,"request":"009-ling3-tiny-D03-clean-think"}
+{"delivered":false,"elapsed_s":29.25,"full_input":true,"natural":true,"request":"010-ling3-tiny-D04-clean-think"}
+{"delivered":true,"elapsed_s":25.235,"full_input":true,"natural":true,"request":"011-ling3-tiny-D08-clean-think"}
+{"delivered":false,"elapsed_s":34.641,"full_input":true,"natural":true,"request":"012-ling3-tiny-D12-clean-think"}
+{"delivered":false,"elapsed_s":28.656,"full_input":true,"natural":true,"request":"013-ling3-tiny-D03-clean-native"}
+{"delivered":false,"elapsed_s":29.484,"full_input":true,"natural":true,"request":"014-ling3-tiny-D04-clean-native"}
+{"delivered":false,"elapsed_s":26.438,"full_input":true,"natural":true,"request":"015-ling3-tiny-D08-clean-native"}
+{"delivered":false,"elapsed_s":33.031,"full_input":true,"natural":true,"request":"016-ling3-tiny-D12-clean-native"}

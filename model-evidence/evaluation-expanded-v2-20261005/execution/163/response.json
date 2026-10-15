@@ -1,0 +1,17 @@
+{
+  "model": "gemma4:12b-it-qat",
+  "created_at": "2026-10-06T07:18:54.1548777Z",
+  "message": {
+    "role": "assistant",
+    "content": "**First-Pass Network Evidence Report**\n\n**Observed Facts:**\n*   **Blocked Traffic:** One instance of TCP traffic from `endpoint-d794639191` to an `owned-client` was blocked (G-95d892338eac, E-2bf06e867abab666).\n*   **Allowed Traffic (UDP):** Multiple instances of UDP traffic (SIDs 2016149, 2016150) were allowed between various internal endpoints (e.g., `endpoint-7b4c4891e5`, `endpoint-71d6921e6c`, `endpoint-62e63abc3c`, `endpoint-763cf918a9`, `endpoint-adc07b3cf9`).\n*   **Allowed Traffic (TCP):** Various TCP connections were allowed, including a match for a Tailscale control-plane TLS server name (G-e9e0486c998f, E-85849b3926c06044) and other general TCP connections (G-4d18443b64b0, G-634ee0208a82).\n\n**Possible Explanations:**\n*   **STUN Traffic:** The high volume of UDP traffic matching SIDs 2016149 and 2016150 may be related to STUN (Session Traversal Utilities for NAT), which is commonly used for NAT traversal in VoIP, gaming, or conferencing applications (G-32de6c3018a3, G-3cbfea212c3b, G-52be711c5d5f, G-562c1a128755, G-5e6affd7862a, G-6e0d9e7f06b3, G-7b06c9b0d6ec, G-e32cb6035dd4).\n*   **Tailscale Activity:** The TCP match on G-e9e0486c998f may be associated with a legitimate Tailscale client connecting to its control plane.\n*   **UID Fixtures:** Some matches (G-95d892338eac, G-b5089c0d3d3d) may be harmless UID-response fixtures.\n\n**Unknowns:**\n*   **Intent:** The specific intent behind the blocked TCP request and the various allowed UDP/TCP flows is unknown.\n*   **Process Identity:** The specific applications or processes generating this traffic have not been identified.\n*   **Completeness:** Visibility is incomplete; it is unknown if all requests from these endpoints were successful or if other traffic occurred outside this window.\n\n**Read-Only Next Review Steps:**\n*   Verify if the endpoints involved are known to run STUN-reliant applications (e.g., Teams, Zoom, games).\n*   Confirm if the endpoints are authorized to use Tailscale.\n*   Correlate the blocked"
+  },
+  "done": true,
+  "done_reason": "length",
+  "total_duration": 234094256600,
+  "load_duration": 7161864100,
+  "prompt_eval_count": 2579,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 99117398000,
+  "eval_count": 700,
+  "eval_duration": 127798907000
+}

@@ -1,0 +1,48 @@
+{
+  "inferred": [
+    {
+      "code": "sensor_reported_block",
+      "evidence_refs": [
+        "E-01ed2b25d893d1b6"
+      ],
+      "group_id": "G-c805677216a2",
+      "type": "inferred"
+    }
+  ],
+  "next_steps": [
+    {
+      "action": "check_client_process",
+      "group_id": "G-c805677216a2"
+    }
+  ],
+  "observed": [
+    {
+      "field": "action",
+      "group_id": "G-c805677216a2",
+      "type": "observed",
+      "value": "blocked"
+    },
+    {
+      "field": "change",
+      "group_id": "G-c805677216a2",
+      "type": "observed",
+      "value": "new_in_observed_windows"
+    },
+    {
+      "field": "protocol",
+      "group_id": "G-c805677216a2",
+      "type": "observed",
+      "value": "UDP"
+    }
+  ],
+  "unknown": [
+    {
+      "topic": "intent",
+      "type": "unknown"
+    },
+    {
+      "topic": "complete_visibility",
+      "type": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b-instruct",
+  "created_at": "2026-10-05T22:50:18.9512473Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"inferred\": [\n    {\n      \"code\": \"rule_match_not_intrusion_proof\",\n      \"evidence_refs\": [\n        \"E-3b0246d9e8e2a834\"\n      ],\n      \"group_id\": \"G-dab88c264740\",\n      \"type\": \"inferred\"\n    }\n  ],\n  \"next_steps\": [\n    {\n      \"action\": \"inspect_event\",\n      \"group_id\": \"G-dab88c264740\"\n    },\n    {\n      \"action\": \"check_visibility\",\n      \"group_id\": \"G-dab88c264740\"\n    },\n    {\n      \"action\": \"compare_baseline\",\n      \"group_id\": \"G-dab88c264740\"\n    }\n  ],\n  \"observed\": [\n    {\n      \"field\": \"action\",\n      \"group_id\": \"G-dab88c264740\",\n      \"type\": \"observed\",\n      \"value\": \"allowed\"\n    },\n    {\n      \"field\": \"protocol\",\n      \"group_id\": \"G-dab88c264740\",\n      \"type\": \"observed\",\n      \"value\": \"UDP\"\n    },\n    {\n      \"field\": \"severity\",\n      \"group_id\": \"G-dab88c264740\",\n      \"type\": \"observed\",\n      \"value\": 1\n    }\n  ],\n  \"unknown\": [\n    {\n      \"topic\": \"intent\",\n      \"type\": \"unknown\"\n    },\n    {\n      \"topic\": \"complete_visibility\",\n      \"type\": \"unknown\"\n    }\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 31247502400,
+  "load_duration": 2312094100,
+  "prompt_eval_count": 383,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 3441518000,
+  "eval_count": 376,
+  "eval_duration": 25475894000
+}

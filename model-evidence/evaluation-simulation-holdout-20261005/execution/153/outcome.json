@@ -1,0 +1,26 @@
+{
+  "number": 153,
+  "phase": "simulation_holdout",
+  "case": "policy-wan_lan_source_spoof",
+  "model": "qwen3.5:9b",
+  "repeat": 2,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T09:52:57.067750+00:00",
+  "brief_sha256": "95a8f7f9beebfdb00e50af81a7372d64d63511397bc0a14b06e768e78c2edbdf",
+  "elapsed_s": 20.45300000000134,
+  "eval_count": 61,
+  "prompt_eval_count": 290,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "a8d8a5f7669403c7efdf6fbe3eee8215a7ae0212a9a98a611ab0202fbf9d7048",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [],
+    "required_contexts": [],
+    "complete": true,
+    "problems": []
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T09:53:17.535317+00:00"
+}

@@ -1,0 +1,130 @@
+{
+  "inferred": [
+    {
+      "code": "stun_may_be_normal",
+      "evidence_refs": [
+        "E-29d8892f16d31a46",
+        "E-5fa833b1b38286aa",
+        "E-66f370fb16d6839e"
+      ],
+      "group_id": "G-3cbfea212c3b",
+      "type": "inferred"
+    },
+    {
+      "code": "rule_match_not_intrusion_proof",
+      "evidence_refs": [
+        "E-2f5ee7c296f57baf"
+      ],
+      "group_id": "G-b5089c0d3d3d",
+      "type": "inferred"
+    },
+    {
+      "code": "change_needs_context",
+      "evidence_refs": [
+        "E-9486e87a25631565",
+        "E-cc912f1d4d6f3b82",
+        "E-8496190688e50c7f"
+      ],
+      "group_id": "G-a1cd704d3448",
+      "type": "inferred"
+    }
+  ],
+  "next_steps": [
+    {
+      "action": "compare_baseline",
+      "group_id": "G-a1cd704d3448"
+    },
+    {
+      "action": "inspect_event",
+      "group_id": "G-b5089c0d3d3d"
+    },
+    {
+      "action": "check_client_process",
+      "group_id": "G-3cbfea212c3b"
+    }
+  ],
+  "observed": [
+    {
+      "field": "action",
+      "group_id": "G-b5089c0d3d3d",
+      "type": "observed",
+      "value": "allowed"
+    },
+    {
+      "field": "change",
+      "group_id": "G-b5089c0d3d3d",
+      "type": "observed",
+      "value": "unchanged"
+    },
+    {
+      "field": "count",
+      "group_id": "G-b5089c0d3d3d",
+      "type": "observed",
+      "value": 1
+    },
+    {
+      "field": "protocol",
+      "group_id": "G-b5089c0d3d3d",
+      "type": "observed",
+      "value": "TCP"
+    },
+    {
+      "field": "severity",
+      "group_id": "G-b5089c0d3d3d",
+      "type": "observed",
+      "value": 2
+    },
+    {
+      "field": "sid",
+      "group_id": "G-b5089c0d3d3d",
+      "type": "observed",
+      "value": 2100498
+    },
+    {
+      "field": "action",
+      "group_id": "G-32de6c3018a3",
+      "type": "observed",
+      "value": "allowed"
+    },
+    {
+      "field": "change",
+      "group_id": "G-32de6c3018a3",
+      "type": "observed",
+      "value": "decreased"
+    },
+    {
+      "field": "count",
+      "group_id": "G-32de6c3018a3",
+      "type": "observed",
+      "value": 12
+    },
+    {
+      "field": "protocol",
+      "group_id": "G-32de6c3018a3",
+      "type": "observed",
+      "value": "UDP"
+    },
+    {
+      "field": "severity",
+      "group_id": "G-32de6c3018a3",
+      "type": "observed",
+      "value": 3
+    },
+    {
+      "field": "sid",
+      "group_id": "G-32de6c3018a3",
+      "type": "observed",
+      "value": 2016149
+    }
+  ],
+  "unknown": [
+    {
+      "topic": "intent",
+      "type": "unknown"
+    },
+    {
+      "topic": "complete_visibility",
+      "type": "unknown"
+    }
+  ]
+}

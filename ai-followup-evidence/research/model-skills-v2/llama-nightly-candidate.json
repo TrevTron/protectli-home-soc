@@ -1,0 +1,25 @@
+{
+  "tag_name": "b11429",
+  "target_commitish": "d81235049384534c167caea52b85a694f6103d14",
+  "published_at": "2026-10-05T16:54:37Z",
+  "assets": [
+    {
+      "name": "llama-b11429-bin-win-cpu-x64.zip",
+      "browser_download_url": "https://github.com/ggml-org/llama.cpp/releases/download/b11429/llama-b11429-bin-win-cpu-x64.zip",
+      "size": 19398918,
+      "digest": "sha256:1283323272b04cd07905816a597a0da810918102de958f4ff6f7bbaa70ed2efe"
+    },
+    {
+      "name": "llama-b11429-bin-win-openvino-2026.4.1-x64.zip",
+      "browser_download_url": "https://github.com/ggml-org/llama.cpp/releases/download/b11429/llama-b11429-bin-win-openvino-2026.4.1-x64.zip",
+      "size": 89469524,
+      "digest": "sha256:0b1235df48294415b919701f71f76cf6b2142296be1354fb93b951df81f88921"
+    },
+    {
+      "name": "llama-b11429-bin-win-rocm-10.0-x64.zip",
+      "browser_download_url": "https://github.com/ggml-org/llama.cpp/releases/download/b11429/llama-b11429-bin-win-rocm-10.0-x64.zip",
+      "size": 256958369,
+      "digest": "sha256:289a8453bb222f0648f91eff3d55133c934119c841eb369b704aafae1d4719d2"
+    }
+  ]
+}

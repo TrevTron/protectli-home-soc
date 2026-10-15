@@ -1,0 +1,38 @@
+{
+  "window_minutes": 15,
+  "visibility": {
+    "complete_delivery_proven": false,
+    "comparison_complete": true,
+    "omitted_groups": 0
+  },
+  "groups": [
+    {
+      "id": "G-acaeeb7324a1",
+      "sid": 930077,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "endpoint-53e4cb969e",
+      "destination_alias": "owned-client",
+      "count": 7,
+      "prior_count": 1,
+      "evidence_refs": [
+        "E-2b5ba2857d869aca",
+        "E-ef13539c0334ff69",
+        "E-868c6e960e444e1b"
+      ],
+      "priority_floor": "review",
+      "change": "increased"
+    }
+  ],
+  "eligible_inferences": {
+    "G-acaeeb7324a1": [
+      "rule_match_not_intrusion_proof",
+      "change_needs_context"
+    ]
+  },
+  "interpretation_catalog": {
+    "change_needs_context": "This group appeared or increased in the observed comparison windows. Confirm application activity and collection coverage before interpreting the change.",
+    "rule_match_not_intrusion_proof": "A signature match is a starting point for review, not proof of an intrusion."
+  }
+}

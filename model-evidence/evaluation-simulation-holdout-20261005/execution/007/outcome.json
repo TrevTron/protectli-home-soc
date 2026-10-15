@@ -1,0 +1,30 @@
+{
+  "number": 7,
+  "phase": "simulation_holdout",
+  "case": "upstream-detect-icmp-seq",
+  "model": "qwen3:4b-instruct",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T08:34:56.907606+00:00",
+  "brief_sha256": "e9a3c110ea1f3687a9842328a70fc2dc9a488e5026cdb9b7bfa4eb8cebdf6fcd",
+  "elapsed_s": 27.17199999999866,
+  "eval_count": 317,
+  "prompt_eval_count": 419,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "1842630f60c6c01601a5669c8b1f96df3b1f6b8b55845af9697d702cb81c59fc",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [
+      "rule_match_not_intrusion_proof"
+    ],
+    "required_contexts": [
+      "rule_match_not_intrusion_proof"
+    ],
+    "complete": true,
+    "problems": []
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T08:35:24.089822+00:00"
+}

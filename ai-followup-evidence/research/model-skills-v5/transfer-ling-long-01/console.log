@@ -1,0 +1,25 @@
+{"delivered":false,"elapsed_s":4.344,"full_input":true,"natural":true,"request":"001-ling3-tiny-N01-clean-off"}
+{"delivered":false,"elapsed_s":8.172,"full_input":true,"natural":true,"request":"002-ling3-tiny-N02-clean-off"}
+{"delivered":false,"elapsed_s":8.281,"full_input":true,"natural":true,"request":"003-ling3-tiny-N03-clean-off"}
+{"delivered":false,"elapsed_s":4.156,"full_input":true,"natural":true,"request":"004-ling3-tiny-N04-clean-off"}
+{"delivered":false,"elapsed_s":7.672,"full_input":true,"natural":true,"request":"005-ling3-tiny-N05-clean-off"}
+{"delivered":false,"elapsed_s":7.141,"full_input":true,"natural":true,"request":"006-ling3-tiny-N06-clean-off"}
+{"delivered":false,"elapsed_s":7.718,"full_input":true,"natural":true,"request":"007-ling3-tiny-N07-clean-off"}
+{"delivered":false,"elapsed_s":8.625,"full_input":true,"natural":true,"request":"008-ling3-tiny-N08-clean-off"}
+{"delivered":false,"elapsed_s":9.046,"full_input":true,"natural":true,"request":"009-ling3-tiny-N09-clean-off"}
+{"delivered":false,"elapsed_s":7.109,"full_input":true,"natural":true,"request":"010-ling3-tiny-N10-clean-off"}
+{"delivered":false,"elapsed_s":7.516,"full_input":true,"natural":true,"request":"011-ling3-tiny-N11-clean-off"}
+{"delivered":false,"elapsed_s":7.922,"full_input":true,"natural":true,"request":"012-ling3-tiny-N12-clean-off"}
+{"delivered":false,"elapsed_s":67.844,"full_input":true,"natural":true,"request":"013-ling3-tiny-N01-clean-think-long"}
+{"delivered":true,"elapsed_s":74.625,"full_input":true,"natural":true,"request":"014-ling3-tiny-N02-clean-think-long"}
+{"delivered":false,"elapsed_s":73.859,"full_input":true,"natural":true,"request":"015-ling3-tiny-N03-clean-think-long"}
+{"delivered":false,"elapsed_s":66.031,"full_input":true,"natural":true,"request":"016-ling3-tiny-N04-clean-think-long"}
+{"delivered":false,"elapsed_s":73.296,"full_input":true,"natural":true,"request":"017-ling3-tiny-N05-clean-think-long"}
+{"delivered":false,"elapsed_s":75.781,"full_input":true,"natural":true,"request":"018-ling3-tiny-N06-clean-think-long"}
+{"delivered":true,"elapsed_s":83.875,"full_input":true,"natural":true,"request":"019-ling3-tiny-N07-clean-think-long"}
+Traceback (most recent call last):
+  File "C:\REDACTED_PROJECT\private\ai-followup-20261007\model-skills-v5\run_ling_long.py", line 222, in <module>
+    execute(HERE / name)
+  File "C:\REDACTED_PROJECT\private\ai-followup-20261007\model-skills-v5\run_ling_long.py", line 151, in execute
+    raise RuntimeError('Memory guard')
+RuntimeError: Memory guard

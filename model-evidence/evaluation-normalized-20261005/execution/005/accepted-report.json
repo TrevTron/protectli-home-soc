@@ -1,0 +1,103 @@
+{
+  "inferred": [
+    {
+      "code": "rule_match_not_intrusion_proof",
+      "evidence_refs": [
+        "E-c1204abaa64ee798",
+        "E-c1204abaa64ee798"
+      ],
+      "group_id": "G-b5089c0d3d3d",
+      "type": "inferred"
+    },
+    {
+      "code": "uid_fixture_possible",
+      "evidence_refs": [
+        "E-c1204abaa64ee798"
+      ],
+      "group_id": "G-b5089c0d3d3d",
+      "type": "inferred"
+    },
+    {
+      "code": "tailscale_control_possible",
+      "evidence_refs": [
+        "E-df86fe9bfb92be23"
+      ],
+      "group_id": "G-dbb49ee0163d",
+      "type": "inferred"
+    }
+  ],
+  "next_steps": [
+    {
+      "action": "compare_baseline",
+      "group_id": "G-b5089c0d3d3d"
+    },
+    {
+      "action": "compare_baseline",
+      "group_id": "G-dbb49ee0163d"
+    },
+    {
+      "action": "compare_baseline",
+      "group_id": "G-b5089c0d3d3d"
+    }
+  ],
+  "observed": [
+    {
+      "field": "action",
+      "group_id": "G-b5089c0d3d3d",
+      "type": "observed",
+      "value": "allowed"
+    },
+    {
+      "field": "change",
+      "group_id": "G-b5089c0d3d3d",
+      "type": "observed",
+      "value": "new_in_observed_windows"
+    },
+    {
+      "field": "protocol",
+      "group_id": "G-b5089c0d3d3d",
+      "type": "observed",
+      "value": "TCP"
+    },
+    {
+      "field": "sid",
+      "group_id": "G-b5089c0d3d3d",
+      "type": "observed",
+      "value": 2100498
+    },
+    {
+      "field": "action",
+      "group_id": "G-dbb49ee0163d",
+      "type": "observed",
+      "value": "allowed"
+    },
+    {
+      "field": "change",
+      "group_id": "G-dbb49ee0163d",
+      "type": "observed",
+      "value": "new_in_observed_windows"
+    },
+    {
+      "field": "protocol",
+      "group_id": "G-dbb49ee0163d",
+      "type": "observed",
+      "value": "TCP"
+    },
+    {
+      "field": "sid",
+      "group_id": "G-dbb49ee0163d",
+      "type": "observed",
+      "value": 2071648
+    }
+  ],
+  "unknown": [
+    {
+      "topic": "intent",
+      "type": "unknown"
+    },
+    {
+      "topic": "complete_visibility",
+      "type": "unknown"
+    }
+  ]
+}

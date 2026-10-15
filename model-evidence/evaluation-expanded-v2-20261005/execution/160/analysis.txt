@@ -1,0 +1,20 @@
+**First-Pass Network Evidence Report**
+
+**Observed Facts**
+*   **Group G-b5089c0d3d3d:** One new occurrence of a signature match (SID: 2100498) was observed during the 15-minute window. The traffic originated from `endpoint-d794639191` and was directed toward the `owned-client` alias via TCP. The action was allowed.
+*   **Group G-dbb49ee0163d:** One new occurrence of a signature match (SID: 2071648) was observed during the 15-minute window. The traffic originated from `owned-client` and was directed toward `endpoint-ddd27df208` via TCP. The action was allowed.
+
+**Possible Explanations**
+*   **G-b5089c0d3d3d:** The signature match may correspond to a harmless UID-response fixture (uid_fixture_possible).
+*   **G-dbb49ee0163d:** The inspected rule matches a Tailscale control-plane TLS server name; this could be explained by the presence of an owned Tailscale client on the network (tailscale_control_possible).
+
+**Unknowns**
+*   **Intent:** The intent behind these connections is unknown.
+*   **Process Identity:** The specific applications or processes generating this traffic are not identified.
+*   **Completeness:** Visibility is incomplete; complete delivery of the requests cannot be proven.
+*   **Verification:** It is unclear if these matches represent routine administrative activity or unauthorized behavior.
+
+**Read-Only Next Review Steps**
+*   Verify the exact request against known owned test receipts to rule out UID fixtures (G-b5089c0d3d3d).
+*   Confirm application activity and collection coverage to provide context for the new group appearances (G-b5089c0d3d3d, G-dbb49ee0163d).
+*   Correlate the Tailscale server name match with known Tailscale client deployments on the endpoints (G-dbb49ee0163d).

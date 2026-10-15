@@ -1,0 +1,20 @@
+{
+  "number": 7,
+  "phase": "development",
+  "case": "mixed_priority",
+  "model": "qwen3.5:9b",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T04:13:53.882542+00:00",
+  "brief_sha256": "a9ddf4e5e1198f261c7218ab15c4687228cbdc5628412c354b932271d12358fc",
+  "elapsed_s": 90.71899999999914,
+  "eval_count": 527,
+  "prompt_eval_count": 941,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "b633de7882d446b910cc6c09d4a862ed6dcb3d8a9454bf220dba6134c6d67849",
+  "mechanical_grounding": "passed",
+  "status": "delivered",
+  "completed_utc": "2026-10-06T04:15:24.612391+00:00"
+}

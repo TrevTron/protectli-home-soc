@@ -1,0 +1,65 @@
+{
+  "required_contexts": [
+    {
+      "code": "rule_match_not_intrusion_proof",
+      "any_group_ids": [
+        "G-78d565bebd92"
+      ]
+    },
+    {
+      "code": "sensor_reported_block",
+      "any_group_ids": [
+        "G-78d565bebd92"
+      ]
+    }
+  ],
+  "unknowns_required": [
+    "intent",
+    "complete_visibility"
+  ],
+  "empty_report": false,
+  "review_first_any_groups": [
+    "G-78d565bebd92"
+  ],
+  "upstream_assertions": [
+    {
+      "fields": {
+        "event_type": "alert",
+        "alert.signature_id": 1,
+        "alert.action": "blocked",
+        "pcap_cnt": 1
+      },
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "fields": {
+        "event_type": "drop",
+        "alert.signature_id": 1,
+        "alert.action": "blocked",
+        "pcap_cnt": 1,
+        "drop.reason": "rules"
+      },
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "fields": {
+        "event_type": "drop",
+        "pcap_cnt": 2,
+        "drop.reason": "flow drop"
+      },
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "fields": {
+        "event_type": "flow",
+        "flow.action": "drop",
+        "tcp.state": "syn_sent"
+      },
+      "expected": 1,
+      "actual": 1
+    }
+  ]
+}

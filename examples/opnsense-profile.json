@@ -1,0 +1,79 @@
+{
+  "classification": "Manual settings checklist, not importable XML",
+  "status": "Final bounded build verified October 5, 2026; unpublished reference candidate",
+  "system": {
+    "timezone": "America/Los_Angeles",
+    "thermal_sensor": "coretemp",
+    "management_protocol": "HTTPS",
+    "management_listen_interface": "LAN",
+    "ssh_enabled": false,
+    "primary_console": "VGA",
+    "secondary_console": "Serial Console",
+    "console_baud": 115200,
+    "console_password_required": true
+  },
+  "suricata": {
+    "enabled": true,
+    "interface": "<owned-LAN-interface>",
+    "home_net": "<owned-LAN-CIDR>",
+    "capture_mode": "Netmap IPS on physical owned LAN",
+    "promiscuous": false,
+    "eve_syslog": true,
+    "fast_syslog": false,
+    "payload_logging": false,
+    "bulk_http_tls_logging": false,
+    "local_rotation": "daily",
+    "saved_logs": 7,
+    "selected_et_open_categories": [
+      "attack_response",
+      "chat",
+      "dns",
+      "exploit",
+      "hunting",
+      "info",
+      "malware",
+      "phishing",
+      "web_client",
+      "web_specific_apps"
+    ],
+    "enabled_rule_count": 37125,
+    "retained_drop_policy": {
+      "deployment": "Perimeter",
+      "criteria_match": "ALL",
+      "matched_sids": [
+        2072081,
+        2072083,
+        2072087,
+        2072089
+      ],
+      "new_action": "Drop",
+      "tls_state": "TLSEncrypt",
+      "feed_updates_require_review": true,
+      "classtype": "command-and-control",
+      "signature_severity": "Critical",
+      "confidence": "High",
+      "ruleset": "emerging-malware.rules",
+      "original_action": "Alert",
+      "attack_target": "Client_Endpoint"
+    },
+    "test_sid_2100498_final_action": "Alert"
+  },
+  "remote_logging": {
+    "destination": "<owned-client-LAN-IP>",
+    "port": 5514,
+    "transport": "UDP4",
+    "format": "RFC5424",
+    "applications": [
+      "configd.py",
+      "dnsmasq",
+      "filterlog",
+      "firewall",
+      "dpinger",
+      "kernel",
+      "unbound",
+      "suricata"
+    ],
+    "minimum_severity": "info",
+    "retain_local_logging": true
+  }
+}

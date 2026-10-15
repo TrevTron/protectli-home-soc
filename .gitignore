@@ -1,0 +1,13 @@
+private/
+outputs/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+config*.xml
+*.pcap
+*.pcapng

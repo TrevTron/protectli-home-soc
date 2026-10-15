@@ -1,0 +1,1 @@
+{"analyst":{"num_ctx":8192,"num_gpu":99,"num_predict":2048,"num_thread":16,"think":false},"investigator":{"num_ctx":8192,"num_gpu":99,"num_predict":2048,"num_thread":16,"think":false},"reviewer":{"num_ctx":8192,"num_gpu":99,"num_predict":2048,"num_thread":16,"think":false}}

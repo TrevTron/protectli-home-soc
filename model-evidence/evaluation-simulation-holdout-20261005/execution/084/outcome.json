@@ -1,0 +1,26 @@
+{
+  "number": 84,
+  "phase": "simulation_holdout",
+  "case": "policy-wan_udp_burst",
+  "model": "qwen3:4b-instruct",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T09:13:59.693249+00:00",
+  "brief_sha256": "962679d9a4c540514cc5866611d617640fbf739e039a093d37df549828d2ea00",
+  "elapsed_s": 8.56199999999808,
+  "eval_count": 36,
+  "prompt_eval_count": 286,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "ec26888a42db18ac2f5c5e60b7e0730a8050a66b46af540b52e855e8d29d0cf9",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [],
+    "required_contexts": [],
+    "complete": true,
+    "problems": []
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T09:14:08.266979+00:00"
+}

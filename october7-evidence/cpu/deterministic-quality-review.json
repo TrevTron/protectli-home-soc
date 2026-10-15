@@ -1,0 +1,1277 @@
+{
+  "scope": "Exposed tasks. Structured source-bound rubric; written semantic review pending. Completion alone is not accuracy.",
+  "rows": [
+    {
+      "number": 1,
+      "model": "qwen3.5:4b",
+      "case": "real_dense_post_restart",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 2,
+      "model": "qwen3:4b-instruct",
+      "case": "real_stun_decrease",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "stun_may_be_normal"
+        ],
+        "complete": false,
+        "problems": [
+          "Exceeded requested three-item list",
+          "Repeated inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 3,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_dense_omitted",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 4,
+      "model": "qwen3.5:9b",
+      "case": "edge_dense_omitted",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "sensor_reported_block",
+          "tailscale_control_possible"
+        ],
+        "required_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "complete": false,
+        "problems": [
+          "Missing required contexts",
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 5,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_dense_omitted",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "sensor_reported_block",
+          "tailscale_control_possible"
+        ],
+        "required_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "complete": false,
+        "problems": [
+          "Missing required contexts"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 6,
+      "model": "qwen3.5:9b",
+      "case": "real_empty_window",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [],
+        "required_contexts": [],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 7,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_gapped_raw_injection",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 8,
+      "model": "qwen3.5:4b",
+      "case": "real_controlled_block",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "sensor_reported_block",
+          "tailscale_control_possible"
+        ],
+        "required_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "complete": false,
+        "problems": [
+          "Missing required contexts"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 9,
+      "model": "qwen3.5:4b",
+      "case": "real_stun_decrease",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 10,
+      "model": "qwen3.5:9b",
+      "case": "real_controlled_block",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "sensor_reported_block",
+          "tailscale_control_possible"
+        ],
+        "required_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "complete": false,
+        "problems": [
+          "Missing required contexts"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 11,
+      "model": "qwen3.5:9b",
+      "case": "real_stun_decrease",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 12,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_uid_and_tailscale",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 13,
+      "model": "qwen3.5:4b",
+      "case": "edge_increased_unknown",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "change_needs_context"
+        ],
+        "required_contexts": [
+          "change_needs_context"
+        ],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 14,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_dense_post_restart",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 15,
+      "model": "qwen3.5:9b",
+      "case": "edge_split_uid",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible"
+        ],
+        "required_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible"
+        ],
+        "complete": false,
+        "problems": [
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 16,
+      "model": "qwen3.5:9b",
+      "case": "edge_block_uid_stun",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "sensor_reported_block"
+        ],
+        "required_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible",
+          "stun_may_be_normal"
+        ],
+        "complete": false,
+        "problems": [
+          "Missing required contexts",
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 17,
+      "model": "qwen3.5:4b",
+      "case": "real_uid_and_tailscale",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "required_contexts": [
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "complete": false,
+        "problems": [
+          "Exceeded requested three-item list",
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 18,
+      "model": "qwen3:4b-instruct",
+      "case": "real_uid_and_tailscale",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "required_contexts": [
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "complete": false,
+        "problems": [
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 19,
+      "model": "qwen3.5:9b",
+      "case": "real_dense_post_restart",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 20,
+      "model": "qwen3:4b-instruct",
+      "case": "real_dense_post_restart",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 21,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_split_uid",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "uid_fixture_possible"
+        ],
+        "required_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible"
+        ],
+        "complete": false,
+        "problems": [
+          "Missing required contexts",
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 22,
+      "model": "qwen3.5:9b",
+      "case": "edge_increased_unknown",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "change_needs_context"
+        ],
+        "required_contexts": [
+          "change_needs_context"
+        ],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 23,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_block_uid_stun",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "sensor_reported_block",
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible",
+          "stun_may_be_normal"
+        ],
+        "complete": false,
+        "problems": [
+          "Missing required contexts"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 24,
+      "model": "qwen3:4b-instruct",
+      "case": "real_controlled_block",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 25,
+      "model": "qwen3.5:9b",
+      "case": "edge_dense_omitted",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 26,
+      "model": "qwen3.5:4b",
+      "case": "edge_gapped_raw_injection",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 27,
+      "model": "qwen3:4b-instruct",
+      "case": "real_small_mixed",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "uid_fixture_possible",
+          "stun_may_be_normal"
+        ],
+        "complete": false,
+        "problems": [
+          "Missing required contexts",
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 28,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_controlled_block",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "required_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 29,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_dense_post_restart",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "uid_fixture_possible",
+          "stun_may_be_normal"
+        ],
+        "complete": false,
+        "problems": [
+          "Missing required contexts",
+          "Exceeded requested three-item list"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 30,
+      "model": "qwen3.5:4b",
+      "case": "edge_gapped_raw_injection",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "tailscale_control_possible",
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "tailscale_control_possible",
+          "stun_may_be_normal"
+        ],
+        "complete": false,
+        "problems": [
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 31,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_dense_omitted",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 32,
+      "model": "qwen3.5:9b",
+      "case": "edge_gapped_raw_injection",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "tailscale_control_possible",
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "tailscale_control_possible",
+          "stun_may_be_normal"
+        ],
+        "complete": false,
+        "problems": [
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 33,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_increased_unknown",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "change_needs_context"
+        ],
+        "required_contexts": [
+          "change_needs_context"
+        ],
+        "complete": false,
+        "problems": [
+          "Exceeded requested three-item list",
+          "Repeated inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 34,
+      "model": "qwen3:4b-instruct",
+      "case": "real_uid_and_tailscale",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 35,
+      "model": "qwen3.5:4b",
+      "case": "real_controlled_block",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 36,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_increased_unknown",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "change_needs_context"
+        ],
+        "required_contexts": [
+          "change_needs_context"
+        ],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 37,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_block_uid_stun",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible",
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible",
+          "stun_may_be_normal"
+        ],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 38,
+      "model": "qwen3.5:4b",
+      "case": "edge_empty_gapped",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [],
+        "required_contexts": [],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 39,
+      "model": "qwen3:4b-instruct",
+      "case": "real_stun_decrease",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 40,
+      "model": "qwen3.5:9b",
+      "case": "edge_empty_gapped",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [],
+        "required_contexts": [],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 41,
+      "model": "qwen3.5:4b",
+      "case": "real_uid_and_tailscale",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 42,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_uid_and_tailscale",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "required_contexts": [
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "complete": false,
+        "problems": [
+          "Exceeded requested three-item list"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 43,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_gapped_raw_injection",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 44,
+      "model": "qwen3.5:4b",
+      "case": "edge_dense_omitted",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 45,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_stun_decrease",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "stun_may_be_normal"
+        ],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 46,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_dense_omitted",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "required_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "complete": false,
+        "problems": [
+          "Missing required contexts"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 47,
+      "model": "qwen3.5:9b",
+      "case": "real_uid_and_tailscale",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "required_contexts": [
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "complete": false,
+        "problems": [
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 48,
+      "model": "qwen3.5:9b",
+      "case": "real_stun_decrease",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "stun_may_be_normal"
+        ],
+        "complete": false,
+        "problems": [
+          "Repeated inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 49,
+      "model": "qwen3.5:9b",
+      "case": "edge_gapped_raw_injection",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 50,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_split_uid",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible"
+        ],
+        "required_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible"
+        ],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 51,
+      "model": "qwen3.5:4b",
+      "case": "edge_split_uid",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "uid_fixture_possible"
+        ],
+        "required_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible"
+        ],
+        "complete": false,
+        "problems": [
+          "Missing required contexts",
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 52,
+      "model": "qwen3.5:4b",
+      "case": "edge_block_uid_stun",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "sensor_reported_block",
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible",
+          "stun_may_be_normal"
+        ],
+        "complete": false,
+        "problems": [
+          "Missing required contexts",
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 53,
+      "model": "qwen3.5:9b",
+      "case": "real_uid_and_tailscale",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 54,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_stun_decrease",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 55,
+      "model": "qwen3.5:4b",
+      "case": "real_empty_window",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [],
+        "required_contexts": [],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 56,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_empty_gapped",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [],
+        "required_contexts": [],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 57,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_controlled_block",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 58,
+      "model": "qwen3.5:9b",
+      "case": "real_small_mixed",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [],
+        "required_contexts": [
+          "uid_fixture_possible",
+          "stun_may_be_normal"
+        ],
+        "complete": false,
+        "problems": [
+          "Missing required contexts",
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 59,
+      "model": "qwen3.5:4b",
+      "case": "edge_dense_omitted",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "sensor_reported_block"
+        ],
+        "required_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "complete": false,
+        "problems": [
+          "Missing required contexts"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 60,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_empty_gapped",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [],
+        "required_contexts": [],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 61,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_small_mixed",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "uid_fixture_possible",
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "uid_fixture_possible",
+          "stun_may_be_normal"
+        ],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 62,
+      "model": "qwen3.5:9b",
+      "case": "real_controlled_block",
+      "structured": false,
+      "status": "delivered",
+      "quality": null,
+      "reason": null
+    },
+    {
+      "number": 63,
+      "model": "qwen3.5:4b",
+      "case": "real_stun_decrease",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "stun_may_be_normal"
+        ],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 64,
+      "model": "qwen3.5:9b",
+      "case": "real_dense_post_restart",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "uid_fixture_possible",
+          "stun_may_be_normal"
+        ],
+        "complete": false,
+        "problems": [
+          "Missing required contexts",
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 65,
+      "model": "qwen3:4b-instruct",
+      "case": "real_empty_window",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [],
+        "required_contexts": [],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 66,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_gapped_raw_injection",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "tailscale_control_possible",
+          "stun_may_be_normal"
+        ],
+        "complete": false,
+        "problems": [
+          "Missing required contexts",
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 67,
+      "model": "qwen3.5:4b",
+      "case": "real_small_mixed",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "uid_fixture_possible",
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "uid_fixture_possible",
+          "stun_may_be_normal"
+        ],
+        "complete": false,
+        "problems": [
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 68,
+      "model": "qwen3.5:4b",
+      "case": "real_dense_post_restart",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "uid_fixture_possible",
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "uid_fixture_possible",
+          "stun_may_be_normal"
+        ],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 69,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_gapped_raw_injection",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "tailscale_control_possible",
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "tailscale_control_possible",
+          "stun_may_be_normal"
+        ],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    },
+    {
+      "number": 70,
+      "model": "qwen3:4b-instruct",
+      "case": "real_dense_post_restart",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "uid_fixture_possible",
+          "stun_may_be_normal"
+        ],
+        "required_contexts": [
+          "uid_fixture_possible",
+          "stun_may_be_normal"
+        ],
+        "complete": false,
+        "problems": [
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 71,
+      "model": "qwen3:4b-instruct",
+      "case": "real_controlled_block",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [
+          "uid_fixture_possible"
+        ],
+        "required_contexts": [
+          "sensor_reported_block",
+          "uid_fixture_possible",
+          "tailscale_control_possible"
+        ],
+        "complete": false,
+        "problems": [
+          "Missing required contexts",
+          "Repeated citation within inference"
+        ]
+      },
+      "reason": null
+    },
+    {
+      "number": 72,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_empty_window",
+      "structured": true,
+      "status": "delivered",
+      "quality": {
+        "matched_contexts": [],
+        "required_contexts": [],
+        "complete": true,
+        "problems": []
+      },
+      "reason": null
+    }
+  ],
+  "counts": [
+    {
+      "model": "qwen3.5:4b",
+      "lane": "written",
+      "delivery": "delivered",
+      "rubric_complete": "not_assessed",
+      "count": 6
+    },
+    {
+      "model": "qwen3:4b-instruct",
+      "lane": "structured",
+      "delivery": "delivered",
+      "rubric_complete": "False",
+      "count": 10
+    },
+    {
+      "model": "gemma4:12b-it-qat",
+      "lane": "written",
+      "delivery": "delivered",
+      "rubric_complete": "not_assessed",
+      "count": 6
+    },
+    {
+      "model": "qwen3.5:9b",
+      "lane": "structured",
+      "delivery": "delivered",
+      "rubric_complete": "False",
+      "count": 9
+    },
+    {
+      "model": "gemma4:12b-it-qat",
+      "lane": "structured",
+      "delivery": "delivered",
+      "rubric_complete": "False",
+      "count": 3
+    },
+    {
+      "model": "qwen3.5:9b",
+      "lane": "structured",
+      "delivery": "delivered",
+      "rubric_complete": "True",
+      "count": 3
+    },
+    {
+      "model": "qwen3.5:4b",
+      "lane": "structured",
+      "delivery": "delivered",
+      "rubric_complete": "False",
+      "count": 7
+    },
+    {
+      "model": "qwen3.5:9b",
+      "lane": "written",
+      "delivery": "delivered",
+      "rubric_complete": "not_assessed",
+      "count": 6
+    },
+    {
+      "model": "qwen3.5:4b",
+      "lane": "structured",
+      "delivery": "delivered",
+      "rubric_complete": "True",
+      "count": 5
+    },
+    {
+      "model": "qwen3:4b-instruct",
+      "lane": "written",
+      "delivery": "delivered",
+      "rubric_complete": "not_assessed",
+      "count": 6
+    },
+    {
+      "model": "gemma4:12b-it-qat",
+      "lane": "structured",
+      "delivery": "delivered",
+      "rubric_complete": "True",
+      "count": 9
+    },
+    {
+      "model": "qwen3:4b-instruct",
+      "lane": "structured",
+      "delivery": "delivered",
+      "rubric_complete": "True",
+      "count": 2
+    }
+  ]
+}

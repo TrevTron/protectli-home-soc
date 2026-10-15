@@ -1,0 +1,17 @@
+{
+  "model": "qwen3.5:4b",
+  "created_at": "2026-10-06T10:01:53.6587783Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"inferred\": [\n    {\n      \"code\": \"rule_match_not_intrusion_proof\",\n      \"evidence_refs\": [\"E-9eae2685c6410637\", \"E-b2d0ccea912a5c1c\", \"E-1841cd05b6443909\"],\n      \"group_id\": \"G-562c1a128755\",\n      \"type\": \"inferred\"\n    },\n    {\n      \"code\": \"stun_may_be_normal\",\n      \"evidence_refs\": [\"E-9eae2685c6410637\", \"E-b2d0ccea912a5c1c\", \"E-1841cd05b6443909\"],\n      \"group_id\": \"G-562c1a128755\",\n      \"type\": \"inferred\"\n    }\n  ],\n  \"next_steps\": [\n    {\n      \"action\": \"compare_baseline\",\n      \"group_id\": \"G-562c1a128755\"\n    },\n    {\n      \"action\": \"check_client_process\",\n      \"group_id\": \"G-562c1a128755\"\n    }\n  ],\n  \"observed\": [\n    {\"field\":\"action\",\"group_id\":\"G-562c1a128755\",\"type\":\"observed\",\"value\":\"allowed\"},\n    {\"field\":\"count\",\"group_id\":\"G-562c1a128755\",\"type\":\"observed\",\"value\":12},\n    {\"field\":\"protocol\",\"group_id\":\"G-562c1a128755\",\"type\":\"observed\",\"value\":\"UDP\"}\n  ],\n  \"unknown\": [{\"topic\":\"intent\",\"type\":\"unknown\"},{\"topic\":\"complete_visibility\",\"type\":\"unknown\"}]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 42363708500,
+  "load_duration": 4414232700,
+  "prompt_eval_count": 513,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 5650293000,
+  "eval_count": 467,
+  "eval_duration": 32292126000
+}

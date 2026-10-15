@@ -1,0 +1,28 @@
+{
+  "request_sha256": "82a41ea9150bc44ac4d9a61d9080f3266051bd9d129df451a2fe04c1845737a2",
+  "system_prompt_sha256": "9c8b743498f415ab9a44e69653d66ebef9ac550f986cac4cd13e4a87eecee2e6",
+  "schema_sha256": "3e80fb9d5d946af4bc85325d29147d69222ac22f47077742bf6529b98446f1d1",
+  "model": "qwen3.5:4b",
+  "endpoint": "http://127.0.0.1:11435",
+  "elapsed_s": 29.014999999999418,
+  "structured": true,
+  "evaluation": true,
+  "thinking_requested": false,
+  "thinking_characters": 0,
+  "content_characters": 673,
+  "options": {
+    "temperature": 0,
+    "seed": 17,
+    "num_predict": 700,
+    "num_ctx": 4096,
+    "num_thread": 2,
+    "num_gpu": 0
+  },
+  "preflight_available_bytes": 39226273792,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 262,
+  "prompt_eval_count": 694,
+  "eval_duration_ns": 18461421000,
+  "total_duration_ns": 28990736800
+}

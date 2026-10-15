@@ -1,0 +1,20 @@
+{
+  "number": 169,
+  "phase": "written_analysis",
+  "case": "edge_gapped_raw_injection",
+  "model": "gemma4:12b-it-qat",
+  "repeat": 1,
+  "structured": false,
+  "deadline_seconds": 300,
+  "started_utc": "2026-10-06T07:30:05.169094+00:00",
+  "brief_sha256": "b74884f89b6874c41b78649062c5bc68f0f8f69a42bc01283bc050e4cc1d87d8",
+  "elapsed_s": 136.93699999999808,
+  "eval_count": 593,
+  "prompt_eval_count": 692,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "7bf1c511d02f7fafbf6c5aacb79d5102be49add055f86ea42b97639a208ee1bc",
+  "manual_review": "pending",
+  "status": "delivered",
+  "completed_utc": "2026-10-06T07:32:22.115040+00:00"
+}

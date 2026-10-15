@@ -1,0 +1,15 @@
+{
+  "number": 54,
+  "phase": "production_contract",
+  "case": "edge_dense_omitted",
+  "model": "gemma4:12b-it-qat",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T05:06:32.343450+00:00",
+  "brief_sha256": "f8be27e4202725455730aab4b568eb9d507a131b597dbd97cffa99557ea38569",
+  "status": "withheld",
+  "reason": "timed out",
+  "elapsed_s": 120.01499999999942,
+  "completed_utc": "2026-10-06T05:08:32.359140+00:00"
+}

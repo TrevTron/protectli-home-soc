@@ -1,0 +1,13 @@
+{
+  "model": "qwen3.5:4b",
+  "case": "gapped_unknown_with_raw_override",
+  "started_utc": "2026-10-05T23:46:25.713710+00:00",
+  "elapsed_s": 32.094000000011874,
+  "eval_count": 322,
+  "prompt_eval_count": 590,
+  "mechanical_grounding": "passed",
+  "useful_contexts_present": false,
+  "actual_codes": [
+    "rule_match_not_intrusion_proof"
+  ]
+}

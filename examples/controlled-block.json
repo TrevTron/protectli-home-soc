@@ -1,0 +1,20 @@
+{
+  "classification": "Sanitized derivative of actual controlled block. Endpoints/identifiers replaced; private exact-flow proof retained separately.",
+  "timestamp": "2026-10-05T14:12:53.382911-0700",
+  "event_type": "alert",
+  "in_iface": "owned-LAN",
+  "src_ip": "203.0.113.10",
+  "src_port": 80,
+  "dest_ip": "192.0.2.10",
+  "dest_port": 50001,
+  "proto": "TCP",
+  "alert": {
+    "signature": "GPL ATTACK_RESPONSE id check returned root",
+    "action": "blocked",
+    "rev": 7,
+    "gid": 1,
+    "severity": 2,
+    "signature_id": 2100498,
+    "category": "Potentially Bad Traffic"
+  }
+}

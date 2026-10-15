@@ -1,0 +1,13 @@
+test_all_oracle_positive_and_adversarial (test_workbench.WorkbenchTests.test_all_oracle_positive_and_adversarial) ... ok
+test_bad_receipt_cannot_establish_client_result (test_workbench.WorkbenchTests.test_bad_receipt_cannot_establish_client_result) ... ok
+test_only_skill_factor_changes (test_workbench.WorkbenchTests.test_only_skill_factor_changes) ... ok
+test_originals_attached_by_code (test_workbench.WorkbenchTests.test_originals_attached_by_code) ... ok
+test_pinned_choices_and_equal_input (test_workbench.WorkbenchTests.test_pinned_choices_and_equal_input) ... ok
+test_process_receipt_is_not_client_result (test_workbench.WorkbenchTests.test_process_receipt_is_not_client_result) ... ok
+test_same_signature_preservation_and_annotation (test_workbench.WorkbenchTests.test_same_signature_preservation_and_annotation) ... ok
+test_unknown_model_and_label_exclusion (test_workbench.WorkbenchTests.test_unknown_model_and_label_exclusion) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.164s
+
+OK

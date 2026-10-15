@@ -1,0 +1,4 @@
+{"completed":1,"delivered":false,"elapsed_s":47.188,"request":"001-gemma4-12b-N05-clean-off"}
+{"completed":2,"delivered":false,"elapsed_s":18.437,"request":"002-qwen35-4b-N05-clean-off"}
+{"completed":3,"delivered":false,"elapsed_s":15.344,"request":"003-qwen3-4b-N05-clean-off"}
+{"completed":4,"delivered":false,"elapsed_s":29.718,"request":"004-qwen35-9b-N05-clean-off"}

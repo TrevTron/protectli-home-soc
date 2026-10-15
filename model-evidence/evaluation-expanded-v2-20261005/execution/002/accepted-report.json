@@ -1,0 +1,48 @@
+{
+  "inferred": [
+    {
+      "code": "rule_match_not_intrusion_proof",
+      "evidence_refs": [
+        "E-a7610a266cb9fe9f"
+      ],
+      "group_id": "G-150f9b4502fa",
+      "type": "inferred"
+    }
+  ],
+  "next_steps": [
+    {
+      "action": "check_client_process",
+      "group_id": "G-150f9b4502fa"
+    }
+  ],
+  "observed": [
+    {
+      "field": "count",
+      "group_id": "G-150f9b4502fa",
+      "type": "observed",
+      "value": 25
+    },
+    {
+      "field": "protocol",
+      "group_id": "G-150f9b4502fa",
+      "type": "observed",
+      "value": "UDP"
+    },
+    {
+      "field": "action",
+      "group_id": "G-150f9b4502fa",
+      "type": "observed",
+      "value": "allowed"
+    }
+  ],
+  "unknown": [
+    {
+      "topic": "intent",
+      "type": "unknown"
+    },
+    {
+      "topic": "complete_visibility",
+      "type": "unknown"
+    }
+  ]
+}

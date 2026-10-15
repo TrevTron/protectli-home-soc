@@ -1,0 +1,34 @@
+{
+  "window_minutes": 15,
+  "visibility": {
+    "complete_delivery_proven": false,
+    "comparison_complete": false,
+    "omitted_groups": 0
+  },
+  "groups": [
+    {
+      "id": "G-89c1d774ccd8",
+      "sid": 1,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "ICMP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-5fd8e6a5d3",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-bfc2ae28d331246f"
+      ],
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    }
+  ],
+  "eligible_inferences": {
+    "G-89c1d774ccd8": [
+      "rule_match_not_intrusion_proof"
+    ]
+  },
+  "interpretation_catalog": {
+    "rule_match_not_intrusion_proof": "A signature match is a starting point for review, not proof of an intrusion."
+  }
+}

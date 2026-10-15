@@ -1,0 +1,20 @@
+{
+  "number": 153,
+  "phase": "written_analysis",
+  "case": "real_stun_decrease",
+  "model": "gemma4:12b-it-qat",
+  "repeat": 1,
+  "structured": false,
+  "deadline_seconds": 300,
+  "started_utc": "2026-10-06T07:00:59.435416+00:00",
+  "brief_sha256": "a419bbb11a038294bc731e53f28c3421d5f9b0b55598f783ed482ddee035a956",
+  "elapsed_s": 88.90699999999924,
+  "eval_count": 408,
+  "prompt_eval_count": 425,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "a7e90e785588661797c6b8ca100bf4739119b26d5b5fb6338f45f5355676696f",
+  "manual_review": "pending",
+  "status": "delivered",
+  "completed_utc": "2026-10-06T07:02:28.343933+00:00"
+}

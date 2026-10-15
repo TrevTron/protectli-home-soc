@@ -1,0 +1,9 @@
+{
+  "model": "qwen3.5:9b",
+  "case": "maximum_16_groups",
+  "started_utc": "2026-10-05T22:56:22.728961+00:00",
+  "status": "withheld",
+  "reason": "timed out",
+  "wall_elapsed_s": 120.73399999999674,
+  "frozen_inputs_unchanged": true
+}

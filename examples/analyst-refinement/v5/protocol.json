@@ -1,0 +1,30 @@
+{
+  "frozen_utc": "2026-10-05T23:34:25.817186+00:00",
+  "models": [
+    "gemma4:12b-it-qat",
+    "qwen3.5:4b",
+    "qwen3.5:9b",
+    "qwen3:4b-instruct"
+  ],
+  "development_cases": 1,
+  "unseen_cases": 3,
+  "requests_per_model_case": 1,
+  "shared_revision_budget": 1,
+  "extra_development_requests_per_model_if_needed": 1,
+  "selection": "One common final contract selected from equal development requests. No per-model optimization or weights training. Unseen expected answers are not sent to models; no retesting or revisions based on unseen answers.",
+  "system_prompt_sha256": "9c8b743498f415ab9a44e69653d66ebef9ac550f986cac4cd13e4a87eecee2e6",
+  "source_sha256": "2316b3f31551253c3649ac5eb067788d76fa57ebbcfe506186ab8551fcdc8796",
+  "bounds": {
+    "cpu_threads": 2,
+    "gpu": 0,
+    "context": 4096,
+    "cap": 700,
+    "temperature": 0,
+    "seed": 17,
+    "thinking": false,
+    "request_timeout_seconds": 120
+  },
+  "limit": "Small agent-authored synthetic cases; native templates/tokenizers/defaults/quantization differ. Not independent human scoring, population accuracy or a pure runtime contest.",
+  "revision": "One allowed shared revision after equal v4 development: exact typed observed objects in grammar. Unknowns, independent validator, inputs and runtime bounds unchanged. One common mixed-priority development request per model; no further revisions or retries.",
+  "prior_contract": "evaluation-operator-v4-20261005"
+}

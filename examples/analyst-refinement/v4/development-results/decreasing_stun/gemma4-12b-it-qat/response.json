@@ -1,0 +1,17 @@
+{
+  "model": "gemma4:12b-it-qat",
+  "created_at": "2026-10-05T23:25:23.2705117Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"inferred\": [\n    {\n      \"code\": \"rule_match_not_intrusion_proof\",\n      \"evidence_refs\": [\n        \"E-a7610a266cb9fe9f\"\n      ],\n      \"group_id\": \"G-150f9b4502fa\",\n      \"type\": \"inferred\"\n    },\n    {\n      \"code\": \"stun_may_be_normal\",\n      \"evidence_refs\": [\n        \"E-a7610a266cb9fe9f\"\n      ],\n      \"group_id\": \"G-150f9b4502fa\",\n      \"type\": \"inferred\"\n    }\n  ],\n  \"next_steps\": [\n    {\n      \"action\": \"inspect_event\",\n      \"group_id\": \"G-150f9b4502fa\"\n    },\n    {\n      \"action\": \"check_client_process\",\n      \"group_id\": \"G-150f9b4502fa\"\n    }\n  ],\n  \"observed\": [\n    {\n      \"field\": \"action\",\n      \"group_id\": \"G-150f9b4502fa\",\n      \"type\": \"observed\",\n      \"value\": \"allowed\"\n    },\n    {\n      \"field\": \"protocol\",\n      \"group_id\": \"G-150f9b4502fa\",\n      \"type\": \"observed\",\n      \"value\": \"UDP\"\n    },\n    {\n      \"field\": \"change\",\n      \"group_id\": \"G-150f9b4502fa\",\n      \"type\": \"observed\",\n      \"value\": \"decreased\"\n    }\n  ],\n  \"unknown\": [{\"topic\":\"intent\",\"type\":\"unknown\"},{\"topic\":\"complete_visibility\",\"type\":\"unknown\"}]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 105468974100,
+  "load_duration": 5860144500,
+  "prompt_eval_count": 518,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 19153846000,
+  "eval_count": 477,
+  "eval_duration": 80447759000
+}

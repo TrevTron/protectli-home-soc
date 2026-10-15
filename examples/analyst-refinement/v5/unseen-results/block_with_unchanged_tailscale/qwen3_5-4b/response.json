@@ -1,0 +1,17 @@
+{
+  "model": "qwen3.5:4b",
+  "created_at": "2026-10-05T23:45:53.5304859Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"inferred\": [\n    {\n      \"code\": \"rule_match_not_intrusion_proof\",\n      \"evidence_refs\": [\"E-90f802481fa7778c\", \"E-49947e82e8b9d3df\"],\n      \"group_id\": \"G-7b5ae4cff471\",\"type\":\"inferred\"}\n    ],\n    \"next_steps\": [\n      {\n        \"action\": \"check_client_process\",\n        \"group_id\": \"G-7b5ae4cff471\"\n      }\n    ],\n  \"observed\": [\n    {\"field\":\"action\",\"group_id\":\"G-7b5ae4cff471\",\"type\":\"observed\",\"value\":\"blocked\"},\n    {\"field\":\"protocol\",\"group_id\":\"G-7b5ae4cff471\",\"type\":\"observed\",\"value\":\"UDP\"},\n    {\"field\":\"sid\",\"group_id\":\"G-7b5ae4cff471\",\"type\":\"observed\",\"value\":920001}\n  ],\n  \"unknown\": [{\"topic\":\"intent\",\"type\":\"unknown\"},{\"topic\":\"complete_visibility\",\"type\":\"unknown\"}]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 30308021900,
+  "load_duration": 3078299600,
+  "prompt_eval_count": 699,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 7507690000,
+  "eval_count": 280,
+  "eval_duration": 19716480000
+}

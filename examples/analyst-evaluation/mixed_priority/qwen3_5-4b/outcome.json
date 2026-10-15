@@ -1,0 +1,15 @@
+{
+  "model": "qwen3.5:4b",
+  "case": "mixed_priority",
+  "started_utc": "2026-10-05T22:51:54.765555+00:00",
+  "done": true,
+  "done_reason": "stop",
+  "elapsed_s": 28.422000000005937,
+  "eval_count": 212,
+  "prompt_eval_count": 898,
+  "thinking_characters": 0,
+  "status": "withheld",
+  "reason": "Required unknowns absent",
+  "wall_elapsed_s": 30.203000000008615,
+  "frozen_inputs_unchanged": true
+}

@@ -1,0 +1,17 @@
+{
+  "model": "qwen3.5:4b",
+  "created_at": "2026-10-05T23:37:11.9425214Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"inferred\": [\n    {\n      \"code\": \"rule_match_not_intrusion_proof\",\n      \"evidence_refs\": [\"E-072f4b046ed955f5\"],\"group_id\":\"G-a377cf31ac42\",\"type\":\"inferred\"},\n    {\n      \"code\": \"sensor_reported_block\",\n      \"evidence_refs\": [\"E-559e5c034894152e\"],\"group_id\":\"G-ab5057549ebc\",\"type\":\"inferred\"},\n    {\n      \"code\": \"stun_may_be_normal\",\n      \"evidence_refs\": [\"E-3581dc342f8243c6\"],\"group_id\":\"G-d22ab3d44b8d\",\"type\":\"inferred\"}\n  ],\n  \"next_steps\": [\n    {\n      \"action\": \"check_client_process\",\n      \"group_id\":\"G-ab5057549ebc\"\n    },\n    {\n      \"action\": \"compare_baseline\",\n      \"group_id\":\"G-a377cf31ac42\"\n    },\n    {\n      \"action\": \"inspect_event\",\n      \"group_id\":\"G-d22ab3d44b8d\"\n    }\n  ],\n  \"observed\": [\n    {\"field\":\"change\",\"group_id\":\"G-ab5057549ebc\",\"type\":\"observed\",\"value\":\"new_in_observed_windows\"},\n    {\"field\":\"action\",\"group_id\":\"G-ab5057549ebc\",\"type\":\"observed\",\"value\":\"blocked\"},\n    {\"field\":\"protocol\",\"group_id\":\"G-d22ab3d44b8d\",\"type\":\"observed\",\"value\":\"UDP\"}\n  ],\n  \"unknown\": [{\"topic\":\"intent\",\"type\":\"unknown\"},{\"topic\":\"complete_visibility\",\"type\":\"unknown\"}]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 44896453200,
+  "load_duration": 3076732200,
+  "prompt_eval_count": 941,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 9887230000,
+  "eval_count": 451,
+  "eval_duration": 31925994000
+}

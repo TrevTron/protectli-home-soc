@@ -1,0 +1,38 @@
+{
+  "window_minutes": 15,
+  "visibility": {
+    "complete_delivery_proven": false,
+    "comparison_complete": true,
+    "omitted_groups": 0
+  },
+  "groups": [
+    {
+      "id": "G-562c1a128755",
+      "sid": 2033078,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-71d6921e6c",
+      "count": 12,
+      "prior_count": 16,
+      "evidence_refs": [
+        "E-9eae2685c6410637",
+        "E-b2d0ccea912a5c1c",
+        "E-1841cd05b6443909"
+      ],
+      "priority_floor": "review",
+      "change": "decreased"
+    }
+  ],
+  "eligible_inferences": {
+    "G-562c1a128755": [
+      "rule_match_not_intrusion_proof",
+      "stun_may_be_normal"
+    ]
+  },
+  "interpretation_catalog": {
+    "rule_match_not_intrusion_proof": "A signature match is a starting point for review, not proof of an intrusion.",
+    "stun_may_be_normal": "STUN is used for NAT traversal. Conferencing, games or other applications may explain it; process identity and intent are not established."
+  }
+}

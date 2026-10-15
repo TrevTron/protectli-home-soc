@@ -1,0 +1,26 @@
+{
+  "number": 31,
+  "phase": "production_contract",
+  "case": "real_empty_window",
+  "model": "qwen3:4b-instruct",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T04:43:47.557313+00:00",
+  "brief_sha256": "8b7e81c6fb62136119d335d81221373f6ab5e3de6005c585ffdfaaea1b9d0147",
+  "elapsed_s": 7.968999999999141,
+  "eval_count": 50,
+  "prompt_eval_count": 286,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "904f9e392117865f19e51682fb5696bb2fb7a7945595f4f7ebce5473c34c6ca9",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [],
+    "required_contexts": [],
+    "complete": true,
+    "problems": []
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T04:43:55.530914+00:00"
+}

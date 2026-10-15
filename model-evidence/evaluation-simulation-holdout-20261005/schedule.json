@@ -1,0 +1,1346 @@
+[
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-detect-icmp-id-01",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-detect-icmp-id-01",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-detect-icmp-id-01",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-detect-icmp-id-01",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-detect-icmp-seq",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-detect-icmp-seq",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-detect-icmp-seq",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-detect-icmp-seq",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-dhcp-request-flood",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-dhcp-request-flood",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-dhcp-request-flood",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-dhcp-request-flood",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-flow-drop-iponly-01",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-flow-drop-iponly-01",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-flow-drop-iponly-01",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-flow-drop-iponly-01",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-benign-example-invalid",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-benign-example-invalid",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-benign-example-invalid",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-benign-example-invalid",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-http_uid_nat_control",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-http_uid_nat_control",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-http_uid_nat_control",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-http_uid_nat_control",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-https_same_uid_body_control",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-https_same_uid_body_control",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-https_same_uid_body_control",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-https_same_uid_body_control",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-lan_icmp_control",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-lan_icmp_control",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-lan_icmp_control",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-lan_icmp_control",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072081-positive",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072081-positive",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072081-positive",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072081-positive",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072081-suffix_negative",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072081-suffix_negative",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072081-suffix_negative",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072081-suffix_negative",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072083-positive",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072083-positive",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072083-positive",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072083-positive",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072083-suffix_negative",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072083-suffix_negative",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072083-suffix_negative",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072083-suffix_negative",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072087-positive",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072087-positive",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072087-positive",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072087-positive",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072087-suffix_negative",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072087-suffix_negative",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072087-suffix_negative",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072087-suffix_negative",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072089-positive",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072089-positive",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072089-positive",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072089-positive",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072089-suffix_negative",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072089-suffix_negative",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072089-suffix_negative",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072089-suffix_negative",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_icmp_attempts",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_icmp_attempts",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_icmp_attempts",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_icmp_attempts",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_lan_source_spoof",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_lan_source_spoof",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_lan_source_spoof",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_lan_source_spoof",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_port_attempts",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_port_attempts",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_port_attempts",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_port_attempts",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_syn_connection_burst",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_syn_connection_burst",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_syn_connection_burst",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_syn_connection_burst",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_udp_burst",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_udp_burst",
+    "model": "qwen3.5:4b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_udp_burst",
+    "model": "qwen3.5:9b",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_udp_burst",
+    "model": "qwen3:4b-instruct",
+    "repeat": 1,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-detect-icmp-id-01",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-detect-icmp-id-01",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-detect-icmp-id-01",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-detect-icmp-id-01",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-detect-icmp-seq",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-detect-icmp-seq",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-detect-icmp-seq",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-detect-icmp-seq",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-dhcp-request-flood",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-dhcp-request-flood",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-dhcp-request-flood",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-dhcp-request-flood",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-flow-drop-iponly-01",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-flow-drop-iponly-01",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-flow-drop-iponly-01",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "upstream-flow-drop-iponly-01",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-benign-example-invalid",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-benign-example-invalid",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-benign-example-invalid",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-benign-example-invalid",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-http_uid_nat_control",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-http_uid_nat_control",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-http_uid_nat_control",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-http_uid_nat_control",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-https_same_uid_body_control",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-https_same_uid_body_control",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-https_same_uid_body_control",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-https_same_uid_body_control",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-lan_icmp_control",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-lan_icmp_control",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-lan_icmp_control",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-lan_icmp_control",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072081-positive",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072081-positive",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072081-positive",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072081-positive",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072081-suffix_negative",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072081-suffix_negative",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072081-suffix_negative",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072081-suffix_negative",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072083-positive",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072083-positive",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072083-positive",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072083-positive",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072083-suffix_negative",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072083-suffix_negative",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072083-suffix_negative",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072083-suffix_negative",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072087-positive",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072087-positive",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072087-positive",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072087-positive",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072087-suffix_negative",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072087-suffix_negative",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072087-suffix_negative",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072087-suffix_negative",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072089-positive",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072089-positive",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072089-positive",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072089-positive",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072089-suffix_negative",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072089-suffix_negative",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072089-suffix_negative",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-sid-2072089-suffix_negative",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_icmp_attempts",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_icmp_attempts",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_icmp_attempts",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_icmp_attempts",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_lan_source_spoof",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_lan_source_spoof",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_lan_source_spoof",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_lan_source_spoof",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_port_attempts",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_port_attempts",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_port_attempts",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_port_attempts",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_syn_connection_burst",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_syn_connection_burst",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_syn_connection_burst",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_syn_connection_burst",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_udp_burst",
+    "model": "qwen3.5:4b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_udp_burst",
+    "model": "qwen3.5:9b",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_udp_burst",
+    "model": "qwen3:4b-instruct",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  },
+  {
+    "phase": "simulation_holdout",
+    "case": "policy-wan_udp_burst",
+    "model": "gemma4:12b-it-qat",
+    "repeat": 2,
+    "structured": true,
+    "deadline_seconds": 120
+  }
+]

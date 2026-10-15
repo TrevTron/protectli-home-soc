@@ -1,0 +1,12 @@
+{
+  "use": "development regression for v1 unsupported change inference",
+  "useful_inferences": [
+    "stun_may_be_normal"
+  ],
+  "required_unknowns": [
+    "intent",
+    "complete_visibility"
+  ],
+  "no_compromise_or_client_outcome_verdict": true,
+  "synthetic_not_actual_attack": true
+}

@@ -1,0 +1,15 @@
+{
+  "number": 69,
+  "phase": "production_contract",
+  "case": "real_small_mixed",
+  "model": "gemma4:12b-it-qat",
+  "repeat": 2,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T05:26:46.561005+00:00",
+  "brief_sha256": "8de763fc939821906448294e34524d0e8f9d1347ce60a06e2041d184a50c4e86",
+  "status": "withheld",
+  "reason": "timed out",
+  "elapsed_s": 120.01599999999962,
+  "completed_utc": "2026-10-06T05:28:46.584758+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "number": 43,
+  "phase": "production_contract",
+  "case": "edge_split_uid",
+  "model": "qwen3.5:9b",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T04:56:57.442903+00:00",
+  "brief_sha256": "537ca166b047d45d73f06409f51cf1c2ba10307200952980652f98917b2ff41d",
+  "elapsed_s": 87.59399999999914,
+  "eval_count": 529,
+  "prompt_eval_count": 797,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "9c6abdabbadcc41fb49cb5d55b12d245858e94a181ea49a4208935814921ba34",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [
+      "uid_fixture_possible"
+    ],
+    "required_contexts": [
+      "sensor_reported_block",
+      "uid_fixture_possible"
+    ],
+    "complete": false,
+    "problems": [
+      "Missing required contexts",
+      "Repeated citation within inference"
+    ]
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T04:58:25.044049+00:00"
+}

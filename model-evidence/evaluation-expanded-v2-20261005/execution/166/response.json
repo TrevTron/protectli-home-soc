@@ -1,0 +1,17 @@
+{
+  "model": "gemma4:12b-it-qat",
+  "created_at": "2026-10-06T07:26:09.5059882Z",
+  "message": {
+    "role": "assistant",
+    "content": "**First-Pass Network Evidence Report**\n\n**Observed Facts**\n*   **Traffic Patterns:** Multiple UDP and TCP connections were observed between various internal endpoints (identified as `owned-client`) and other internal endpoints.\n*   **Significant Activity:** \n    *   Several groups (e.g., `G-32de6c3018a3`, `G-52be711c5d5f`, `G-5e6affd7862a`, `G-6e0d9e7f06b3`, `G-3cbfea212c3b`, `G-7b06c9b0d6ec`) showed a decrease in count for UDP traffic associated with SID 2016149 and 2016150.\n    *   New activity was observed in the current window for groups `G-a1cd704d3448`, `G-796ff429bffd`, `G-4420b4b9aeb1`, and `G-452ce5ad097d`.\n    *   Activity increased for groups `G-a3d31a85527f`, `G-ebc93ba5a764`, and `G-5ec49eeabb64`.\n*   **Protocol/Signatures:** The observed traffic includes STUN-related signatures (SIDs 2016149, 2016150, 2035465, 2035466, 2060502, 2060503).\n\n**Possible Explanations**\n*   **Normal Application Behavior:** STUN (Session Traversal Utilities for NAT) is commonly used by VoIP, online gaming, and conferencing applications to discover public IP addresses and traverse NATs.\n*   **Network Dynamics:** The fluctuations in counts (increases/decreases) may reflect standard user behavior, application restarts, or changes in network load.\n*   **Fixture Activity:** Group `G-b5089c0d3d3d` may be matching a harmless UID-response fixture.\n\n**Unknowns**\n*   **Intent:** The specific intent of the traffic (e.g., legitimate business communication vs. unauthorized tunneling) is unknown.\n*   **Process Identity:** The specific applications or processes generating the STUN and TCP/UDP traffic have not been identified.\n*   **Completeness:** Visibility is incomplete as 100 groups were omitted from this summary.\n\n**Read-Only Next Review Steps**\n*   Verify the specific processes associated with the STUN traffic to determine if they align with authorized corporate software.\n*   Correlate the \"new\" and \"increased\" activity groups (`G-4420b4b9aeb1`, `G-452ce5ad097d`, `G-a3d31a85527f`) against known application deployment schedules.\n*   Confirm if the activity in `G-b5089c0d3d3d` matches known test receipts"
+  },
+  "done": true,
+  "done_reason": "length",
+  "total_duration": 249167526800,
+  "load_duration": 5903968800,
+  "prompt_eval_count": 3014,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 116226345000,
+  "eval_count": 700,
+  "eval_duration": 127020752000
+}

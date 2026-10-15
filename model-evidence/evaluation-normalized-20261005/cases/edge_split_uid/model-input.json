@@ -1,0 +1,82 @@
+{
+  "window_minutes": 15,
+  "visibility": {
+    "complete_delivery_proven": false,
+    "comparison_complete": true,
+    "omitted_groups": 0
+  },
+  "groups": [
+    {
+      "id": "G-91323b66c8fe",
+      "sid": 2100498,
+      "action": "blocked",
+      "severity": 1,
+      "protocol": "UDP",
+      "source_alias": "endpoint-53e4cb969e",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-e0817d5432dda2e7"
+      ],
+      "priority_floor": "review_first",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-82d773ff9100",
+      "sid": 2100498,
+      "action": "allowed",
+      "severity": 2,
+      "protocol": "UDP",
+      "source_alias": "endpoint-53e4cb969e",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-eeb30b93b8e29cb6"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-9132b0494f63",
+      "sid": 2100498,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "endpoint-53e4cb969e",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-7ac7d1107c49e9ca"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    }
+  ],
+  "eligible_inferences": {
+    "G-91323b66c8fe": [
+      "rule_match_not_intrusion_proof",
+      "uid_fixture_possible",
+      "sensor_reported_block",
+      "change_needs_context"
+    ],
+    "G-82d773ff9100": [
+      "rule_match_not_intrusion_proof",
+      "uid_fixture_possible",
+      "change_needs_context"
+    ],
+    "G-9132b0494f63": [
+      "rule_match_not_intrusion_proof",
+      "uid_fixture_possible",
+      "change_needs_context"
+    ]
+  },
+  "interpretation_catalog": {
+    "change_needs_context": "This group appeared or increased in the observed comparison windows. Confirm application activity and collection coverage before interpreting the change.",
+    "rule_match_not_intrusion_proof": "A signature match is a starting point for review, not proof of an intrusion.",
+    "sensor_reported_block": "Suricata reported a blocked event. Confirm the associated client outcome; this does not prove every related request failed.",
+    "uid_fixture_possible": "This rule can match a harmless UID-response fixture. Verify the exact request against the owned test receipt before treating it as expected."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "model": "qwen3.5:9b",
+  "created_at": "2026-10-05T23:49:49.7308176Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"inferred\": [\n    {\n      \"code\": \"rule_match_not_intrusion_proof\",\n      \"evidence_refs\": [\"E-59d4f0d3c2b4c1fb\", \"E-59d4f0d3c2b4c1fb\", \"E-59d4f0d3c2b4c1fb\"],\n      \"group_id\": \"G-48cfbbbaf560\",\n      \"type\": \"inferred\"\n    },\n    {\n      \"code\": \"uid_fixture_possible\",\n      \"evidence_refs\": [\"E-e8a057718dd4b713\"],\n      \"group_id\": \"G-1c34902415a0\",\n      \"type\": \"inferred\"\n    },\n    {\n      \"code\": \"change_needs_context\",\n      \"evidence_refs\": [\"E-e8a057718dd4b713\"],\n      \"group_id\": \"G-1c34902415a0\",\n      \"type\": \"inferred\"\n    }\n  ],\n  \"next_steps\": [\n    {\n      \"action\": \"check_visibility\",\n      \"group_id\": \"G-48cfbbbaf560\"\n    },\n    {\n      \"action\": \"check_visibility\",\n      \"group_id\": \"G-1c34902415a0\"\n    },\n    {\n      \"action\": \"check_visibility\",\n      \"group_id\": \"G-01dfcf33cd83\"\n    }\n  ],\n  \"observed\": [\n    {\"field\":\"sid\",\"group_id\":\"G-48cfbbbaf560\",\"type\":\"observed\",\"value\":2100498},\n    {\"field\":\"sid\",\"group_id\":\"G-1c34902415a0\",\"type\":\"observed\",\"value\":2100498},\n    {\"field\":\"sid\",\"group_id\":\"G-01dfcf33cd83\",\"type\":\"observed\",\"value\":2016150}\n  ],\n  \"unknown\": [{\"topic\":\"intent\",\"type\":\"unknown\"},{\"topic\":\"complete_visibility\",\"type\":\"unknown\"}]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 85023963100,
+  "load_duration": 4582935300,
+  "prompt_eval_count": 806,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 14405038000,
+  "eval_count": 537,
+  "eval_duration": 66030242000
+}

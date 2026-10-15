@@ -1,0 +1,48 @@
+{
+  "required_contexts": [
+    {
+      "code": "rule_match_not_intrusion_proof",
+      "any_group_ids": [
+        "G-89c1d774ccd8"
+      ]
+    }
+  ],
+  "unknowns_required": [
+    "intent",
+    "complete_visibility"
+  ],
+  "empty_report": false,
+  "review_first_any_groups": [],
+  "upstream_assertions": [
+    {
+      "fields": {
+        "event_type": "alert",
+        "alert.signature_id": 1
+      },
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "fields": {
+        "event_type": "alert",
+        "alert.signature_id": 2
+      },
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "fields": {
+        "event_type": "flow"
+      },
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "fields": {
+        "event_type": "stats"
+      },
+      "expected": 1,
+      "actual": 1
+    }
+  ]
+}

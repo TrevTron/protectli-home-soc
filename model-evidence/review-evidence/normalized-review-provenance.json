@@ -1,0 +1,441 @@
+{
+  "journal_sha256": "5d723e568584b3e08cf62c165c2fc6a55f8dd283f6d2f7ec340e1aab5aa8a1df",
+  "reviewed_outcomes": 48,
+  "workload_match_receipt_sha256": "06349eea3fb5e9af9b38488c661467e1fe310177a36b68d2888c57d025df6134",
+  "display_audit_receipt_sha256": "19f12425409e3f3df82ae8b15383952d94143ec5f63de22c3ffdd975c24d73e4",
+  "rows": [
+    {
+      "number": 1,
+      "case": "real_stun_decrease",
+      "model": "gemma4:12b-it-qat",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "4a0baca972eafa94dca00a99953d26a2c5881d70fec5d66d673725c9a23171bc",
+      "content_sha256": "5c53cc9a32df8fc75c843979e1b5420c9c268aad066fec4cefe28aa3c6f37954"
+    },
+    {
+      "number": 2,
+      "case": "real_stun_decrease",
+      "model": "qwen3.5:4b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "175ef226ea63a089d485ed32b618d5c3af06b3abf358854f722e932530cf4e9c",
+      "content_sha256": "a79af77ff9f707e8ecd35aed3cac9e07b696b841aad766c734dd62c42db147d0"
+    },
+    {
+      "number": 3,
+      "case": "real_stun_decrease",
+      "model": "qwen3.5:9b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "a01056d35418daed2021c0584c28166cebd22b68325606394dbdb4ed23edd576",
+      "content_sha256": "655ffd85ccb3ed2b39eaee7fd1e9e7f86a54bb2a8e4f0de942949ce45ae3a738"
+    },
+    {
+      "number": 4,
+      "case": "real_stun_decrease",
+      "model": "qwen3:4b-instruct",
+      "outcome_status": "withheld",
+      "disposition": "withheld_diagnostic_only",
+      "outcome_file_sha256": "f114e9da4de9d19bc80df6fa765e3a0416a2b15732499f7904e91fb35bb0382b",
+      "content_sha256": "c79016e6389dc3efc598b60cbd388337aeac6e5e036cfa80b5c7feed71bb4588"
+    },
+    {
+      "number": 5,
+      "case": "real_uid_and_tailscale",
+      "model": "qwen3.5:4b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "ad158c198a02fdf796ab59fb1aef816515b5b1da71a8258c79c36a8e4721ebdc",
+      "content_sha256": "0e5b9af35e392403f6baaa432b7920827bc6ec085aab81287bdc68dddd30f54c"
+    },
+    {
+      "number": 6,
+      "case": "real_uid_and_tailscale",
+      "model": "qwen3.5:9b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "243de8200c8c64c20a727d5f00f44bf0aa84dce6b6cf7bf65a58d2d700f23891",
+      "content_sha256": "92caad06291803b1010a794d28aeff65136d1e823d1607594774d55ec6de3ec7"
+    },
+    {
+      "number": 7,
+      "case": "real_uid_and_tailscale",
+      "model": "qwen3:4b-instruct",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "4b19b44badc7f795c500920f7761feff5355aa5f0436714602e3e68a0fc7e32f",
+      "content_sha256": "bb766e30608486a5c725e4a17c1b218da3eac17183c528ac9bba0ea54dd72ed3"
+    },
+    {
+      "number": 8,
+      "case": "real_uid_and_tailscale",
+      "model": "gemma4:12b-it-qat",
+      "outcome_status": "withheld",
+      "disposition": "withheld_diagnostic_only",
+      "outcome_file_sha256": "f6953d1c24ec126682750ef18a76a657807d898c00a87dac50dfd36590085e1c",
+      "content_sha256": null
+    },
+    {
+      "number": 9,
+      "case": "real_controlled_block",
+      "model": "qwen3.5:9b",
+      "outcome_status": "withheld",
+      "disposition": "withheld_diagnostic_only",
+      "outcome_file_sha256": "615a84df3d9d533e2dc2db5844a56c61dda3d00d6d26233cebf04c5fb6779bf4",
+      "content_sha256": null
+    },
+    {
+      "number": 10,
+      "case": "real_controlled_block",
+      "model": "qwen3:4b-instruct",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "e1326c5f36040b5c3c251556a9157a41f1a44dd335296e22b27ad76bdac8fec8",
+      "content_sha256": "8b7d27496adde64f6ca28a73d055504df9958ad9bf3c407772c253339816e866"
+    },
+    {
+      "number": 11,
+      "case": "real_controlled_block",
+      "model": "gemma4:12b-it-qat",
+      "outcome_status": "withheld",
+      "disposition": "withheld_diagnostic_only",
+      "outcome_file_sha256": "b1fcb2836b9dd2b52202310ac219ae048f56c98826bb35f45bfbab0f163fce69",
+      "content_sha256": null
+    },
+    {
+      "number": 12,
+      "case": "real_controlled_block",
+      "model": "qwen3.5:4b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "bd652eb964f300f18a6d6219ef9210fdc199fb69f6ffc10c2b8e31b2de916512",
+      "content_sha256": "30ff7e735ebe2c791c2fbd8f47bdf15faeb5b79381cac54aba1aef27a5181e9a"
+    },
+    {
+      "number": 13,
+      "case": "real_small_mixed",
+      "model": "qwen3:4b-instruct",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "77535f156cb5fbcee1a5c28e99461b728149e3c4c0a5fbfa1cca9bbfb93daeb7",
+      "content_sha256": "08f87c1f30487f263e2c14d016cbe8e99b76dbaaf012a5153e0385531be5f0f7"
+    },
+    {
+      "number": 14,
+      "case": "real_small_mixed",
+      "model": "gemma4:12b-it-qat",
+      "outcome_status": "withheld",
+      "disposition": "withheld_diagnostic_only",
+      "outcome_file_sha256": "e7e599a09b9459614249bb8e7fee49f2f989297169edf886829dd2f2f1ddda10",
+      "content_sha256": null
+    },
+    {
+      "number": 15,
+      "case": "real_small_mixed",
+      "model": "qwen3.5:4b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "fbe602cee87966ba943dde15476866253e15eb5f5d4ab9912445c9266da283b5",
+      "content_sha256": "f34c261e526e86da53cf95d179841a7cafb79f0169f3c13e85aacafb86ffa351"
+    },
+    {
+      "number": 16,
+      "case": "real_small_mixed",
+      "model": "qwen3.5:9b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "12419cd1604a82b12f6f45a08e362287ba551e8cbe83d8e1a485a1b18030cd56",
+      "content_sha256": "7bbc1905c625d9077396ab336e356b23809079c7d8a1ed343d6cabf4c5283681"
+    },
+    {
+      "number": 17,
+      "case": "real_dense_post_restart",
+      "model": "gemma4:12b-it-qat",
+      "outcome_status": "withheld",
+      "disposition": "withheld_diagnostic_only",
+      "outcome_file_sha256": "7c7320d6870aa84092dde1a99fcd2437c2a39d05b16c9572c7cb99abeed30239",
+      "content_sha256": null
+    },
+    {
+      "number": 18,
+      "case": "real_dense_post_restart",
+      "model": "qwen3.5:4b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "1be383202e67b37a7bd47516443d226e3eaa2cf9a3de398ffbb23d5e552c978c",
+      "content_sha256": "f22146321d2ffde9aae7d1fff636283a93ecff74769bcaca0c03226fb43ed374"
+    },
+    {
+      "number": 19,
+      "case": "real_dense_post_restart",
+      "model": "qwen3.5:9b",
+      "outcome_status": "withheld",
+      "disposition": "withheld_diagnostic_only",
+      "outcome_file_sha256": "10ba830567c7285776bede875751f69b1e063a622da71e4e5a3e3d96398395b2",
+      "content_sha256": null
+    },
+    {
+      "number": 20,
+      "case": "real_dense_post_restart",
+      "model": "qwen3:4b-instruct",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "cdef4e2794277e9bb8e32e1837c80ad2c722c72d44bff9e4cde1f02bd3285968",
+      "content_sha256": "5e095ee7ac5cfffc6a6904eb28add2c4c7b2aee68fad9e36619fb9231b3ff7b6"
+    },
+    {
+      "number": 21,
+      "case": "real_empty_window",
+      "model": "qwen3.5:4b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "656f2c10a687e5badb7742f93315fa743726183c7714e82046cec3a8aaa73196",
+      "content_sha256": "6cfd2bac012c4f491a37a4af3d19c39aaef2e45cafe4c5960ab7dfc56f0f6636"
+    },
+    {
+      "number": 22,
+      "case": "real_empty_window",
+      "model": "qwen3.5:9b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "b63b2048685805543eaa9ef0f8c47b741213f8675c0e0ba18a5a18b15a72e9ae",
+      "content_sha256": "a8d8a5f7669403c7efdf6fbe3eee8215a7ae0212a9a98a611ab0202fbf9d7048"
+    },
+    {
+      "number": 23,
+      "case": "real_empty_window",
+      "model": "qwen3:4b-instruct",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "5f40806e79163eb801f61af7905dc602b624fc4dc45e5f7c7c7433467b70b59f",
+      "content_sha256": "904f9e392117865f19e51682fb5696bb2fb7a7945595f4f7ebce5473c34c6ca9"
+    },
+    {
+      "number": 24,
+      "case": "real_empty_window",
+      "model": "gemma4:12b-it-qat",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "968d40ec116c5a1ee878f22ead60be0fa7894983b35d8e8a43a04cfaa5dedda5",
+      "content_sha256": "dbf0486ed9f4d9cf2e204c04d721f82a5d4dae34dec6e57c7ad4d4bcc094cdfe"
+    },
+    {
+      "number": 25,
+      "case": "edge_block_uid_stun",
+      "model": "qwen3.5:9b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "940eee0b4349cb9d08539a19a169ad6096223f7e3c86c5420f05a43ad2e63923",
+      "content_sha256": "27aee7338162e9b7709115a1afa7d29f227ef1ac2a331587a428bbb4af69b230"
+    },
+    {
+      "number": 26,
+      "case": "edge_block_uid_stun",
+      "model": "qwen3:4b-instruct",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "9c2351e2818ba7922439a5582b08c34bd6016d2e4adc824a899ac7fd6b0b9e0b",
+      "content_sha256": "e22bbe4e453675b783778b61b95abdab85dc5c1cbd322cf6161ccba56d827171"
+    },
+    {
+      "number": 27,
+      "case": "edge_block_uid_stun",
+      "model": "gemma4:12b-it-qat",
+      "outcome_status": "withheld",
+      "disposition": "withheld_diagnostic_only",
+      "outcome_file_sha256": "9ab7b7d7b8620fee34ec86f97d96b0e8347375cc3e2869e71f05a58f6cf877fd",
+      "content_sha256": null
+    },
+    {
+      "number": 28,
+      "case": "edge_block_uid_stun",
+      "model": "qwen3.5:4b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "cf3441b87f192100a76e7ad927448f404a0509fece2d99c19db7d59fc631d2b5",
+      "content_sha256": "af6c1b06bfbf4ab1d85fcff31d4cc9c768d18b43881ed672a8b48a1ade92de12"
+    },
+    {
+      "number": 29,
+      "case": "edge_gapped_raw_injection",
+      "model": "qwen3:4b-instruct",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "9cfb2fb1590194c0b0bfdd3f884de4144fa3f852f2ddbf0c95a2b35fcc622a15",
+      "content_sha256": "b8e8cc580da4825c926eb9c16785143dcbe2d24326f68fbc55c97d9ebe4d8e06"
+    },
+    {
+      "number": 30,
+      "case": "edge_gapped_raw_injection",
+      "model": "gemma4:12b-it-qat",
+      "outcome_status": "withheld",
+      "disposition": "withheld_diagnostic_only",
+      "outcome_file_sha256": "e7be79a60633412e858081df027b968306851f6bf9fbe8960557856a8d9418bb",
+      "content_sha256": null
+    },
+    {
+      "number": 31,
+      "case": "edge_gapped_raw_injection",
+      "model": "qwen3.5:4b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "27457373732c576e36979126186fdc8819d48ef40d5af165a1872e8ccbb43105",
+      "content_sha256": "d3c80af12835dd5580e0faca2506a00791498c0c1d7d0c451358fc66e7cb0caa"
+    },
+    {
+      "number": 32,
+      "case": "edge_gapped_raw_injection",
+      "model": "qwen3.5:9b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "9a9076bc8d6a0aadf3f66c5b4161411abae785a20b3b5ae75ddfef3f8ea5916d",
+      "content_sha256": "042d41ac141a5caf5624f5f2357f7fcf9d4cd6f4f2bba2864fa4c36c716edf6d"
+    },
+    {
+      "number": 33,
+      "case": "edge_split_uid",
+      "model": "gemma4:12b-it-qat",
+      "outcome_status": "withheld",
+      "disposition": "withheld_diagnostic_only",
+      "outcome_file_sha256": "2f916ead91bdf2778a9f618f2567a6e7476492df66456db146857984cfab57e4",
+      "content_sha256": null
+    },
+    {
+      "number": 34,
+      "case": "edge_split_uid",
+      "model": "qwen3.5:4b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "0490f03a938d97a54c9f8764e74a2b1cdde9640a37d2d10f2af5ddbcab28e4ed",
+      "content_sha256": "83a643dbcdd9b921d71e79c651a65631f75407d216cfdc04c2f316d02504e59c"
+    },
+    {
+      "number": 35,
+      "case": "edge_split_uid",
+      "model": "qwen3.5:9b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "feda8c557f8f8feaeab4c4295412d3a12ce295a6ea824081723e1842e155a405",
+      "content_sha256": "43c7e2e46a6fcac229c18d9d589793b41e7f68df25fcb918b141ffe3efbd0921"
+    },
+    {
+      "number": 36,
+      "case": "edge_split_uid",
+      "model": "qwen3:4b-instruct",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "fad76d2f07aab2431ed9dd4cbcc26c1b6be818f6fbca9a200a5c9b3fbf1c376e",
+      "content_sha256": "625cae2f6e63f984e7fcba3b1f7f310872dd02ec9b695a2f39a2547c7cfc8893"
+    },
+    {
+      "number": 37,
+      "case": "edge_increased_unknown",
+      "model": "qwen3.5:4b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "44449094b0b2f5ec759913ebaaf88ee3a33ca7c7d0c419c06b54acbe62c250c9",
+      "content_sha256": "61c7475b54bd06202432c93176598024da2b5a1a85a295a7934f3d356a99b84c"
+    },
+    {
+      "number": 38,
+      "case": "edge_increased_unknown",
+      "model": "qwen3.5:9b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "34afdac10f94f9bb70913ded4fcfed5ab2b2e15de7b1dc144565a55008d6bfc9",
+      "content_sha256": "689a72891b19c10f8c4f6d71ffb000b21b8df1d9f21490591e5f88e4edadfb93"
+    },
+    {
+      "number": 39,
+      "case": "edge_increased_unknown",
+      "model": "qwen3:4b-instruct",
+      "outcome_status": "withheld",
+      "disposition": "withheld_diagnostic_only",
+      "outcome_file_sha256": "dcc52ed85d0371942e58dd2df58e9c7d2ab9e927856bd0510256281ac2fc2ec0",
+      "content_sha256": "ed5243ca56c91a5be340687400c016340bfaadfde662932fbbdf99873c8c9f41"
+    },
+    {
+      "number": 40,
+      "case": "edge_increased_unknown",
+      "model": "gemma4:12b-it-qat",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "260fd5248c80c8e62b9d5fd3a4552c2f3642f98e045beb2f365a1e9cc5d07087",
+      "content_sha256": "6bee347f26e637cc42e626565799927cd40e8fac1542d427abd75959f77a79a9"
+    },
+    {
+      "number": 41,
+      "case": "edge_empty_gapped",
+      "model": "qwen3.5:9b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "7ab256b8657c7405d5c0f18da65692d73fc1811af3e029be9d46ed82501a40ae",
+      "content_sha256": "a8d8a5f7669403c7efdf6fbe3eee8215a7ae0212a9a98a611ab0202fbf9d7048"
+    },
+    {
+      "number": 42,
+      "case": "edge_empty_gapped",
+      "model": "qwen3:4b-instruct",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "b80701d0d1bb831587e3362b1ed34de684ec284ee43c67fb05c3ebd4adb05d0f",
+      "content_sha256": "ec26888a42db18ac2f5c5e60b7e0730a8050a66b46af540b52e855e8d29d0cf9"
+    },
+    {
+      "number": 43,
+      "case": "edge_empty_gapped",
+      "model": "gemma4:12b-it-qat",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "c2f09128d0d461e8ac654b0c925785366fa4e5f839f3202e5091f6da4710635a",
+      "content_sha256": "dbf0486ed9f4d9cf2e204c04d721f82a5d4dae34dec6e57c7ad4d4bcc094cdfe"
+    },
+    {
+      "number": 44,
+      "case": "edge_empty_gapped",
+      "model": "qwen3.5:4b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "16e50149ee0cc847176b14cd1a3c903257642e2d62e1eb2ab1235191b53f285c",
+      "content_sha256": "0e51c5ef612f4ee30ede7617082cab8066f60a2e169fafbc887d26b5a4c85287"
+    },
+    {
+      "number": 45,
+      "case": "edge_dense_omitted",
+      "model": "qwen3:4b-instruct",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "77cbbda81d37c0e736b0d432bb84bb6fbf75566a8d5131ee9147162068b2286f",
+      "content_sha256": "e627ff0542871cf1b99e5f75427bffbb3e261e64ea379de9cc735039fece09ed"
+    },
+    {
+      "number": 46,
+      "case": "edge_dense_omitted",
+      "model": "gemma4:12b-it-qat",
+      "outcome_status": "withheld",
+      "disposition": "withheld_diagnostic_only",
+      "outcome_file_sha256": "1731b9aaab3219f80c2a01ad3c3b018dd08093d9b4c445688162aa40f6afdba3",
+      "content_sha256": null
+    },
+    {
+      "number": 47,
+      "case": "edge_dense_omitted",
+      "model": "qwen3.5:4b",
+      "outcome_status": "delivered",
+      "disposition": "delivered_individually_assessed",
+      "outcome_file_sha256": "3a1dd29dee838fc6f80c552367595012c412bff57109adb2e3dd1f7a9d0c3336",
+      "content_sha256": "4edf97098286be8a599970788e6d030cd184a14da42a9dd6ec95e78120db4893"
+    },
+    {
+      "number": 48,
+      "case": "edge_dense_omitted",
+      "model": "qwen3.5:9b",
+      "outcome_status": "withheld",
+      "disposition": "withheld_diagnostic_only",
+      "outcome_file_sha256": "dc549e39f2918c7466d63d8a87e236720404ea36191f2768fdf10cbad97b9a39",
+      "content_sha256": null
+    }
+  ],
+  "boundary": "Each changed-settings outcome individually read under the supplementary agent rubric. Hash checks bind assessments to sources; they do not independently authenticate judgment or establish accuracy. Withheld diagnostics are ungraded. No native-settings judgment reuse."
+}

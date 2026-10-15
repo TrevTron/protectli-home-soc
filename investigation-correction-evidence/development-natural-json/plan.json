@@ -1,0 +1,1 @@
+{"cases":"Old M03/M06 investigators, old incorrect M01 and conservative-correct M02 reviewer controls","change":"Only remove format JSON schema for investigator/reviewer decoding; same V2 messages and 700token/120s bounds"}

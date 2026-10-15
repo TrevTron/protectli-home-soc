@@ -1,0 +1,20 @@
+{
+  "number": 189,
+  "phase": "written_analysis",
+  "case": "real_dense_post_restart",
+  "model": "gemma4:12b-it-qat",
+  "repeat": 2,
+  "structured": false,
+  "deadline_seconds": 300,
+  "started_utc": "2026-10-06T08:04:12.844694+00:00",
+  "brief_sha256": "eea9d3dc8a8eda557cef46798e6ee06b92a34432ae1e50cfbb00741310f87a38",
+  "elapsed_s": 253.53099999999904,
+  "eval_count": 700,
+  "prompt_eval_count": 3014,
+  "done_reason": "length",
+  "thinking_characters": 0,
+  "content_sha256": "7019f2a3dedbfd95a05255f7f7037e3c30b1eb569e92361a25d84b6ed6cdde6b",
+  "status": "withheld",
+  "reason": "Incomplete/capped output or unexpected thinking channel",
+  "completed_utc": "2026-10-06T08:08:26.383107+00:00"
+}

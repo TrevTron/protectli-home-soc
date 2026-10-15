@@ -1,0 +1,26 @@
+**First-Pass Network Evidence Report**
+
+**Observed Facts**
+*   **Group ID:** G-562c1a128755
+*   **Source:** owned-client
+*   **Destination:** endpoint-71d6921e6c
+*   **Protocol:** UDP
+*   **Action:** Allowed
+*   **Activity Trend:** The count of events decreased from 16 to 12 within a 15-minute window.
+*   **Evidence References:** E-9eae2685c6410637, E-b2d0ccea912a5c1c, E-1841cd05b6443909
+*   **Severity:** 3
+
+**Possible Explanations**
+*   The traffic may be related to STUN (Session Traversal Utilities for NAT), which is commonly used for NAT traversal in applications such as VoIP, online gaming, or video conferencing.
+*   The decrease in event count may reflect a reduction in active sessions or a change in application behavior.
+
+**Unknowns**
+*   **Intent:** The purpose of the communication is unknown.
+*   **Process Identity:** The specific local process initiating the UDP traffic has not been identified.
+*   **Completeness:** Complete delivery of the packets cannot be proven based on current visibility.
+*   **Verification:** A signature match (as indicated by the rule) is not proof of an intrusion.
+
+**Read-Only Next Review Steps**
+*   Correlate the source "owned-client" with endpoint logs to identify the specific process generating the UDP traffic.
+*   Verify if the destination "endpoint-71d6921e6c" aligns with known legitimate services (e.g., conferencing or gaming servers).
+*   Monitor for any subsequent changes in traffic volume or destination patterns.

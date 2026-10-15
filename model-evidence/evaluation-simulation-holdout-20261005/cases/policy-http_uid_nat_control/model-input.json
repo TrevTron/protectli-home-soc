@@ -1,0 +1,74 @@
+{
+  "window_minutes": 15,
+  "visibility": {
+    "complete_delivery_proven": false,
+    "comparison_complete": false,
+    "omitted_groups": 0
+  },
+  "groups": [
+    {
+      "id": "G-744582c39791",
+      "sid": 2100498,
+      "action": "allowed",
+      "severity": 2,
+      "protocol": "TCP",
+      "source_alias": "endpoint-41b563cae8",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-1117981b15ed5d03"
+      ],
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-abefd8c88855",
+      "sid": 2013031,
+      "action": "allowed",
+      "severity": 2,
+      "protocol": "TCP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-41b563cae8",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-bb1ca5ffa4b660bc"
+      ],
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-008464bb5548",
+      "sid": 2034635,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "TCP",
+      "source_alias": "endpoint-41b563cae8",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-53a8e3fdfeea183c"
+      ],
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    }
+  ],
+  "eligible_inferences": {
+    "G-744582c39791": [
+      "rule_match_not_intrusion_proof",
+      "uid_fixture_possible"
+    ],
+    "G-abefd8c88855": [
+      "rule_match_not_intrusion_proof"
+    ],
+    "G-008464bb5548": [
+      "rule_match_not_intrusion_proof"
+    ]
+  },
+  "interpretation_catalog": {
+    "rule_match_not_intrusion_proof": "A signature match is a starting point for review, not proof of an intrusion.",
+    "uid_fixture_possible": "This rule can match a harmless UID-response fixture. Verify the exact request against the owned test receipt before treating it as expected."
+  }
+}

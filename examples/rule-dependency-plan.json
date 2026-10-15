@@ -1,0 +1,24 @@
+{
+  "source": "ET Open suricata-8.0 archive",
+  "date": "2026-10-05",
+  "archive_sha256": "8bc11cd4795085f09c7306a7e9bfe8584eac5ea53475701685eefd88566c1e9c",
+  "initial_categories": [
+    "emerging-attack_response.rules",
+    "emerging-dns.rules",
+    "emerging-exploit.rules",
+    "emerging-malware.rules",
+    "emerging-phishing.rules"
+  ],
+  "additional_categories": [
+    "emerging-chat.rules",
+    "emerging-hunting.rules",
+    "emerging-info.rules",
+    "emerging-web_client.rules",
+    "emerging-web_specific_apps.rules"
+  ],
+  "positive_flowbit_dependencies": 31,
+  "closure_default_enabled_rules": 37106,
+  "remaining_missing_setters": 0,
+  "status": "Advisory source analysis, not yet applied or engine-validated",
+  "engine_reference": "https://raw.githubusercontent.com/OISF/suricata/suricata-8.0.7/src/detect-flowbits.c"
+}

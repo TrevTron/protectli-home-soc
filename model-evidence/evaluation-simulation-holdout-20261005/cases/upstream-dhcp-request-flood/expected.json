@@ -1,0 +1,18 @@
+{
+  "required_contexts": [],
+  "unknowns_required": [
+    "intent",
+    "complete_visibility"
+  ],
+  "empty_report": true,
+  "review_first_any_groups": [],
+  "upstream_assertions": [
+    {
+      "fields": {
+        "event_type": "dhcp"
+      },
+      "expected": 10000,
+      "actual": 10000
+    }
+  ]
+}

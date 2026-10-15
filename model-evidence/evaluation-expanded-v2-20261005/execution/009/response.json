@@ -1,0 +1,17 @@
+{
+  "model": "gemma4:12b-it-qat",
+  "created_at": "2026-10-06T04:18:11.7364106Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"inferred\": [\n    {\n      \"code\": \"rule_match_not_intrusion_proof\",\n      \"evidence_refs\": [\n        \"E-9eae2685c6410637\",\n        \"E-b2d0ccea912a5c1c\",\n        \"E-1841cd05b6443909\"\n      ],\n      \"group_id\": \"G-562c1a128755\",\n        \"type\": \"inferred\"\n    },\n    {\n      \"code\": \"stun_may_be_normal\",\n      \"evidence_refs\": [\n        \"E-9eae2685c6410637\",\n        \"E-b2d0ccea912a5c1c\",\n        \"E-1841cd05b6443909\"\n      ],\n      \"group_id\": \"G-562c1a128755\",\n      \"type\": \"inferred\"\n    }\n  ],\n  \"next_steps\": [\n    {\n      \"action\": \"inspect_event\",\n      \"group_id\": \"G-562c1a128755\"\n    },\n    {\n      \"action\": \"check_client_process\",\n      \"group_id\": \"G-562c1a128755\"\n    }\n  ],\n  \"observed\": [\n    {\"field\":\"action\",\"group_id\":\"G-562c1a128755\",\"type\":\"observed\",\"value\":\"allowed\"},\n    {\"field\":\"protocol\",\"group_id\":\"G-562c1a128755\",\"type\":\"observed\",\"value\":\"UDP\"},\n    {\"field\":\"count\",\"group_id\":\"G-562c1a128755\",\"type\":\"observed\",\"value\":12}\n  ],\n  \"unknown\": [{\"topic\":\"intent\",\"type\":\"unknown\"},{\"topic\":\"complete_visibility\",\"type\":\"unknown\"}]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 116445758200,
+  "load_duration": 9258914100,
+  "prompt_eval_count": 539,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 20054331000,
+  "eval_count": 503,
+  "eval_duration": 87125031000
+}

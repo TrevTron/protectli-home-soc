@@ -1,0 +1,532 @@
+{
+  "frozen_utc": "2026-10-07T16:33:19.572092+00:00",
+  "phase": "comparison",
+  "schedule": [
+    {
+      "number": 1,
+      "model": "qwen3.5:4b",
+      "case": "real_dense_post_restart",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 2,
+      "model": "qwen3:4b-instruct",
+      "case": "real_stun_decrease",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 3,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_dense_omitted",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 4,
+      "model": "qwen3.5:9b",
+      "case": "edge_dense_omitted",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 5,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_dense_omitted",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 6,
+      "model": "qwen3.5:9b",
+      "case": "real_empty_window",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 7,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_gapped_raw_injection",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 8,
+      "model": "qwen3.5:4b",
+      "case": "real_controlled_block",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 9,
+      "model": "qwen3.5:4b",
+      "case": "real_stun_decrease",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 10,
+      "model": "qwen3.5:9b",
+      "case": "real_controlled_block",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 11,
+      "model": "qwen3.5:9b",
+      "case": "real_stun_decrease",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 12,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_uid_and_tailscale",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 13,
+      "model": "qwen3.5:4b",
+      "case": "edge_increased_unknown",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 14,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_dense_post_restart",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 15,
+      "model": "qwen3.5:9b",
+      "case": "edge_split_uid",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 16,
+      "model": "qwen3.5:9b",
+      "case": "edge_block_uid_stun",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 17,
+      "model": "qwen3.5:4b",
+      "case": "real_uid_and_tailscale",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 18,
+      "model": "qwen3:4b-instruct",
+      "case": "real_uid_and_tailscale",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 19,
+      "model": "qwen3.5:9b",
+      "case": "real_dense_post_restart",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 20,
+      "model": "qwen3:4b-instruct",
+      "case": "real_dense_post_restart",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 21,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_split_uid",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 22,
+      "model": "qwen3.5:9b",
+      "case": "edge_increased_unknown",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 23,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_block_uid_stun",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 24,
+      "model": "qwen3:4b-instruct",
+      "case": "real_controlled_block",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 25,
+      "model": "qwen3.5:9b",
+      "case": "edge_dense_omitted",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 26,
+      "model": "qwen3.5:4b",
+      "case": "edge_gapped_raw_injection",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 27,
+      "model": "qwen3:4b-instruct",
+      "case": "real_small_mixed",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 28,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_controlled_block",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 29,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_dense_post_restart",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 30,
+      "model": "qwen3.5:4b",
+      "case": "edge_gapped_raw_injection",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 31,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_dense_omitted",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 32,
+      "model": "qwen3.5:9b",
+      "case": "edge_gapped_raw_injection",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 33,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_increased_unknown",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 34,
+      "model": "qwen3:4b-instruct",
+      "case": "real_uid_and_tailscale",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 35,
+      "model": "qwen3.5:4b",
+      "case": "real_controlled_block",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 36,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_increased_unknown",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 37,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_block_uid_stun",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 38,
+      "model": "qwen3.5:4b",
+      "case": "edge_empty_gapped",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 39,
+      "model": "qwen3:4b-instruct",
+      "case": "real_stun_decrease",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 40,
+      "model": "qwen3.5:9b",
+      "case": "edge_empty_gapped",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 41,
+      "model": "qwen3.5:4b",
+      "case": "real_uid_and_tailscale",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 42,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_uid_and_tailscale",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 43,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_gapped_raw_injection",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 44,
+      "model": "qwen3.5:4b",
+      "case": "edge_dense_omitted",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 45,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_stun_decrease",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 46,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_dense_omitted",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 47,
+      "model": "qwen3.5:9b",
+      "case": "real_uid_and_tailscale",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 48,
+      "model": "qwen3.5:9b",
+      "case": "real_stun_decrease",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 49,
+      "model": "qwen3.5:9b",
+      "case": "edge_gapped_raw_injection",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 50,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_split_uid",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 51,
+      "model": "qwen3.5:4b",
+      "case": "edge_split_uid",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 52,
+      "model": "qwen3.5:4b",
+      "case": "edge_block_uid_stun",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 53,
+      "model": "qwen3.5:9b",
+      "case": "real_uid_and_tailscale",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 54,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_stun_decrease",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 55,
+      "model": "qwen3.5:4b",
+      "case": "real_empty_window",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 56,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_empty_gapped",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 57,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_controlled_block",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 58,
+      "model": "qwen3.5:9b",
+      "case": "real_small_mixed",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 59,
+      "model": "qwen3.5:4b",
+      "case": "edge_dense_omitted",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 60,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_empty_gapped",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 61,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_small_mixed",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 62,
+      "model": "qwen3.5:9b",
+      "case": "real_controlled_block",
+      "structured": false,
+      "threads": 16
+    },
+    {
+      "number": 63,
+      "model": "qwen3.5:4b",
+      "case": "real_stun_decrease",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 64,
+      "model": "qwen3.5:9b",
+      "case": "real_dense_post_restart",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 65,
+      "model": "qwen3:4b-instruct",
+      "case": "real_empty_window",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 66,
+      "model": "qwen3:4b-instruct",
+      "case": "edge_gapped_raw_injection",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 67,
+      "model": "qwen3.5:4b",
+      "case": "real_small_mixed",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 68,
+      "model": "qwen3.5:4b",
+      "case": "real_dense_post_restart",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 69,
+      "model": "gemma4:12b-it-qat",
+      "case": "edge_gapped_raw_injection",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 70,
+      "model": "qwen3:4b-instruct",
+      "case": "real_dense_post_restart",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 71,
+      "model": "qwen3:4b-instruct",
+      "case": "real_controlled_block",
+      "structured": true,
+      "threads": 16
+    },
+    {
+      "number": 72,
+      "model": "gemma4:12b-it-qat",
+      "case": "real_empty_window",
+      "structured": true,
+      "threads": 16
+    }
+  ],
+  "context": 8192,
+  "answer_cap": 2048,
+  "profile": "common",
+  "thinking": false,
+  "seed": 17,
+  "cold_keepalive": 0,
+  "memory_floor_bytes": 17179869184,
+  "source_briefs": {
+    "edge_block_uid_stun": "4f3a401f8e3c854254ed956d1a8aafb7c8ce04c6fa18a4731939523c11c729a6",
+    "edge_dense_omitted": "761954fc87aa1d3cdcdced179f018a6194b5c30808f5da2976b0051f1097291c",
+    "edge_empty_gapped": "92f95e70ab31685cea4596c540d481bb228e3c4c15c9d561134a970e9a9956e0",
+    "edge_gapped_raw_injection": "dc515ac888b1959760db381a8940ff3fc2bdd446ce22dd2758e8ed90d13c75ef",
+    "edge_increased_unknown": "1eb43d427aaff23bacfd9cf9e3098b4f4a168ca787c849522495eb2f3aab95ff",
+    "edge_split_uid": "544bba26bc530973dca2c16e43f93bb0d325ff88bbe6d3fd891cfcc5c380aae2",
+    "real_controlled_block": "cd88b480f52ca3b03e45a940e5a86b3a16f3075584893e42c27d2976af0d8bab",
+    "real_dense_post_restart": "9ab61c2c0d9f710ae8f7f716eb917848a60747f9e0a1a6b243f8934f4fc9ed83",
+    "real_empty_window": "1ddba00d7b2b8041fc9957e323940afd5ff37f527b393e8c0c36e3ed03b729c5",
+    "real_small_mixed": "9eebe23fef66ffbf0e7904a80b5534ee8fc4fdd369825ac8c0965613241555e2",
+    "real_stun_decrease": "b41b0ea95db745ad5e12373002ced5ebb8a9a47543996f3ae6a76c721d378647",
+    "real_uid_and_tailscale": "e1ee2633c1ce2d80236eba2a106652f7292e40c89b8eae2eea9a9c727074069b"
+  },
+  "boundary": "Exposed-task resource retest, not fresh accuracy. Development varies threads only; full comparison changes the recorded service budget."
+}

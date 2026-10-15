@@ -1,0 +1,17 @@
+{
+  "observations": [
+    "time=2026-10-06T08:45:24.797-07:00 level=INFO source=types.go:32 msg=\"inference compute\" id=0 filter_id=0 library=Vulkan compute=0.0 name=Vulkan0 description=\"AMD Radeon(TM) 8060S Graphics\" libdirs=ollama,vulkan driver=0.0 pci_id=\"\" type=iGPU total=\"47.6 GiB\" available=\"45.3 GiB\"",
+    "cmn  common_param:   - Vulkan0 : AMD Radeon(TM) 8060S Graphics (48790 MiB, 46351 MiB free)",
+    "llama_prepare_model_devices: using device Vulkan0 (AMD Radeon(TM) 8060S Graphics) (unknown id) - 46351 MiB free",
+    "load_tensors: offloaded 33/33 layers to GPU"
+  ],
+  "acceptance_metadata": "private/upgrade-20261006/gpu-acceptance-live/model-metadata.json",
+  "checked_utc": "2026-10-06T16:05:03.2311276Z",
+  "limits": "First 4B acceptance backend proof. Later requests retain individual PS observations; no speed comparison claim.",
+  "snapshot_sha256": "f8e304f17adf573cfd585b3619237d8df47e4fdc240dee69595a72d0e3c56d5b",
+  "pid": 29020,
+  "creation_utc": "2026-10-06T15:45:20.6246500Z",
+  "runtime_stderr": "C:\\REDACTED_PROJECT\\private\\upgrade-20261006\\gpu-runtime\\server-20261006T1545205715225Z.stderr.log",
+  "endpoint": "http://127.0.0.1:11436",
+  "snapshot": "C:\\REDACTED_PROJECT\\private\\upgrade-20261006\\gpu-runtime-before-evaluation.stderr.log"
+}

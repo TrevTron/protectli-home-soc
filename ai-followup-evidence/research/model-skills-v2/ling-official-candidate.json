@@ -1,0 +1,21 @@
+{
+  "id": "inclusionAI/Ling-3.0-tiny-GGUF",
+  "sha": "01b850e29ed5b44e2b810160ff980a9bb353296f",
+  "siblings": [
+    {
+      "rfilename": "Ling-3.0-tiny-Q4_K_M.gguf",
+      "blobId": "612f293f3b09422bbfb6e35bea390eab3ea0768d",
+      "size": 4823894944,
+      "lfs": {
+        "sha256": "246d67d45f5b0c7447ca0ce0bdb8b46b8a47b593c5068635dc16422c051d7be9",
+        "size": 4823894944,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "24707cdb1770bd9449acd6ce6750774999e0c9c9",
+      "size": 962
+    }
+  ]
+}

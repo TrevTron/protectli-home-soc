@@ -1,0 +1,28 @@
+{
+  "request_sha256": "dfdd8c54bd8f8033af21fb0ca0ae1dfff6e96483c785eae4732168c2f7e24e7d",
+  "system_prompt_sha256": "149c7feb50615d9a58190776044e7dc58c9c8fc4afdf2a703c567545f89df1e6",
+  "schema_sha256": null,
+  "model": "gemma4:12b-it-qat",
+  "endpoint": "http://127.0.0.1:11435",
+  "elapsed_s": 227.15599999999904,
+  "structured": false,
+  "evaluation": true,
+  "thinking_requested": false,
+  "thinking_characters": 0,
+  "content_characters": 2113,
+  "options": {
+    "temperature": 0,
+    "seed": 17,
+    "num_predict": 700,
+    "num_ctx": 4096,
+    "num_thread": 2,
+    "num_gpu": 0
+  },
+  "preflight_available_bytes": 39097217024,
+  "done": true,
+  "done_reason": "stop",
+  "eval_count": 658,
+  "prompt_eval_count": 2547,
+  "eval_duration_ns": 120167719000,
+  "total_duration_ns": 227152890900
+}

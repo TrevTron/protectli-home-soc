@@ -1,0 +1,1 @@
+{"client_outcome":"unknown","complete_delivery_proven":false,"groups":[{"action":"allowed","count":1,"evidence_refs":["E-bfc2ae28d331246f"],"id":"G-20b61a37d3e5","sid":1}],"intrusion_status":"unestablished","required_context_codes":["rule_match_not_intrusion_proof"],"required_decisions":["alert_match_requires_context"],"required_next_steps":["inspect_event"]}

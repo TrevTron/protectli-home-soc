@@ -1,0 +1,17 @@
+{
+  "model": "qwen3.5:4b",
+  "created_at": "2026-10-06T10:24:34.0243542Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"inferred\": [\n    {\n      \"code\": \"rule_match_not_intrusion_proof\",\n      \"evidence_refs\": [\n        \"E-2f5ee7c296f57baf\",\n        \"E-2f5ee7c296f57baf\"\n      ],\n      \"group_id\": \"G-b5089c0d3d3d\",\"type\":\"inferred\"\n    },\n    {\n      \"code\": \"stun_may_be_normal\",\n      \"evidence_refs\": [\n        \"E-b32f40faa1ff6c57\",\n        \"E-ba1d8eb2af2730ce\",\n        \"E-3c44b8fc3551c01f\"\n      ],\n      \"group_id\": \"G-32de6c3018a3\",\n      \"type\":\"inferred\"\n    },\n    {\n      \"code\": \"uid_fixture_possible\",\n      \"evidence_refs\": [\n        \"E-2f5ee7c296f57baf\"\n      ],\n      \"group_id\": \"G-b5089c0d3d3d\",\n      \"type\":\"inferred\"\n    }\n  ],\n  \"next_steps\": [\n    {\n      \"action\": \"compare_baseline\",\n      \"group_id\": \"G-b5089c0d3d3d\"\n    },\n    {\n      \"action\": \"check_visibility\",\n      \"group_id\": \"G-32de6c3018a3\"\n    },\n    {\n      \"action\": \"check_visibility\",\n      \"group_id\": \"G-b5089c0d3d3d\"\n    }\n  ],\n  \"observed\": [\n    {\"field\":\"action\",\"group_id\":\"G-b5089c0d3d3d\",\"type\":\"observed\",\"value\":\"allowed\"},\n    {\"field\":\"action\",\"group_id\":\"G-32de6c3018a3\",\"type\":\"observed\",\"value\":\"allowed\"},\n    {\"field\":\"action\",\"group_id\":\"G-52be711c5d5f\",\"type\":\"observed\",\"value\":\"allowed\"}\n  ],\n  \"unknown\": [{\"topic\":\"intent\",\"type\":\"unknown\"},{\"topic\":\"complete_visibility\",\"type\":\"unknown\"}]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 79982114600,
+  "load_duration": 4417614100,
+  "prompt_eval_count": 2928,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 32064109000,
+  "eval_count": 563,
+  "eval_duration": 43484945000
+}

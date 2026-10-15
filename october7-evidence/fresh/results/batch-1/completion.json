@@ -1,0 +1,1 @@
+{"actual_requests":56,"all_scheduled_outcomes_retained":true,"completed_by_role":{"analyst":8,"investigator":24,"reviewer":24},"completed_utc":"2026-10-07T17:50:51.942786+00:00","halt_reason":null,"human_usability_evidence":false,"model_opinions_override_oracle":false,"pack_seal_unchanged":true,"scheduled":{"analyst":8,"investigator":24,"reviewer":24}}

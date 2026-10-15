@@ -1,0 +1,342 @@
+{
+  "window_minutes": 15,
+  "visibility": {
+    "complete_delivery_proven": false,
+    "comparison_complete": true,
+    "omitted_groups": 7
+  },
+  "groups": [
+    {
+      "id": "G-c805677216a2",
+      "sid": 930500,
+      "action": "blocked",
+      "severity": 1,
+      "protocol": "UDP",
+      "source_alias": "endpoint-53e4cb969e",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-01ed2b25d893d1b6"
+      ],
+      "priority_floor": "review_first",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-b453bdf70849",
+      "sid": 2100498,
+      "action": "allowed",
+      "severity": 2,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-b77c1ca8936906af"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-18e1d0d0793a",
+      "sid": 930607,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-6935fffdd7",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-d98d2337471aecd3"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-23b93ac08120",
+      "sid": 930619,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-63b9121214",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-f8441df32be92b4f"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-26b34b2965ec",
+      "sid": 930610,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-8f6c3df54c",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-9fafe7393a4292fc"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-2b2e6f244107",
+      "sid": 930615,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-84ddfefb91",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-28fb9f588ed75db9"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-2cdc2181d8f2",
+      "sid": 930605,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-100594260c",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-d377692c51f778b0"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-328b1f86acbc",
+      "sid": 930618,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-5fffe0de74",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-c10ec5ceaa5426d3"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-36ad49fe931f",
+      "sid": 930616,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-b740aac971",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-74cc73be94a28f5e"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-62142baa8794",
+      "sid": 930609,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-ebade2a5f1",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-1e976de5b3a651b3"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-6ac6d45a59b3",
+      "sid": 930600,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-bd9599ceec",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-022941a87953e633"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-714028bebddf",
+      "sid": 930613,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-4f8e94f659",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-4da4d1dd98813957"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-7a19d4c7fc86",
+      "sid": 930617,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-7dd8036345",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-63961e9e351476bc"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-851decf12c9f",
+      "sid": 2071648,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-50bc6cf87fe2677c"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-a33265a1c459",
+      "sid": 930603,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-6cce6d4b31",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-4692130ebbf210ad"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    },
+    {
+      "id": "G-aca558c16ec7",
+      "sid": 930614,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "owned-client",
+      "destination_alias": "endpoint-5560bb6be5",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-1bcfa00532621f0a"
+      ],
+      "priority_floor": "review",
+      "change": "new_in_observed_windows"
+    }
+  ],
+  "eligible_inferences": {
+    "G-c805677216a2": [
+      "rule_match_not_intrusion_proof",
+      "sensor_reported_block",
+      "change_needs_context"
+    ],
+    "G-b453bdf70849": [
+      "rule_match_not_intrusion_proof",
+      "uid_fixture_possible",
+      "change_needs_context"
+    ],
+    "G-18e1d0d0793a": [
+      "rule_match_not_intrusion_proof",
+      "change_needs_context"
+    ],
+    "G-23b93ac08120": [
+      "rule_match_not_intrusion_proof",
+      "change_needs_context"
+    ],
+    "G-26b34b2965ec": [
+      "rule_match_not_intrusion_proof",
+      "change_needs_context"
+    ],
+    "G-2b2e6f244107": [
+      "rule_match_not_intrusion_proof",
+      "change_needs_context"
+    ],
+    "G-2cdc2181d8f2": [
+      "rule_match_not_intrusion_proof",
+      "change_needs_context"
+    ],
+    "G-328b1f86acbc": [
+      "rule_match_not_intrusion_proof",
+      "change_needs_context"
+    ],
+    "G-36ad49fe931f": [
+      "rule_match_not_intrusion_proof",
+      "change_needs_context"
+    ],
+    "G-62142baa8794": [
+      "rule_match_not_intrusion_proof",
+      "change_needs_context"
+    ],
+    "G-6ac6d45a59b3": [
+      "rule_match_not_intrusion_proof",
+      "change_needs_context"
+    ],
+    "G-714028bebddf": [
+      "rule_match_not_intrusion_proof",
+      "change_needs_context"
+    ],
+    "G-7a19d4c7fc86": [
+      "rule_match_not_intrusion_proof",
+      "change_needs_context"
+    ],
+    "G-851decf12c9f": [
+      "rule_match_not_intrusion_proof",
+      "tailscale_control_possible",
+      "change_needs_context"
+    ],
+    "G-a33265a1c459": [
+      "rule_match_not_intrusion_proof",
+      "change_needs_context"
+    ],
+    "G-aca558c16ec7": [
+      "rule_match_not_intrusion_proof",
+      "change_needs_context"
+    ]
+  },
+  "interpretation_catalog": {
+    "change_needs_context": "This group appeared or increased in the observed comparison windows. Confirm application activity and collection coverage before interpreting the change.",
+    "rule_match_not_intrusion_proof": "A signature match is a starting point for review, not proof of an intrusion.",
+    "sensor_reported_block": "Suricata reported a blocked event. Confirm the associated client outcome; this does not prove every related request failed.",
+    "tailscale_control_possible": "The inspected rule matches a Tailscale control-plane TLS server name. An owned Tailscale client may explain it; a server-name match does not establish process identity or intent.",
+    "uid_fixture_possible": "This rule can match a harmless UID-response fixture. Verify the exact request against the owned test receipt before treating it as expected."
+  }
+}

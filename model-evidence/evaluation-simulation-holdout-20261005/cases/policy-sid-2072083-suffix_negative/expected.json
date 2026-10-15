@@ -1,0 +1,10 @@
+{
+  "required_contexts": [],
+  "unknowns_required": [
+    "intent",
+    "complete_visibility"
+  ],
+  "empty_report": true,
+  "review_first_any_groups": [],
+  "authored_simulation_not_real_intrusion": true
+}

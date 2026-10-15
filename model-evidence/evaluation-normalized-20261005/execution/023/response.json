@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b-instruct",
+  "created_at": "2026-10-06T10:28:45.4999442Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"inferred\": [],\n  \"next_steps\": [\n    \t],\n  \"observed\": [],\n  \"unknown\": [{\"topic\":\"intent\",\"type\":\"unknown\"},{\"topic\":\"complete_visibility\",\"type\":\"unknown\"}]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 7946418800,
+  "load_duration": 2079880700,
+  "prompt_eval_count": 286,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 2595913000,
+  "eval_count": 50,
+  "eval_duration": 3253079000
+}

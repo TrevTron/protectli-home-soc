@@ -1,0 +1,17 @@
+{
+  "model": "gemma4:12b-it-qat",
+  "case": "cold_start_unknown",
+  "started_utc": "2026-10-05T23:00:24.362606+00:00",
+  "done": true,
+  "done_reason": "stop",
+  "elapsed_s": 84.875,
+  "eval_count": 402,
+  "prompt_eval_count": 411,
+  "thinking_characters": 0,
+  "mechanical_grounding": "passed",
+  "expected_useful_codes_present": true,
+  "actual_inference_codes": [
+    "rule_match_not_intrusion_proof"
+  ],
+  "frozen_inputs_unchanged": true
+}

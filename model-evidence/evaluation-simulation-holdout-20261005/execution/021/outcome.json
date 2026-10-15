@@ -1,0 +1,33 @@
+{
+  "number": 21,
+  "phase": "simulation_holdout",
+  "case": "policy-http_uid_nat_control",
+  "model": "qwen3.5:4b",
+  "repeat": 1,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T08:42:29.084795+00:00",
+  "brief_sha256": "a6921b33cbceec1d5c7ee73e43ffb14004b67cf1eb8042a3f6683b5957d0d604",
+  "elapsed_s": 29.014999999999418,
+  "eval_count": 262,
+  "prompt_eval_count": 694,
+  "done_reason": "stop",
+  "thinking_characters": 0,
+  "content_sha256": "332b7242fb066e681515c40d1560cc096c6b6a41333873c52d91a9ba021e300c",
+  "mechanical_grounding": "passed",
+  "quality": {
+    "matched_contexts": [
+      "rule_match_not_intrusion_proof"
+    ],
+    "required_contexts": [
+      "rule_match_not_intrusion_proof",
+      "uid_fixture_possible"
+    ],
+    "complete": false,
+    "problems": [
+      "Missing required contexts"
+    ]
+  },
+  "status": "delivered",
+  "completed_utc": "2026-10-06T08:42:58.107461+00:00"
+}

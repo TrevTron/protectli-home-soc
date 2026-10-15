@@ -1,0 +1,95 @@
+{
+  "prepared_utc": "2026-10-06T11:04:47.813667+00:00",
+  "selected_model": "qwen3.5:4b",
+  "generation_profile": "common",
+  "installed_digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+  "options": {
+    "temperature": 0,
+    "seed": 17,
+    "num_predict": 700,
+    "num_ctx": 4096,
+    "num_thread": 2,
+    "num_gpu": 0,
+    "top_k": 20,
+    "top_p": 1,
+    "min_p": 0,
+    "repeat_penalty": 1,
+    "presence_penalty": 0,
+    "frequency_penalty": 0
+  },
+  "scheduled_deadline_seconds": 120,
+  "study_counts": [
+    200,
+    168,
+    48
+  ],
+  "normalized_display_counts": {
+    "gemma4:12b-it-qat": {
+      "attempts": 12,
+      "nonempty_attempts": 10,
+      "required_context_opportunities": 21,
+      "delivered": 4,
+      "nonempty_delivered": 2,
+      "nonempty_all_required_contexts_displayed": 2,
+      "nonempty_strict_utility_complete": 2,
+      "displayed_required_contexts": 2,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 0,
+      "raw_and_displayed_repeated_next_step_pairs": 0
+    },
+    "qwen3.5:4b": {
+      "attempts": 12,
+      "nonempty_attempts": 10,
+      "required_context_opportunities": 21,
+      "delivered": 12,
+      "nonempty_delivered": 10,
+      "nonempty_all_required_contexts_displayed": 7,
+      "nonempty_strict_utility_complete": 4,
+      "displayed_required_contexts": 18,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 16,
+      "raw_and_displayed_repeated_next_step_pairs": 1
+    },
+    "qwen3.5:9b": {
+      "attempts": 12,
+      "nonempty_attempts": 10,
+      "required_context_opportunities": 21,
+      "delivered": 9,
+      "nonempty_delivered": 7,
+      "nonempty_all_required_contexts_displayed": 5,
+      "nonempty_strict_utility_complete": 2,
+      "displayed_required_contexts": 9,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 11,
+      "raw_and_displayed_repeated_next_step_pairs": 2
+    },
+    "qwen3:4b-instruct": {
+      "attempts": 12,
+      "nonempty_attempts": 10,
+      "required_context_opportunities": 21,
+      "delivered": 10,
+      "nonempty_delivered": 8,
+      "nonempty_all_required_contexts_displayed": 2,
+      "nonempty_strict_utility_complete": 0,
+      "displayed_required_contexts": 12,
+      "raw_repeated_inferences": 0,
+      "raw_repeated_citations_within_inference": 11,
+      "raw_and_displayed_repeated_next_step_pairs": 0
+    }
+  },
+  "fresh_report": {
+    "groups": 16,
+    "eval_count": 631,
+    "elapsed_s": 86.625,
+    "done_reason": "stop"
+  },
+  "rationale": "Timely delivery across all final tasks and more complete specific context in the common profile; deterministic evidence remains primary.",
+  "limits": [
+    "Exploratory common-profile follow-up changes several controls together",
+    "No independent human grading or investigation-time study",
+    "Native results and materially defective prose retained",
+    "Incomplete context and repeated follow-up remain",
+    "48-hour operation not accepted",
+    "No external release"
+  ]
+}

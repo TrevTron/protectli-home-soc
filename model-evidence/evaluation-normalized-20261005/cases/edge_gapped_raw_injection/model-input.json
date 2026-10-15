@@ -1,0 +1,76 @@
+{
+  "window_minutes": 15,
+  "visibility": {
+    "complete_delivery_proven": false,
+    "comparison_complete": false,
+    "omitted_groups": 0
+  },
+  "groups": [
+    {
+      "id": "G-328ad74c3ca0",
+      "sid": 2071648,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "endpoint-53e4cb969e",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-1f2428ada8109510"
+      ],
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-65aec4e41f2d",
+      "sid": 930099,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "endpoint-53e4cb969e",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-45d9ec47327eeca9"
+      ],
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    },
+    {
+      "id": "G-9d33b16a3003",
+      "sid": 2016149,
+      "action": "allowed",
+      "severity": 3,
+      "protocol": "UDP",
+      "source_alias": "endpoint-53e4cb969e",
+      "destination_alias": "owned-client",
+      "count": 1,
+      "prior_count": 0,
+      "evidence_refs": [
+        "E-b18ec2833f4d9d95"
+      ],
+      "priority_floor": "review",
+      "change": "comparison_unknown"
+    }
+  ],
+  "eligible_inferences": {
+    "G-328ad74c3ca0": [
+      "rule_match_not_intrusion_proof",
+      "tailscale_control_possible"
+    ],
+    "G-65aec4e41f2d": [
+      "rule_match_not_intrusion_proof"
+    ],
+    "G-9d33b16a3003": [
+      "rule_match_not_intrusion_proof",
+      "stun_may_be_normal"
+    ]
+  },
+  "interpretation_catalog": {
+    "rule_match_not_intrusion_proof": "A signature match is a starting point for review, not proof of an intrusion.",
+    "stun_may_be_normal": "STUN is used for NAT traversal. Conferencing, games or other applications may explain it; process identity and intent are not established.",
+    "tailscale_control_possible": "The inspected rule matches a Tailscale control-plane TLS server name. An owned Tailscale client may explain it; a server-name match does not establish process identity or intent."
+  }
+}

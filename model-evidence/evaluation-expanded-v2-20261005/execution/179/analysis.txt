@@ -1,0 +1,38 @@
+**First-Pass Report**
+
+**Observed Facts**  
+- Group ID: G-562c1a128755  
+- Action: Allowed  
+- Change: Decreased (from 16 to 12 events)  
+- Protocol: UDP  
+- Severity: 3  
+- Source: owned-client  
+- Destination: endpoint-71d6921e6c  
+- Evidence references: E-9eae2685c6410637, E-b2d0ccea912a5c1c, E-1841cd05b6443909  
+- Rule ID: sid 2033078  
+- Window: 15 minutes  
+- Priority floor: review  
+
+**Possible Explanations**  
+- The rule match (sid 2033078) is for UDP traffic, which may relate to STUN (Session Traversal Utilities for NAT).  
+- STUN is commonly used for NAT traversal in applications such as video conferencing or online gaming.  
+- The traffic is from an owned client, suggesting legitimate user activity.  
+- The decrease in count from 16 to 12 may reflect normal traffic variation or filtering, not necessarily a change in behavior.  
+
+**Unknowns**  
+- Process identity and intent behind the UDP traffic are not established.  
+- The full context of the destination endpoint (endpoint-71d6921e6c) is not available.  
+- No payload evidence or client-side activity is provided.  
+- The complete delivery of all traffic is not proven (visibility: complete_delivery_proven: false).  
+- The nature of the rule (sid 2033078) and its intended scope are not fully defined.  
+
+**Read-Only Next Review Steps**  
+- Review evidence refs (E-9eae2685c6410637, E-b2d0ccea912a5c1c, E-1841cd05b6443909) for additional context.  
+- Confirm whether the destination endpoint (endpoint-71d6921e6c) is part of a known legitimate service or application.  
+- Evaluate if the UDP traffic aligns with known STUN usage patterns in the environment.  
+- Assess whether the rule match (sid 2033078) is part of a broader policy or is being triggered due to configuration drift.  
+
+**Note**  
+A signature match is not proof of intrusion. The "stun_may_be_normal" inference indicates that STUN usage may be legitimate and does not imply malicious intent. However, without process-level or user-level context, intent remains unknown. The allowed action and decreased count do not confirm safety or absence of risk.  
+
+*No firewall changes are recommended. This event requires human review for context and intent.*

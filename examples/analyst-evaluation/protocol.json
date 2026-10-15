@@ -1,0 +1,24 @@
+{
+  "frozen_utc": "2026-10-05T22:48:41.768670+00:00",
+  "models": [
+    "qwen3:4b-instruct",
+    "qwen3.5:4b",
+    "qwen3.5:9b",
+    "gemma4:12b-it-qat"
+  ],
+  "purpose": "Same saved alert cases, supplied facts, system prompt, group-bound schema and explicit request settings. These are known regressions, not independent model-accuracy estimates.",
+  "timeout_seconds": 120,
+  "repetitions": 1,
+  "think": false,
+  "defaults_and_templates": "Native model chat templates, tokenizers and model default parameters differ. Retain api/show metadata. Request elapsed time includes cold loading and natural unequal generation lengths; no pure size or throughput winner claim.",
+  "options": {
+    "temperature": 0,
+    "seed": 17,
+    "num_predict": 700,
+    "num_ctx": 4096,
+    "num_thread": 2,
+    "num_gpu": 0
+  },
+  "system_prompt_sha256": "12a7a15fafaebdad0288b2ccd09b83b315c6edaf926c1db95048b90125d4de6b",
+  "production_default_unchanged": "qwen3:4b-instruct"
+}

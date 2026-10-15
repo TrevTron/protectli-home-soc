@@ -1,0 +1,15 @@
+{
+  "number": 121,
+  "phase": "production_contract",
+  "case": "real_dense_post_restart",
+  "model": "qwen3.5:9b",
+  "repeat": 3,
+  "structured": true,
+  "deadline_seconds": 120,
+  "started_utc": "2026-10-06T06:26:28.532964+00:00",
+  "brief_sha256": "eea9d3dc8a8eda557cef46798e6ee06b92a34432ae1e50cfbb00741310f87a38",
+  "status": "withheld",
+  "reason": "timed out",
+  "elapsed_s": 120.01599999999962,
+  "completed_utc": "2026-10-06T06:28:28.557109+00:00"
+}

@@ -1,0 +1,121 @@
+[
+  {
+    "utc": "2026-10-07T17:10:33.578989+00:00",
+    "ps": {
+      "models": []
+    },
+    "spare_memory_bytes": 33496203264
+  },
+  {
+    "utc": "2026-10-07T17:10:35.595861+00:00",
+    "ps": {
+      "models": []
+    },
+    "spare_memory_bytes": 32387063808
+  },
+  {
+    "utc": "2026-10-07T17:10:37.604793+00:00",
+    "ps": {
+      "models": []
+    },
+    "spare_memory_bytes": 30545973248
+  },
+  {
+    "utc": "2026-10-07T17:10:39.612110+00:00",
+    "ps": {
+      "models": []
+    },
+    "spare_memory_bytes": 28562714624
+  },
+  {
+    "utc": "2026-10-07T17:10:41.624570+00:00",
+    "ps": {
+      "models": []
+    },
+    "spare_memory_bytes": 27124625408
+  },
+  {
+    "utc": "2026-10-07T17:10:43.635337+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3.5:9b",
+          "model": "qwen3.5:9b",
+          "size": 6418564381,
+          "digest": "56671c2ab9385f9cfcb404638e32cd62d88e3501d44822208363c010179a3c90",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "9.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:10:43.6336571-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 26764627968
+  },
+  {
+    "utc": "2026-10-07T17:10:45.661702+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3.5:9b",
+          "model": "qwen3.5:9b",
+          "size": 6418564381,
+          "digest": "56671c2ab9385f9cfcb404638e32cd62d88e3501d44822208363c010179a3c90",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "9.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:10:45.6606755-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 26656034816
+  },
+  {
+    "utc": "2026-10-07T17:10:47.689351+00:00",
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3.5:9b",
+          "model": "qwen3.5:9b",
+          "size": 6418564381,
+          "digest": "56671c2ab9385f9cfcb404638e32cd62d88e3501d44822208363c010179a3c90",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "9.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-07T10:10:47.6876583-07:00",
+          "size_vram": 0,
+          "context_length": 8192,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "spare_memory_bytes": 26617942016
+  }
+]

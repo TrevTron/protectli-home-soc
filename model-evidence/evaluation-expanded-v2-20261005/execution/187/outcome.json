@@ -1,0 +1,20 @@
+{
+  "number": 187,
+  "phase": "written_analysis",
+  "case": "real_controlled_block",
+  "model": "qwen3.5:4b",
+  "repeat": 2,
+  "structured": false,
+  "deadline_seconds": 300,
+  "started_utc": "2026-10-06T08:00:30.858225+00:00",
+  "brief_sha256": "d41602518d3dae0cd0f5e9a8f5175155c6a406a6447dcdbce9ec91528cfd12fb",
+  "elapsed_s": 80.625,
+  "eval_count": 700,
+  "prompt_eval_count": 2401,
+  "done_reason": "length",
+  "thinking_characters": 0,
+  "content_sha256": "f4d0eb5bf5f2a5878c9604c1f997e6cf3557838075d5d47030cdea3980d7adf2",
+  "status": "withheld",
+  "reason": "Incomplete/capped output or unexpected thinking channel",
+  "completed_utc": "2026-10-06T08:01:51.491487+00:00"
+}
