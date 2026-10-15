@@ -25,6 +25,20 @@ def line(value):
 
 
 class IndexTests(unittest.TestCase):
+    def test_sql_metacharacters_remain_bound_values_and_preserve_source(self):
+        value=event()
+        attack="x'); DROP TABLE records; --"
+        value['eve']['alert']['signature']=attack
+        raw=line(value)
+        self.source.write_bytes(raw)
+        index.sync(self.database,self.source)
+        self.assertEqual(index.groups(self.database,now=NOW,client=attack)['total_groups'],0)
+        self.assertEqual(index.members(self.database,attack,now=NOW)['records'],[])
+        self.assertEqual(index.status(self.database)['records'],1)
+        self.assertEqual(index.groups(self.database,now=NOW)['groups'][0]['signature'],attack)
+        self.assertEqual(index.original(self.database,0),raw.decode())
+        self.assertEqual(self.source.read_bytes(),raw)
+
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)

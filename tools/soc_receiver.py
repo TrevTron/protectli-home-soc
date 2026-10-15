@@ -5,6 +5,7 @@ import argparse
 import collections
 import datetime as dt
 import http.server
+import ipaddress
 import json
 import pathlib
 import re
@@ -172,10 +173,24 @@ function render(){const search=$('search').value.toLowerCase(),sev=$('severity')
 async function refresh(){try{const r=await fetch('/api/events',{cache:'no-store'});if(!r.ok)throw Error(r.status);data=await r.json();render()}catch(e){$('state').textContent='Disconnected'}}$('search').oninput=render;$('severity').onchange=render;$('view').onchange=render;refresh();setInterval(refresh,3000);</script></html>'''
 
 
+def receiver_bind_address(value):
+    """Require a literal unicast IPv4 address before storage or sockets open."""
+    try:
+        if not isinstance(value, str):
+            raise ValueError('IPv4 literal required')
+        address = ipaddress.IPv4Address(value)
+    except ValueError as error:
+        raise ValueError('Use a specific owned unicast IPv4 address') from error
+    if address.is_unspecified or address.is_multicast or int(address) == 2**32 - 1:
+        raise ValueError('Use a specific owned unicast IPv4 address')
+    return str(address)
+
+
 def run(args):
+    bind = receiver_bind_address(args.bind)
     store = Store(pathlib.Path(args.output), args.max_mib * 1024 * 1024, min(args.segment_mib,args.max_mib)*1024*1024)
     udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    udp.bind((args.bind, args.port))
+    udp.bind((bind, args.port))
     udp.settimeout(1)
     stopping = threading.Event()
 
@@ -229,7 +244,7 @@ def run(args):
     dashboard = http.server.ThreadingHTTPServer(("127.0.0.1", args.dashboard_port), Handler)
     worker = threading.Thread(target=receive, daemon=True)
     worker.start()
-    print(f"Syslog UDP {args.bind}:{args.port}; allowed sources={args.allow_source}", flush=True)
+    print(f"Syslog UDP {bind}:{args.port}; allowed sources={args.allow_source}", flush=True)
     print(f"Dashboard http://127.0.0.1:{args.dashboard_port}/; evidence={store.path}", flush=True)
     try:
         dashboard.serve_forever(poll_interval=0.5)
@@ -242,7 +257,7 @@ def run(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--bind", required=True, help="Owned LAN adapter IPv4; never 0.0.0.0")
+    parser.add_argument("--bind", required=True, type=receiver_bind_address, help="Specific owned LAN adapter IPv4")
     parser.add_argument("--allow-source", required=True, action="append", help="Vault LAN IPv4")
     parser.add_argument("--port", type=int, default=5514)
     parser.add_argument("--dashboard-port", type=int, default=8765)
@@ -250,6 +265,6 @@ if __name__ == "__main__":
     parser.add_argument("--max-mib", type=int, default=1024)
     parser.add_argument("--segment-mib", type=int, default=32)
     options = parser.parse_args()
-    if options.bind == "0.0.0.0" or not 1 <= options.max_mib <= 1024 or not 1 <= options.segment_mib <= options.max_mib:
+    if not 1 <= options.max_mib <= 1024 or not 1 <= options.segment_mib <= options.max_mib:
         parser.error("Use a specific owned interface and storage bounds: 1-1024 MiB total, segment no larger than total")
     run(options)

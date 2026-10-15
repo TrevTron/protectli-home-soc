@@ -1,3 +1,11 @@
+# Additional private-repository security review, October 14, 2026
+
+Read [the additional security review](docs/SECURITY_REVIEW_2026-10-14.md). The private repository now rejects empty/noncanonical/wildcard receiver bind values before storage or sockets, including direct callers, and pins CI actions to verified full upstream commits. Three added regressions bring the local suite to 270 passing tests. The full final-commit hosted result remains a separate check.
+
+Independent Bandit, Semgrep, TruffleHog and detect-secrets scans and synthetic detector controls are recorded with their findings and limits. No unresolved real credential was identified in the reviewed match set. Legacy research caveats and the trusted `sysctl` search path remain documented. This does not certify the project as vulnerability-free.
+
+The running collector and canonical private operating tools were not modified or restarted. Its current UDP listener was checked and was not a wildcard. Deploying the updated receiver requires a coordinated owner/recovery update, so do not blindly copy the repository file into that running installation. Historical experiments and sealed V13 remain unchanged. The repository stays private, and the second analyst article and later raw export remain unfinished.
+
 # Private GitHub review repository, October 14, 2026
 
 This repository is now staged privately at https://github.com/TrevTron/protectli-home-soc. Public release remains pending. It starts from the sealed V13 review package, with only repository-status wording and its manifest updated for this private upload. Original experiment exports, operating code, failures and license terms are unchanged.

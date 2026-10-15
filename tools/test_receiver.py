@@ -1,5 +1,6 @@
 """Bounded local tests. These do not claim receipt from the Vault."""
 import json
+import argparse
 import pathlib
 import socket
 import subprocess
@@ -10,7 +11,7 @@ import unittest
 from unittest import mock
 import urllib.request
 
-from soc_receiver import Store, event_from_datagram
+from soc_receiver import Store, event_from_datagram, run
 
 
 def unused_port(kind):
@@ -20,6 +21,28 @@ def unused_port(kind):
 
 
 class ReceiverTests(unittest.TestCase):
+    def test_invalid_bind_refused_before_storage_or_socket(self):
+        for address in ('', '0', '0x0', '0.0.0.0', 'localhost', '::', '224.0.0.1', '255.255.255.255'):
+            with self.subTest(address=address):
+                args = argparse.Namespace(bind=address, output='unused.jsonl', max_mib=64, segment_mib=32, port=5514)
+                with mock.patch('soc_receiver.Store') as store, mock.patch('soc_receiver.socket.socket') as socket_factory:
+                    with self.assertRaisesRegex(ValueError, 'specific owned unicast IPv4'):
+                        run(args)
+                    store.assert_not_called()
+                    socket_factory.assert_not_called()
+
+    def test_cli_rejects_non_literal_and_wildcard_bind_without_evidence_file(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = pathlib.Path(directory) / 'must-not-exist.jsonl'
+            for address in ('', '0', '0x0', '0.0.0.0', 'localhost', '::'):
+                with self.subTest(address=address):
+                    result = subprocess.run([sys.executable, str(pathlib.Path(__file__).with_name('soc_receiver.py')),
+                                             '--bind', address, '--allow-source', '192.0.2.1', '--output', str(output)],
+                                            capture_output=True, text=True, timeout=5)
+                    self.assertEqual(result.returncode, 2)
+                    self.assertIn('invalid receiver_bind_address value', result.stderr)
+                    self.assertFalse(output.exists())
+
     def test_capacity_forecast_waits_for_samples_and_warns_before_full(self):
         with tempfile.TemporaryDirectory() as directory:
             store=Store(pathlib.Path(directory)/'forecast.jsonl',10000)
