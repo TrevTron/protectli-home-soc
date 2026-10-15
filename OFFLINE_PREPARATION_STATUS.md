@@ -1,3 +1,5 @@
+Current private GitHub status: read [repository review status](DRAFT_STATUS.md). Public release is pending; the preparation entries below remain historical.
+
 Current October 14 recovery candidate: V13. Read [current status](DRAFT_STATUS.md) and [recovery repair](docs/RECOVERY_OWNER_REPAIR_2026-10-14.md). Earlier status entries below are historical.
 
 Current October 14 privacy-only candidate: V12. See [current status](DRAFT_STATUS.md) and [privacy review](docs/PRIVACY_REVIEW_2026-10-14.md). The dated preparation and prior V11 status below are historical.

@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "candidate": "V13",
+  "candidate": "V13-private-github",
   "created_utc": "2026-10-15T01:00:09.267279+00:00",
-  "status": "local_review_not_published",
+  "status": "private_github_review_not_public",
   "tool_files": 83,
   "software_tests": 267,
   "article": "First article prepared for partner review; second analyst article remains in development",
@@ -1775,7 +1775,7 @@
     "docs/SQLITE_GPU_AND_DEPLOYMENT_2026-10-06.md": "fa44234b88f82d7477e3693875a2aaf347125738f686687763771397e3854492",
     "docs/STARTUP_AND_RESTART.md": "ba01c2710b4bb0f0697a455f13cab09577bb77232ce9915fbe0f458758dceafc",
     "docs/TEST_PROTOCOL.md": "c842c787d4a9dd2452192c68e080063b0dbf9c206634c7bef7b69d6fa8594744",
-    "DRAFT_STATUS.md": "a1186c34dd701863387aaa9308e6168f4a85db4f7f16b174194885f16ab9f34f",
+    "DRAFT_STATUS.md": "35dc11f8769809aafefd08a4eeeb06684ecef82b4969ff26e0f1a781589ac5f6",
     "examples/analyst-evaluation/cold_start_unknown/brief.json": "67ae8e763f8eab75df8cf12f874db2e608ede5c91116a1caba82dc17ac2b7893",
     "examples/analyst-evaluation/cold_start_unknown/expected.json": "ca819cb540424fd06967ac5672044a997e426132d287b1017332599d3099defb",
     "examples/analyst-evaluation/cold_start_unknown/gemma4-12b-it-qat/metadata.json": "0bd524d7742f17c3ef207357a5cf2ae19ff16c14835788fc00a84d6cbad010a3",
@@ -7377,8 +7377,8 @@
     "october7-evidence/fresh/results/batch-3/schedule.json": "2d6fea59878f1063a7990d3470629c4d3d4c033e80c3b6a12adf4f0543aa2416",
     "october7-evidence/fresh/results/batch-3/v2-assessment.json": "3a4831c528fcf7c737785614ee690730c1d548e17657112e5daa0f3f62fe05f8",
     "october7-evidence/PUBLIC_EXPORT_MANIFEST.json": "d84ae72ec800798736bb90b8c72c41f69c0428cdbbf71caf8d4464aa4d23f76f",
-    "OFFLINE_PREPARATION_STATUS.md": "5af269f2ac2c4cd370b42a6e89df5dd88c4287f073a5d811a8adc15c3d16f0e1",
-    "README.md": "db3d81b22fd5f627aa3c71f6d3fe53ab9c9382f47578ccd9a8f9c0928c4e231c",
+    "OFFLINE_PREPARATION_STATUS.md": "97275c5fd0cba047b92ac35bddb9d6e9c4fb388de2c7cb119242fd701372c974",
+    "README.md": "f40b228a8662189035ab4e92759dcbfb0b36ccd57a2a8198ef992a1d94739a1f",
     "SECURITY.md": "58bf064dbecb1a91dff38e459902bc3c3f4205e87e3b0057b0693cb23d8f8bf7",
     "tools/Activate-SocRollingRetention.ps1": "b721ea71ea084e47c63bb636cc67e15176d36db726578d753b8344396992600c",
     "tools/Allow-SocSyslog.ps1": "dc6cd092ec7adf61ab13860fab7e6743374bfc6dda3f01db1bcde62ab66ef8c0",
@@ -7467,5 +7467,7 @@
   "derived_from_candidate": "V12",
   "privacy_review": "docs/PRIVACY_REVIEW_2026-10-14.md",
   "software_tests_note": "267 tests retained from V11; code unchanged, not rerun by privacy packaging",
-  "recovery_review": "docs/RECOVERY_OWNER_REPAIR_2026-10-14.md"
+  "recovery_review": "docs/RECOVERY_OWNER_REPAIR_2026-10-14.md",
+  "private_repository_prepared_utc": "2026-10-15T01:22:19.163754+00:00",
+  "source_archive_sha256": "312c76878f7ba85df59f434c23459800db246c4af23a8486d364d9742ea64363"
 }
