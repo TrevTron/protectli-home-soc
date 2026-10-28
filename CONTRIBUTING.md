@@ -6,4 +6,4 @@ For model changes, preserve the brief and expected context before answers, disti
 
 Run `py -3.12 -m unittest discover -s tools -p 'test_*.py' -v` for software changes. Document separate appliance checks only if actually performed. Keep a new test round separate from earlier results and explain what the evidence can and cannot support.
 
-Do not include passwords, keys, account hashes, private addresses, endpoint identifiers, raw JSONL/PCAP/XML, or someone else's traffic in an issue or patch. The examples use documentation addresses. The proposed license and attribution are in [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md).
+Do not include passwords, keys, account hashes, private addresses, endpoint identifiers, raw JSONL/PCAP/XML, or someone else's traffic in an issue or patch. The examples use documentation addresses. Code and documentation use [MIT](LICENSE), with copyright and license notices retained. Images and other media have [separate attribution and reuse terms](LICENSE_MEDIA.txt); see [NOTICE.md](NOTICE.md) for the scope and third-party material.

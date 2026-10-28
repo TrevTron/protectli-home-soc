@@ -100,7 +100,7 @@ py -3.12 tools/soc_analyst.py `
   --no-model
 ```
 
-Counts, priorities, eligible explanations and source hashes come from code. With inference enabled, the model selects from that code-defined set. An independent validator rejects incorrect values, unsupported choices, invented citations and capped or incomplete responses. No additional detection or investigation-time saving is established.
+Counts, priorities, eligible explanations and source hashes come from code. With inference enabled, the model selects from that code-defined set. The validator rejects mismatched observed values, choices outside the allowed menus, invented citations and capped or incomplete responses. Passing those checks does not establish that the interpretation or next check is useful. No additional detection or investigation-time saving is established.
 
 The [analyst guide](docs/AI_ANALYST_GUIDE.md) sets up the separate model store and loopback API on 11435, leaving another project's default runtime alone. Model weights are not bundled. The selected default is `qwen3.5:4b`, Q4_K_M, with this recorded digest:
 
