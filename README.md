@@ -39,7 +39,7 @@ The first-run check is new Vault receipt, a caught-up index and an original sour
 
 ## Start here
 
-| If you want toâ€¦ | Read |
+| If you want to… | Read |
 | --- | --- |
 | Get a first successful run through one current path | [Quickstart](docs/QUICKSTART.md) |
 | Wire and configure an owned lab | [Build guide](docs/BUILD_GUIDE.md) and [settings checklist](examples/opnsense-profile.json) |
@@ -60,12 +60,12 @@ The V1610 has an Intel Pentium Silver N6005 (four cores), fixed 16 GB RAM, Kings
 
 | Check | Recorded result | Boundary |
 | --- | --- | --- |
-| Thermal widget and guarded CPU load | Layout survived maintenance reboots; 180-second load peaked at 62 Â°C, ended at 52â€“53 Â°C and cooled to 47 Â°C | Short workload, not a thermal soak; dashboard CPU-percentage discrepancy unresolved |
+| Thermal widget and guarded CPU load | Layout survived maintenance reboots; 180-second load peaked at 62 °C, ended at 52–53 °C and cooled to 47 °C | Short workload, not a thermal soak; dashboard CPU-percentage discrepancy unresolved |
 | Harmless SID 2100498 | Exact allowed HTTP 200/39-byte response, selected inline block with no body and ten-second timeout, then allowed recovery | Client outcome and original EVE matched; no malware execution |
 | Benign controls | Certificate-validated HTTPS and direct Vault DNS passed during the selected block | Owned IPv4 path only |
 | Installed rule snapshot | 37,125 total: 37,121 alert and four selected Critical TLS-C2 drop rules; native configuration test exit 0 | Feed counts can change; fixture returned to alert |
 | Routed Internet observations | Three 25 MB downloads per mode: IDS median 537.017 Mbps, IPS median 493.027 Mbps | Includes connection/TLS and upstream variation; not isolated inspection overhead |
-| LAN endpoint observations | Approximately 2370 Mbps in PCAP and 828â€“849 Mbps in Netmap | Traffic terminates on the Vault; not a forwarding-capacity benchmark |
+| LAN endpoint observations | Approximately 2370 Mbps in PCAP and 828–849 Mbps in Netmap | Traffic terminates on the Vault; not a forwarding-capacity benchmark |
 | Restart and storage | Actual Vault/Windows restarts; automatic recovery after sign-in; source offsets preserved across append-only rollover; private archive citations/notes restored | User-session recovery, possible UDP gaps, no full OS/model disaster restore |
 
 PCAP capture drops and later Netmap stream-error discards remain in [the results](docs/PERFORMANCE_RESULTS.md), with their counter boundaries and unresolved causes. The 2.5 Gbps negotiated LAN link is not an achieved forwarding result. SSH was disabled, WAN management closed, GUI listeners scoped to LAN and HostWatch discovery scoped to the owned LAN.
