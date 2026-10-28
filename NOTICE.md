@@ -1,6 +1,6 @@
 # Attribution and review state
 
-This local, unpublished candidate contains original project scripts and documentation prepared for Trevor Unland. Trevor selected standard MIT for original code and textual software documentation, with separate attributed-media terms in [LICENSE_MEDIA.txt](LICENSE_MEDIA.txt). Third-party components and metadata retain their own terms. This is a local review candidate; public release has not occurred.
+This release contains original project scripts and documentation prepared for Trevor Unland. Trevor selected standard MIT for original code and textual software documentation, with separate attributed-media terms in [LICENSE_MEDIA.txt](LICENSE_MEDIA.txt). Third-party components and metadata retain their own terms. The first build article and this repository are released together; the second analyst article remains in development.
 
 The appliance runs [OPNsense](https://opnsense.org/), which integrates [Suricata](https://suricata.io/). Consult their own distributions for their licenses. The lab downloads selected [Emerging Threats Open](https://community.emergingthreats.net/) rules through OPNsense; the rule archive is kept on the appliance and is not part of this candidate. A sanitized event identifies the standard SID 2100498 signature for reproducibility.
 

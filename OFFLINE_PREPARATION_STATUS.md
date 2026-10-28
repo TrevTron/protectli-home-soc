@@ -1,3 +1,7 @@
+# Public release, October 28, 2026
+
+The first Protectli Home SOC build article and this repository are being released together. The second analyst article remains in development. This package preserves the October 14 reviewed code and experiment snapshot, including failures. Later private analyst integration and evaluation are not included. The dated preparation and review entries below remain historical. See [README](README.md) for setup and [the build article](https://unland.dev/blog/building-home-soc-protectli-vault).
+
 Current private GitHub status: read [repository review status](DRAFT_STATUS.md). Public release is pending; the preparation entries below remain historical.
 
 Current October 14 recovery candidate: V13. Read [current status](DRAFT_STATUS.md) and [recovery repair](docs/RECOVERY_OWNER_REPAIR_2026-10-14.md). Earlier status entries below are historical.

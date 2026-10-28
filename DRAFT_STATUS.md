@@ -1,3 +1,7 @@
+# Public release, October 28, 2026
+
+The first Protectli Home SOC build article and this repository are being released together. The second analyst article remains in development. This package preserves the October 14 reviewed code and experiment snapshot, including failures. Later private analyst integration and evaluation are not included. The dated preparation and review entries below remain historical. See [README](README.md) for setup and [the build article](https://unland.dev/blog/building-home-soc-protectli-vault).
+
 # Additional private-repository security review, October 14, 2026
 
 Read [the additional security review](docs/SECURITY_REVIEW_2026-10-14.md). The private repository now rejects empty/noncanonical/wildcard receiver bind values before storage or sockets, including direct callers, and pins CI actions to verified full upstream commits. Three added regressions bring the local suite to 270 passing tests. The full final-commit hosted result remains a separate check.
