@@ -1,5 +1,7 @@
 # Protectli Home SOC
 
+![Protectli V1610 above the Minisforum on my workbench](assets/protectli-home-soc-workbench.webp)
+
 I built a Home SOC around a Protectli Vault, tested what its firewall actually detected and blocked, then added a local analyst that links its explanations back to the original evidence.
 
 The Vault runs OPNsense and Suricata. An owned Windows host receives the logs, serves a model-independent evidence overview and runs optional local reports. Start with an original record and a working collection path; the model is an additional reporting step.
